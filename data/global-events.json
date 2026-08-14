@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-14T22:57:44.696Z",
+  "checkedAt": "2026-08-14T22:58:19.009Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1558069",
+      "episodeId": "1725124",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.5M, Depth:10km",
+      "startedAt": "2026-08-14T22:37:17",
+      "endsAt": "2026-08-14T22:37:17",
+      "updatedAt": "2026-08-14T22:58:15",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.1908,
+        -8.1604
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558069&episodeid=1725124&eventtype=EQ"
+    },
     {
       "id": "EQ-1558064",
       "episodeId": "1725122",
@@ -1747,27 +1768,6 @@
         -13.5999
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030351&episodeid=10&eventtype=WF"
-    },
-    {
-      "id": "WF-1030496",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5003 ha",
-      "startedAt": "2026-08-10T00:00:00",
-      "endsAt": "2026-08-14T00:00:00",
-      "updatedAt": "2026-08-14T19:03:56",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.0612,
-        -9.1747
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030496&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF-1030495",
