@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111820">
+    <meta name="description" content="A searchable worldwide view and normalized JSON feed of current GDACS disaster events, with country, type, and severity filters.">
+    <link rel="canonical" href="https://fablgen-agent.github.io/uk-alert-watch/global/">
+    <meta property="og:title" content="World Alert Watch — global disaster events">
+    <meta property="og:description" content="Current worldwide GDACS events in a searchable dashboard and open normalized JSON feed.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fablgen-agent.github.io/uk-alert-watch/global/">
+    <title>World Alert Watch — current global disaster events</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="app.js" type="module"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to global events</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="./" aria-label="World Alert Watch home"><span class="brand-mark" aria-hidden="true">!</span><span>World Alert Watch</span></a>
+        <nav aria-label="Primary"><a href="../">UK tracker</a><a href="#events">Global events</a><a href="#data">JSON</a><a href="#service">Paid feeds</a></nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero global-hero">
+        <div class="wrap hero-grid">
+          <div>
+            <p class="eyebrow">Worldwide disaster awareness</p>
+            <h1>One global view.<br><span>Verify before acting.</span></h1>
+            <p class="lede">A normalized view of current sudden-onset disaster events tracked by the Global Disaster Alert and Coordination System.</p>
+            <div class="hero-actions"><a class="button button-primary" href="#events">Browse current events</a><a class="button button-secondary" href="https://www.gdacs.org/">Open GDACS</a></div>
+          </div>
+          <aside class="safety-card" aria-labelledby="global-safety-title">
+            <p class="safety-label">Important limitation</p>
+            <h2 id="global-safety-title">This is not a national warning system.</h2>
+            <p>GDACS estimates impacts for major disasters. It is not complete, may contain model errors, and must not replace local authorities, emergency services, or official national alerts.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="status-strip" aria-label="Global tracker status">
+        <div class="wrap status-grid">
+          <div><span id="event-count" class="metric">—</span><span class="metric-label">current events</span></div>
+          <div><span id="country-count" class="metric">—</span><span class="metric-label">countries represented now</span></div>
+          <div><span id="last-checked" class="metric metric-time">—</span><span class="metric-label">source last checked · UTC</span></div>
+        </div>
+      </section>
+
+      <section id="events" class="section wrap" aria-labelledby="events-title">
+        <div class="section-heading"><div><p class="eyebrow">Current GDACS dataset</p><h2 id="events-title">Global disaster events</h2></div><span id="source-health" class="source-pill">Loading GDACS data…</span></div>
+        <div class="filter-grid" aria-label="Filter global events">
+          <label>Country<select id="country-filter"><option value="">All countries</option></select></label>
+          <label>Severity<select id="level-filter"><option value="">All levels</option><option value="red">Red</option><option value="orange">Orange</option><option value="green">Green</option></select></label>
+          <label>Event type<select id="type-filter"><option value="">All event types</option></select></label>
+        </div>
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+        <div id="global-list" class="global-list" aria-live="polite" aria-busy="true"><p class="loading">Loading the latest GDACS event collection…</p></div>
+        <p id="global-empty" class="empty-state" hidden>No current events match these filters.</p>
+        <button id="show-more" class="button button-secondary show-more" type="button" hidden>Show 24 more</button>
+      </section>
+
+      <section id="data" class="section section-muted">
+        <div class="wrap feed-panel">
+          <div><p class="eyebrow">Open normalized data</p><h2>Build against one stable JSON shape</h2><p>The feed preserves GDACS event identifiers, country codes, alert level, hazard type, times, point coordinates, source attribution, and a report link. It does not claim to be an official national warning feed.</p></div>
+          <div class="feed-actions"><a class="button button-secondary" href="../data/global-events.json">Open JSON</a><a class="button button-secondary" href="https://www.gdacs.org/gdacsapi/swagger/index.html">GDACS API</a></div>
+        </div>
+      </section>
+
+      <section id="service" class="section service-section">
+        <div class="wrap service-grid">
+          <div><p class="eyebrow">Paid implementation</p><h2>Need only the countries and events your workflow uses?</h2><p><strong>£15</strong> for one country/type-filtered static feed, or <strong>£45</strong> for a scoped webhook or website widget integration. One revision; payment after the written acceptance checks pass. Payment method is agreed before work begins.</p></div>
+          <a class="button button-primary" href="https://github.com/fablgen-agent/fablgen-agent/issues/new?template=work-request.yml&amp;title=Work%20request%3A%20global%20alert%20feed">Request a paid global feed</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap footer-grid">
+        <p><strong>World Alert Watch is independent and is not affiliated with GDACS, the UN, the European Commission, or any government.</strong> Do not rely on it as a sole source of emergency information.</p>
+        <p>Data source acknowledged as “Global Disaster Alert and Coordination System, GDACS”. GDACS outputs can contain automated estimates and must be validated against responsible authorities.</p>
+        <p><a href="https://www.gdacs.org/Documents/2025/GDACS_Terms_of_use_Mar_25.pdf">GDACS terms</a> · <a href="https://github.com/fablgen-agent/uk-alert-watch">Source code</a> · <a href="../">UK tracker</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

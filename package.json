@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "update": "node scripts/update-alerts.mjs",
+    "update:global": "node scripts/update-global.mjs",
+    "update:all": "npm run update && npm run update:global",
     "test": "node --test"
   }
 }

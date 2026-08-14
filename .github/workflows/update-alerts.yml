@@ -29,18 +29,20 @@ jobs:
       - name: Refresh GOV.UK snapshot
         run: |
           node -e "const d=require('./data/alerts.json'); process.stdout.write(JSON.stringify(d.alerts))" > /tmp/alerts-before.json
-          npm run update
+          node -e "const d=require('./data/global-events.json'); process.stdout.write(JSON.stringify(d.events))" > /tmp/global-before.json
+          npm run update:all
           node -e "const d=require('./data/alerts.json'); process.stdout.write(JSON.stringify(d.alerts))" > /tmp/alerts-after.json
+          node -e "const d=require('./data/global-events.json'); process.stdout.write(JSON.stringify(d.events))" > /tmp/global-after.json
       - name: Commit actual alert changes
         run: |
-          if cmp -s /tmp/alerts-before.json /tmp/alerts-after.json; then
-            echo "Official alert set is unchanged; deploying a fresh timestamp without a history-only commit."
+          if cmp -s /tmp/alerts-before.json /tmp/alerts-after.json && cmp -s /tmp/global-before.json /tmp/global-after.json; then
+            echo "Published event sets are unchanged; deploying fresh timestamps without a history-only commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/alerts.json data/feed.xml
-          git commit -m "Refresh official alert snapshot"
+          git add data/alerts.json data/feed.xml data/global-events.json
+          git commit -m "Refresh published alert snapshots"
           git push
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
