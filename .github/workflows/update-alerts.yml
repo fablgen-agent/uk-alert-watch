@@ -49,3 +49,19 @@ jobs:
         with:
           path: .
       - uses: actions/deploy-pages@v4
+      - name: Verify published routes
+        run: |
+          for attempt in 1 2 3 4 5 6; do
+            if curl --fail --silent --show-error https://fablgen-agent.github.io/uk-alert-watch/ > /tmp/live-root.html \
+              && curl --fail --silent --show-error https://fablgen-agent.github.io/uk-alert-watch/global/ > /tmp/live-global.html \
+              && curl --fail --silent --show-error https://fablgen-agent.github.io/uk-alert-watch/data/global-events.json > /tmp/live-global.json \
+              && grep -Fq '<title>World Alert Watch — current global disaster events</title>' /tmp/live-global.html \
+              && node -e "const d=require('/tmp/live-global.json'); if(d.sourceStatus !== 'ok' || !d.events.length) process.exit(1)"; then
+              echo "Published routes and global dataset verified."
+              exit 0
+            fi
+            echo "Published route not ready yet (attempt ${attempt}/6)."
+            sleep 10
+          done
+          echo "Published routes did not become ready within the verification window."
+          exit 1
