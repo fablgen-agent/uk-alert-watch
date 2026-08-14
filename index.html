@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111820">
+    <meta name="description" content="A fast, unofficial view of current and past UK Emergency Alerts, with open JSON and RSS feeds sourced from GOV.UK.">
+    <meta property="og:title" content="UK Alert Watch">
+    <meta property="og:description" content="Current UK Emergency Alerts, a searchable archive, and open machine-readable feeds.">
+    <meta property="og:type" content="website">
+    <title>UK Alert Watch — current UK Emergency Alerts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="alternate" type="application/rss+xml" title="UK Alert Watch RSS" href="data/feed.xml">
+    <script src="app.js" type="module"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to alerts</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="./" aria-label="UK Alert Watch home">
+          <span class="brand-mark" aria-hidden="true">!</span>
+          <span>UK Alert Watch</span>
+        </a>
+        <nav aria-label="Primary">
+          <a href="#current">Current</a>
+          <a href="#archive">Archive</a>
+          <a href="#feeds">Feeds</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <p class="eyebrow">Unofficial public-interest tracker</p>
+            <h1>Know what was sent.<br><span>Check the official source.</span></h1>
+            <p class="lede">A clear view of UK Emergency Alerts, refreshed from GOV.UK and preserved in open JSON and RSS formats.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#current">View current alerts</a>
+              <a class="button button-secondary" href="https://www.gov.uk/alerts/current-alerts">Open GOV.UK</a>
+            </div>
+          </div>
+          <aside class="safety-card" aria-labelledby="safety-title">
+            <p class="safety-label">Important</p>
+            <h2 id="safety-title">This is not an emergency service.</h2>
+            <p>Always follow the alert received on your device and official instructions. Call <strong>999</strong> only for an emergency in progress.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="status-strip" aria-label="Tracker status">
+        <div class="wrap status-grid">
+          <div><span id="active-count" class="metric">—</span><span class="metric-label">current official entries</span></div>
+          <div><span id="archive-count" class="metric">—</span><span class="metric-label">archived entries</span></div>
+          <div><span id="last-checked" class="metric metric-time">—</span><span class="metric-label">source last checked</span></div>
+        </div>
+      </section>
+
+      <section id="current" class="section wrap" aria-labelledby="current-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Live status</p>
+            <h2 id="current-title">Current alerts</h2>
+          </div>
+          <span id="source-health" class="source-pill">Loading official data…</span>
+        </div>
+        <div id="current-list" class="alert-list" aria-live="polite" aria-busy="true">
+          <p class="loading">Checking the published GOV.UK alert list…</p>
+        </div>
+      </section>
+
+      <section id="archive" class="section section-muted">
+        <div class="wrap">
+          <div class="section-heading archive-heading">
+            <div>
+              <p class="eyebrow">Recorded history</p>
+              <h2>Alert archive</h2>
+            </div>
+            <label class="search-field">
+              <span class="sr-only">Search archived alerts</span>
+              <input id="archive-search" type="search" placeholder="Search place or message" autocomplete="off">
+            </label>
+          </div>
+          <div id="archive-list" class="archive-list" aria-live="polite"></div>
+          <p id="archive-empty" class="empty-state" hidden>No alerts match that search.</p>
+        </div>
+      </section>
+
+      <section id="feeds" class="section wrap">
+        <div class="feed-panel">
+          <div>
+            <p class="eyebrow">Reuse the data</p>
+            <h2>Open feeds for dashboards and automations</h2>
+            <p>The same tracker data is published as static JSON and RSS. Every entry links back to its official GOV.UK page.</p>
+          </div>
+          <div class="feed-actions">
+            <a class="button button-secondary" href="data/alerts.json">JSON feed</a>
+            <a class="button button-secondary" href="data/feed.xml">RSS feed</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section service-section">
+        <div class="wrap service-grid">
+          <div>
+            <p class="eyebrow">Implementation service</p>
+            <h2>Need this data in your own site or workflow?</h2>
+            <p>Custom status widgets, filtered feeds, archive imports, and alert-source integrations are available for <strong>£25–£75 fixed price</strong> after scope review.</p>
+          </div>
+          <a class="button button-primary" href="https://github.com/fablgen-agent/fablgen-agent/issues/new?template=work-request.yml&amp;title=UK%20Alert%20Watch%20integration">Request a scoped integration</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap footer-grid">
+        <p><strong>UK Alert Watch is independent and is not affiliated with the UK Government.</strong> It must not be relied on as the sole source of emergency information.</p>
+        <p>Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>. Source: <a href="https://www.gov.uk/alerts">GOV.UK Emergency Alerts</a>.</p>
+        <p><a href="https://github.com/fablgen-agent/uk-alert-watch">Source code</a> · <a href="https://fablgen-agent.github.io/fablgen-agent/">Implementation services</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
