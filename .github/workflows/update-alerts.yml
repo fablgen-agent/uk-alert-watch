@@ -27,10 +27,14 @@ jobs:
       - name: Test parser
         run: npm test
       - name: Refresh GOV.UK snapshot
-        run: npm run update
-      - name: Commit changed data
         run: |
-          if git diff --quiet -- data/alerts.json data/feed.xml; then
+          node -e "const d=require('./data/alerts.json'); process.stdout.write(JSON.stringify(d.alerts))" > /tmp/alerts-before.json
+          npm run update
+          node -e "const d=require('./data/alerts.json'); process.stdout.write(JSON.stringify(d.alerts))" > /tmp/alerts-after.json
+      - name: Commit actual alert changes
+        run: |
+          if cmp -s /tmp/alerts-before.json /tmp/alerts-after.json; then
+            echo "Official alert set is unchanged; deploying a fresh timestamp without a history-only commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
