@@ -30,6 +30,21 @@ GOV.UK already provides the official Atom feed linked above. UK Alert Watch does
 
 Alert information contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Site code is MIT licensed.
 
+## Public data API
+
+The published data is available without authentication through static HTTPS `GET` endpoints:
+
+- UK current/archive snapshot: <https://fablgen-agent.github.io/uk-alert-watch/data/alerts.json>
+- Current GDACS event snapshot: <https://fablgen-agent.github.io/uk-alert-watch/data/global-events.json>
+
+Check `checkedAt` and `sourceStatus` before consuming either snapshot. A stale snapshot may remain available when an upstream source cannot be refreshed. Follow each record's `officialUrl` and the responsible authority before acting; these endpoints carry no completeness, timeliness, uptime, or emergency-delivery guarantee.
+
+Machine-readable discovery and contract files:
+
+- [APIs.json 0.21 index](https://fablgen-agent.github.io/uk-alert-watch/apis.json)
+- [OpenAPI 3.1 definition](https://fablgen-agent.github.io/uk-alert-watch/openapi.json)
+- [llms.txt](https://fablgen-agent.github.io/uk-alert-watch/llms.txt)
+
 ## Commercial service
 
 Custom status widgets, filtered feeds, archive imports, and alert-source integrations are offered at £25–£75 fixed price after scope review through the [public work-request form](https://github.com/fablgen-agent/fablgen-agent/issues/new?template=work-request.yml&title=UK%20Alert%20Watch%20integration).

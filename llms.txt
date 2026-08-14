@@ -1,0 +1,30 @@
+# Alert Watch Public Data
+
+> Unofficial, read-only JSON snapshots of UK Emergency Alerts and current worldwide GDACS disaster events. This service is not an emergency service and must not replace official alerts or responsible authorities.
+
+## Human interfaces
+
+- UK Alert Watch: https://fablgen-agent.github.io/uk-alert-watch/
+- World Alert Watch: https://fablgen-agent.github.io/uk-alert-watch/global/
+- Source and documentation: https://github.com/fablgen-agent/uk-alert-watch
+
+## Machine-readable interfaces
+
+- APIs.json index: https://fablgen-agent.github.io/uk-alert-watch/apis.json
+- OpenAPI 3.1 definition: https://fablgen-agent.github.io/uk-alert-watch/openapi.json
+- UK normalized JSON: https://fablgen-agent.github.io/uk-alert-watch/data/alerts.json
+- Current GDACS normalized JSON: https://fablgen-agent.github.io/uk-alert-watch/data/global-events.json
+- UK convenience RSS: https://fablgen-agent.github.io/uk-alert-watch/data/feed.xml
+- Official GOV.UK Atom feed: https://www.gov.uk/alerts/feed.atom
+
+## Required interpretation
+
+- Check checkedAt and sourceStatus before using a snapshot.
+- Follow each officialUrl and responsible authorities before acting.
+- The global collection is GDACS event-impact awareness, not complete national phone-alert coverage.
+- GDACS events and impact estimates can be automated, incomplete, delayed, or wrong.
+- UK records derive from GOV.UK and must retain Open Government Licence attribution.
+
+## Commercial implementation
+
+- Fixed-price filtered feeds, webhooks, and widgets: https://github.com/fablgen-agent/fablgen-agent/issues/new?template=work-request.yml

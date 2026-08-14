@@ -1,0 +1,148 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Alert Watch Public Data API",
+    "version": "1.0.0",
+    "description": "Read-only static JSON snapshots derived from GOV.UK Emergency Alerts pages and the GDACS API. These informational snapshots can be incomplete, delayed, or wrong and must not replace device alerts, emergency services, local authorities, GOV.UK, or GDACS.",
+    "license": {
+      "name": "Interface code: MIT; source data: see provenance terms",
+      "url": "https://github.com/fablgen-agent/uk-alert-watch#data-provenance"
+    }
+  },
+  "externalDocs": {
+    "description": "Provenance, limitations, licensing, and integration notes",
+    "url": "https://github.com/fablgen-agent/uk-alert-watch#public-data-api"
+  },
+  "servers": [
+    { "url": "https://fablgen-agent.github.io/uk-alert-watch" }
+  ],
+  "security": [],
+  "paths": {
+    "/data/alerts.json": {
+      "get": {
+        "operationId": "getUkEmergencyAlertSnapshot",
+        "summary": "Get the normalized UK Emergency Alerts snapshot",
+        "description": "Returns current and archived entries collected from the official GOV.UK current-alert and past-alert pages. Follow each officialUrl and GOV.UK for authoritative information.",
+        "responses": {
+          "200": {
+            "description": "The latest published UK snapshot",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/UkAlertSnapshot" }
+              }
+            }
+          },
+          "404": {
+            "description": "The static snapshot route was not found"
+          }
+        }
+      }
+    },
+    "/data/global-events.json": {
+      "get": {
+        "operationId": "getCurrentGdacsEventSnapshot",
+        "summary": "Get the normalized current GDACS event snapshot",
+        "description": "Returns worldwide sudden-onset disaster events tracked by GDACS. This is not a complete collection of national warning or phone-alert systems. Follow each officialUrl and responsible authorities before acting.",
+        "responses": {
+          "200": {
+            "description": "The latest published GDACS snapshot",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/GlobalEventSnapshot" }
+              }
+            }
+          },
+          "404": {
+            "description": "The static snapshot route was not found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UkAlertSnapshot": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["checkedAt", "sourceStatus", "sourceUrls", "alerts"],
+        "properties": {
+          "checkedAt": { "type": "string", "format": "date-time" },
+          "sourceStatus": { "type": "string", "enum": ["ok", "stale"] },
+          "sourceUrls": {
+            "type": "array",
+            "items": { "type": "string", "format": "uri" }
+          },
+          "alerts": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/UkAlert" }
+          }
+        }
+      },
+      "UkAlert": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "status", "area", "language", "issuedDate", "message", "officialUrl"],
+        "properties": {
+          "id": { "type": "string" },
+          "status": { "type": "string", "enum": ["current", "past"] },
+          "area": { "type": "string" },
+          "language": { "type": "string" },
+          "issuedDate": { "type": "string", "format": "date" },
+          "message": { "type": "string" },
+          "officialUrl": { "type": "string", "format": "uri" }
+        }
+      },
+      "GlobalEventSnapshot": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["checkedAt", "sourceStatus", "sourceName", "sourceUrl", "coverage", "events"],
+        "properties": {
+          "checkedAt": { "type": "string", "format": "date-time" },
+          "sourceStatus": { "type": "string", "enum": ["ok", "stale"] },
+          "sourceName": { "type": "string" },
+          "sourceUrl": { "type": "string", "format": "uri" },
+          "coverage": { "type": "string" },
+          "events": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/GlobalEvent" }
+          }
+        }
+      },
+      "GlobalEvent": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "episodeId", "eventType", "eventName", "title", "country", "iso3", "alertLevel", "severity", "startedAt", "endsAt", "updatedAt", "source", "isCurrent", "coordinates", "officialUrl"],
+        "properties": {
+          "id": { "type": "string" },
+          "episodeId": { "type": "string" },
+          "eventType": { "type": "string" },
+          "eventName": { "type": "string" },
+          "title": { "type": "string" },
+          "country": { "type": "string" },
+          "iso3": { "type": "string" },
+          "alertLevel": { "type": "string", "enum": ["green", "orange", "red"] },
+          "severity": { "type": "string" },
+          "startedAt": { "type": ["string", "null"] },
+          "endsAt": { "type": ["string", "null"] },
+          "updatedAt": { "type": ["string", "null"] },
+          "source": { "type": "string" },
+          "isCurrent": { "type": "boolean" },
+          "coordinates": {
+            "type": "array",
+            "prefixItems": [
+              { "type": "number", "minimum": -180, "maximum": 180 },
+              { "type": "number", "minimum": -90, "maximum": 90 }
+            ],
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "officialUrl": { "type": "string", "format": "uri" }
+        }
+      }
+    }
+  },
+  "x-data-provenance": {
+    "uk": "Official GOV.UK Emergency Alerts pages; public-sector information under the Open Government Licence v3.0.",
+    "global": "Global Disaster Alert and Coordination System, GDACS; use subject to the linked GDACS terms and limitations."
+  }
+}

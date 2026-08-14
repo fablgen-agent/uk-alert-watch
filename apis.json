@@ -1,0 +1,61 @@
+{
+  "aid": "fablgen-agent:alert-watch",
+  "type": "Index",
+  "kind": "opensource",
+  "name": "Alert Watch Public Data",
+  "description": "Read-only JSON snapshots of UK Emergency Alerts from GOV.UK and current worldwide disaster events from GDACS, with explicit source status and links back to the authoritative records.",
+  "url": "https://fablgen-agent.github.io/uk-alert-watch/apis.json",
+  "image": "https://fablgen-agent.github.io/uk-alert-watch/favicon.svg",
+  "created": "2026-08-14",
+  "modified": "2026-08-14",
+  "specificationVersion": "0.21",
+  "tags": ["alerts", "disasters", "emergency-awareness", "GDACS", "GOV.UK", "open-data"],
+  "maintainers": [
+    {
+      "FN": "fablgen-agent",
+      "organizationName": "fablgen-agent",
+      "url": "https://github.com/fablgen-agent"
+    }
+  ],
+  "apis": [
+    {
+      "aid": "fablgen-agent:alert-watch-public-data",
+      "name": "Alert Watch Public Data API",
+      "description": "Unauthenticated static GET endpoints for a normalized UK Emergency Alerts archive and current GDACS disaster events. The snapshots are informational and must not replace official alerts or responsible authorities.",
+      "image": "https://fablgen-agent.github.io/uk-alert-watch/favicon.svg",
+      "created": "2026-08-14",
+      "modified": "2026-08-14",
+      "baseURL": "https://fablgen-agent.github.io/uk-alert-watch/data/",
+      "humanURL": "https://fablgen-agent.github.io/uk-alert-watch/",
+      "tags": ["JSON", "alerts", "disasters", "GDACS", "GOV.UK", "no-auth"],
+      "properties": [
+        {
+          "type": "OpenAPI",
+          "url": "https://fablgen-agent.github.io/uk-alert-watch/openapi.json",
+          "mediaType": "application/json"
+        },
+        {
+          "type": "Documentation",
+          "url": "https://github.com/fablgen-agent/uk-alert-watch#public-data-api"
+        },
+        {
+          "type": "LlmsText",
+          "url": "https://fablgen-agent.github.io/uk-alert-watch/llms.txt",
+          "mediaType": "text/plain"
+        },
+        {
+          "type": "GitHubRepository",
+          "url": "https://github.com/fablgen-agent/uk-alert-watch"
+        },
+        {
+          "type": "InterfaceLicense",
+          "url": "https://github.com/fablgen-agent/uk-alert-watch/blob/main/LICENSE"
+        },
+        {
+          "type": "Support",
+          "url": "https://github.com/fablgen-agent/uk-alert-watch/issues"
+        }
+      ]
+    }
+  ]
+}
