@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-15T09:55:55.368Z",
+  "checkedAt": "2026-08-15T10:50:38.205Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1558335",
+      "episodeId": "1725424",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:272.756km",
+      "startedAt": "2026-08-15T09:51:45",
+      "endsAt": "2026-08-15T09:51:45",
+      "updatedAt": "2026-08-15T10:32:10",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        122.0236,
+        -0.1583
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558335&episodeid=1725424&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "12",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ONE-C-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-15T09:00:00",
+      "updatedAt": "2026-08-15T10:20:31",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -153.5,
+        17.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=12&eventtype=TC"
+    },
     {
       "id": "EQ-1558332",
       "episodeId": "1725417",
@@ -17,7 +59,7 @@
       "severity": "Magnitude 4.9M, Depth:10km",
       "startedAt": "2026-08-15T09:32:53",
       "endsAt": "2026-08-15T09:32:53",
-      "updatedAt": "2026-08-15T09:52:22",
+      "updatedAt": "2026-08-15T10:13:06",
       "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
@@ -88,27 +130,6 @@
         -8.0446
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558300&episodeid=1725387&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-15T09:00:00",
-      "updatedAt": "2026-08-15T08:52:47",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -153.5,
-        17.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=12&eventtype=TC"
     },
     {
       "id": "EQ-1558284",
@@ -466,27 +487,6 @@
         65.1852
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030128&episodeid=30&eventtype=WF"
-    },
-    {
-      "id": "WF-1030294",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10431 ha",
-      "startedAt": "2026-08-03T00:00:00",
-      "endsAt": "2026-08-14T00:00:00",
-      "updatedAt": "2026-08-15T07:31:54",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        19.3576,
-        -10.3352
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030294&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1030364",
