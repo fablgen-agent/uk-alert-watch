@@ -1,13 +1,55 @@
 {
-  "checkedAt": "2026-08-15T20:50:23.676Z",
+  "checkedAt": "2026-08-15T21:42:06.376Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
+      "id": "EQ-1558582",
+      "episodeId": "1725692",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.5M, Depth:39.954km",
+      "startedAt": "2026-08-15T19:32:30",
+      "endsAt": "2026-08-15T19:32:30",
+      "updatedAt": "2026-08-15T21:38:06",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        142.7868,
+        23.4461
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558582&episodeid=1725692&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1558601",
+      "episodeId": "1725723",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:10km",
+      "startedAt": "2026-08-15T20:29:44",
+      "endsAt": "2026-08-15T20:29:44",
+      "updatedAt": "2026-08-15T21:10:06",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.4927,
+        -8.0349
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558601&episodeid=1725723&eventtype=EQ"
+    },
+    {
       "id": "TC-1001304",
-      "episodeId": "11",
+      "episodeId": "12",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone HERNAN-26",
@@ -16,15 +58,36 @@
       "alertLevel": "green",
       "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
       "startedAt": "2026-08-13T03:00:00",
-      "endsAt": "2026-08-15T15:00:00",
-      "updatedAt": "2026-08-15T20:07:12",
+      "endsAt": "2026-08-15T21:00:00",
+      "updatedAt": "2026-08-15T21:08:37",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
-        -134.9,
-        16.1
+        -135.9,
+        15.8
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=11&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "14",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ONE-C-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 130 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-15T21:00:00",
+      "updatedAt": "2026-08-15T21:07:47",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -155.2,
+        18.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=14&eventtype=TC"
     },
     {
       "id": "EQ-1558564",
@@ -69,27 +132,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558572&episodeid=1725680&eventtype=EQ"
     },
     {
-      "id": "EQ-1558582",
-      "episodeId": "1725692",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Japan",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.5M, Depth:39.954km",
-      "startedAt": "2026-08-15T19:32:30",
-      "endsAt": "2026-08-15T19:32:30",
-      "updatedAt": "2026-08-15T19:58:47",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        142.7868,
-        23.4461
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558582&episodeid=1725692&eventtype=EQ"
-    },
-    {
       "id": "WF-1030444",
       "episodeId": "6",
       "eventType": "WF",
@@ -109,27 +151,6 @@
         -10.2315
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030444&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1030479",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6044 ha",
-      "startedAt": "2026-08-02T00:00:00",
-      "endsAt": "2026-08-15T00:00:00",
-      "updatedAt": "2026-08-15T19:42:52",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        16.0258,
-        -14.0278
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030479&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1030443",
@@ -1390,27 +1411,6 @@
         51.4925
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558544&episodeid=1725653&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "13",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-15T15:00:00",
-      "updatedAt": "2026-08-15T18:06:17",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -154.6,
-        17.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=13&eventtype=TC"
     },
     {
       "id": "EQ-1558527",
