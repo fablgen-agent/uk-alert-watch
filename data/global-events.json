@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-15T22:00:41.292Z",
+  "checkedAt": "2026-08-15T22:55:17.978Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001303",
+      "episodeId": "14",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ONE-C-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 130 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-15T21:00:00",
+      "updatedAt": "2026-08-15T22:35:51",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -155.2,
+        18.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=14&eventtype=TC"
+    },
+    {
+      "id": "EQ-1558601",
+      "episodeId": "1725723",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:10km",
+      "startedAt": "2026-08-15T20:29:44",
+      "endsAt": "2026-08-15T20:29:44",
+      "updatedAt": "2026-08-15T22:02:46",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.4927,
+        -8.0349
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558601&episodeid=1725723&eventtype=EQ"
+    },
     {
       "id": "EQ-1558515",
       "episodeId": "1725745",
@@ -17,7 +59,7 @@
       "severity": "Magnitude 4.5M, Depth:9.95km",
       "startedAt": "2026-08-15T16:58:05",
       "endsAt": "2026-08-15T16:58:05",
-      "updatedAt": "2026-08-15T21:56:24",
+      "updatedAt": "2026-08-15T22:02:46",
       "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
@@ -48,27 +90,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558582&episodeid=1725692&eventtype=EQ"
     },
     {
-      "id": "EQ-1558601",
-      "episodeId": "1725723",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.5M, Depth:10km",
-      "startedAt": "2026-08-15T20:29:44",
-      "endsAt": "2026-08-15T20:29:44",
-      "updatedAt": "2026-08-15T21:10:06",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        120.4927,
-        -8.0349
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558601&episodeid=1725723&eventtype=EQ"
-    },
-    {
       "id": "TC-1001304",
       "episodeId": "12",
       "eventType": "TC",
@@ -88,27 +109,6 @@
         15.8
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=12&eventtype=TC"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "14",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 130 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-15T21:00:00",
-      "updatedAt": "2026-08-15T21:07:47",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -155.2,
-        18.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=14&eventtype=TC"
     },
     {
       "id": "EQ-1558564",
