@@ -4,6 +4,7 @@ import path from "node:path";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(root, "data", "global-events.json");
+const feedPath = path.join(root, "data", "global-feed.xml");
 const GDACS_URL = "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app";
 
 const eventTypes = {
@@ -19,6 +20,23 @@ const eventTypes = {
 
 function clean(value, fallback = "Unknown") {
   return typeof value === "string" && value.trim() ? value.trim() : fallback;
+}
+
+function xml(value) {
+  return String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&apos;");
+}
+
+function rssDate(value, fallback) {
+  const date = new Date(value || fallback);
+  return Number.isNaN(date.valueOf()) ? new Date(fallback).toUTCString() : date.toUTCString();
+}
+
+export function makeGlobalFeed({ checkedAt, events }) {
+  const items = events.filter((event) => event.isCurrent).map((event) => {
+    const description = `${event.country} · ${event.eventName} · ${event.alertLevel}. ${event.severity} Source: GDACS. Verify with responsible authorities before acting.`;
+    return `    <item>\n      <title>${xml(`${event.alertLevel.toUpperCase()}: ${event.title}`)}</title>\n      <link>${xml(event.officialUrl)}</link>\n      <guid isPermaLink="false">${xml(`${event.id}:${event.episodeId}`)}</guid>\n      <pubDate>${xml(rssDate(event.updatedAt || event.startedAt, checkedAt))}</pubDate>\n      <description>${xml(description)}</description>\n    </item>`;
+  }).join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title>World Alert Watch — current GDACS disaster events</title>\n    <link>https://fablgen-agent.github.io/uk-alert-watch/global/</link>\n    <description>Current worldwide sudden-onset disaster events tracked by GDACS. Not a complete national warning feed; verify with responsible authorities.</description>\n    <language>en</language>\n    <lastBuildDate>${xml(rssDate(checkedAt, checkedAt))}</lastBuildDate>\n    <atom:link href="https://fablgen-agent.github.io/uk-alert-watch/data/global-feed.xml" rel="self" type="application/rss+xml" />\n${items}\n  </channel>\n</rss>\n`;
 }
 
 export function normalizeEvent(feature) {
@@ -89,6 +107,7 @@ async function main() {
       events
     };
     await writeFile(dataPath, `${JSON.stringify(data, null, 2)}\n`);
+    await writeFile(feedPath, makeGlobalFeed(data));
     console.log(`Recorded ${events.length} global GDACS events.`);
   } catch (error) {
     const data = { ...existing, checkedAt, sourceStatus: "error", sourceError: String(error.message).slice(0, 300) };

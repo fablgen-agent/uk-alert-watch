@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { decodeHtml, makeFeed, parseAlerts, plainText } from "../scripts/update-alerts.mjs";
-import { normalizeCollection, normalizeEvent } from "../scripts/update-global.mjs";
+import { makeGlobalFeed, normalizeCollection, normalizeEvent } from "../scripts/update-global.mjs";
 
 const fixture = `
 <h2 class="alerts-alert__title govuk-heading-m"><span class="govuk-visually-hidden">Emergency alert sent to </span>England &amp; Wales</h2>
@@ -91,4 +91,14 @@ test("keeps only the newest episode for each GDACS event", () => {
   const result = normalizeCollection({ features: [older, globalFixture] });
   assert.equal(result.length, 1);
   assert.equal(result[0].episodeId, "456");
+});
+
+test("makes a current-only global RSS feed with escaped event data", () => {
+  const current = normalizeEvent(globalFixture);
+  const past = { ...current, id: "EQ-124", episodeId: "457", title: "Past <event>", isCurrent: false };
+  const feed = makeGlobalFeed({ checkedAt: "2026-08-15T12:00:00Z", events: [current, past] });
+  assert.match(feed, /GREEN: Earthquake in Indonesia/);
+  assert.match(feed, /eventid=123&amp;eventtype=EQ/);
+  assert.doesNotMatch(feed, /Past &lt;event&gt;/);
+  assert.match(feed, /global-feed\.xml/);
 });

@@ -36,6 +36,7 @@ The published data is available without authentication through static HTTPS `GET
 
 - UK current/archive snapshot: <https://fablgen-agent.github.io/uk-alert-watch/data/alerts.json>
 - Current GDACS event snapshot: <https://fablgen-agent.github.io/uk-alert-watch/data/global-events.json>
+- Current GDACS event RSS feed: <https://fablgen-agent.github.io/uk-alert-watch/data/global-feed.xml>
 
 Check `checkedAt` and `sourceStatus` before consuming either snapshot. A stale snapshot may remain available when an upstream source cannot be refreshed. Follow each record's `officialUrl` and the responsible authority before acting; these endpoints carry no completeness, timeliness, uptime, or emergency-delivery guarantee.
 
