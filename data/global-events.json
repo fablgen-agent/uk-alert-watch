@@ -1,30 +1,72 @@
 {
-  "checkedAt": "2026-08-15T04:54:35.013Z",
+  "checkedAt": "2026-08-15T05:55:40.576Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
-      "id": "TC-1001303",
-      "episodeId": "11",
+      "id": "FL-1104053",
+      "episodeId": "7",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Italy",
+      "country": "Italy",
+      "iso3": "ITA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-26T01:00:00",
+      "endsAt": "2026-08-15T01:00:00",
+      "updatedAt": "2026-08-15T05:44:56",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        7.1182,
+        45.5689
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=7&eventtype=FL"
+    },
+    {
+      "id": "FL-1104067",
+      "episodeId": "5",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Thailand",
+      "country": "Thailand",
+      "iso3": "THA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-30T01:00:00",
+      "endsAt": "2026-08-14T01:00:00",
+      "updatedAt": "2026-08-15T05:43:42",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        100.7737,
+        18.7779
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=5&eventtype=FL"
+    },
+    {
+      "id": "TC-1001304",
+      "episodeId": "9",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
+      "title": "Tropical Cyclone HERNAN-26",
+      "country": "Unknown",
+      "iso3": "",
       "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
+      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-13T03:00:00",
       "endsAt": "2026-08-15T03:00:00",
-      "updatedAt": "2026-08-15T04:50:28",
+      "updatedAt": "2026-08-15T05:36:05",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
-        -152.4,
-        17.6
+        -132.9,
+        16.2
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=11&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=9&eventtype=TC"
     },
     {
       "id": "EQ-1558232",
@@ -38,7 +80,7 @@
       "severity": "Magnitude 4.6M, Depth:10km",
       "startedAt": "2026-08-15T04:23:07",
       "endsAt": "2026-08-15T04:23:07",
-      "updatedAt": "2026-08-15T04:46:22",
+      "updatedAt": "2026-08-15T05:03:22",
       "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
@@ -59,7 +101,7 @@
       "severity": "Magnitude 5M, Depth:10km",
       "startedAt": "2026-08-15T03:54:13",
       "endsAt": "2026-08-15T03:54:13",
-      "updatedAt": "2026-08-15T04:34:23",
+      "updatedAt": "2026-08-15T05:02:26",
       "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
@@ -67,6 +109,27 @@
         -8.32
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558222&episodeid=1725299&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "11",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ONE-C-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-15T03:00:00",
+      "updatedAt": "2026-08-15T04:50:28",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -152.4,
+        17.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=11&eventtype=TC"
     },
     {
       "id": "EQ-1558194",
@@ -804,27 +867,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030150&episodeid=22&eventtype=WF"
     },
     {
-      "id": "WF-1030437",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Tanzania",
-      "country": "Tanzania",
-      "iso3": "TZA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5858 ha",
-      "startedAt": "2026-08-05T00:00:00",
-      "endsAt": "2026-08-14T00:00:00",
-      "updatedAt": "2026-08-15T03:24:19",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        34.7453,
-        -3.0481
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030437&episodeid=5&eventtype=WF"
-    },
-    {
       "id": "WF-1030409",
       "episodeId": "8",
       "eventType": "WF",
@@ -1264,27 +1306,6 @@
         -11.8203
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030414&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "TC-1001304",
-      "episodeId": "9",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone HERNAN-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-08-13T03:00:00",
-      "endsAt": "2026-08-15T03:00:00",
-      "updatedAt": "2026-08-15T03:05:53",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -132.9,
-        16.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=9&eventtype=TC"
     },
     {
       "id": "WF-1030410",
@@ -1999,27 +2020,6 @@
         41.1279
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558028&episodeid=1725074&eventtype=EQ"
-    },
-    {
-      "id": "FL-1104067",
-      "episodeId": "5",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Thailand",
-      "country": "Thailand",
-      "iso3": "THA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-30T01:00:00",
-      "endsAt": "2026-08-14T01:00:00",
-      "updatedAt": "2026-08-14T12:22:06",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        100.7737,
-        18.7779
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=5&eventtype=FL"
     },
     {
       "id": "EQ-1557978",
