@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-08-15T19:51:01.270Z",
+  "checkedAt": "2026-08-15T20:50:23.676Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001304",
+      "episodeId": "11",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone HERNAN-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-13T03:00:00",
+      "endsAt": "2026-08-15T15:00:00",
+      "updatedAt": "2026-08-15T20:07:12",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -134.9,
+        16.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=11&eventtype=TC"
+    },
+    {
+      "id": "EQ-1558564",
+      "episodeId": "1725685",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:10km",
+      "startedAt": "2026-08-15T18:40:21",
+      "endsAt": "2026-08-15T18:40:21",
+      "updatedAt": "2026-08-15T20:03:00",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.6399,
+        -8.2203
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558564&episodeid=1725685&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1558572",
+      "episodeId": "1725680",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-08-15T15:52:32",
+      "endsAt": "2026-08-15T15:52:32",
+      "updatedAt": "2026-08-15T20:02:59",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        121.3861,
+        -8.2101
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558572&episodeid=1725680&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1558582",
+      "episodeId": "1725692",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.5M, Depth:39.954km",
+      "startedAt": "2026-08-15T19:32:30",
+      "endsAt": "2026-08-15T19:32:30",
+      "updatedAt": "2026-08-15T19:58:47",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        142.7868,
+        23.4461
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558582&episodeid=1725692&eventtype=EQ"
+    },
+    {
+      "id": "WF-1030444",
+      "episodeId": "6",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 9262 ha",
+      "startedAt": "2026-07-31T00:00:00",
+      "endsAt": "2026-08-15T00:00:00",
+      "updatedAt": "2026-08-15T19:54:52",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        15.8397,
+        -10.2315
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030444&episodeid=6&eventtype=WF"
+    },
     {
       "id": "WF-1030479",
       "episodeId": "3",
@@ -111,27 +216,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030514&episodeid=4&eventtype=WF"
     },
     {
-      "id": "WF-1030424",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia, The Democratic Republic of Congo",
-      "country": "Zambia, The Democratic Republic of Congo",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 11521 ha",
-      "startedAt": "2026-08-04T00:00:00",
-      "endsAt": "2026-08-15T00:00:00",
-      "updatedAt": "2026-08-15T19:34:47",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        29.2844,
-        -8.4639
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030424&episodeid=7&eventtype=WF"
-    },
-    {
       "id": "WF-1030521",
       "episodeId": "4",
       "eventType": "WF",
@@ -151,27 +235,6 @@
         63.6662
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030521&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "EQ-1558564",
-      "episodeId": "1725685",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.5M, Depth:10km",
-      "startedAt": "2026-08-15T18:40:21",
-      "endsAt": "2026-08-15T18:40:21",
-      "updatedAt": "2026-08-15T19:33:02",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        120.6399,
-        -8.2203
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558564&episodeid=1725685&eventtype=EQ"
     },
     {
       "id": "WF-1030478",
@@ -279,27 +342,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030513&episodeid=2&eventtype=WF"
     },
     {
-      "id": "WF-1030423",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia, The Democratic Republic of Congo",
-      "country": "Zambia, The Democratic Republic of Congo",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8824 ha",
-      "startedAt": "2026-08-06T00:00:00",
-      "endsAt": "2026-08-15T00:00:00",
-      "updatedAt": "2026-08-15T19:23:28",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        28.4712,
-        -11.7005
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030423&episodeid=5&eventtype=WF"
-    },
-    {
       "id": "WF-1030512",
       "episodeId": "4",
       "eventType": "WF",
@@ -319,27 +361,6 @@
         -7.3866
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030512&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "EQ-1558572",
-      "episodeId": "1725680",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:10km",
-      "startedAt": "2026-08-15T15:52:32",
-      "endsAt": "2026-08-15T15:52:32",
-      "updatedAt": "2026-08-15T19:22:04",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        121.3861,
-        -8.2101
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558572&episodeid=1725680&eventtype=EQ"
     },
     {
       "id": "WF-1030510",
@@ -1411,27 +1432,6 @@
         -8.3799
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558527&episodeid=1725642&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001304",
-      "episodeId": "11",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone HERNAN-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-08-13T03:00:00",
-      "endsAt": "2026-08-15T15:00:00",
-      "updatedAt": "2026-08-15T17:36:37",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -134.9,
-        16.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=11&eventtype=TC"
     },
     {
       "id": "EQ-1558526",
