@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-08-15T09:03:06.759Z",
+  "checkedAt": "2026-08-15T09:55:55.368Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1558332",
+      "episodeId": "1725417",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-08-15T09:32:53",
+      "endsAt": "2026-08-15T09:32:53",
+      "updatedAt": "2026-08-15T09:52:22",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        121.4883,
+        -8.2814
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558332&episodeid=1725417&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001301",
+      "episodeId": "9",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NANGKA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 65 km/h)",
+      "startedAt": "2026-08-12T12:00:00",
+      "endsAt": "2026-08-14T12:00:00",
+      "updatedAt": "2026-08-15T09:35:16",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        154.5,
+        28.3
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001301&episodeid=9&eventtype=TC"
+    },
+    {
+      "id": "TC-1001304",
+      "episodeId": "10",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone HERNAN-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-13T03:00:00",
+      "endsAt": "2026-08-15T09:00:00",
+      "updatedAt": "2026-08-15T09:05:50",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -133.8,
+        16.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=10&eventtype=TC"
+    },
     {
       "id": "EQ-1558300",
       "episodeId": "1725387",
@@ -25,27 +88,6 @@
         -8.0446
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558300&episodeid=1725387&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001304",
-      "episodeId": "10",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone HERNAN-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-08-13T03:00:00",
-      "endsAt": "2026-08-15T09:00:00",
-      "updatedAt": "2026-08-15T08:54:08",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -133.8,
-        16.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=10&eventtype=TC"
     },
     {
       "id": "TC-1001303",
@@ -424,27 +466,6 @@
         65.1852
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030128&episodeid=30&eventtype=WF"
-    },
-    {
-      "id": "WF-1030295",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 13787 ha",
-      "startedAt": "2026-08-03T00:00:00",
-      "endsAt": "2026-08-14T00:00:00",
-      "updatedAt": "2026-08-15T07:32:07",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        18.6084,
-        -3.9745
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030295&episodeid=8&eventtype=WF"
     },
     {
       "id": "WF-1030294",
@@ -1201,27 +1222,6 @@
         18.7779
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=5&eventtype=FL"
-    },
-    {
-      "id": "TC-1001301",
-      "episodeId": "9",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NANGKA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 65 km/h)",
-      "startedAt": "2026-08-12T12:00:00",
-      "endsAt": "2026-08-14T12:00:00",
-      "updatedAt": "2026-08-15T06:35:14",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        154.5,
-        28.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001301&episodeid=9&eventtype=TC"
     },
     {
       "id": "FL-1103888",
