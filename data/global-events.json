@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-16T20:50:19.722Z",
+  "checkedAt": "2026-08-16T21:40:01.020Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1559144",
+      "episodeId": "1726284",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Argentina",
+      "country": "Argentina",
+      "iso3": "ARG",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:164.602km",
+      "startedAt": "2026-08-16T21:06:07",
+      "endsAt": "2026-08-16T21:06:07",
+      "updatedAt": "2026-08-16T21:28:36",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -67.3517,
+        -24.3051
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559144&episodeid=1726284&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "18",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ONE-C-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-16T21:00:00",
+      "updatedAt": "2026-08-16T21:07:48",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -160,
+        20.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=18&eventtype=TC"
+    },
     {
       "id": "WF-1030187",
       "episodeId": "15",
@@ -739,27 +781,6 @@
         -9.7726
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030508&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1030311",
-      "episodeId": "17",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 37608 ha",
-      "startedAt": "2026-08-06T00:00:00",
-      "endsAt": "2026-08-16T00:00:00",
-      "updatedAt": "2026-08-16T19:20:20",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        134.7605,
-        -19.202
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030311&episodeid=17&eventtype=WF"
     },
     {
       "id": "WF-1030506",
@@ -1831,27 +1852,6 @@
         -7.9109
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559085&episodeid=1726223&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-16T15:00:00",
-      "updatedAt": "2026-08-16T18:06:22",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -158.1,
-        20.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=17&eventtype=TC"
     },
     {
       "id": "EQ-1559047",
