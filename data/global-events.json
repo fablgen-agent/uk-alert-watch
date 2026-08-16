@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-16T13:46:57.973Z",
+  "checkedAt": "2026-08-16T14:52:54.236Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001304",
+      "episodeId": "12",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone HERNAN-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-13T03:00:00",
+      "endsAt": "2026-08-15T21:00:00",
+      "updatedAt": "2026-08-16T14:21:19",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -135.9,
+        15.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "EQ-1558984",
+      "episodeId": "1726119",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:10km",
+      "startedAt": "2026-08-16T13:38:39",
+      "endsAt": "2026-08-16T13:38:39",
+      "updatedAt": "2026-08-16T14:18:45",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.7165,
+        -7.9176
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558984&episodeid=1726119&eventtype=EQ"
+    },
     {
       "id": "EQ-1558964",
       "episodeId": "1726113",
@@ -1539,27 +1581,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030525&episodeid=4&eventtype=WF"
     },
     {
-      "id": "TC-1001304",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone HERNAN-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-08-13T03:00:00",
-      "endsAt": "2026-08-15T21:00:00",
-      "updatedAt": "2026-08-16T11:07:36",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -135.9,
-        15.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=12&eventtype=TC"
-    },
-    {
       "id": "WF-1030568",
       "episodeId": "1",
       "eventType": "WF",
@@ -2083,27 +2104,6 @@
         -8.0349
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558601&episodeid=1725723&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1558582",
-      "episodeId": "1725692",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Japan",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.5M, Depth:39.954km",
-      "startedAt": "2026-08-15T19:32:30",
-      "endsAt": "2026-08-15T19:32:30",
-      "updatedAt": "2026-08-15T21:38:06",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        142.7868,
-        23.4461
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558582&episodeid=1725692&eventtype=EQ"
     }
   ]
 }
