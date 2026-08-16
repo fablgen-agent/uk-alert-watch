@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-16T09:01:23.174Z",
+  "checkedAt": "2026-08-16T09:57:06.998Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104053",
+      "episodeId": "6",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Italy",
+      "country": "Italy",
+      "iso3": "ITA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-26T01:00:00",
+      "endsAt": "2026-08-15T01:00:00",
+      "updatedAt": "2026-08-16T09:23:57",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        11.5165,
+        46.278
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=6&eventtype=FL"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ONE-C-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 130 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-16T09:00:00",
+      "updatedAt": "2026-08-16T09:07:37",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -157,
+        19.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=16&eventtype=TC"
+    },
     {
       "id": "EQ-1558840",
       "episodeId": "1725966",
@@ -1077,27 +1119,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030534&episodeid=2&eventtype=WF"
     },
     {
-      "id": "TC-1001303",
-      "episodeId": "15",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 130 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-16T03:00:00",
-      "updatedAt": "2026-08-16T06:06:32",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -156,
-        18.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=15&eventtype=TC"
-    },
-    {
       "id": "TC-1001304",
       "episodeId": "12",
       "eventType": "TC",
@@ -1600,27 +1621,6 @@
         24.4732
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558387&episodeid=1725481&eventtype=EQ"
-    },
-    {
-      "id": "FL-1104053",
-      "episodeId": "6",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Italy",
-      "country": "Italy",
-      "iso3": "ITA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-26T01:00:00",
-      "endsAt": "2026-08-15T01:00:00",
-      "updatedAt": "2026-08-15T11:23:59",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        11.5165,
-        46.278
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=6&eventtype=FL"
     },
     {
       "id": "EQ-1558359",
