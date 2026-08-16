@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-16T05:03:25.377Z",
+  "checkedAt": "2026-08-16T06:01:30.571Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001304",
+      "episodeId": "12",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone HERNAN-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-13T03:00:00",
+      "endsAt": "2026-08-15T21:00:00",
+      "updatedAt": "2026-08-16T05:36:52",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -135.9,
+        15.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "EQ-1558766",
+      "episodeId": "1725887",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Vanuatu",
+      "country": "Vanuatu",
+      "iso3": "VUT",
+      "alertLevel": "green",
+      "severity": "Magnitude 6.1M, Depth:188.148km",
+      "startedAt": "2026-08-16T03:20:24",
+      "endsAt": "2026-08-16T03:20:24",
+      "updatedAt": "2026-08-16T05:31:32",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        167.1934,
+        -14.5474
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558766&episodeid=1725887&eventtype=EQ"
+    },
     {
       "id": "TC-1001303",
       "episodeId": "15",
@@ -67,27 +109,6 @@
         -10.0065
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030557&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "EQ-1558766",
-      "episodeId": "1725887",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Vanuatu",
-      "country": "Vanuatu",
-      "iso3": "VUT",
-      "alertLevel": "green",
-      "severity": "Magnitude 6.1M, Depth:188.148km",
-      "startedAt": "2026-08-16T03:20:24",
-      "endsAt": "2026-08-16T03:20:24",
-      "updatedAt": "2026-08-16T03:42:43",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        167.1934,
-        -14.5474
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558766&episodeid=1725887&eventtype=EQ"
     },
     {
       "id": "WF-1030532",
@@ -1201,27 +1222,6 @@
         9.6571
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558658&episodeid=1725775&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001304",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone HERNAN-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-08-13T03:00:00",
-      "endsAt": "2026-08-15T21:00:00",
-      "updatedAt": "2026-08-16T00:06:44",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -135.9,
-        15.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001304&episodeid=12&eventtype=TC"
     },
     {
       "id": "EQ-1558668",
