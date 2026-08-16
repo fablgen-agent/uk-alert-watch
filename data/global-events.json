@@ -1,30 +1,30 @@
 {
-  "checkedAt": "2026-08-16T09:57:06.998Z",
+  "checkedAt": "2026-08-16T10:52:39.063Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
-      "id": "FL-1104053",
-      "episodeId": "6",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Italy",
-      "country": "Italy",
-      "iso3": "ITA",
+      "id": "EQ-1558914",
+      "episodeId": "1726044",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
       "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-26T01:00:00",
-      "endsAt": "2026-08-15T01:00:00",
-      "updatedAt": "2026-08-16T09:23:57",
-      "source": "GLOFAS",
+      "severity": "Magnitude 5.3M, Depth:10km",
+      "startedAt": "2026-08-16T10:14:36",
+      "endsAt": "2026-08-16T10:14:36",
+      "updatedAt": "2026-08-16T10:44:17",
+      "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
-        11.5165,
-        46.278
+        120.5995,
+        -7.9399
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=6&eventtype=FL"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1558914&episodeid=1726044&eventtype=EQ"
     },
     {
       "id": "TC-1001303",
@@ -38,7 +38,7 @@
       "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 130 km/h)",
       "startedAt": "2026-08-12T15:00:00",
       "endsAt": "2026-08-16T09:00:00",
-      "updatedAt": "2026-08-16T09:07:37",
+      "updatedAt": "2026-08-16T10:35:56",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -46,6 +46,27 @@
         19.6
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=16&eventtype=TC"
+    },
+    {
+      "id": "FL-1104053",
+      "episodeId": "6",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Italy",
+      "country": "Italy",
+      "iso3": "ITA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-26T01:00:00",
+      "endsAt": "2026-08-15T01:00:00",
+      "updatedAt": "2026-08-16T10:22:51",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        11.5165,
+        46.278
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=6&eventtype=FL"
     },
     {
       "id": "EQ-1558840",
@@ -823,27 +844,6 @@
         65.6799
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030545&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1030543",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7970 ha",
-      "startedAt": "2026-08-10T00:00:00",
-      "endsAt": "2026-08-15T00:00:00",
-      "updatedAt": "2026-08-16T07:08:03",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        29.4839,
-        -11.4672
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030543&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1030546",
