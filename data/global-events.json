@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-08-17T11:58:07.033Z",
+  "checkedAt": "2026-08-17T14:58:50.750Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1559459",
+      "episodeId": "1726628",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russian Federation",
+      "country": "Russian Federation",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.8M, Depth:54.741km",
+      "startedAt": "2026-08-17T12:38:04",
+      "endsAt": "2026-08-17T12:38:04",
+      "updatedAt": "2026-08-17T14:45:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        159.7106,
+        53.024
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559459&episodeid=1726628&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "20",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ONE-C-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-17T09:00:00",
+      "updatedAt": "2026-08-17T14:20:52",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -162.6,
+        20.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=20&eventtype=TC"
+    },
+    {
+      "id": "EQ-1559470",
+      "episodeId": "1726636",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-08-17T12:39:35",
+      "endsAt": "2026-08-17T12:39:35",
+      "updatedAt": "2026-08-17T13:34:23",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.3701,
+        -8.0024
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559470&episodeid=1726636&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1559468",
+      "episodeId": "1726633",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:30.025km",
+      "startedAt": "2026-08-17T12:51:05",
+      "endsAt": "2026-08-17T12:51:05",
+      "updatedAt": "2026-08-17T13:31:24",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.6721,
+        -8.2712
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559468&episodeid=1726633&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1559422",
+      "episodeId": "1726584",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.4M, Depth:10km",
+      "startedAt": "2026-08-17T10:44:49",
+      "endsAt": "2026-08-17T10:44:49",
+      "updatedAt": "2026-08-17T12:49:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.4324,
+        -7.9289
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559422&episodeid=1726584&eventtype=EQ"
+    },
     {
       "id": "EQ-1559428",
       "episodeId": "1726590",
@@ -46,27 +151,6 @@
         -2.0105
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030532&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "20",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-17T09:00:00",
-      "updatedAt": "2026-08-17T11:36:35",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -162.6,
-        20.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=20&eventtype=TC"
     },
     {
       "id": "WF-1030179",
@@ -342,27 +426,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030484&episodeid=7&eventtype=WF"
     },
     {
-      "id": "WF-1030503",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo, Zambia",
-      "country": "The Democratic Republic of Congo, Zambia",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 13012 ha",
-      "startedAt": "2026-08-09T00:00:00",
-      "endsAt": "2026-08-17T00:00:00",
-      "updatedAt": "2026-08-17T11:20:20",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.4897,
-        -8.1831
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030503&episodeid=5&eventtype=WF"
-    },
-    {
       "id": "WF-1030485",
       "episodeId": "11",
       "eventType": "WF",
@@ -403,48 +466,6 @@
         66.5085
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030526&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1030518",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 21795 ha",
-      "startedAt": "2026-08-09T00:00:00",
-      "endsAt": "2026-08-17T00:00:00",
-      "updatedAt": "2026-08-17T11:19:29",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -53.1982,
-        -14.3543
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030518&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1030504",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8864 ha",
-      "startedAt": "2026-08-09T00:00:00",
-      "endsAt": "2026-08-17T00:00:00",
-      "updatedAt": "2026-08-17T11:19:06",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        26.8833,
-        -5.173
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030504&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1030449",
@@ -760,27 +781,6 @@
         -8.834
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030592&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "EQ-1559422",
-      "episodeId": "1726584",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.4M, Depth:10km",
-      "startedAt": "2026-08-17T10:44:49",
-      "endsAt": "2026-08-17T10:44:49",
-      "updatedAt": "2026-08-17T11:12:05",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        120.4324,
-        -7.9289
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559422&episodeid=1726584&eventtype=EQ"
     },
     {
       "id": "WF-1030425",
