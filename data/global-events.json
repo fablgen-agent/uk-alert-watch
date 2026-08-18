@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-08-18T08:04:09.744Z",
+  "checkedAt": "2026-08-18T09:53:51.048Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1559791",
+      "episodeId": "1726984",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:33.11km",
+      "startedAt": "2026-08-18T09:01:39",
+      "endsAt": "2026-08-18T09:01:39",
+      "updatedAt": "2026-08-18T09:42:24",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.4656,
+        -7.9353
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559791&episodeid=1726984&eventtype=EQ"
+    },
+    {
+      "id": "FL-1104080",
+      "episodeId": "4",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Spain",
+      "country": "Spain",
+      "iso3": "ESP",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-06T01:00:00",
+      "endsAt": "2026-08-17T01:00:00",
+      "updatedAt": "2026-08-18T09:25:08",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -6.5246,
+        42.4571
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104080&episodeid=4&eventtype=FL"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "24",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ONE-C-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-18T09:00:00",
+      "updatedAt": "2026-08-18T09:22:33",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -166.1,
+        20.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=24&eventtype=TC"
+    },
+    {
+      "id": "EQ-1559769",
+      "episodeId": "1726963",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Spain",
+      "country": "Spain",
+      "iso3": "ESP",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-08-18T08:37:44",
+      "endsAt": "2026-08-18T08:37:44",
+      "updatedAt": "2026-08-18T09:18:11",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -3.6311,
+        37.1786
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559769&episodeid=1726963&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1559738",
+      "episodeId": "1726926",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.6M, Depth:10km",
+      "startedAt": "2026-08-18T06:02:20",
+      "endsAt": "2026-08-18T06:02:20",
+      "updatedAt": "2026-08-18T08:08:44",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        98.416,
+        -0.6858
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559738&episodeid=1726926&eventtype=EQ"
+    },
     {
       "id": "WF-1030564",
       "episodeId": "5",
@@ -972,27 +1077,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030615&episodeid=3&eventtype=WF"
     },
     {
-      "id": "FL-1104080",
-      "episodeId": "4",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Spain",
-      "country": "Spain",
-      "iso3": "ESP",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-08-06T01:00:00",
-      "endsAt": "2026-08-17T01:00:00",
-      "updatedAt": "2026-08-18T07:04:14",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -6.5246,
-        42.4571
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104080&episodeid=4&eventtype=FL"
-    },
-    {
       "id": "WF-1030582",
       "episodeId": "2",
       "eventType": "WF",
@@ -1224,48 +1308,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030609&episodeid=4&eventtype=WF"
     },
     {
-      "id": "WF-1030608",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5702 ha",
-      "startedAt": "2026-08-15T00:00:00",
-      "endsAt": "2026-08-17T00:00:00",
-      "updatedAt": "2026-08-18T07:01:59",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        130.2356,
-        -20.5058
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030608&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1030610",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5974 ha",
-      "startedAt": "2026-08-15T00:00:00",
-      "endsAt": "2026-08-17T00:00:00",
-      "updatedAt": "2026-08-18T07:01:46",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        137.7797,
-        -8.2685
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030610&episodeid=3&eventtype=WF"
-    },
-    {
       "id": "WF-1030606",
       "episodeId": "3",
       "eventType": "WF",
@@ -1390,48 +1432,6 @@
         34.8761
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559367&episodeid=1726935&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1559738",
-      "episodeId": "1726926",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.6M, Depth:10km",
-      "startedAt": "2026-08-18T06:02:20",
-      "endsAt": "2026-08-18T06:02:20",
-      "updatedAt": "2026-08-18T06:32:29",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        98.416,
-        -0.6858
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559738&episodeid=1726926&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "23",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 148 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-18T03:00:00",
-      "updatedAt": "2026-08-18T06:06:37",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -165.5,
-        20.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=23&eventtype=TC"
     },
     {
       "id": "EQ-1559618",
