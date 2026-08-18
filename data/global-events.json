@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-18T15:51:17.015Z",
+  "checkedAt": "2026-08-18T17:02:28.647Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "1",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SEVENTEEN-26",
+      "country": "Northern Mariana Islands",
+      "iso3": "MNP",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 222 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-18T12:00:00",
+      "updatedAt": "2026-08-18T16:52:28",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        154.9,
+        7.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=1&eventtype=TC"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "25",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ONE-C-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-18T15:00:00",
+      "updatedAt": "2026-08-18T16:51:20",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -167.2,
+        20.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=25&eventtype=TC"
+    },
     {
       "id": "WF-1030442",
       "episodeId": "8",
@@ -1726,48 +1768,6 @@
         -9.8118
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030656&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "1",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SEVENTEEN-26",
-      "country": "Northern Mariana Islands",
-      "iso3": "MNP",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 222 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-18T12:00:00",
-      "updatedAt": "2026-08-18T14:54:43",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        154.9,
-        7.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=1&eventtype=TC"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "25",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-18T15:00:00",
-      "updatedAt": "2026-08-18T14:52:47",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -167.2,
-        20.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=25&eventtype=TC"
     },
     {
       "id": "EQ-1559855",
