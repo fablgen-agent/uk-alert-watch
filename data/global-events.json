@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-18T21:42:49.743Z",
+  "checkedAt": "2026-08-18T22:52:18.740Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Depression (maximum wind speed of 231 km/h)",
       "startedAt": "2026-08-18T12:00:00",
       "endsAt": "2026-08-18T18:00:00",
-      "updatedAt": "2026-08-18T21:08:21",
+      "updatedAt": "2026-08-18T22:51:56",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,27 @@
         8.3
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=2&eventtype=TC"
+    },
+    {
+      "id": "EQ-1559992",
+      "episodeId": "1727204",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.9M, Depth:10km",
+      "startedAt": "2026-08-18T21:36:29",
+      "endsAt": "2026-08-18T21:36:29",
+      "updatedAt": "2026-08-18T21:58:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        95.538,
+        37.8349
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559992&episodeid=1727204&eventtype=EQ"
     },
     {
       "id": "EQ-1559970",
@@ -1348,27 +1369,6 @@
         -18.4642
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030447&episodeid=15&eventtype=WF"
-    },
-    {
-      "id": "WF-1030589",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7764 ha",
-      "startedAt": "2026-08-12T00:00:00",
-      "endsAt": "2026-08-18T00:00:00",
-      "updatedAt": "2026-08-18T15:07:31",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -48.6763,
-        -15.1201
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030589&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1030537",
