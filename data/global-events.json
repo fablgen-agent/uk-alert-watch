@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-18T20:44:18.820Z",
+  "checkedAt": "2026-08-18T21:42:49.743Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "2",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SEVENTEEN-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-18T18:00:00",
+      "updatedAt": "2026-08-18T21:08:21",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        154.6,
+        8.3
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=2&eventtype=TC"
+    },
     {
       "id": "EQ-1559970",
       "episodeId": "1727174",
@@ -17,7 +38,7 @@
       "severity": "Magnitude 4.8M, Depth:56.415km",
       "startedAt": "2026-08-18T20:15:46",
       "endsAt": "2026-08-18T20:15:46",
-      "updatedAt": "2026-08-18T20:34:42",
+      "updatedAt": "2026-08-18T20:56:03",
       "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +46,27 @@
         -8.306
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559970&episodeid=1727174&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "26",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ONE-C-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 185 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-18T21:00:00",
+      "updatedAt": "2026-08-18T20:53:08",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -168.1,
+        20.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=26&eventtype=TC"
     },
     {
       "id": "EQ-1559961",
@@ -48,27 +90,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559961&episodeid=1727166&eventtype=EQ"
     },
     {
-      "id": "TC-1001305",
-      "episodeId": "1",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SEVENTEEN-26",
-      "country": "Northern Mariana Islands",
-      "iso3": "MNP",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 222 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-18T12:00:00",
-      "updatedAt": "2026-08-18T20:21:51",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        154.9,
-        7.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=1&eventtype=TC"
-    },
-    {
       "id": "EQ-1559949",
       "episodeId": "1727161",
       "eventType": "EQ",
@@ -88,27 +109,6 @@
         -8.2942
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559949&episodeid=1727161&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "25",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-18T15:00:00",
-      "updatedAt": "2026-08-18T17:51:19",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -167.2,
-        20.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=25&eventtype=TC"
     },
     {
       "id": "WF-1030442",
