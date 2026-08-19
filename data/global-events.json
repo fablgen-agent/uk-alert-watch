@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-08-19T20:59:28.501Z",
+  "checkedAt": "2026-08-19T21:56:10.717Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1560364",
+      "episodeId": "1727620",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Mexico",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:178.278km",
+      "startedAt": "2026-08-19T20:06:29",
+      "endsAt": "2026-08-19T20:06:29",
+      "updatedAt": "2026-08-19T21:54:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -94.3016,
+        17.6051
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560364&episodeid=1727620&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1560060",
+      "episodeId": "1727619",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:10km",
+      "startedAt": "2026-08-19T01:44:50",
+      "endsAt": "2026-08-19T01:44:50",
+      "updatedAt": "2026-08-19T21:53:18",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        121.0211,
+        -8.2229
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560060&episodeid=1727619&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "6",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-19T18:00:00",
+      "updatedAt": "2026-08-19T21:37:29",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        152.8,
+        10.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=6&eventtype=TC"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "30",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-19T21:00:00",
+      "updatedAt": "2026-08-19T21:08:59",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -171,
+        22.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=30&eventtype=TC"
+    },
     {
       "id": "EQ-1560338",
       "episodeId": "1727573",
@@ -25,27 +109,6 @@
         -17.8049
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560338&episodeid=1727573&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "6",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-19T18:00:00",
-      "updatedAt": "2026-08-19T20:24:23",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        152.8,
-        10.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=6&eventtype=TC"
     },
     {
       "id": "EQ-1560329",
@@ -930,27 +993,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030618&episodeid=7&eventtype=WF"
     },
     {
-      "id": "WF-1030530",
-      "episodeId": "17",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 25137 ha",
-      "startedAt": "2026-08-11T00:00:00",
-      "endsAt": "2026-08-19T00:00:00",
-      "updatedAt": "2026-08-19T19:19:13",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        75.2081,
-        66.3315
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030530&episodeid=17&eventtype=WF"
-    },
-    {
       "id": "WF-1030592",
       "episodeId": "6",
       "eventType": "WF",
@@ -1348,27 +1390,6 @@
         -9.326
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030581&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1030537",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8074 ha",
-      "startedAt": "2026-08-13T00:00:00",
-      "endsAt": "2026-08-19T00:00:00",
-      "updatedAt": "2026-08-19T19:09:09",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        19.7098,
-        -10.3142
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030537&episodeid=9&eventtype=WF"
     },
     {
       "id": "WF-1030737",
@@ -1852,27 +1873,6 @@
         -8.1769
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560289&episodeid=1727526&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "29",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LALA-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-19T15:00:00",
-      "updatedAt": "2026-08-19T18:08:00",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -170.2,
-        21.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=29&eventtype=TC"
     },
     {
       "id": "EQ-1560262",
