@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-19T21:56:10.717Z",
+  "checkedAt": "2026-08-19T22:55:34.093Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1560394",
+      "episodeId": "1727636",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.2M, Depth:10km",
+      "startedAt": "2026-08-19T22:28:08",
+      "endsAt": "2026-08-19T22:28:08",
+      "updatedAt": "2026-08-19T22:50:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.4559,
+        -8.3255
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560394&episodeid=1727636&eventtype=EQ"
+    },
     {
       "id": "EQ-1560364",
       "episodeId": "1727620",
@@ -949,27 +970,6 @@
         -7.4769
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030705&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1030529",
-      "episodeId": "16",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 16421 ha",
-      "startedAt": "2026-08-11T00:00:00",
-      "endsAt": "2026-08-19T00:00:00",
-      "updatedAt": "2026-08-19T19:20:07",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        76.5333,
-        65.9481
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030529&episodeid=16&eventtype=WF"
     },
     {
       "id": "WF-1030618",
