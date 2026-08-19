@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-19T09:54:27.089Z",
+  "checkedAt": "2026-08-19T10:59:37.720Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001303",
+      "episodeId": "28",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-19T09:00:00",
+      "updatedAt": "2026-08-19T10:51:43",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -169.7,
+        20.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=28&eventtype=TC"
+    },
     {
       "id": "EQ-1560186",
       "episodeId": "1727410",
@@ -88,27 +109,6 @@
         37.8208
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559992&episodeid=1727322&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "28",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LALA-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-19T09:00:00",
-      "updatedAt": "2026-08-19T08:53:49",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -169.7,
-        20.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=28&eventtype=TC"
     },
     {
       "id": "FL-1104104",
