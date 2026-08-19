@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-08-19T15:50:54.166Z",
+  "checkedAt": "2026-08-19T17:00:28.827Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1560289",
+      "episodeId": "1727526",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.5M, Depth:10km",
+      "startedAt": "2026-08-19T16:17:38",
+      "endsAt": "2026-08-19T16:17:38",
+      "updatedAt": "2026-08-19T16:46:03",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.6643,
+        -8.1769
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560289&episodeid=1727526&eventtype=EQ"
+    },
+    {
+      "id": "WF-1030521",
+      "episodeId": "17",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Canada",
+      "country": "Canada",
+      "iso3": "CAN",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 13683 ha",
+      "startedAt": "2026-08-04T00:00:00",
+      "endsAt": "2026-08-19T00:00:00",
+      "updatedAt": "2026-08-19T15:52:11",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -118.7155,
+        63.6396
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030521&episodeid=17&eventtype=WF"
+    },
+    {
+      "id": "WF-1030331",
+      "episodeId": "11",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 17512 ha",
+      "startedAt": "2026-08-04T00:00:00",
+      "endsAt": "2026-08-19T00:00:00",
+      "updatedAt": "2026-08-19T15:51:28",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        19.3981,
+        -9.4423
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030331&episodeid=11&eventtype=WF"
+    },
+    {
+      "id": "WF-1030486",
+      "episodeId": "14",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 8911 ha",
+      "startedAt": "2026-08-04T00:00:00",
+      "endsAt": "2026-08-19T00:00:00",
+      "updatedAt": "2026-08-19T15:51:11",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -50.3456,
+        -10.8303
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030486&episodeid=14&eventtype=WF"
+    },
     {
       "id": "WF-1030730",
       "episodeId": "1",
@@ -1077,27 +1161,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030587&episodeid=9&eventtype=WF"
     },
     {
-      "id": "WF-1030581",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8577 ha",
-      "startedAt": "2026-08-13T00:00:00",
-      "endsAt": "2026-08-19T00:00:00",
-      "updatedAt": "2026-08-19T15:11:36",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.1143,
-        -9.326
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030581&episodeid=7&eventtype=WF"
-    },
-    {
       "id": "WF-1030567",
       "episodeId": "12",
       "eventType": "WF",
@@ -1831,69 +1894,6 @@
         -5.1696
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560262&episodeid=1727491&eventtype=EQ"
-    },
-    {
-      "id": "WF-1030331",
-      "episodeId": "11",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 17512 ha",
-      "startedAt": "2026-08-04T00:00:00",
-      "endsAt": "2026-08-19T00:00:00",
-      "updatedAt": "2026-08-19T11:52:03",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        19.3981,
-        -9.4423
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030331&episodeid=11&eventtype=WF"
-    },
-    {
-      "id": "WF-1030486",
-      "episodeId": "14",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8911 ha",
-      "startedAt": "2026-08-04T00:00:00",
-      "endsAt": "2026-08-19T00:00:00",
-      "updatedAt": "2026-08-19T11:51:35",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -50.3456,
-        -10.8303
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030486&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "WF-1030521",
-      "episodeId": "16",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Canada",
-      "country": "Canada",
-      "iso3": "CAN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 11627 ha",
-      "startedAt": "2026-08-04T00:00:00",
-      "endsAt": "2026-08-19T00:00:00",
-      "updatedAt": "2026-08-19T11:50:19",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -118.7179,
-        63.6464
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030521&episodeid=16&eventtype=WF"
     },
     {
       "id": "EQ-1560212",
