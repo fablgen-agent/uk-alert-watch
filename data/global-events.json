@@ -1,10 +1,136 @@
 {
-  "checkedAt": "2026-08-19T05:04:18.434Z",
+  "checkedAt": "2026-08-19T06:04:26.363Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104071",
+      "episodeId": "5",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Peru",
+      "country": "Peru",
+      "iso3": "PER",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-02T01:00:00",
+      "endsAt": "2026-08-18T01:00:00",
+      "updatedAt": "2026-08-19T06:03:48",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -76.9491,
+        -12.2169
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104071&episodeid=5&eventtype=FL"
+    },
+    {
+      "id": "EQ-1560133",
+      "episodeId": "1727356",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:10km",
+      "startedAt": "2026-08-19T05:22:24",
+      "endsAt": "2026-08-19T05:22:24",
+      "updatedAt": "2026-08-19T06:02:45",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        95.5097,
+        37.8621
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560133&episodeid=1727356&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "3",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SEVENTEEN-26",
+      "country": "Northern Mariana Islands",
+      "iso3": "MNP",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-19T00:00:00",
+      "updatedAt": "2026-08-19T05:51:50",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        154.2,
+        8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=3&eventtype=TC"
+    },
+    {
+      "id": "FL-1104102",
+      "episodeId": "1",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Poland",
+      "country": "Poland",
+      "iso3": "POL",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-17T01:00:00",
+      "endsAt": "2026-08-19T01:00:00",
+      "updatedAt": "2026-08-19T05:34:38",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        19.1335,
+        51.593
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104102&episodeid=1&eventtype=FL"
+    },
+    {
+      "id": "EQ-1560123",
+      "episodeId": "1727345",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:35km",
+      "startedAt": "2026-08-19T00:11:39",
+      "endsAt": "2026-08-19T00:11:39",
+      "updatedAt": "2026-08-19T05:18:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        121.4067,
+        -8.264
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560123&episodeid=1727345&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "27",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-19T03:00:00",
+      "updatedAt": "2026-08-19T05:07:29",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -168.9,
+        20.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=27&eventtype=TC"
+    },
     {
       "id": "EQ-1560112",
       "episodeId": "1727331",
@@ -1098,48 +1224,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030315&episodeid=15&eventtype=WF"
     },
     {
-      "id": "TC-1001305",
-      "episodeId": "3",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SEVENTEEN-26",
-      "country": "Northern Mariana Islands",
-      "iso3": "MNP",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-19T00:00:00",
-      "updatedAt": "2026-08-19T03:22:02",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        154.2,
-        8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=3&eventtype=TC"
-    },
-    {
-      "id": "WF-1030543",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8723 ha",
-      "startedAt": "2026-08-10T00:00:00",
-      "endsAt": "2026-08-18T00:00:00",
-      "updatedAt": "2026-08-19T03:20:46",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        29.4855,
-        -11.4679
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030543&episodeid=5&eventtype=WF"
-    },
-    {
       "id": "WF-1030531",
       "episodeId": "13",
       "eventType": "WF",
@@ -1224,27 +1308,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030351&episodeid=23&eventtype=WF"
     },
     {
-      "id": "WF-1030545",
-      "episodeId": "13",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 18769 ha",
-      "startedAt": "2026-08-10T00:00:00",
-      "endsAt": "2026-08-18T00:00:00",
-      "updatedAt": "2026-08-19T03:19:26",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        76.6287,
-        65.6962
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030545&episodeid=13&eventtype=WF"
-    },
-    {
       "id": "EQ-1559986",
       "episodeId": "1727305",
       "eventType": "EQ",
@@ -1264,27 +1327,6 @@
         -8.1867
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1559986&episodeid=1727305&eventtype=EQ"
-    },
-    {
-      "id": "WF-1030544",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 34372 ha",
-      "startedAt": "2026-08-10T00:00:00",
-      "endsAt": "2026-08-18T00:00:00",
-      "updatedAt": "2026-08-19T03:19:11",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        21.5233,
-        -5.0874
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030544&episodeid=8&eventtype=WF"
     },
     {
       "id": "WF-1030540",
@@ -1495,27 +1537,6 @@
         -18.4642
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030447&episodeid=15&eventtype=WF"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "27",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ONE-C-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-19T03:00:00",
-      "updatedAt": "2026-08-19T03:08:46",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -168.9,
-        20.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=27&eventtype=TC"
     },
     {
       "id": "WF-1030537",
@@ -1747,27 +1768,6 @@
         -10.082
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030212&episodeid=22&eventtype=WF"
-    },
-    {
-      "id": "FL-1104071",
-      "episodeId": "5",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Peru",
-      "country": "Peru",
-      "iso3": "PER",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-08-02T01:00:00",
-      "endsAt": "2026-08-18T01:00:00",
-      "updatedAt": "2026-08-18T15:34:25",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -76.9491,
-        -12.2169
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104071&episodeid=5&eventtype=FL"
     },
     {
       "id": "EQ-1559855",
