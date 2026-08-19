@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-08-19T19:58:27.141Z",
+  "checkedAt": "2026-08-19T20:59:28.501Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1560338",
+      "episodeId": "1727573",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Fiji",
+      "country": "Fiji",
+      "iso3": "FJI",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.4M, Depth:556.753km",
+      "startedAt": "2026-08-19T18:45:29",
+      "endsAt": "2026-08-19T18:45:29",
+      "updatedAt": "2026-08-19T20:51:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -178.6638,
+        -17.8049
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560338&episodeid=1727573&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "6",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-19T18:00:00",
+      "updatedAt": "2026-08-19T20:24:23",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        152.8,
+        10.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=6&eventtype=TC"
+    },
+    {
+      "id": "EQ-1560329",
+      "episodeId": "1727565",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russia",
+      "country": "Russia",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.4M, Depth:41.176km",
+      "startedAt": "2026-08-19T18:07:17",
+      "endsAt": "2026-08-19T18:07:17",
+      "updatedAt": "2026-08-19T20:13:27",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        155.8633,
+        49.4799
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560329&episodeid=1727565&eventtype=EQ"
+    },
     {
       "id": "WF-1030486",
       "episodeId": "14",
@@ -1245,27 +1308,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030630&episodeid=3&eventtype=WF"
     },
     {
-      "id": "EQ-1560338",
-      "episodeId": "1727573",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Fiji",
-      "country": "Fiji",
-      "iso3": "FJI",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.4M, Depth:556.753km",
-      "startedAt": "2026-08-19T18:45:29",
-      "endsAt": "2026-08-19T18:45:29",
-      "updatedAt": "2026-08-19T19:10:04",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -178.6638,
-        -17.8049
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560338&episodeid=1727573&eventtype=EQ"
-    },
-    {
       "id": "WF-1030613",
       "episodeId": "9",
       "eventType": "WF",
@@ -1791,27 +1833,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030727&episodeid=1&eventtype=WF"
     },
     {
-      "id": "EQ-1560329",
-      "episodeId": "1727565",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Russia",
-      "country": "Russia",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.4M, Depth:41.176km",
-      "startedAt": "2026-08-19T18:07:17",
-      "endsAt": "2026-08-19T18:07:17",
-      "updatedAt": "2026-08-19T18:33:23",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        155.8633,
-        49.4799
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560329&episodeid=1727565&eventtype=EQ"
-    },
-    {
       "id": "EQ-1560289",
       "episodeId": "1727526",
       "eventType": "EQ",
@@ -1852,27 +1873,6 @@
         21.3
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=29&eventtype=TC"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "5",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-19T12:00:00",
-      "updatedAt": "2026-08-19T17:52:29",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        153.7,
-        9.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=5&eventtype=TC"
     },
     {
       "id": "EQ-1560262",
