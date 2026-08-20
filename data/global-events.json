@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-20T21:01:45.658Z",
+  "checkedAt": "2026-08-20T22:01:47.989Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001307",
+      "episodeId": "1",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EIGHTEEN-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 56 km/h)",
+      "startedAt": "2026-08-20T18:00:00",
+      "endsAt": "2026-08-20T18:00:00",
+      "updatedAt": "2026-08-20T21:56:06",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        108.4,
+        20.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=1&eventtype=TC"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "10",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 222 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-20T18:00:00",
+      "updatedAt": "2026-08-20T21:54:40",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        149.6,
+        13.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=10&eventtype=TC"
+    },
     {
       "id": "TC-1001306",
       "episodeId": "2",
@@ -24,7 +66,7 @@
         -143.8,
         12.5
       ],
-      "officialUrl": "no reportlink found"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=2&eventtype=TC"
     },
     {
       "id": "TC-1001303",
@@ -109,27 +151,6 @@
         -14.6414
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560738&episodeid=1728011&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "10",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 222 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-20T18:00:00",
-      "updatedAt": "2026-08-20T20:08:30",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        149.6,
-        13.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=10&eventtype=TC"
     },
     {
       "id": "EQ-1560752",
@@ -403,27 +424,6 @@
         -6.7896
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030788&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1030783",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6491 ha",
-      "startedAt": "2026-08-11T00:00:00",
-      "endsAt": "2026-08-20T00:00:00",
-      "updatedAt": "2026-08-20T19:35:45",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        25.9137,
-        -5.8887
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030783&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1030802",
