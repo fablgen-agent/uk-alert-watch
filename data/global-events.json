@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-21T21:54:08.722Z",
+  "checkedAt": "2026-08-21T22:54:59.022Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001307",
+      "episodeId": "5",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EIGHTEEN-26",
+      "country": "China, Viet Nam",
+      "iso3": "VNM",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 65 km/h)",
+      "startedAt": "2026-08-20T18:00:00",
+      "endsAt": "2026-08-21T18:00:00",
+      "updatedAt": "2026-08-21T22:54:57",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        108.8,
+        21
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=5&eventtype=TC"
+    },
     {
       "id": "TC-1001305",
       "episodeId": "14",
@@ -17,7 +38,7 @@
       "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
       "startedAt": "2026-08-18T12:00:00",
       "endsAt": "2026-08-21T18:00:00",
-      "updatedAt": "2026-08-21T21:53:18",
+      "updatedAt": "2026-08-21T22:53:50",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -67,27 +88,6 @@
         28.6
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=38&eventtype=TC"
-    },
-    {
-      "id": "TC-1001307",
-      "episodeId": "5",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EIGHTEEN-26",
-      "country": "China, Viet Nam",
-      "iso3": "VNM",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 65 km/h)",
-      "startedAt": "2026-08-20T18:00:00",
-      "endsAt": "2026-08-21T18:00:00",
-      "updatedAt": "2026-08-21T20:24:29",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        108.8,
-        21
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=5&eventtype=TC"
     },
     {
       "id": "EQ-1561010",
