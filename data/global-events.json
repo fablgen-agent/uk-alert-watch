@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-21T19:52:47.698Z",
+  "checkedAt": "2026-08-21T20:54:12.202Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001307",
+      "episodeId": "5",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EIGHTEEN-26",
+      "country": "China, Viet Nam",
+      "iso3": "VNM",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 65 km/h)",
+      "startedAt": "2026-08-20T18:00:00",
+      "endsAt": "2026-08-21T18:00:00",
+      "updatedAt": "2026-08-21T20:24:29",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        108.8,
+        21
+      ],
+      "officialUrl": "no reportlink found"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "14",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Northern Mariana Islands, Japan",
+      "iso3": "JPN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-21T18:00:00",
+      "updatedAt": "2026-08-21T20:13:50",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        147.3,
+        17.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=14&eventtype=TC"
+    },
     {
       "id": "EQ-1561010",
       "episodeId": "1728315",
@@ -25,27 +67,6 @@
         -7.5836
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561010&episodeid=1728315&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001307",
-      "episodeId": "4",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EIGHTEEN-26",
-      "country": "China",
-      "iso3": "CHN",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 65 km/h)",
-      "startedAt": "2026-08-20T18:00:00",
-      "endsAt": "2026-08-21T12:00:00",
-      "updatedAt": "2026-08-21T19:23:26",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        108.8,
-        20.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=4&eventtype=TC"
     },
     {
       "id": "TC-1001303",
@@ -151,27 +172,6 @@
         -19.6881
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561004&episodeid=1728303&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "13",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Northern Mariana Islands, Japan",
-      "iso3": "JPN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-21T12:00:00",
-      "updatedAt": "2026-08-21T17:24:04",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        148.1,
-        16
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=13&eventtype=TC"
     },
     {
       "id": "EQ-1560992",
