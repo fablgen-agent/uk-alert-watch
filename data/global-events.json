@@ -1,10 +1,283 @@
 {
-  "checkedAt": "2026-08-22T07:45:51.492Z",
+  "checkedAt": "2026-08-22T09:02:35.068Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1561145",
+      "episodeId": "1728465",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:10km",
+      "startedAt": "2026-08-22T08:29:00",
+      "endsAt": "2026-08-22T08:29:00",
+      "updatedAt": "2026-08-22T08:57:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.6999,
+        -7.8939
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561145&episodeid=1728465&eventtype=EQ"
+    },
+    {
+      "id": "FL-1103888",
+      "episodeId": "69",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-08-22T01:00:00",
+      "updatedAt": "2026-08-22T08:55:03",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -82.2078,
+        39.714
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=69&eventtype=FL"
+    },
+    {
+      "id": "EQ-1561143",
+      "episodeId": "1728463",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Scotia Sea",
+      "country": "Scotia Sea",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 6.2M, Depth:10km",
+      "startedAt": "2026-08-22T08:22:37",
+      "endsAt": "2026-08-22T08:22:37",
+      "updatedAt": "2026-08-22T08:47:46",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -47.6047,
+        -60.3789
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561143&episodeid=1728463&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001307",
+      "episodeId": "7",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NARRA-26",
+      "country": "China, Viet Nam",
+      "iso3": "VNM",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 65 km/h)",
+      "startedAt": "2026-08-20T18:00:00",
+      "endsAt": "2026-08-22T06:00:00",
+      "updatedAt": "2026-08-22T08:39:25",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        108.1,
+        21.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561140",
+      "episodeId": "1728458",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Northern Mariana Is.",
+      "country": "Northern Mariana Is.",
+      "iso3": "MNP",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:115.924km",
+      "startedAt": "2026-08-22T07:43:51",
+      "endsAt": "2026-08-22T07:43:51",
+      "updatedAt": "2026-08-22T08:24:06",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        145.3295,
+        14.337
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561140&episodeid=1728458&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001306",
+      "episodeId": "7",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TWO-C-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
+      "startedAt": "2026-08-20T15:00:00",
+      "endsAt": "2026-08-22T03:00:00",
+      "updatedAt": "2026-08-22T08:14:08",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -148.3,
+        14
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Northern Mariana Islands, Japan",
+      "iso3": "JPN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-22T06:00:00",
+      "updatedAt": "2026-08-22T08:13:03",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        145.8,
+        18.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=16&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561138",
+      "episodeId": "1728454",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Scotia Sea",
+      "country": "Scotia Sea",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.7M, Depth:10km",
+      "startedAt": "2026-08-22T07:40:12",
+      "endsAt": "2026-08-22T07:40:12",
+      "updatedAt": "2026-08-22T08:07:51",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -47.2591,
+        -60.2649
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561138&episodeid=1728454&eventtype=EQ"
+    },
+    {
+      "id": "WF-1030378",
+      "episodeId": "25",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia, The Democratic Republic of Congo",
+      "country": "Zambia, The Democratic Republic of Congo",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 58878 ha",
+      "startedAt": "2026-08-07T00:00:00",
+      "endsAt": "2026-08-22T00:00:00",
+      "updatedAt": "2026-08-22T07:59:19",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        28.6962,
+        -10.7975
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030378&episodeid=25&eventtype=WF"
+    },
+    {
+      "id": "WF-1030571",
+      "episodeId": "15",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6457 ha",
+      "startedAt": "2026-08-08T00:00:00",
+      "endsAt": "2026-08-22T00:00:00",
+      "updatedAt": "2026-08-22T07:57:44",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -56.4274,
+        -6.8484
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030571&episodeid=15&eventtype=WF"
+    },
+    {
+      "id": "WF-1030789",
+      "episodeId": "6",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 12800 ha",
+      "startedAt": "2026-08-09T00:00:00",
+      "endsAt": "2026-08-22T00:00:00",
+      "updatedAt": "2026-08-22T07:52:53",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        18.9291,
+        -10.3644
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030789&episodeid=6&eventtype=WF"
+    },
+    {
+      "id": "WF-1030595",
+      "episodeId": "10",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 9586 ha",
+      "startedAt": "2026-08-10T00:00:00",
+      "endsAt": "2026-08-22T00:00:00",
+      "updatedAt": "2026-08-22T07:46:53",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        19.1211,
+        -10.3114
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030595&episodeid=10&eventtype=WF"
+    },
+    {
+      "id": "WF-1030596",
+      "episodeId": "8",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 12274 ha",
+      "startedAt": "2026-08-10T00:00:00",
+      "endsAt": "2026-08-22T00:00:00",
+      "updatedAt": "2026-08-22T07:46:05",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        19.175,
+        -9.0748
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030596&episodeid=8&eventtype=WF"
+    },
     {
       "id": "EQ-1561134",
       "episodeId": "1728449",
@@ -426,27 +699,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030567&episodeid=22&eventtype=WF"
     },
     {
-      "id": "FL-1104011",
-      "episodeId": "16",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Myanmar",
-      "country": "Myanmar",
-      "iso3": "MMR",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-04T01:00:00",
-      "endsAt": "2026-08-21T01:00:00",
-      "updatedAt": "2026-08-22T07:27:11",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        98.4945,
-        16.565
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=16&eventtype=FL"
-    },
-    {
       "id": "WF-1030688",
       "episodeId": "6",
       "eventType": "WF",
@@ -655,27 +907,6 @@
         -13.534
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030906&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1030841",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5106 ha",
-      "startedAt": "2026-08-15T00:00:00",
-      "endsAt": "2026-08-21T00:00:00",
-      "updatedAt": "2026-08-22T07:15:34",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        26.4447,
-        -13.2956
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030841&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1030905",
@@ -930,27 +1161,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030900&episodeid=1&eventtype=WF"
     },
     {
-      "id": "TC-1001306",
-      "episodeId": "7",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TWO-C-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
-      "startedAt": "2026-08-20T15:00:00",
-      "endsAt": "2026-08-22T03:00:00",
-      "updatedAt": "2026-08-22T07:10:25",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -148.3,
-        14
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=7&eventtype=TC"
-    },
-    {
       "id": "WF-1030606",
       "episodeId": "11",
       "eventType": "WF",
@@ -991,48 +1201,6 @@
         -8.6901
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030625&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "FL-1104029",
-      "episodeId": "10",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Vietnam",
-      "country": "Vietnam",
-      "iso3": "VNM",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-15T01:00:00",
-      "endsAt": "2026-08-21T01:00:00",
-      "updatedAt": "2026-08-22T07:08:59",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        104.5327,
-        19.2263
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104029&episodeid=10&eventtype=FL"
-    },
-    {
-      "id": "WF-1030862",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6411 ha",
-      "startedAt": "2026-08-16T00:00:00",
-      "endsAt": "2026-08-21T00:00:00",
-      "updatedAt": "2026-08-22T07:08:19",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -51.6655,
-        -13.2702
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030862&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1030891",
@@ -1392,27 +1560,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561122&episodeid=1728434&eventtype=EQ"
     },
     {
-      "id": "TC-1001305",
-      "episodeId": "15",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Northern Mariana Islands, Japan",
-      "iso3": "JPN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-22T00:00:00",
-      "updatedAt": "2026-08-22T06:09:57",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        146.5,
-        17.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=15&eventtype=TC"
-    },
-    {
       "id": "EQ-1561116",
       "episodeId": "1728427",
       "eventType": "EQ",
@@ -1453,27 +1600,6 @@
         -8.106
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560900&episodeid=1728425&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001307",
-      "episodeId": "6",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EIGHTEEN-26",
-      "country": "China, Viet Nam",
-      "iso3": "CHN",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 65 km/h)",
-      "startedAt": "2026-08-20T18:00:00",
-      "endsAt": "2026-08-22T00:00:00",
-      "updatedAt": "2026-08-22T04:24:34",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        108.7,
-        21.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=6&eventtype=TC"
     },
     {
       "id": "EQ-1561099",
@@ -1978,132 +2104,6 @@
         -24.7124
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560899&episodeid=1728180&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1560889",
-      "episodeId": "1728169",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in South Of Africa",
-      "country": "South Of Africa",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:10km",
-      "startedAt": "2026-08-21T05:56:46",
-      "endsAt": "2026-08-21T05:56:46",
-      "updatedAt": "2026-08-21T06:36:45",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        23.5692,
-        -53.142
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560889&episodeid=1728169&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1560845",
-      "episodeId": "1728130",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:10km",
-      "startedAt": "2026-08-21T02:33:07",
-      "endsAt": "2026-08-21T02:33:07",
-      "updatedAt": "2026-08-21T03:44:04",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        120.5112,
-        -8.3786
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560845&episodeid=1728130&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1560805",
-      "episodeId": "1728122",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Japan",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.7M, Depth:44.11km",
-      "startedAt": "2026-08-21T00:01:20",
-      "endsAt": "2026-08-21T00:01:20",
-      "updatedAt": "2026-08-21T02:36:43",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        127.7859,
-        26.4848
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560805&episodeid=1728122&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1560840",
-      "episodeId": "1728117",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:10km",
-      "startedAt": "2026-08-21T01:38:42",
-      "endsAt": "2026-08-21T01:38:42",
-      "updatedAt": "2026-08-21T02:19:05",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        121.2731,
-        -8.2838
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560840&episodeid=1728117&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1560821",
-      "episodeId": "1728099",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:10km",
-      "startedAt": "2026-08-21T01:18:05",
-      "endsAt": "2026-08-21T01:18:05",
-      "updatedAt": "2026-08-21T01:58:24",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        120.5956,
-        -8.2183
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560821&episodeid=1728099&eventtype=EQ"
-    },
-    {
-      "id": "FL-1104067",
-      "episodeId": "13",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Thailand",
-      "country": "Thailand",
-      "iso3": "THA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-30T01:00:00",
-      "endsAt": "2026-08-21T01:00:00",
-      "updatedAt": "2026-08-20T10:33:30",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        100.6248,
-        18.7545
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=13&eventtype=FL"
     }
   ]
 }
