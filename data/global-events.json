@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-08-22T19:01:47.512Z",
+  "checkedAt": "2026-08-22T19:52:23.204Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001306",
+      "episodeId": "9",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TWO-C-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
+      "startedAt": "2026-08-20T15:00:00",
+      "endsAt": "2026-08-22T15:00:00",
+      "updatedAt": "2026-08-22T19:41:12",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -150.2,
+        14.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=9&eventtype=TC"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "41",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-22T15:00:00",
+      "updatedAt": "2026-08-22T19:39:57",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -172.4,
+        30.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=41&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561200",
+      "episodeId": "1728527",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Chile",
+      "country": "Chile",
+      "iso3": "CHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:105.494km",
+      "startedAt": "2026-08-22T18:46:27",
+      "endsAt": "2026-08-22T18:46:27",
+      "updatedAt": "2026-08-22T19:26:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -68.793,
+        -22.1927
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561200&episodeid=1728527&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1561190",
+      "episodeId": "1728519",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.8M, Depth:61km",
+      "startedAt": "2026-08-22T17:00:39",
+      "endsAt": "2026-08-22T17:00:39",
+      "updatedAt": "2026-08-22T19:07:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        140.0778,
+        35.9375
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561190&episodeid=1728519&eventtype=EQ"
+    },
     {
       "id": "TC-1001305",
       "episodeId": "17",
@@ -67,27 +151,6 @@
         -7.8936
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561189&episodeid=1728522&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1561190",
-      "episodeId": "1728519",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Japan",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.8M, Depth:61km",
-      "startedAt": "2026-08-22T17:00:39",
-      "endsAt": "2026-08-22T17:00:39",
-      "updatedAt": "2026-08-22T17:52:23",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        140.0778,
-        35.9375
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561190&episodeid=1728519&eventtype=EQ"
     },
     {
       "id": "EQ-1561194",
@@ -1560,27 +1623,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030727&episodeid=8&eventtype=WF"
     },
     {
-      "id": "WF-1030896",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6432 ha",
-      "startedAt": "2026-08-18T00:00:00",
-      "endsAt": "2026-08-22T00:00:00",
-      "updatedAt": "2026-08-22T15:02:36",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        22.4884,
-        -17.4928
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030896&episodeid=1&eventtype=WF"
-    },
-    {
       "id": "WF-1030895",
       "episodeId": "1",
       "eventType": "WF",
@@ -1642,48 +1684,6 @@
         -13.7416
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030866&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "41",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LALA-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-22T15:00:00",
-      "updatedAt": "2026-08-22T15:00:36",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -172.4,
-        30.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=41&eventtype=TC"
-    },
-    {
-      "id": "TC-1001306",
-      "episodeId": "9",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TWO-C-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
-      "startedAt": "2026-08-20T15:00:00",
-      "endsAt": "2026-08-22T15:00:00",
-      "updatedAt": "2026-08-22T14:56:47",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -150.2,
-        14.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=9&eventtype=TC"
     },
     {
       "id": "TC-1001308",
