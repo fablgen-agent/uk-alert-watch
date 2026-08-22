@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-22T04:57:14.720Z",
+  "checkedAt": "2026-08-22T05:58:14.138Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
       "startedAt": "2026-08-18T12:00:00",
       "endsAt": "2026-08-22T00:00:00",
-      "updatedAt": "2026-08-22T04:53:25",
+      "updatedAt": "2026-08-22T05:39:23",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,48 @@
         17.9
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=15&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561116",
+      "episodeId": "1728427",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Philippines",
+      "country": "Philippines",
+      "iso3": "PHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:10km",
+      "startedAt": "2026-08-22T04:44:08",
+      "endsAt": "2026-08-22T04:44:08",
+      "updatedAt": "2026-08-22T05:24:26",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        125.5805,
+        9.3981
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561116&episodeid=1728427&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1560900",
+      "episodeId": "1728425",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:9.293km",
+      "startedAt": "2026-08-21T08:30:16",
+      "endsAt": "2026-08-21T08:30:16",
+      "updatedAt": "2026-08-22T04:57:46",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.5246,
+        -8.106
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560900&episodeid=1728425&eventtype=EQ"
     },
     {
       "id": "TC-1001307",
@@ -1180,48 +1222,6 @@
         -11.4051
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030890&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1030738",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 15816 ha",
-      "startedAt": "2026-08-19T00:00:00",
-      "endsAt": "2026-08-21T00:00:00",
-      "updatedAt": "2026-08-22T03:02:02",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        130.2907,
-        -15.5842
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030738&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1030739",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8317 ha",
-      "startedAt": "2026-08-19T00:00:00",
-      "endsAt": "2026-08-21T00:00:00",
-      "updatedAt": "2026-08-22T03:01:52",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.2237,
-        -17.2734
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030739&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1030805",
