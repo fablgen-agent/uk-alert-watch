@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-08-22T09:58:03.408Z",
+  "checkedAt": "2026-08-22T10:54:11.913Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Northern Mariana Islands, Japan",
+      "iso3": "JPN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-22T06:00:00",
+      "updatedAt": "2026-08-22T10:53:40",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        145.8,
+        18.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=16&eventtype=TC"
+    },
+    {
+      "id": "FL-1104080",
+      "episodeId": "5",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Spain",
+      "country": "Spain",
+      "iso3": "ESP",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-06T01:00:00",
+      "endsAt": "2026-08-22T01:00:00",
+      "updatedAt": "2026-08-22T10:38:40",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -2.4828,
+        42.2815
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104080&episodeid=5&eventtype=FL"
+    },
+    {
+      "id": "FL-1103888",
+      "episodeId": "69",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-08-22T01:00:00",
+      "updatedAt": "2026-08-22T10:34:02",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -82.2078,
+        39.714
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=69&eventtype=FL"
+    },
+    {
+      "id": "EQ-1561143",
+      "episodeId": "1728463",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Scotia Sea",
+      "country": "Scotia Sea",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 6.2M, Depth:10km",
+      "startedAt": "2026-08-22T08:22:37",
+      "endsAt": "2026-08-22T08:22:37",
+      "updatedAt": "2026-08-22T10:27:23",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -47.6047,
+        -60.3789
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561143&episodeid=1728463&eventtype=EQ"
+    },
+    {
+      "id": "FL-1104084",
+      "episodeId": "3",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in France",
+      "country": "France",
+      "iso3": "FRA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-08T01:00:00",
+      "endsAt": "2026-08-22T01:00:00",
+      "updatedAt": "2026-08-22T10:19:44",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        4.832,
+        45.7578
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104084&episodeid=3&eventtype=FL"
+    },
     {
       "id": "EQ-1561138",
       "episodeId": "1728454",
@@ -25,27 +130,6 @@
         -60.2649
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561138&episodeid=1728454&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Northern Mariana Islands, Japan",
-      "iso3": "JPN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-22T06:00:00",
-      "updatedAt": "2026-08-22T09:24:22",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        145.8,
-        18.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=16&eventtype=TC"
     },
     {
       "id": "TC-1001306",
@@ -109,48 +193,6 @@
         -7.8939
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561145&episodeid=1728465&eventtype=EQ"
-    },
-    {
-      "id": "FL-1103888",
-      "episodeId": "69",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-08-22T01:00:00",
-      "updatedAt": "2026-08-22T08:55:03",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -82.2078,
-        39.714
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=69&eventtype=FL"
-    },
-    {
-      "id": "EQ-1561143",
-      "episodeId": "1728463",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Scotia Sea",
-      "country": "Scotia Sea",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 6.2M, Depth:10km",
-      "startedAt": "2026-08-22T08:22:37",
-      "endsAt": "2026-08-22T08:22:37",
-      "updatedAt": "2026-08-22T08:47:46",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -47.6047,
-        -60.3789
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561143&episodeid=1728463&eventtype=EQ"
     },
     {
       "id": "TC-1001307",
@@ -2062,48 +2104,6 @@
         9.3382
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560904&episodeid=1728189&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1560901",
-      "episodeId": "1728183",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:36.554km",
-      "startedAt": "2026-08-21T08:14:00",
-      "endsAt": "2026-08-21T08:14:00",
-      "updatedAt": "2026-08-21T08:54:03",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        120.5155,
-        -7.8156
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560901&episodeid=1728183&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1560899",
-      "episodeId": "1728180",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in South Of Tonga Islands",
-      "country": "South Of Tonga Islands",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.1M, Depth:10km",
-      "startedAt": "2026-08-21T08:12:34",
-      "endsAt": "2026-08-21T08:12:34",
-      "updatedAt": "2026-08-21T08:33:43",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -175.3072,
-        -24.7124
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1560899&episodeid=1728180&eventtype=EQ"
     }
   ]
 }
