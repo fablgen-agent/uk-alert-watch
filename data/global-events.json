@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-22T13:21:16.767Z",
+  "checkedAt": "2026-08-22T14:00:55.211Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001303",
+      "episodeId": "40",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-22T09:00:00",
+      "updatedAt": "2026-08-22T14:00:38",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -172,
+        30.3
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=40&eventtype=TC"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "17",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Northern Mariana Islands, Japan",
+      "iso3": "JPN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-22T12:00:00",
+      "updatedAt": "2026-08-22T13:56:11",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        144.8,
+        19.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=17&eventtype=TC"
+    },
     {
       "id": "TC-1001306",
       "episodeId": "8",
@@ -25,48 +67,6 @@
         14.4
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=8&eventtype=TC"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Northern Mariana Islands, Japan",
-      "iso3": "JPN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-22T06:00:00",
-      "updatedAt": "2026-08-22T12:39:20",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        145.8,
-        18.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=16&eventtype=TC"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "40",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LALA-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-22T09:00:00",
-      "updatedAt": "2026-08-22T12:23:38",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -172,
-        30.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=40&eventtype=TC"
     },
     {
       "id": "WF-1030660",
