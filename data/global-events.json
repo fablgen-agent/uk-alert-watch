@@ -1,13 +1,34 @@
 {
-  "checkedAt": "2026-08-22T14:00:55.211Z",
+  "checkedAt": "2026-08-22T14:56:49.585Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
+      "id": "TC-1001306",
+      "episodeId": "9",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TWO-C-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
+      "startedAt": "2026-08-20T15:00:00",
+      "endsAt": "2026-08-22T15:00:00",
+      "updatedAt": "2026-08-22T14:56:47",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -150.2,
+        14.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=9&eventtype=TC"
+    },
+    {
       "id": "TC-1001303",
-      "episodeId": "40",
+      "episodeId": "41",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone LALA-26",
@@ -16,15 +37,57 @@
       "alertLevel": "green",
       "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
       "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-22T09:00:00",
-      "updatedAt": "2026-08-22T14:00:38",
+      "endsAt": "2026-08-22T15:00:00",
+      "updatedAt": "2026-08-22T14:54:35",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
-        -172,
-        30.3
+        -172.4,
+        30.5
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=40&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=41&eventtype=TC"
+    },
+    {
+      "id": "TC-1001308",
+      "episodeId": "1",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NINETEEN-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 65 km/h)",
+      "startedAt": "2026-08-22T12:00:00",
+      "endsAt": "2026-08-22T12:00:00",
+      "updatedAt": "2026-08-22T14:24:28",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        135.4,
+        12.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001308&episodeid=1&eventtype=TC"
+    },
+    {
+      "id": "TC-1001307",
+      "episodeId": "8",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NARRA-26",
+      "country": "China, Viet Nam",
+      "iso3": "VNM",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-20T18:00:00",
+      "endsAt": "2026-08-22T12:00:00",
+      "updatedAt": "2026-08-22T14:12:32",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        108,
+        21
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=8&eventtype=TC"
     },
     {
       "id": "TC-1001305",
@@ -46,27 +109,6 @@
         19.6
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=17&eventtype=TC"
-    },
-    {
-      "id": "TC-1001306",
-      "episodeId": "8",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TWO-C-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
-      "startedAt": "2026-08-20T15:00:00",
-      "endsAt": "2026-08-22T09:00:00",
-      "updatedAt": "2026-08-22T13:09:28",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -149,
-        14.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=8&eventtype=TC"
     },
     {
       "id": "WF-1030660",
@@ -1098,27 +1140,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030632&episodeid=10&eventtype=WF"
     },
     {
-      "id": "WF-1030910",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Papua New Guinea",
-      "country": "Papua New Guinea",
-      "iso3": "PNG",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5323 ha",
-      "startedAt": "2026-08-14T00:00:00",
-      "endsAt": "2026-08-22T00:00:00",
-      "updatedAt": "2026-08-22T11:23:01",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        148.964,
-        -5.4877
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030910&episodeid=1&eventtype=WF"
-    },
-    {
       "id": "WF-1030884",
       "episodeId": "3",
       "eventType": "WF",
@@ -1852,27 +1873,6 @@
         -7.8939
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561145&episodeid=1728465&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001307",
-      "episodeId": "7",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NARRA-26",
-      "country": "China, Viet Nam",
-      "iso3": "VNM",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 65 km/h)",
-      "startedAt": "2026-08-20T18:00:00",
-      "endsAt": "2026-08-22T06:00:00",
-      "updatedAt": "2026-08-22T08:39:25",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        108.1,
-        21.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=7&eventtype=TC"
     },
     {
       "id": "EQ-1561140",
