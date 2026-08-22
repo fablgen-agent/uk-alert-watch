@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-22T20:52:44.095Z",
+  "checkedAt": "2026-08-22T21:45:17.913Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001303",
+      "episodeId": "42",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-22T21:00:00",
+      "updatedAt": "2026-08-22T21:00:41",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -172.7,
+        31
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=42&eventtype=TC"
+    },
     {
       "id": "TC-1001308",
       "episodeId": "2",
@@ -67,27 +88,6 @@
         -0.1709
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561207&episodeid=1728539&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "41",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LALA-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-22T15:00:00",
-      "updatedAt": "2026-08-22T20:11:35",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -172.4,
-        30.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=41&eventtype=TC"
     },
     {
       "id": "TC-1001307",
