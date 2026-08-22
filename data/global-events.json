@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-08-22T16:54:35.698Z",
+  "checkedAt": "2026-08-22T17:44:29.903Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1561194",
+      "episodeId": "1728517",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:26.342km",
+      "startedAt": "2026-08-22T16:33:04",
+      "endsAt": "2026-08-22T16:33:04",
+      "updatedAt": "2026-08-22T17:44:22",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        100.4875,
+        -3.2971
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561194&episodeid=1728517&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "17",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Northern Mariana Islands, Japan",
+      "iso3": "JPN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-22T12:00:00",
+      "updatedAt": "2026-08-22T17:39:51",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        144.8,
+        19.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=17&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561190",
+      "episodeId": "1728514",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.8M, Depth:77.584km",
+      "startedAt": "2026-08-22T17:00:41",
+      "endsAt": "2026-08-22T17:00:41",
+      "updatedAt": "2026-08-22T17:27:27",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        140.0625,
+        35.9344
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561190&episodeid=1728514&eventtype=EQ"
+    },
     {
       "id": "TC-1001307",
       "episodeId": "8",
@@ -25,27 +88,6 @@
         21
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=8&eventtype=TC"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Northern Mariana Islands, Japan",
-      "iso3": "JPN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-22T12:00:00",
-      "updatedAt": "2026-08-22T16:53:46",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        144.8,
-        19.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=17&eventtype=TC"
     },
     {
       "id": "WF-1030660",
@@ -1266,27 +1308,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030883&episodeid=5&eventtype=WF"
     },
     {
-      "id": "WF-1030909",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6215 ha",
-      "startedAt": "2026-08-16T00:00:00",
-      "endsAt": "2026-08-22T00:00:00",
-      "updatedAt": "2026-08-22T15:10:36",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        139.4374,
-        -6.549
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030909&episodeid=1&eventtype=WF"
-    },
-    {
       "id": "WF-1030873",
       "episodeId": "4",
       "eventType": "WF",
@@ -1516,27 +1537,6 @@
         -8.8481
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030727&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1030908",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6100 ha",
-      "startedAt": "2026-08-18T00:00:00",
-      "endsAt": "2026-08-22T00:00:00",
-      "updatedAt": "2026-08-22T15:02:41",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -44.4075,
-        -17.9525
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030908&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1030896",
