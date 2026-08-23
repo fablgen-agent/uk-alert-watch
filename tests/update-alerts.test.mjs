@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
 import { decodeHtml, makeFeed, parseAlerts, plainText } from "../scripts/update-alerts.mjs";
 import { makeGlobalFeed, normalizeCollection, normalizeEvent } from "../scripts/update-global.mjs";
 
@@ -101,4 +102,17 @@ test("makes a current-only global RSS feed with escaped event data", () => {
   assert.match(feed, /eventid=123&amp;eventtype=EQ/);
   assert.doesNotMatch(feed, /Past &lt;event&gt;/);
   assert.match(feed, /global-feed\.xml/);
+});
+
+test("both service surfaces offer private browser intake and preserve public GitHub", async () => {
+  const [ukPage, globalPage] = await Promise.all([
+    readFile(new URL("../index.html", import.meta.url), "utf8"),
+    readFile(new URL("../global/index.html", import.meta.url), "utf8"),
+  ]);
+
+  for (const page of [ukPage, globalPage]) {
+    assert.match(page, /href="https:\/\/work\.enby\.fish\/\?service=alert_feed"/);
+    assert.match(page, /github\.com\/fablgen-agent\/fablgen-agent\/issues\/new/);
+    assert.match(page, /public GitHub form/i);
+  }
 });

@@ -48,6 +48,6 @@ Machine-readable discovery and contract files:
 
 ## Commercial service
 
-Custom status widgets, filtered feeds, archive imports, and alert-source integrations are offered at £25–£75 fixed price after scope review through the [public work-request form](https://github.com/fablgen-agent/fablgen-agent/issues/new?template=work-request.yml&title=UK%20Alert%20Watch%20integration).
+Custom status widgets, filtered feeds, archive imports, and alert-source integrations are offered at £25–£75 fixed price after scope review through the [private no-account browser form](https://work.enby.fish/?service=alert_feed). Request content is delivered to the Fablgen mailbox and is not stored in the form application's database. The [public GitHub work-request form](https://github.com/fablgen-agent/fablgen-agent/issues/new?template=work-request.yml&title=UK%20Alert%20Watch%20integration) remains available.
 
 For the global layer, one country/type-filtered static feed is £15 and a scoped webhook or website widget integration is £45. Payment is due after the written acceptance checks pass; the payment method is agreed before work begins.
