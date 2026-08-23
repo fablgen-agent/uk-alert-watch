@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-08-23T05:10:52.215Z",
+  "checkedAt": "2026-08-23T06:02:21.467Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104080",
+      "episodeId": "4",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Spain",
+      "country": "Spain",
+      "iso3": "ESP",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-06T01:00:00",
+      "endsAt": "2026-08-22T01:00:00",
+      "updatedAt": "2026-08-23T06:01:13",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -6.5246,
+        42.4571
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104080&episodeid=4&eventtype=FL"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "43",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-23T03:00:00",
+      "updatedAt": "2026-08-23T06:00:36",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -172.9,
+        31.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=43&eventtype=TC"
+    },
+    {
+      "id": "FL-1103888",
+      "episodeId": "69",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-08-22T01:00:00",
+      "updatedAt": "2026-08-23T06:00:21",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -82.2078,
+        39.714
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=69&eventtype=FL"
+    },
     {
       "id": "TC-1001305",
       "episodeId": "19",
@@ -17,7 +80,7 @@
       "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 222 km/h)",
       "startedAt": "2026-08-18T12:00:00",
       "endsAt": "2026-08-23T00:00:00",
-      "updatedAt": "2026-08-23T05:09:04",
+      "updatedAt": "2026-08-23T05:57:42",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +88,27 @@
         21
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=19&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561288",
+      "episodeId": "1728625",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Fiji",
+      "country": "Fiji",
+      "iso3": "FJI",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:571.282km",
+      "startedAt": "2026-08-23T05:39:21",
+      "endsAt": "2026-08-23T05:39:21",
+      "updatedAt": "2026-08-23T05:57:07",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -178.1181,
+        -18.3505
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561288&episodeid=1728625&eventtype=EQ"
     },
     {
       "id": "EQ-1561280",
@@ -88,27 +172,6 @@
         -14.3762
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030518&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "43",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LALA-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-23T03:00:00",
-      "updatedAt": "2026-08-23T04:00:42",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -172.9,
-        31.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=43&eventtype=TC"
     },
     {
       "id": "WF-1030644",
@@ -655,27 +718,6 @@
         20.8
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=10&eventtype=TC"
-    },
-    {
-      "id": "WF-1030698",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6546 ha",
-      "startedAt": "2026-08-13T00:00:00",
-      "endsAt": "2026-08-22T00:00:00",
-      "updatedAt": "2026-08-23T03:40:47",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        25.9461,
-        -5.2901
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030698&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1030632",
@@ -1726,48 +1768,6 @@
         -8.9605
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030570&episodeid=12&eventtype=WF"
-    },
-    {
-      "id": "FL-1104080",
-      "episodeId": "4",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Spain",
-      "country": "Spain",
-      "iso3": "ESP",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-08-06T01:00:00",
-      "endsAt": "2026-08-22T01:00:00",
-      "updatedAt": "2026-08-22T11:27:18",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -6.5246,
-        42.4571
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104080&episodeid=4&eventtype=FL"
-    },
-    {
-      "id": "FL-1103888",
-      "episodeId": "69",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-08-22T01:00:00",
-      "updatedAt": "2026-08-22T11:26:38",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -82.2078,
-        39.714
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=69&eventtype=FL"
     },
     {
       "id": "WF-1030662",
