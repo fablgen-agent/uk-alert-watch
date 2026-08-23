@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-23T16:56:25.594Z",
+  "checkedAt": "2026-08-23T17:43:15.936Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1561376",
+      "episodeId": "1728721",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in South Sandwich Islands Region",
+      "country": "South Sandwich Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:35km",
+      "startedAt": "2026-08-23T17:23:29",
+      "endsAt": "2026-08-23T17:23:29",
+      "updatedAt": "2026-08-23T17:41:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -25.264,
+        -58.7481
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561376&episodeid=1728721&eventtype=EQ"
+    },
     {
       "id": "TC-1001305",
       "episodeId": "21",
@@ -17,7 +38,7 @@
       "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
       "startedAt": "2026-08-18T12:00:00",
       "endsAt": "2026-08-23T12:00:00",
-      "updatedAt": "2026-08-23T16:55:48",
+      "updatedAt": "2026-08-23T17:40:19",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -172,27 +193,6 @@
         63.2547
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030654&episodeid=24&eventtype=WF"
-    },
-    {
-      "id": "WF-1030618",
-      "episodeId": "20",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 29408 ha",
-      "startedAt": "2026-08-11T00:00:00",
-      "endsAt": "2026-08-23T00:00:00",
-      "updatedAt": "2026-08-23T16:00:36",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -54.766,
-        -8.5793
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030618&episodeid=20&eventtype=WF"
     },
     {
       "id": "WF-1031004",
