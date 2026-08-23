@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-23T17:43:15.936Z",
+  "checkedAt": "2026-08-23T18:01:34.369Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "21",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Northern Mariana Islands, Japan, China",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-23T12:00:00",
+      "updatedAt": "2026-08-23T17:55:20",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        139.4,
+        22.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=21&eventtype=TC"
+    },
     {
       "id": "EQ-1561376",
       "episodeId": "1728721",
@@ -25,27 +46,6 @@
         -58.7481
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561376&episodeid=1728721&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "21",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Northern Mariana Islands, Japan, China",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-23T12:00:00",
-      "updatedAt": "2026-08-23T17:40:19",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        139.4,
-        22.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=21&eventtype=TC"
     },
     {
       "id": "TC-1001307",
