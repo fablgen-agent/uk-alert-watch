@@ -1,13 +1,34 @@
 {
-  "checkedAt": "2026-08-23T14:02:55.323Z",
+  "checkedAt": "2026-08-23T14:59:38.328Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
+      "id": "TC-1001306",
+      "episodeId": "13",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TWO-C-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-20T15:00:00",
+      "endsAt": "2026-08-23T15:00:00",
+      "updatedAt": "2026-08-23T14:58:18",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -155,
+        15.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=13&eventtype=TC"
+    },
+    {
       "id": "TC-1001303",
-      "episodeId": "44",
+      "episodeId": "45",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone LALA-26",
@@ -16,15 +37,57 @@
       "alertLevel": "green",
       "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
       "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-23T09:00:00",
-      "updatedAt": "2026-08-23T14:00:33",
+      "endsAt": "2026-08-23T15:00:00",
+      "updatedAt": "2026-08-23T14:56:55",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
-        -173.7,
-        32
+        -173.9,
+        32.1
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=44&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=45&eventtype=TC"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "21",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Northern Mariana Islands, Japan, China",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-23T12:00:00",
+      "updatedAt": "2026-08-23T14:39:35",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        139.4,
+        22.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=21&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561344",
+      "episodeId": "1728702",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 6M, Depth:42.867km",
+      "startedAt": "2026-08-23T13:44:53",
+      "endsAt": "2026-08-23T13:44:53",
+      "updatedAt": "2026-08-23T14:10:24",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        142.8255,
+        41.8344
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561344&episodeid=1728702&eventtype=EQ"
     },
     {
       "id": "TC-1001308",
@@ -67,27 +130,6 @@
         20.5
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=12&eventtype=TC"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "20",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Northern Mariana Islands, Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-23T06:00:00",
-      "updatedAt": "2026-08-23T13:39:51",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        140.9,
-        21.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=20&eventtype=TC"
     },
     {
       "id": "WF-1030545",
@@ -1098,27 +1140,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030892&episodeid=5&eventtype=WF"
     },
     {
-      "id": "WF-1030678",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6334 ha",
-      "startedAt": "2026-08-15T00:00:00",
-      "endsAt": "2026-08-23T00:00:00",
-      "updatedAt": "2026-08-23T11:27:46",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        25.7621,
-        -15.1735
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030678&episodeid=9&eventtype=WF"
-    },
-    {
       "id": "WF-1030903",
       "episodeId": "3",
       "eventType": "WF",
@@ -1999,27 +2020,6 @@
         36.7596
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561321&episodeid=1728665&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001306",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TWO-C-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-20T15:00:00",
-      "endsAt": "2026-08-23T09:00:00",
-      "updatedAt": "2026-08-23T09:12:14",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -153.5,
-        15.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=12&eventtype=TC"
     },
     {
       "id": "EQ-1561306",
