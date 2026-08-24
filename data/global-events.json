@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-08-24T22:01:28.553Z",
+  "checkedAt": "2026-08-24T23:02:01.988Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031041",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 9145 ha",
+      "startedAt": "2026-08-23T00:00:00",
+      "endsAt": "2026-08-24T00:00:00",
+      "updatedAt": "2026-08-24T23:01:39",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -51.4244,
+        -13.2011
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031041&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "26",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, Northern Mariana Islands, China",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-24T18:00:00",
+      "updatedAt": "2026-08-24T22:57:23",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        132.3,
+        25.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=26&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561427",
+      "episodeId": "1728981",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:44.666km",
+      "startedAt": "2026-08-24T00:26:26",
+      "endsAt": "2026-08-24T00:26:26",
+      "updatedAt": "2026-08-24T22:34:07",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        105.0691,
+        28.3791
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561427&episodeid=1728981&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001307",
+      "episodeId": "17",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NARRA-26",
+      "country": "Viet Nam, China",
+      "iso3": "VNM",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-20T18:00:00",
+      "endsAt": "2026-08-24T18:00:00",
+      "updatedAt": "2026-08-24T22:14:02",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        107.7,
+        19.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=17&eventtype=TC"
+    },
     {
       "id": "TC-1001303",
       "episodeId": "50",
@@ -25,27 +109,6 @@
         33.7
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=50&eventtype=TC"
-    },
-    {
-      "id": "TC-1001307",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NARRA-26",
-      "country": "Viet Nam, China",
-      "iso3": "VNM",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-08-20T18:00:00",
-      "endsAt": "2026-08-24T18:00:00",
-      "updatedAt": "2026-08-24T21:56:48",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        107.7,
-        19.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=17&eventtype=TC"
     },
     {
       "id": "TC-1001310",
@@ -930,27 +993,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030806&episodeid=16&eventtype=WF"
     },
     {
-      "id": "TC-1001305",
-      "episodeId": "26",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, Northern Mariana Islands, China",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-24T18:00:00",
-      "updatedAt": "2026-08-24T19:51:11",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        132.3,
-        25.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=26&eventtype=TC"
-    },
-    {
       "id": "WF-1030576",
       "episodeId": "10",
       "eventType": "WF",
@@ -1644,27 +1686,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031046&episodeid=2&eventtype=WF"
     },
     {
-      "id": "WF-1031041",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7585 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-08-24T00:00:00",
-      "updatedAt": "2026-08-24T19:01:41",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -51.4282,
-        -13.2067
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031041&episodeid=3&eventtype=WF"
-    },
-    {
       "id": "WF-1031045",
       "episodeId": "3",
       "eventType": "WF",
@@ -2083,27 +2104,6 @@
         -8.2203
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561430&episodeid=1728795&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1561427",
-      "episodeId": "1728785",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in China",
-      "country": "China",
-      "iso3": "CHN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:42.466km",
-      "startedAt": "2026-08-24T00:26:26",
-      "endsAt": "2026-08-24T00:26:26",
-      "updatedAt": "2026-08-24T01:06:44",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        105.0337,
-        28.4135
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561427&episodeid=1728785&eventtype=EQ"
     }
   ]
 }
