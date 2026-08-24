@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-08-24T03:36:24.993Z",
+  "checkedAt": "2026-08-24T05:55:44.875Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "23",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Northern Mariana Islands, Japan, China",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-24T00:00:00",
+      "updatedAt": "2026-08-24T05:52:33",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        136.3,
+        23.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=23&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561418",
+      "episodeId": "1728842",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Rat Islands, Aleutian Islands",
+      "country": "Rat Islands, Aleutian Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:13.186km",
+      "startedAt": "2026-08-23T23:20:35",
+      "endsAt": "2026-08-23T23:20:35",
+      "updatedAt": "2026-08-24T05:11:24",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        176.3834,
+        52.1941
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561418&episodeid=1728842&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001307",
+      "episodeId": "14",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NARRA-26",
+      "country": "Viet Nam, China",
+      "iso3": "VNM",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-20T18:00:00",
+      "endsAt": "2026-08-24T00:00:00",
+      "updatedAt": "2026-08-24T05:03:10",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        107.6,
+        20.3
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=14&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561473",
+      "episodeId": "1728837",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Philippines",
+      "country": "Philippines",
+      "iso3": "PHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:68.263km",
+      "startedAt": "2026-08-24T03:59:33",
+      "endsAt": "2026-08-24T03:59:33",
+      "updatedAt": "2026-08-24T04:39:49",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        125.2291,
+        5.3312
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561473&episodeid=1728837&eventtype=EQ"
+    },
     {
       "id": "TC-1001309",
       "episodeId": "3",
@@ -111,27 +195,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001308&episodeid=7&eventtype=TC"
     },
     {
-      "id": "TC-1001307",
-      "episodeId": "14",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NARRA-26",
-      "country": "Viet Nam, China",
-      "iso3": "VNM",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-08-20T18:00:00",
-      "endsAt": "2026-08-24T00:00:00",
-      "updatedAt": "2026-08-24T02:49:45",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        107.6,
-        20.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=14&eventtype=TC"
-    },
-    {
       "id": "TC-1001306",
       "episodeId": "15",
       "eventType": "TC",
@@ -151,27 +214,6 @@
         15.3
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=15&eventtype=TC"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "23",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Northern Mariana Islands, Japan, China",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-24T00:00:00",
-      "updatedAt": "2026-08-24T02:44:18",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        136.3,
-        23.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=23&eventtype=TC"
     },
     {
       "id": "EQ-1561430",
@@ -592,27 +634,6 @@
         -6.5652
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030979&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "EQ-1561418",
-      "episodeId": "1728774",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 5M, Depth:7.956km",
-      "startedAt": "2026-08-23T23:20:35",
-      "endsAt": "2026-08-23T23:20:35",
-      "updatedAt": "2026-08-23T23:42:42",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        176.4797,
-        52.0776
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561418&episodeid=1728774&eventtype=EQ"
     },
     {
       "id": "WF-1030997",
@@ -1140,6 +1161,27 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031030&episodeid=1&eventtype=WF"
     },
     {
+      "id": "WF-1030915",
+      "episodeId": "6",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Russian Federation",
+      "country": "Russian Federation",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6777 ha",
+      "startedAt": "2026-08-16T00:00:00",
+      "endsAt": "2026-08-23T00:00:00",
+      "updatedAt": "2026-08-23T23:21:23",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        83.5702,
+        64.5634
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030915&episodeid=6&eventtype=WF"
+    },
+    {
       "id": "WF-1030963",
       "episodeId": "2",
       "eventType": "WF",
@@ -1308,27 +1350,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031038&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF-1030953",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5325 ha",
-      "startedAt": "2026-08-17T00:00:00",
-      "endsAt": "2026-08-23T00:00:00",
-      "updatedAt": "2026-08-23T23:13:34",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        36.2873,
-        -18.0848
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030953&episodeid=2&eventtype=WF"
-    },
-    {
       "id": "WF-1031021",
       "episodeId": "1",
       "eventType": "WF",
@@ -1348,27 +1369,6 @@
         -7.6168
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031021&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1030954",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8180 ha",
-      "startedAt": "2026-08-17T00:00:00",
-      "endsAt": "2026-08-23T00:00:00",
-      "updatedAt": "2026-08-23T23:12:18",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        17.5339,
-        -4.9944
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030954&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1031026",
