@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24T08:26:58.928Z",
+  "checkedAt": "2026-08-24T10:23:48.596Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -7,7 +7,7 @@
   "events": [
     {
       "id": "TC-1001303",
-      "episodeId": "47",
+      "episodeId": "48",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone LALA-26",
@@ -16,15 +16,15 @@
       "alertLevel": "green",
       "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
       "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-24T03:00:00",
-      "updatedAt": "2026-08-24T08:26:30",
+      "endsAt": "2026-08-24T09:00:00",
+      "updatedAt": "2026-08-24T10:00:26",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
-        -174.7,
-        33.1
+        -174.8,
+        33.3
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=47&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=48&eventtype=TC"
     },
     {
       "id": "FL-1104067",
@@ -38,7 +38,7 @@
       "severity": "Magnitude 0",
       "startedAt": "2026-07-30T01:00:00",
       "endsAt": "2026-08-23T01:00:00",
-      "updatedAt": "2026-08-24T08:20:07",
+      "updatedAt": "2026-08-24T09:38:57",
       "source": "GLOFAS",
       "isCurrent": true,
       "coordinates": [
@@ -46,6 +46,132 @@
         18.7545
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=13&eventtype=FL"
+    },
+    {
+      "id": "FL-1104096",
+      "episodeId": "2",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Venezuela",
+      "country": "Venezuela",
+      "iso3": "VEN",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-15T01:00:00",
+      "endsAt": "2026-08-24T01:00:00",
+      "updatedAt": "2026-08-24T09:19:45",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -66.8917,
+        10.4845
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104096&episodeid=2&eventtype=FL"
+    },
+    {
+      "id": "TC-1001306",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TWO-C-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-20T15:00:00",
+      "endsAt": "2026-08-24T09:00:00",
+      "updatedAt": "2026-08-24T09:14:07",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -158.6,
+        15.3
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=16&eventtype=TC"
+    },
+    {
+      "id": "TC-1001307",
+      "episodeId": "15",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NARRA-26",
+      "country": "Viet Nam, China",
+      "iso3": "VNM",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-20T18:00:00",
+      "endsAt": "2026-08-24T06:00:00",
+      "updatedAt": "2026-08-24T09:03:09",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        107.3,
+        19.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=15&eventtype=TC"
+    },
+    {
+      "id": "TC-1001309",
+      "episodeId": "4",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ISELLE-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 120 km/h)",
+      "startedAt": "2026-08-23T15:00:00",
+      "endsAt": "2026-08-24T09:00:00",
+      "updatedAt": "2026-08-24T08:59:28",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -116.2,
+        17.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001309&episodeid=4&eventtype=TC"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "24",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Northern Mariana Islands, Japan, China",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-24T06:00:00",
+      "updatedAt": "2026-08-24T08:34:34",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        134.7,
+        24.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=24&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561494",
+      "episodeId": "1728868",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Costa Rica",
+      "country": "Costa Rica",
+      "iso3": "CRI",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-08-24T07:37:17",
+      "endsAt": "2026-08-24T07:37:17",
+      "updatedAt": "2026-08-24T08:30:26",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -83.9132,
+        9.9853
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561494&episodeid=1728868&eventtype=EQ"
     },
     {
       "id": "TC-1001308",
@@ -67,27 +193,6 @@
         16.1
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001308&episodeid=8&eventtype=TC"
-    },
-    {
-      "id": "TC-1001307",
-      "episodeId": "15",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NARRA-26",
-      "country": "Viet Nam, China",
-      "iso3": "VNM",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-08-20T18:00:00",
-      "endsAt": "2026-08-24T06:00:00",
-      "updatedAt": "2026-08-24T08:01:33",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        107.3,
-        19.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=15&eventtype=TC"
     },
     {
       "id": "WF-1030719",
@@ -151,27 +256,6 @@
         65.6938
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030545&episodeid=29&eventtype=WF"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "23",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Northern Mariana Islands, Japan, China",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-24T00:00:00",
-      "updatedAt": "2026-08-24T07:58:24",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        136.3,
-        23.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=23&eventtype=TC"
     },
     {
       "id": "WF-1030496",
@@ -298,27 +382,6 @@
         -4.5802
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030706&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1030654",
-      "episodeId": "25",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 14494 ha",
-      "startedAt": "2026-08-11T00:00:00",
-      "endsAt": "2026-08-23T00:00:00",
-      "updatedAt": "2026-08-24T07:56:05",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        106.9408,
-        63.2548
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030654&episodeid=25&eventtype=WF"
     },
     {
       "id": "WF-1030641",
@@ -466,6 +529,27 @@
         -14.4924
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030734&episodeid=13&eventtype=WF"
+    },
+    {
+      "id": "WF-1030635",
+      "episodeId": "5",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 10502 ha",
+      "startedAt": "2026-08-12T00:00:00",
+      "endsAt": "2026-08-23T00:00:00",
+      "updatedAt": "2026-08-24T07:50:48",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        29.907,
+        -9.4205
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030635&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1030587",
@@ -636,6 +720,27 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030693&episodeid=7&eventtype=WF"
     },
     {
+      "id": "WF-1030634",
+      "episodeId": "6",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 20352 ha",
+      "startedAt": "2026-08-13T00:00:00",
+      "endsAt": "2026-08-23T00:00:00",
+      "updatedAt": "2026-08-24T07:39:35",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        19.0695,
+        -8.7908
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030634&episodeid=6&eventtype=WF"
+    },
+    {
       "id": "WF-1030696",
       "episodeId": "5",
       "eventType": "WF",
@@ -676,27 +781,6 @@
         64.9214
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030583&episodeid=25&eventtype=WF"
-    },
-    {
-      "id": "WF-1030664",
-      "episodeId": "15",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10886 ha",
-      "startedAt": "2026-08-13T00:00:00",
-      "endsAt": "2026-08-23T00:00:00",
-      "updatedAt": "2026-08-24T07:36:48",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        72.0557,
-        64.9038
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030664&episodeid=15&eventtype=WF"
     },
     {
       "id": "WF-1030567",
@@ -802,27 +886,6 @@
         -13.7521
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030844&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1030663",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8889 ha",
-      "startedAt": "2026-08-14T00:00:00",
-      "endsAt": "2026-08-23T00:00:00",
-      "updatedAt": "2026-08-24T07:27:44",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        21.5009,
-        -9.4257
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030663&episodeid=9&eventtype=WF"
     },
     {
       "id": "WF-1030835",
@@ -949,27 +1012,6 @@
         -6.8296
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030882&episodeid=11&eventtype=WF"
-    },
-    {
-      "id": "WF-1030659",
-      "episodeId": "21",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 18689 ha",
-      "startedAt": "2026-08-15T00:00:00",
-      "endsAt": "2026-08-23T00:00:00",
-      "updatedAt": "2026-08-24T07:21:17",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        82.9168,
-        65.3088
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030659&episodeid=21&eventtype=WF"
     },
     {
       "id": "WF-1031039",
@@ -1644,27 +1686,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561473&episodeid=1728837&eventtype=EQ"
     },
     {
-      "id": "TC-1001309",
-      "episodeId": "3",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ISELLE-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 120 km/h)",
-      "startedAt": "2026-08-23T15:00:00",
-      "endsAt": "2026-08-24T03:00:00",
-      "updatedAt": "2026-08-24T03:15:43",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -115.3,
-        17.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001309&episodeid=3&eventtype=TC"
-    },
-    {
       "id": "EQ-1561465",
       "episodeId": "1728828",
       "eventType": "EQ",
@@ -1705,27 +1726,6 @@
         -7.9644
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561458&episodeid=1728823&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001306",
-      "episodeId": "15",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TWO-C-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-20T15:00:00",
-      "endsAt": "2026-08-24T03:00:00",
-      "updatedAt": "2026-08-24T02:47:30",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -157.3,
-        15.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=15&eventtype=TC"
     },
     {
       "id": "EQ-1561430",
