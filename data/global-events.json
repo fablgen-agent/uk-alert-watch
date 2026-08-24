@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24T21:01:13.805Z",
+  "checkedAt": "2026-08-24T22:01:28.553Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -7,7 +7,7 @@
   "events": [
     {
       "id": "TC-1001303",
-      "episodeId": "49",
+      "episodeId": "50",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone LALA-26",
@@ -16,15 +16,36 @@
       "alertLevel": "green",
       "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
       "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-24T15:00:00",
-      "updatedAt": "2026-08-24T21:00:22",
+      "endsAt": "2026-08-24T21:00:00",
+      "updatedAt": "2026-08-24T22:00:33",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
-        -175.3,
-        33.4
+        -175.4,
+        33.7
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=49&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=50&eventtype=TC"
+    },
+    {
+      "id": "TC-1001307",
+      "episodeId": "17",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NARRA-26",
+      "country": "Viet Nam, China",
+      "iso3": "VNM",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-20T18:00:00",
+      "endsAt": "2026-08-24T18:00:00",
+      "updatedAt": "2026-08-24T21:56:48",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        107.7,
+        19.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=17&eventtype=TC"
     },
     {
       "id": "TC-1001310",
@@ -38,7 +59,7 @@
       "severity": "Tropical Depression (maximum wind speed of 65 km/h)",
       "startedAt": "2026-08-24T21:00:00",
       "endsAt": "2026-08-24T21:00:00",
-      "updatedAt": "2026-08-24T20:56:49",
+      "updatedAt": "2026-08-24T21:14:23",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -466,27 +487,6 @@
         64.9097
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030814&episodeid=16&eventtype=WF"
-    },
-    {
-      "id": "TC-1001307",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NARRA-26",
-      "country": "Viet Nam, China",
-      "iso3": "VNM",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-08-20T18:00:00",
-      "endsAt": "2026-08-24T18:00:00",
-      "updatedAt": "2026-08-24T20:03:09",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        107.7,
-        19.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=17&eventtype=TC"
     },
     {
       "id": "WF-1030682",
