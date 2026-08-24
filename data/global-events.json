@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-08-24T16:07:08.860Z",
+  "checkedAt": "2026-08-24T17:51:49.964Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "25",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, Northern Mariana Islands, China",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-24T12:00:00",
+      "updatedAt": "2026-08-24T17:43:25",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        133.5,
+        24.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=25&eventtype=TC"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "49",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-24T15:00:00",
+      "updatedAt": "2026-08-24T17:42:06",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -175.3,
+        33.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=49&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561560",
+      "episodeId": "1728941",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Mariana Islands",
+      "country": "Mariana Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:205.654km",
+      "startedAt": "2026-08-24T16:25:24",
+      "endsAt": "2026-08-24T16:25:24",
+      "updatedAt": "2026-08-24T17:26:07",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        145.6671,
+        18.6438
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561560&episodeid=1728941&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1561542",
+      "episodeId": "1728916",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 6M, Depth:10km",
+      "startedAt": "2026-08-24T14:10:17",
+      "endsAt": "2026-08-24T14:10:17",
+      "updatedAt": "2026-08-24T16:17:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        127.4598,
+        -6.6264
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561542&episodeid=1728916&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1561553",
+      "episodeId": "1728928",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-08-24T15:27:32",
+      "endsAt": "2026-08-24T15:27:32",
+      "updatedAt": "2026-08-24T16:07:46",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        128.6513,
+        26.111
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561553&episodeid=1728928&eventtype=EQ"
+    },
     {
       "id": "WF-1031040",
       "episodeId": "2",
@@ -172,27 +277,6 @@
         -16.2836
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030885&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "EQ-1561553",
-      "episodeId": "1728928",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Japan",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:10km",
-      "startedAt": "2026-08-24T15:27:32",
-      "endsAt": "2026-08-24T15:27:32",
-      "updatedAt": "2026-08-24T15:49:46",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        128.6513,
-        26.111
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561553&episodeid=1728928&eventtype=EQ"
     },
     {
       "id": "WF-1030918",
@@ -573,27 +657,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030883&episodeid=10&eventtype=WF"
     },
     {
-      "id": "WF-1030892",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8196 ha",
-      "startedAt": "2026-08-15T00:00:00",
-      "endsAt": "2026-08-24T00:00:00",
-      "updatedAt": "2026-08-24T15:27:58",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        76.4009,
-        66.9299
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030892&episodeid=9&eventtype=WF"
-    },
-    {
       "id": "WF-1030972",
       "episodeId": "4",
       "eventType": "WF",
@@ -634,27 +697,6 @@
         64.5815
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031050&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "49",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LALA-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-24T15:00:00",
-      "updatedAt": "2026-08-24T15:25:41",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -175.3,
-        33.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=49&eventtype=TC"
     },
     {
       "id": "WF-1031030",
@@ -1749,27 +1791,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001306&episodeid=17&eventtype=TC"
     },
     {
-      "id": "EQ-1561542",
-      "episodeId": "1728916",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 6M, Depth:10km",
-      "startedAt": "2026-08-24T14:10:17",
-      "endsAt": "2026-08-24T14:10:17",
-      "updatedAt": "2026-08-24T14:35:03",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        127.4598,
-        -6.6264
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561542&episodeid=1728916&eventtype=EQ"
-    },
-    {
       "id": "TC-1001308",
       "episodeId": "9",
       "eventType": "TC",
@@ -1789,27 +1810,6 @@
         16.7
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001308&episodeid=9&eventtype=TC"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "25",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, Northern Mariana Islands, China",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-24T12:00:00",
-      "updatedAt": "2026-08-24T14:30:55",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        133.5,
-        24.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=25&eventtype=TC"
     },
     {
       "id": "EQ-1561516",
