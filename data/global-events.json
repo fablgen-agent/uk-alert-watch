@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-08-25T09:59:32.596Z",
+  "checkedAt": "2026-08-25T11:04:35.618Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001307",
+      "episodeId": "19",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NARRA-26",
+      "country": "Viet Nam, China",
+      "iso3": "VNM",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-08-20T18:00:00",
+      "endsAt": "2026-08-25T06:00:00",
+      "updatedAt": "2026-08-25T11:02:20",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        108.2,
+        19.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=19&eventtype=TC"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "28",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, Northern Mariana Islands",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-25T06:00:00",
+      "updatedAt": "2026-08-25T11:01:06",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        130.1,
+        26.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=28&eventtype=TC"
+    },
+    {
+      "id": "WF-1030252",
+      "episodeId": "40",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Serbia",
+      "country": "Serbia",
+      "iso3": "SRB",
+      "alertLevel": "orange",
+      "severity": "Orange impact for forestfire in 18310 ha",
+      "startedAt": "2026-08-05T00:00:00",
+      "endsAt": "2026-08-25T00:00:00",
+      "updatedAt": "2026-08-25T11:00:45",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        21.1671,
+        44.8678
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "52",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-25T09:00:00",
+      "updatedAt": "2026-08-25T10:00:21",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -175.9,
+        34.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=52&eventtype=TC"
+    },
     {
       "id": "FL-1104094",
       "episodeId": "3",
@@ -48,27 +132,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104067&episodeid=13&eventtype=FL"
     },
     {
-      "id": "WF-1030252",
-      "episodeId": "40",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Serbia",
-      "country": "Serbia",
-      "iso3": "SRB",
-      "alertLevel": "orange",
-      "severity": "Orange impact for forestfire in 18310 ha",
-      "startedAt": "2026-08-05T00:00:00",
-      "endsAt": "2026-08-25T00:00:00",
-      "updatedAt": "2026-08-25T09:55:15",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        21.1671,
-        44.8678
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030252&episodeid=40&eventtype=WF"
-    },
-    {
       "id": "EQ-1561699",
       "episodeId": "1729091",
       "eventType": "EQ",
@@ -109,27 +172,6 @@
         44.01
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104084&episodeid=4&eventtype=FL"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "52",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LALA-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-25T09:00:00",
-      "updatedAt": "2026-08-25T09:13:58",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -175.9,
-        34.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=52&eventtype=TC"
     },
     {
       "id": "WF-1031088",
@@ -237,27 +279,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001310&episodeid=3&eventtype=TC"
     },
     {
-      "id": "TC-1001307",
-      "episodeId": "19",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NARRA-26",
-      "country": "Viet Nam, China",
-      "iso3": "VNM",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-08-20T18:00:00",
-      "endsAt": "2026-08-25T06:00:00",
-      "updatedAt": "2026-08-25T09:02:42",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        108.2,
-        19.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=19&eventtype=TC"
-    },
-    {
       "id": "WF-1031087",
       "episodeId": "1",
       "eventType": "WF",
@@ -361,27 +382,6 @@
         -14.4494
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031094&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "28",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, Northern Mariana Islands",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-25T06:00:00",
-      "updatedAt": "2026-08-25T08:57:10",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        130.1,
-        26.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=28&eventtype=TC"
     },
     {
       "id": "WF-1030582",
