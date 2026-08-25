@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-08-25T16:17:41.732Z",
+  "checkedAt": "2026-08-25T17:55:29.127Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "29",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, Northern Mariana Islands, China",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-25T12:00:00",
+      "updatedAt": "2026-08-25T17:42:17",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        129,
+        27.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=29&eventtype=TC"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "53",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-25T15:00:00",
+      "updatedAt": "2026-08-25T17:41:17",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -176.7,
+        34.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=53&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561748",
+      "episodeId": "1729163",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:10km",
+      "startedAt": "2026-08-25T14:58:54",
+      "endsAt": "2026-08-25T14:58:54",
+      "updatedAt": "2026-08-25T17:20:33",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.5816,
+        -8.1362
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561748&episodeid=1729163&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1561759",
+      "episodeId": "1729155",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Vanuatu Islands Region",
+      "country": "Vanuatu Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:628.976km",
+      "startedAt": "2026-08-25T16:23:33",
+      "endsAt": "2026-08-25T16:23:33",
+      "updatedAt": "2026-08-25T16:44:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        170.4985,
+        -14.235
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561759&episodeid=1729155&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1561750",
+      "episodeId": "1729153",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Tonga Islands Region",
+      "country": "Tonga Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.2M, Depth:10km",
+      "startedAt": "2026-08-25T15:15:54",
+      "endsAt": "2026-08-25T15:15:54",
+      "updatedAt": "2026-08-25T16:23:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -171.9817,
+        -17.2913
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561750&episodeid=1729153&eventtype=EQ"
+    },
     {
       "id": "WF-1031053",
       "episodeId": "4",
@@ -88,27 +193,6 @@
         -3.1337
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031099&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "TC-1001303",
-      "episodeId": "53",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LALA-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-25T15:00:00",
-      "updatedAt": "2026-08-25T16:00:20",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -176.7,
-        34.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=53&eventtype=TC"
     },
     {
       "id": "WF-1030919",
@@ -256,27 +340,6 @@
         65.6379
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030917&episodeid=10&eventtype=WF"
-    },
-    {
-      "id": "WF-1030911",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9231 ha",
-      "startedAt": "2026-08-14T00:00:00",
-      "endsAt": "2026-08-25T00:00:00",
-      "updatedAt": "2026-08-25T15:52:25",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        132.3662,
-        -11.4282
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030911&episodeid=7&eventtype=WF"
     },
     {
       "id": "WF-1030976",
@@ -531,27 +594,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001309&episodeid=9&eventtype=TC"
     },
     {
-      "id": "EQ-1561750",
-      "episodeId": "1729145",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Tonga Islands Region",
-      "country": "Tonga Islands Region",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.3M, Depth:10km",
-      "startedAt": "2026-08-25T15:15:54",
-      "endsAt": "2026-08-25T15:15:54",
-      "updatedAt": "2026-08-25T15:38:52",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -172.0374,
-        -17.2936
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561750&episodeid=1729145&eventtype=EQ"
-    },
-    {
       "id": "WF-1030967",
       "episodeId": "5",
       "eventType": "WF",
@@ -571,27 +613,6 @@
         -10.3484
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030967&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1030909",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8247 ha",
-      "startedAt": "2026-08-16T00:00:00",
-      "endsAt": "2026-08-25T00:00:00",
-      "updatedAt": "2026-08-25T15:31:35",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        139.4434,
-        -6.5479
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030909&episodeid=8&eventtype=WF"
     },
     {
       "id": "WF-1031050",
@@ -1705,27 +1726,6 @@
         -17.1932
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031095&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "29",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, Northern Mariana Islands, China",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-25T12:00:00",
-      "updatedAt": "2026-08-25T15:01:23",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        129,
-        27.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=29&eventtype=TC"
     },
     {
       "id": "WF-1031101",
