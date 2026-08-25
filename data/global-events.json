@@ -1,30 +1,30 @@
 {
-  "checkedAt": "2026-08-25T20:59:57.190Z",
+  "checkedAt": "2026-08-25T21:57:15.990Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
-      "id": "TC-1001303",
-      "episodeId": "54",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LALA-26",
-      "country": "United States",
-      "iso3": "USA",
+      "id": "EQ-1561797",
+      "episodeId": "1729198",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
       "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-12T15:00:00",
-      "endsAt": "2026-08-25T21:00:00",
-      "updatedAt": "2026-08-25T20:59:01",
-      "source": "NOAA",
+      "severity": "Magnitude 4.7M, Depth:35km",
+      "startedAt": "2026-08-25T20:23:36",
+      "endsAt": "2026-08-25T20:23:36",
+      "updatedAt": "2026-08-25T21:37:08",
+      "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
-        -177.2,
-        35
+        141.8893,
+        37.2686
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=54&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561797&episodeid=1729198&eventtype=EQ"
     },
     {
       "id": "TC-1001307",
@@ -38,7 +38,7 @@
       "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
       "startedAt": "2026-08-20T18:00:00",
       "endsAt": "2026-08-25T18:00:00",
-      "updatedAt": "2026-08-25T20:46:38",
+      "updatedAt": "2026-08-25T21:02:51",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -46,6 +46,48 @@
         20
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001307&episodeid=21&eventtype=TC"
+    },
+    {
+      "id": "EQ-1561626",
+      "episodeId": "1729008",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Afghanistan",
+      "country": "Afghanistan",
+      "iso3": "AFG",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-08-25T01:18:46",
+      "endsAt": "2026-08-25T01:18:46",
+      "updatedAt": "2026-08-25T21:02:27",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        70.463,
+        34.462
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561626&episodeid=1729008&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001309",
+      "episodeId": "10",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ISELLE-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 111 km/h)",
+      "startedAt": "2026-08-23T15:00:00",
+      "endsAt": "2026-08-25T21:00:00",
+      "updatedAt": "2026-08-25T21:01:52",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -121.8,
+        21
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001309&episodeid=10&eventtype=TC"
     },
     {
       "id": "TC-1001305",
@@ -59,7 +101,7 @@
       "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
       "startedAt": "2026-08-18T12:00:00",
       "endsAt": "2026-08-25T18:00:00",
-      "updatedAt": "2026-08-25T20:46:20",
+      "updatedAt": "2026-08-25T21:01:22",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -67,6 +109,27 @@
         27.5
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=30&eventtype=TC"
+    },
+    {
+      "id": "TC-1001303",
+      "episodeId": "54",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LALA-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-12T15:00:00",
+      "endsAt": "2026-08-25T21:00:00",
+      "updatedAt": "2026-08-25T21:00:24",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -177.2,
+        35
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001303&episodeid=54&eventtype=TC"
     },
     {
       "id": "TC-1001310",
@@ -1455,27 +1518,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031120&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF-1031058",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5399 ha",
-      "startedAt": "2026-08-22T00:00:00",
-      "endsAt": "2026-08-25T00:00:00",
-      "updatedAt": "2026-08-25T19:04:23",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        26.0228,
-        -3.1279
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031058&episodeid=2&eventtype=WF"
-    },
-    {
       "id": "WF-1031119",
       "episodeId": "1",
       "eventType": "WF",
@@ -1749,27 +1791,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561750&episodeid=1729153&eventtype=EQ"
     },
     {
-      "id": "TC-1001309",
-      "episodeId": "9",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ISELLE-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 111 km/h)",
-      "startedAt": "2026-08-23T15:00:00",
-      "endsAt": "2026-08-25T15:00:00",
-      "updatedAt": "2026-08-25T15:41:15",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -121.1,
-        20.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001309&episodeid=9&eventtype=TC"
-    },
-    {
       "id": "TC-1001308",
       "episodeId": "12",
       "eventType": "TC",
@@ -1999,27 +2020,6 @@
         -6.6149
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561653&episodeid=1729041&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1561626",
-      "episodeId": "1729008",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Afghanistan",
-      "country": "Afghanistan",
-      "iso3": "AFG",
-      "alertLevel": "orange",
-      "severity": "Magnitude 4.9M, Depth:10km",
-      "startedAt": "2026-08-25T01:18:46",
-      "endsAt": "2026-08-25T01:18:46",
-      "updatedAt": "2026-08-25T03:05:06",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        70.463,
-        34.462
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1561626&episodeid=1729008&eventtype=EQ"
     },
     {
       "id": "EQ-1561644",
