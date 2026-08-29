@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-29T02:04:10.462Z",
+  "checkedAt": "2026-08-29T02:19:17.807Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "39",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, China, Northern Mariana Islands",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-08-28T00:00:00",
+      "updatedAt": "2026-08-29T02:19:06",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        121,
+        28.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=39&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562394",
+      "episodeId": "1729872",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Greece",
+      "country": "Greece",
+      "iso3": "GRC",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:89.639km",
+      "startedAt": "2026-08-28T23:55:58",
+      "endsAt": "2026-08-28T23:55:58",
+      "updatedAt": "2026-08-29T02:13:49",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        22.7096,
+        37.422
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562394&episodeid=1729872&eventtype=EQ"
+    },
     {
       "id": "TC-1001312",
       "episodeId": "8",
@@ -235,27 +277,6 @@
         39.6554
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562389&episodeid=1729854&eventtype=EQ"
-    },
-    {
-      "id": "WF-1030625",
-      "episodeId": "12",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9697 ha",
-      "startedAt": "2026-08-16T00:00:00",
-      "endsAt": "2026-08-28T00:00:00",
-      "updatedAt": "2026-08-28T23:49:18",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.5124,
-        -8.686
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030625&episodeid=12&eventtype=WF"
     },
     {
       "id": "TC-1001315",
@@ -1873,27 +1894,6 @@
         -12.254
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030972&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "39",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, China, Northern Mariana Islands",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-08-28T00:00:00",
-      "updatedAt": "2026-08-28T16:00:36",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        121,
-        28.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=39&eventtype=TC"
     },
     {
       "id": "WF-1030905",
