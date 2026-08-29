@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-29T08:49:08.952Z",
+  "checkedAt": "2026-08-29T09:04:15.816Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001314",
+      "episodeId": "7",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 185 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-29T09:00:00",
+      "updatedAt": "2026-08-29T09:03:36",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -117,
+        14.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562409",
+      "episodeId": "1729904",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.84M, Depth:10km",
+      "startedAt": "2026-08-29T02:41:09",
+      "endsAt": "2026-08-29T02:41:09",
+      "updatedAt": "2026-08-29T09:02:32",
+      "source": "NCAL SS",
+      "isCurrent": true,
+      "coordinates": [
+        -125.27,
+        40.4513
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562409&episodeid=1729904&eventtype=EQ"
+    },
     {
       "id": "EQ-1562439",
       "episodeId": "1729914",
@@ -67,27 +109,6 @@
         23.9
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=13&eventtype=TC"
-    },
-    {
-      "id": "EQ-1562409",
-      "episodeId": "1729904",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.84M, Depth:10km",
-      "startedAt": "2026-08-29T02:41:09",
-      "endsAt": "2026-08-29T02:41:09",
-      "updatedAt": "2026-08-29T08:02:29",
-      "source": "NCAL SS",
-      "isCurrent": true,
-      "coordinates": [
-        -125.27,
-        40.4513
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562409&episodeid=1729904&eventtype=EQ"
     },
     {
       "id": "WF-1031254",
@@ -1684,27 +1705,6 @@
         44.8019
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562425&episodeid=1729895&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001314",
-      "episodeId": "6",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 204 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-29T03:00:00",
-      "updatedAt": "2026-08-29T04:47:08",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -116.3,
-        14.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=6&eventtype=TC"
     },
     {
       "id": "TC-1001315",
