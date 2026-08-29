@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-29T03:19:17.529Z",
+  "checkedAt": "2026-08-29T03:34:03.784Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562409",
+      "episodeId": "1729877",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.87M, Depth:2.30999994277954km",
+      "startedAt": "2026-08-29T02:41:09",
+      "endsAt": "2026-08-29T02:41:09",
+      "updatedAt": "2026-08-29T03:21:23",
+      "source": "NCAL SS",
+      "isCurrent": true,
+      "coordinates": [
+        -125.4033,
+        40.425
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562409&episodeid=1729877&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001312",
+      "episodeId": "9",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ETAU-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-08-29T00:00:00",
+      "updatedAt": "2026-08-29T03:20:13",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        165.8,
+        26.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=9&eventtype=TC"
+    },
     {
       "id": "WF-1031185",
       "episodeId": "8",
@@ -888,27 +930,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031199&episodeid=6&eventtype=WF"
     },
     {
-      "id": "TC-1001312",
-      "episodeId": "9",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ETAU-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-29T00:00:00",
-      "updatedAt": "2026-08-29T03:04:41",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        165.8,
-        26.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=9&eventtype=TC"
-    },
-    {
       "id": "WF-1031281",
       "episodeId": "2",
       "eventType": "WF",
@@ -1306,27 +1327,6 @@
         36.7623
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031263&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "EQ-1562409",
-      "episodeId": "1729877",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.87M, Depth:2.30999994277954km",
-      "startedAt": "2026-08-29T02:41:09",
-      "endsAt": "2026-08-29T02:41:09",
-      "updatedAt": "2026-08-29T02:59:03",
-      "source": "NCAL SS",
-      "isCurrent": true,
-      "coordinates": [
-        -125.4033,
-        40.425
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562409&episodeid=1729877&eventtype=EQ"
     },
     {
       "id": "TC-1001315",
