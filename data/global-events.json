@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-29T16:04:07.257Z",
+  "checkedAt": "2026-08-29T16:19:08.291Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-29T12:00:00",
-      "updatedAt": "2026-08-29T16:01:53",
+      "updatedAt": "2026-08-29T16:17:45",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,48 @@
         30
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=11&eventtype=TC"
+    },
+    {
+      "id": "TC-1001314",
+      "episodeId": "8",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 185 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-29T15:00:00",
+      "updatedAt": "2026-08-29T16:16:43",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -117.6,
+        15.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=8&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562491",
+      "episodeId": "1729978",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:34.783km",
+      "startedAt": "2026-08-29T15:17:06",
+      "endsAt": "2026-08-29T15:17:06",
+      "updatedAt": "2026-08-29T16:14:03",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        140.9937,
+        35.8029
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562491&episodeid=1729978&eventtype=EQ"
     },
     {
       "id": "WF-1031254",
@@ -1770,27 +1812,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=8&eventtype=TC"
     },
     {
-      "id": "TC-1001314",
-      "episodeId": "8",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 185 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-29T15:00:00",
-      "updatedAt": "2026-08-29T14:49:49",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -117.6,
-        15.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=8&eventtype=TC"
-    },
-    {
       "id": "TC-1001311",
       "episodeId": "14",
       "eventType": "TC",
@@ -2083,27 +2104,6 @@
         44.8019
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562425&episodeid=1729895&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562394",
-      "episodeId": "1729872",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Greece",
-      "country": "Greece",
-      "iso3": "GRC",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.5M, Depth:89.639km",
-      "startedAt": "2026-08-28T23:55:58",
-      "endsAt": "2026-08-28T23:55:58",
-      "updatedAt": "2026-08-29T02:13:49",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        22.7096,
-        37.422
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562394&episodeid=1729872&eventtype=EQ"
     }
   ]
 }
