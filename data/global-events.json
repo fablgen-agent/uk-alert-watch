@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-08-29T02:34:03.725Z",
+  "checkedAt": "2026-08-29T02:48:52.592Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001315",
+      "episodeId": "6",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-29T03:00:00",
+      "updatedAt": "2026-08-29T02:48:07",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -134.2,
+        12.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=6&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562409",
+      "episodeId": "1729877",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.87M, Depth:2.30999994277954km",
+      "startedAt": "2026-08-29T02:41:09",
+      "endsAt": "2026-08-29T02:41:09",
+      "updatedAt": "2026-08-29T02:48:06",
+      "source": "NCAL SS",
+      "isCurrent": true,
+      "coordinates": [
+        -125.4033,
+        40.425
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562409&episodeid=1729877&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001311",
+      "episodeId": "12",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone BANG-LANG-26",
+      "country": "United States Minor Outlying Islands",
+      "iso3": "UMI",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-08-26T06:00:00",
+      "endsAt": "2026-08-29T00:00:00",
+      "updatedAt": "2026-08-29T02:46:33",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        167.8,
+        22.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=12&eventtype=TC"
+    },
     {
       "id": "TC-1001312",
       "episodeId": "9",
@@ -69,27 +132,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562394&episodeid=1729872&eventtype=EQ"
     },
     {
-      "id": "TC-1001311",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone BANG-LANG-26",
-      "country": "United States Minor Outlying Islands",
-      "iso3": "UMI",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-08-26T06:00:00",
-      "endsAt": "2026-08-29T00:00:00",
-      "updatedAt": "2026-08-29T01:56:42",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        167.8,
-        22.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=12&eventtype=TC"
-    },
-    {
       "id": "WF-1031144",
       "episodeId": "5",
       "eventType": "WF",
@@ -151,27 +193,6 @@
         -6.8274
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030882&episodeid=24&eventtype=WF"
-    },
-    {
-      "id": "WF-1031301",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5010 ha",
-      "startedAt": "2026-08-15T00:00:00",
-      "endsAt": "2026-08-28T00:00:00",
-      "updatedAt": "2026-08-29T00:07:03",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        96.0246,
-        65.4696
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031301&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF-1030967",
@@ -277,27 +298,6 @@
         39.6554
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562389&episodeid=1729854&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001315",
-      "episodeId": "5",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-28T21:00:00",
-      "updatedAt": "2026-08-28T23:21:06",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -133.4,
-        12.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=5&eventtype=TC"
     },
     {
       "id": "WF-1031226",
