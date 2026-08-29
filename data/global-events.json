@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-29T01:05:04.127Z",
+  "checkedAt": "2026-08-29T01:18:53.810Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001311",
+      "episodeId": "11",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone BANG-LANG-26",
+      "country": "United States Minor Outlying Islands",
+      "iso3": "UMI",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
+      "startedAt": "2026-08-26T06:00:00",
+      "endsAt": "2026-08-28T18:00:00",
+      "updatedAt": "2026-08-29T01:18:29",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        167,
+        20.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=11&eventtype=TC"
+    },
     {
       "id": "TC-1001312",
       "episodeId": "8",
@@ -634,27 +655,6 @@
         -8.2611
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031294&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "TC-1001311",
-      "episodeId": "11",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone BANG-LANG-26",
-      "country": "United States Minor Outlying Islands",
-      "iso3": "UMI",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
-      "startedAt": "2026-08-26T06:00:00",
-      "endsAt": "2026-08-28T18:00:00",
-      "updatedAt": "2026-08-28T23:19:28",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        167,
-        20.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=11&eventtype=TC"
     },
     {
       "id": "WF-1031212",
