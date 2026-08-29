@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-29T13:49:29.426Z",
+  "checkedAt": "2026-08-29T14:04:13.032Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001311",
+      "episodeId": "14",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone BANG-LANG-26",
+      "country": "United States Minor Outlying Islands",
+      "iso3": "UMI",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-08-26T06:00:00",
+      "endsAt": "2026-08-29T12:00:00",
+      "updatedAt": "2026-08-29T14:02:41",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        168.6,
+        25.3
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=14&eventtype=TC"
+    },
     {
       "id": "TC-1001312",
       "episodeId": "10",
@@ -1768,27 +1789,6 @@
         -0.7032
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562439&episodeid=1729914&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001311",
-      "episodeId": "13",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone BANG-LANG-26",
-      "country": "United States Minor Outlying Islands",
-      "iso3": "UMI",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-08-26T06:00:00",
-      "endsAt": "2026-08-29T06:00:00",
-      "updatedAt": "2026-08-29T08:46:47",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        168.2,
-        23.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=13&eventtype=TC"
     },
     {
       "id": "EQ-1562436",
