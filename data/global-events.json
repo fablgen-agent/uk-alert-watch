@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-29T14:19:05.767Z",
+  "checkedAt": "2026-08-29T14:34:05.700Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-29T12:00:00",
-      "updatedAt": "2026-08-29T14:06:24",
+      "updatedAt": "2026-08-29T14:32:18",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,27 @@
         30
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=11&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562370",
+      "episodeId": "1729950",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Chile",
+      "country": "Chile",
+      "iso3": "CHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:87.955km",
+      "startedAt": "2026-08-28T20:44:36",
+      "endsAt": "2026-08-28T20:44:36",
+      "updatedAt": "2026-08-29T14:28:51",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -69.9747,
+        -18.8677
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562370&episodeid=1729950&eventtype=EQ"
     },
     {
       "id": "TC-1001311",
@@ -2083,27 +2104,6 @@
         -21.2109
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562326&episodeid=1729780&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562305",
-      "episodeId": "1729755",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Papua New Guinea",
-      "country": "Papua New Guinea",
-      "iso3": "PNG",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.5M, Depth:10km",
-      "startedAt": "2026-08-28T12:21:36",
-      "endsAt": "2026-08-28T12:21:36",
-      "updatedAt": "2026-08-28T13:32:42",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        141.2038,
-        -3.6651
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562305&episodeid=1729755&eventtype=EQ"
     }
   ]
 }
