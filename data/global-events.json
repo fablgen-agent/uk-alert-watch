@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-29T09:49:14.417Z",
+  "checkedAt": "2026-08-29T10:04:19.808Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-29T06:00:00",
-      "updatedAt": "2026-08-29T09:46:37",
+      "updatedAt": "2026-08-29T10:00:57",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,27 @@
         28.2
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=10&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562453",
+      "episodeId": "1729929",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Timor-Leste",
+      "country": "Timor-Leste",
+      "iso3": "TLS",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:10km",
+      "startedAt": "2026-08-29T09:15:46",
+      "endsAt": "2026-08-29T09:15:46",
+      "updatedAt": "2026-08-29T09:56:03",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        127.2223,
+        -8.588
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562453&episodeid=1729929&eventtype=EQ"
     },
     {
       "id": "TC-1001315",
@@ -1159,27 +1180,6 @@
         -7.6124
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031117&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1031225",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Namibia",
-      "country": "Namibia",
-      "iso3": "NAM",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 11941 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-08-28T00:00:00",
-      "updatedAt": "2026-08-29T07:07:56",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.7012,
-        -18.5021
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031225&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1031224",
