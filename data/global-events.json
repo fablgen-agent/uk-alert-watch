@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-29T06:34:12.773Z",
+  "checkedAt": "2026-08-29T06:49:09.431Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-29T00:00:00",
-      "updatedAt": "2026-08-29T06:32:13",
+      "updatedAt": "2026-08-29T06:47:51",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,90 @@
         26.4
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=9&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562409",
+      "episodeId": "1729904",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.84M, Depth:10km",
+      "startedAt": "2026-08-29T02:41:09",
+      "endsAt": "2026-08-29T02:41:09",
+      "updatedAt": "2026-08-29T06:47:43",
+      "source": "NCAL SS",
+      "isCurrent": true,
+      "coordinates": [
+        -125.27,
+        40.4513
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562409&episodeid=1729904&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001311",
+      "episodeId": "12",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone BANG-LANG-26",
+      "country": "United States Minor Outlying Islands",
+      "iso3": "UMI",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-08-26T06:00:00",
+      "endsAt": "2026-08-29T00:00:00",
+      "updatedAt": "2026-08-29T06:46:52",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        167.8,
+        22.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "FL-1104127",
+      "episodeId": "1",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Ireland",
+      "country": "Ireland",
+      "iso3": "IRL",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-27T01:00:00",
+      "endsAt": "2026-08-29T01:00:00",
+      "updatedAt": "2026-08-29T06:39:05",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -9.5053,
+        52.0596
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104127&episodeid=1&eventtype=FL"
+    },
+    {
+      "id": "FL-1104084",
+      "episodeId": "7",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in France",
+      "country": "France",
+      "iso3": "FRA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-08T01:00:00",
+      "endsAt": "2026-08-28T01:00:00",
+      "updatedAt": "2026-08-29T06:38:55",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        5.9821,
+        47.272
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104084&episodeid=7&eventtype=FL"
     },
     {
       "id": "EQ-1562430",
@@ -67,27 +151,6 @@
         -45.0322
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104126&episodeid=1&eventtype=FL"
-    },
-    {
-      "id": "TC-1001311",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone BANG-LANG-26",
-      "country": "United States Minor Outlying Islands",
-      "iso3": "UMI",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-08-26T06:00:00",
-      "endsAt": "2026-08-29T00:00:00",
-      "updatedAt": "2026-08-29T05:32:20",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        167.8,
-        22.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=12&eventtype=TC"
     },
     {
       "id": "EQ-1562425",
@@ -172,27 +235,6 @@
         -6.4112
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031093&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "EQ-1562409",
-      "episodeId": "1729877",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.87M, Depth:2.30999994277954km",
-      "startedAt": "2026-08-29T02:41:09",
-      "endsAt": "2026-08-29T02:41:09",
-      "updatedAt": "2026-08-29T03:49:34",
-      "source": "NCAL SS",
-      "isCurrent": true,
-      "coordinates": [
-        -125.4033,
-        40.425
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562409&episodeid=1729877&eventtype=EQ"
     },
     {
       "id": "TC-1001315",
@@ -1686,27 +1728,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031247&episodeid=4&eventtype=WF"
     },
     {
-      "id": "WF-1031280",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6373 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-08-28T00:00:00",
-      "updatedAt": "2026-08-29T03:02:16",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        24.8995,
-        -7.4084
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031280&episodeid=2&eventtype=WF"
-    },
-    {
       "id": "WF-1031260",
       "episodeId": "2",
       "eventType": "WF",
@@ -1747,27 +1768,6 @@
         27.2953
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
-    },
-    {
-      "id": "WF-1031246",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Namibia",
-      "country": "Namibia",
-      "iso3": "NAM",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5283 ha",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-28T00:00:00",
-      "updatedAt": "2026-08-29T03:01:40",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        15.9281,
-        -20.6964
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031246&episodeid=2&eventtype=WF"
     },
     {
       "id": "EQ-1562394",
