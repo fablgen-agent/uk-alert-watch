@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-08-29T03:48:57.060Z",
+  "checkedAt": "2026-08-29T04:04:14.955Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031309",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5323 ha",
+      "startedAt": "2026-08-15T00:00:00",
+      "endsAt": "2026-08-29T00:00:00",
+      "updatedAt": "2026-08-29T04:02:12",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -49.9001,
+        -7.2651
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031309&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1031093",
+      "episodeId": "14",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6446 ha",
+      "startedAt": "2026-08-16T00:00:00",
+      "endsAt": "2026-08-29T00:00:00",
+      "updatedAt": "2026-08-29T03:51:47",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -54.9584,
+        -6.4112
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031093&episodeid=14&eventtype=WF"
+    },
+    {
+      "id": "TC-1001312",
+      "episodeId": "9",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ETAU-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-08-29T00:00:00",
+      "updatedAt": "2026-08-29T03:50:15",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        165.8,
+        26.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=9&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562409",
+      "episodeId": "1729877",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.87M, Depth:2.30999994277954km",
+      "startedAt": "2026-08-29T02:41:09",
+      "endsAt": "2026-08-29T02:41:09",
+      "updatedAt": "2026-08-29T03:49:34",
+      "source": "NCAL SS",
+      "isCurrent": true,
+      "coordinates": [
+        -125.4033,
+        40.425
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562409&episodeid=1729877&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001315",
+      "episodeId": "6",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-29T03:00:00",
+      "updatedAt": "2026-08-29T03:49:17",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -134.2,
+        12.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=6&eventtype=TC"
+    },
     {
       "id": "TC-1001311",
       "episodeId": "12",
@@ -109,48 +214,6 @@
         -6.2257
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031307&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "EQ-1562409",
-      "episodeId": "1729877",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.87M, Depth:2.30999994277954km",
-      "startedAt": "2026-08-29T02:41:09",
-      "endsAt": "2026-08-29T02:41:09",
-      "updatedAt": "2026-08-29T03:21:23",
-      "source": "NCAL SS",
-      "isCurrent": true,
-      "coordinates": [
-        -125.4033,
-        40.425
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562409&episodeid=1729877&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001312",
-      "episodeId": "9",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ETAU-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-29T00:00:00",
-      "updatedAt": "2026-08-29T03:20:13",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        165.8,
-        26.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=9&eventtype=TC"
     },
     {
       "id": "WF-1031185",
@@ -676,27 +739,6 @@
         -10.8763
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031264&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1031303",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5393 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-08-28T00:00:00",
-      "updatedAt": "2026-08-29T03:10:53",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        144.3184,
-        -15.9282
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031303&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF-1031227",
@@ -1707,27 +1749,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031263&episodeid=2&eventtype=WF"
     },
     {
-      "id": "TC-1001315",
-      "episodeId": "6",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-29T03:00:00",
-      "updatedAt": "2026-08-29T02:48:07",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -134.2,
-        12.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=6&eventtype=TC"
-    },
-    {
       "id": "EQ-1562394",
       "episodeId": "1729872",
       "eventType": "EQ",
@@ -1831,27 +1852,6 @@
         -6.211
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562367&episodeid=1729825&eventtype=EQ"
-    },
-    {
-      "id": "WF-1031094",
-      "episodeId": "12",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8166 ha",
-      "startedAt": "2026-08-13T00:00:00",
-      "endsAt": "2026-08-28T00:00:00",
-      "updatedAt": "2026-08-28T20:11:53",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -53.4396,
-        -14.4647
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031094&episodeid=12&eventtype=WF"
     },
     {
       "id": "EQ-1562357",
