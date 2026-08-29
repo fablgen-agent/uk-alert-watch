@@ -1,13 +1,34 @@
 {
-  "checkedAt": "2026-08-29T08:04:26.670Z",
+  "checkedAt": "2026-08-29T08:34:08.870Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
+      "id": "EQ-1562439",
+      "episodeId": "1729914",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:41.899km",
+      "startedAt": "2026-08-29T08:08:45",
+      "endsAt": "2026-08-29T08:08:45",
+      "updatedAt": "2026-08-29T08:30:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        126.9069,
+        -0.7032
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562439&episodeid=1729914&eventtype=EQ"
+    },
+    {
       "id": "TC-1001312",
-      "episodeId": "9",
+      "episodeId": "10",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone ETAU-26",
@@ -16,15 +37,15 @@
       "alertLevel": "green",
       "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-29T00:00:00",
-      "updatedAt": "2026-08-29T08:04:24",
+      "endsAt": "2026-08-29T06:00:00",
+      "updatedAt": "2026-08-29T08:21:26",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
-        165.8,
-        26.4
+        165.7,
+        28.2
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=9&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=10&eventtype=TC"
     },
     {
       "id": "TC-1001311",
@@ -886,27 +907,6 @@
         -5.7082
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031290&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1031226",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Tanzania",
-      "country": "Tanzania",
-      "iso3": "TZA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 19418 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-08-28T00:00:00",
-      "updatedAt": "2026-08-29T07:11:08",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.9824,
-        -4.511
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031226&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1031100",
