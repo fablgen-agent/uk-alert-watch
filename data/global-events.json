@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-29T17:34:11.893Z",
+  "checkedAt": "2026-08-29T17:49:06.295Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-29T12:00:00",
-      "updatedAt": "2026-08-29T17:21:24",
+      "updatedAt": "2026-08-29T17:48:14",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,48 @@
         30
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=11&eventtype=TC"
+    },
+    {
+      "id": "TC-1001311",
+      "episodeId": "14",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone BANG-LANG-26",
+      "country": "United States Minor Outlying Islands",
+      "iso3": "UMI",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-08-26T06:00:00",
+      "endsAt": "2026-08-29T12:00:00",
+      "updatedAt": "2026-08-29T17:47:05",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        168.6,
+        25.3
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=14&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562489",
+      "episodeId": "1729969",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:5.7km",
+      "startedAt": "2026-08-29T15:16:55",
+      "endsAt": "2026-08-29T15:16:55",
+      "updatedAt": "2026-08-29T17:36:51",
+      "source": "ALASKA EC",
+      "isCurrent": true,
+      "coordinates": [
+        -156.924,
+        54.788
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562489&episodeid=1729969&eventtype=EQ"
     },
     {
       "id": "TC-1001315",
@@ -655,27 +697,6 @@
         65.352
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031213&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "EQ-1562489",
-      "episodeId": "1729969",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in South Of Alaska",
-      "country": "South Of Alaska",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.8M, Depth:5.7km",
-      "startedAt": "2026-08-29T15:16:55",
-      "endsAt": "2026-08-29T15:16:55",
-      "updatedAt": "2026-08-29T15:27:47",
-      "source": "ALASKA EC",
-      "isCurrent": true,
-      "coordinates": [
-        -156.924,
-        54.788
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562489&episodeid=1729969&eventtype=EQ"
     },
     {
       "id": "WF-1031105",
@@ -1810,27 +1831,6 @@
         -20.3994
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031311&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "TC-1001311",
-      "episodeId": "14",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone BANG-LANG-26",
-      "country": "United States Minor Outlying Islands",
-      "iso3": "UMI",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-08-26T06:00:00",
-      "endsAt": "2026-08-29T12:00:00",
-      "updatedAt": "2026-08-29T14:46:45",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        168.6,
-        25.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=14&eventtype=TC"
     },
     {
       "id": "FL-1103888",
