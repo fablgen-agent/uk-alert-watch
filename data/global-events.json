@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-30T16:34:20.193Z",
+  "checkedAt": "2026-08-30T16:49:14.379Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562649",
+      "episodeId": "1730145",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Chile",
+      "country": "Chile",
+      "iso3": "CHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:102.036km",
+      "startedAt": "2026-08-30T16:04:07",
+      "endsAt": "2026-08-30T16:04:07",
+      "updatedAt": "2026-08-30T16:47:28",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -69.6387,
+        -18.2459
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562649&episodeid=1730145&eventtype=EQ"
+    },
     {
       "id": "TC-1001314",
       "episodeId": "12",
@@ -25,27 +46,6 @@
         17.3
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=12&eventtype=TC"
-    },
-    {
-      "id": "EQ-1562649",
-      "episodeId": "1730145",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Chile",
-      "country": "Chile",
-      "iso3": "CHL",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.7M, Depth:102.036km",
-      "startedAt": "2026-08-30T16:04:07",
-      "endsAt": "2026-08-30T16:04:07",
-      "updatedAt": "2026-08-30T16:25:57",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -69.6387,
-        -18.2459
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562649&episodeid=1730145&eventtype=EQ"
     },
     {
       "id": "TC-1001312",
