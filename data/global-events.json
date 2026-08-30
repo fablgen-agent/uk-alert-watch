@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-30T12:49:01.075Z",
+  "checkedAt": "2026-08-30T13:04:19.601Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-30T06:00:00",
-      "updatedAt": "2026-08-30T12:46:36",
+      "updatedAt": "2026-08-30T13:03:09",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,27 @@
         30.8
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=14&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562609",
+      "episodeId": "1730119",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russia",
+      "country": "Russia",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:54.889km",
+      "startedAt": "2026-08-30T08:09:44",
+      "endsAt": "2026-08-30T08:09:44",
+      "updatedAt": "2026-08-30T13:01:46",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        159.1009,
+        51.5864
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562609&episodeid=1730119&eventtype=EQ"
     },
     {
       "id": "EQ-1562623",
@@ -2083,27 +2104,6 @@
         -8.588
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562453&episodeid=1729929&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562439",
-      "episodeId": "1729914",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5M, Depth:41.899km",
-      "startedAt": "2026-08-29T08:08:45",
-      "endsAt": "2026-08-29T08:08:45",
-      "updatedAt": "2026-08-29T08:49:02",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        126.9069,
-        -0.7032
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562439&episodeid=1729914&eventtype=EQ"
     }
   ]
 }
