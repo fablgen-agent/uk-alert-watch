@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-30T09:19:07.486Z",
+  "checkedAt": "2026-08-30T09:34:09.364Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562608",
+      "episodeId": "1730099",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in South Of Fiji Islands",
+      "country": "South Of Fiji Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:532.696km",
+      "startedAt": "2026-08-30T09:13:55",
+      "endsAt": "2026-08-30T09:13:55",
+      "updatedAt": "2026-08-30T09:34:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -179.9128,
+        -23.414
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562608&episodeid=1730099&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1562607",
+      "episodeId": "1730097",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Kermadec Islands, New Zealand",
+      "country": "Kermadec Islands, New Zealand",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.8M, Depth:35km",
+      "startedAt": "2026-08-30T09:02:09",
+      "endsAt": "2026-08-30T09:02:09",
+      "updatedAt": "2026-08-30T09:32:28",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -177.8882,
+        -30.1462
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562607&episodeid=1730097&eventtype=EQ"
+    },
     {
       "id": "TC-1001312",
       "episodeId": "14",
@@ -17,7 +59,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-30T06:00:00",
-      "updatedAt": "2026-08-30T09:17:24",
+      "updatedAt": "2026-08-30T09:31:28",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -1203,27 +1245,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031117&episodeid=11&eventtype=WF"
     },
     {
-      "id": "WF-1031100",
-      "episodeId": "12",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Namibia",
-      "country": "Namibia",
-      "iso3": "NAM",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 20703 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-08-29T00:00:00",
-      "updatedAt": "2026-08-30T07:13:22",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        19.7936,
-        -18.28
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031100&episodeid=12&eventtype=WF"
-    },
-    {
       "id": "WF-1031055",
       "episodeId": "16",
       "eventType": "WF",
@@ -1327,27 +1348,6 @@
         -16.136
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031271&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1031101",
-      "episodeId": "21",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 40868 ha",
-      "startedAt": "2026-08-24T00:00:00",
-      "endsAt": "2026-08-29T00:00:00",
-      "updatedAt": "2026-08-30T07:09:18",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -98.3157,
-        32.9471
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031101&episodeid=21&eventtype=WF"
     },
     {
       "id": "WF-1031285",
