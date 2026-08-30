@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-30T12:34:20.479Z",
+  "checkedAt": "2026-08-30T12:49:01.075Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-30T06:00:00",
-      "updatedAt": "2026-08-30T12:31:31",
+      "updatedAt": "2026-08-30T12:46:36",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,27 @@
         30.8
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=14&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562623",
+      "episodeId": "1730117",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Yemen",
+      "country": "Yemen",
+      "iso3": "YEM",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:10km",
+      "startedAt": "2026-08-29T19:36:06",
+      "endsAt": "2026-08-29T19:36:06",
+      "updatedAt": "2026-08-30T12:35:46",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        51.4684,
+        14.4444
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562623&episodeid=1730117&eventtype=EQ"
     },
     {
       "id": "WF-1030882",
@@ -2083,27 +2104,6 @@
         -0.7032
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562439&episodeid=1729914&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562436",
-      "episodeId": "1729910",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in South Sandwich Islands Region",
-      "country": "South Sandwich Islands Region",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:89.886km",
-      "startedAt": "2026-08-29T07:10:54",
-      "endsAt": "2026-08-29T07:10:54",
-      "updatedAt": "2026-08-29T07:51:02",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -25.7887,
-        -57.4587
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562436&episodeid=1729910&eventtype=EQ"
     }
   ]
 }
