@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-30T19:19:07.048Z",
+  "checkedAt": "2026-08-30T19:34:08.323Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562670",
+      "episodeId": "1730169",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Papua New Guinea",
+      "country": "Papua New Guinea",
+      "iso3": "PNG",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:46.147km",
+      "startedAt": "2026-08-30T18:18:49",
+      "endsAt": "2026-08-30T18:18:49",
+      "updatedAt": "2026-08-30T19:32:46",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        141.779,
+        -3.85
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562670&episodeid=1730169&eventtype=EQ"
+    },
     {
       "id": "TC-1001312",
       "episodeId": "15",
@@ -1831,27 +1852,6 @@
         51.5864
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562609&episodeid=1730119&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562623",
-      "episodeId": "1730117",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Yemen",
-      "country": "Yemen",
-      "iso3": "YEM",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:10km",
-      "startedAt": "2026-08-29T19:36:06",
-      "endsAt": "2026-08-29T19:36:06",
-      "updatedAt": "2026-08-30T12:35:46",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        51.4684,
-        14.4444
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562623&episodeid=1730117&eventtype=EQ"
     },
     {
       "id": "EQ-1562617",
