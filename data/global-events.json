@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-30T12:04:38.587Z",
+  "checkedAt": "2026-08-30T12:19:14.401Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-30T06:00:00",
-      "updatedAt": "2026-08-30T12:02:18",
+      "updatedAt": "2026-08-30T12:18:04",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,69 @@
         30.8
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=14&eventtype=TC"
+    },
+    {
+      "id": "WF-1030882",
+      "episodeId": "30",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 12907 ha",
+      "startedAt": "2026-08-15T00:00:00",
+      "endsAt": "2026-08-30T00:00:00",
+      "updatedAt": "2026-08-30T12:07:18",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -59.4321,
+        -6.8272
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030882&episodeid=30&eventtype=WF"
+    },
+    {
+      "id": "WF-1031309",
+      "episodeId": "5",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5858 ha",
+      "startedAt": "2026-08-15T00:00:00",
+      "endsAt": "2026-08-30T00:00:00",
+      "updatedAt": "2026-08-30T12:07:09",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -49.9042,
+        -7.2677
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031309&episodeid=5&eventtype=WF"
+    },
+    {
+      "id": "WF-1030967",
+      "episodeId": "12",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 37979 ha",
+      "startedAt": "2026-08-15T00:00:00",
+      "endsAt": "2026-08-30T00:00:00",
+      "updatedAt": "2026-08-30T12:06:58",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        29.5205,
+        -10.3704
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030967&episodeid=12&eventtype=WF"
     },
     {
       "id": "WF-1031138",
@@ -2041,69 +2104,6 @@
         -57.4587
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562436&episodeid=1729910&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562434",
-      "episodeId": "1729907",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Philippines",
-      "country": "Philippines",
-      "iso3": "PHL",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.8M, Depth:60.935km",
-      "startedAt": "2026-08-29T06:32:54",
-      "endsAt": "2026-08-29T06:32:54",
-      "updatedAt": "2026-08-29T07:13:05",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        126.3482,
-        9.976
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562434&episodeid=1729907&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562430",
-      "episodeId": "1729900",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Southwest Indian Ridge",
-      "country": "Southwest Indian Ridge",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.1M, Depth:10km",
-      "startedAt": "2026-08-29T05:40:06",
-      "endsAt": "2026-08-29T05:40:06",
-      "updatedAt": "2026-08-29T06:00:05",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        56.9522,
-        -31.8483
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562430&episodeid=1729900&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562425",
-      "episodeId": "1729895",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Russia",
-      "country": "Russia",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:43.998km",
-      "startedAt": "2026-08-29T04:48:42",
-      "endsAt": "2026-08-29T04:48:42",
-      "updatedAt": "2026-08-29T05:29:05",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        149.9582,
-        44.8019
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562425&episodeid=1729895&eventtype=EQ"
     }
   ]
 }
