@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-30T14:04:11.166Z",
+  "checkedAt": "2026-08-30T14:34:08.589Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -7,7 +7,7 @@
   "events": [
     {
       "id": "TC-1001312",
-      "episodeId": "14",
+      "episodeId": "15",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone ETAU-26",
@@ -16,15 +16,36 @@
       "alertLevel": "green",
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-30T06:00:00",
-      "updatedAt": "2026-08-30T14:03:55",
+      "endsAt": "2026-08-30T12:00:00",
+      "updatedAt": "2026-08-30T14:22:57",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
-        165.3,
-        30.8
+        166,
+        31.1
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=14&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=15&eventtype=TC"
+    },
+    {
+      "id": "TC-1001311",
+      "episodeId": "18",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone BANG-LANG-26",
+      "country": "United States Minor Outlying Islands",
+      "iso3": "UMI",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-08-26T06:00:00",
+      "endsAt": "2026-08-30T12:00:00",
+      "updatedAt": "2026-08-30T14:20:01",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        165.9,
+        34.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=18&eventtype=TC"
     },
     {
       "id": "TC-1001315",
@@ -214,27 +235,6 @@
         63.5406
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031318&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "TC-1001311",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone BANG-LANG-26",
-      "country": "United States Minor Outlying Islands",
-      "iso3": "UMI",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-08-26T06:00:00",
-      "endsAt": "2026-08-30T06:00:00",
-      "updatedAt": "2026-08-30T12:01:05",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        167.3,
-        33.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=17&eventtype=TC"
     },
     {
       "id": "WF-1031028",
