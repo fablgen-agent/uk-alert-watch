@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-30T18:04:09.715Z",
+  "checkedAt": "2026-08-30T18:34:00.033Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562644",
+      "episodeId": "1730164",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:10km",
+      "startedAt": "2026-08-30T14:50:32",
+      "endsAt": "2026-08-30T14:50:32",
+      "updatedAt": "2026-08-30T18:32:33",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        80.5213,
+        42.3245
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562644&episodeid=1730164&eventtype=EQ"
+    },
     {
       "id": "TC-1001312",
       "episodeId": "15",
@@ -17,7 +38,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-30T12:00:00",
-      "updatedAt": "2026-08-30T18:03:25",
+      "updatedAt": "2026-08-30T18:18:44",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -2083,27 +2104,6 @@
         29.9927
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562534&episodeid=1730016&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562491",
-      "episodeId": "1729978",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Japan",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.7M, Depth:34.783km",
-      "startedAt": "2026-08-29T15:17:06",
-      "endsAt": "2026-08-29T15:17:06",
-      "updatedAt": "2026-08-29T16:14:03",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        140.9937,
-        35.8029
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562491&episodeid=1729978&eventtype=EQ"
     }
   ]
 }
