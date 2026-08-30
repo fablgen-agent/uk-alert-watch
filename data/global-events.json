@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-30T05:19:01.248Z",
+  "checkedAt": "2026-08-30T05:34:14.167Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001312",
+      "episodeId": "13",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ETAU-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-08-30T00:00:00",
+      "updatedAt": "2026-08-30T05:20:00",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        164.7,
+        30.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=13&eventtype=TC"
+    },
     {
       "id": "TC-1001314",
       "episodeId": "10",
@@ -25,27 +46,6 @@
         17
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=10&eventtype=TC"
-    },
-    {
-      "id": "TC-1001312",
-      "episodeId": "13",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ETAU-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-30T00:00:00",
-      "updatedAt": "2026-08-30T05:02:27",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        164.7,
-        30.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=13&eventtype=TC"
     },
     {
       "id": "EQ-1562465",
