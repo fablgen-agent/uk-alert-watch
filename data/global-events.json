@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-30T10:34:05.133Z",
+  "checkedAt": "2026-08-30T10:49:07.879Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1103888",
+      "episodeId": "81",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-08-31T01:00:00",
+      "updatedAt": "2026-08-30T10:47:56",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -112.0963,
+        36.098
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=81&eventtype=FL"
+    },
     {
       "id": "TC-1001312",
       "episodeId": "14",
@@ -17,7 +38,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-30T06:00:00",
-      "updatedAt": "2026-08-30T10:30:58",
+      "updatedAt": "2026-08-30T10:47:01",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +46,27 @@
         30.8
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=14&eventtype=TC"
+    },
+    {
+      "id": "TC-1001315",
+      "episodeId": "11",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-30T09:00:00",
+      "updatedAt": "2026-08-30T10:45:59",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -139.1,
+        13.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=11&eventtype=TC"
     },
     {
       "id": "TC-1001314",
@@ -130,27 +172,6 @@
         33.3
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001311&episodeid=17&eventtype=TC"
-    },
-    {
-      "id": "TC-1001315",
-      "episodeId": "11",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-30T09:00:00",
-      "updatedAt": "2026-08-30T08:49:54",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -139.1,
-        13.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=11&eventtype=TC"
     },
     {
       "id": "EQ-1562601",
@@ -1873,27 +1894,6 @@
         35.8029
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562491&episodeid=1729978&eventtype=EQ"
-    },
-    {
-      "id": "FL-1103888",
-      "episodeId": "80",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-08-29T01:00:00",
-      "updatedAt": "2026-08-29T12:10:00",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -74.2107,
-        40.664
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=80&eventtype=FL"
     },
     {
       "id": "EQ-1562461",
