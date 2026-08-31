@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-08-31T20:19:02.176Z",
+  "checkedAt": "2026-08-31T20:34:14.367Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562824",
+      "episodeId": "1730344",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Solomon Is.",
+      "country": "Solomon Is.",
+      "iso3": "SLB",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:10km",
+      "startedAt": "2026-08-31T20:00:29",
+      "endsAt": "2026-08-31T20:00:29",
+      "updatedAt": "2026-08-31T20:30:56",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        158.1558,
+        -9.0154
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562824&episodeid=1730344&eventtype=EQ"
+    },
+    {
+      "id": "DR-1018332",
+      "episodeId": "20",
+      "eventType": "DR",
+      "eventName": "Drought",
+      "title": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ,",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ,",
+      "iso3": "AUT",
+      "alertLevel": "orange",
+      "severity": "Medium impact for agricultural drought in 1412468 km2",
+      "startedAt": "2025-12-21T00:00:00",
+      "endsAt": "2026-08-31T08:23:02",
+      "updatedAt": "2026-08-31T20:30:45",
+      "source": "GDO",
+      "isCurrent": false,
+      "coordinates": [
+        10.941,
+        48.056
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=20&eventtype=DR"
+    },
+    {
+      "id": "TC-1001314",
+      "episodeId": "17",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-31T15:00:00",
+      "updatedAt": "2026-08-31T20:21:50",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -125.1,
+        17.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=17&eventtype=TC"
+    },
     {
       "id": "WF-1031138",
       "episodeId": "14",
@@ -25,27 +88,6 @@
         -11.2471
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031138&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "DR-1018332",
-      "episodeId": "20",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ,",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ,",
-      "iso3": "AUT",
-      "alertLevel": "orange",
-      "severity": "Medium impact for agricultural drought in 1412468 km2",
-      "startedAt": "2025-12-21T00:00:00",
-      "endsAt": "2026-08-31T08:23:02",
-      "updatedAt": "2026-08-31T20:15:33",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        10.941,
-        48.056
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=20&eventtype=DR"
     },
     {
       "id": "WF-1031245",
@@ -319,27 +361,6 @@
         -9.1913
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031189&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031409",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5057 ha",
-      "startedAt": "2026-08-18T00:00:00",
-      "endsAt": "2026-08-31T00:00:00",
-      "updatedAt": "2026-08-31T19:55:28",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        36.2467,
-        -18.1677
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031409&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF-1031408",
@@ -1663,27 +1684,6 @@
         -18.5201
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031198&episodeid=16&eventtype=WF"
-    },
-    {
-      "id": "TC-1001314",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-31T15:00:00",
-      "updatedAt": "2026-08-31T18:31:07",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -125.1,
-        17.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=17&eventtype=TC"
     },
     {
       "id": "TC-1001315",
