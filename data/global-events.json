@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-31T02:34:03.932Z",
+  "checkedAt": "2026-08-31T02:49:05.545Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001315",
+      "episodeId": "14",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-31T03:00:00",
+      "updatedAt": "2026-08-31T02:48:27",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -143.3,
+        13.2
+      ],
+      "officialUrl": "no reportlink found"
+    },
     {
       "id": "EQ-1562708",
       "episodeId": "1730219",
@@ -1747,27 +1768,6 @@
         1.3834
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562582&episodeid=1730190&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001315",
-      "episodeId": "13",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-30T21:00:00",
-      "updatedAt": "2026-08-30T21:32:47",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -141.8,
-        13.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=13&eventtype=TC"
     },
     {
       "id": "TC-1001311",
