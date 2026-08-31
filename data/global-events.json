@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-31T02:04:24.571Z",
+  "checkedAt": "2026-08-31T02:34:03.932Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562708",
+      "episodeId": "1730219",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Peru",
+      "country": "Peru",
+      "iso3": "PER",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:59.386km",
+      "startedAt": "2026-08-31T01:08:05",
+      "endsAt": "2026-08-31T01:08:05",
+      "updatedAt": "2026-08-31T02:24:41",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -79.0145,
+        -9.6152
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562708&episodeid=1730219&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001312",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ETAU-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-08-30T18:00:00",
+      "updatedAt": "2026-08-31T02:21:27",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        166.8,
+        31.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
+    },
     {
       "id": "EQ-1562693",
       "episodeId": "1730203",
@@ -25,27 +67,6 @@
         -3.9287
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562693&episodeid=1730203&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001312",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ETAU-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-30T18:00:00",
-      "updatedAt": "2026-08-31T01:56:25",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        166.8,
-        31.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
     },
     {
       "id": "TC-1001314",
@@ -823,27 +844,6 @@
         44.8423
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031195&episodeid=17&eventtype=WF"
-    },
-    {
-      "id": "WF-1031211",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Canada",
-      "country": "Canada",
-      "iso3": "CAN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10332 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-08-30T00:00:00",
-      "updatedAt": "2026-08-30T23:28:58",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -122.8377,
-        61.9346
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031211&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031164",
