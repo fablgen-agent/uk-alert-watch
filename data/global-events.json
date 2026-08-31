@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-31T21:04:19.946Z",
+  "checkedAt": "2026-08-31T21:19:10.820Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001316",
+      "episodeId": "2",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone FIVE-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 93 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-08-31T21:00:00",
+      "updatedAt": "2026-08-31T21:18:27",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -91.5,
+        28.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=2&eventtype=TC"
+    },
     {
       "id": "DR-1018332",
       "episodeId": "20",
@@ -17,7 +38,7 @@
       "severity": "Medium impact for agricultural drought in 1412468 km2",
       "startedAt": "2025-12-21T00:00:00",
       "endsAt": "2026-08-31T08:23:02",
-      "updatedAt": "2026-08-31T21:00:37",
+      "updatedAt": "2026-08-31T21:15:22",
       "source": "GDO",
       "isCurrent": false,
       "coordinates": [
@@ -382,27 +403,6 @@
         -9.1913
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031189&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031408",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5518 ha",
-      "startedAt": "2026-08-19T00:00:00",
-      "endsAt": "2026-08-31T00:00:00",
-      "updatedAt": "2026-08-31T19:54:05",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        25.3035,
-        -9.727
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031408&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF-1031262",
