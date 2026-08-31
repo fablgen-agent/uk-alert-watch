@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-31T12:19:06.525Z",
+  "checkedAt": "2026-08-31T12:34:31.651Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562775",
+      "episodeId": "1730292",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Peru",
+      "country": "Peru",
+      "iso3": "PER",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:10km",
+      "startedAt": "2026-08-31T11:53:26",
+      "endsAt": "2026-08-31T11:53:26",
+      "updatedAt": "2026-08-31T12:33:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -75.4097,
+        -12.1824
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562775&episodeid=1730292&eventtype=EQ"
+    },
     {
       "id": "DR-1018332",
       "episodeId": "20",
@@ -17,7 +38,7 @@
       "severity": "Medium impact for agricultural drought in 1412468 km2",
       "startedAt": "2025-12-21T00:00:00",
       "endsAt": "2026-08-31T08:23:02",
-      "updatedAt": "2026-08-31T12:15:26",
+      "updatedAt": "2026-08-31T12:25:19",
       "source": "GDO",
       "isCurrent": false,
       "coordinates": [
@@ -67,27 +88,6 @@
         -12.7772
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031209&episodeid=12&eventtype=WF"
-    },
-    {
-      "id": "EQ-1562775",
-      "episodeId": "1730292",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Peru",
-      "country": "Peru",
-      "iso3": "PER",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.7M, Depth:10km",
-      "startedAt": "2026-08-31T11:53:26",
-      "endsAt": "2026-08-31T11:53:26",
-      "updatedAt": "2026-08-31T12:12:13",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -75.4097,
-        -12.1824
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562775&episodeid=1730292&eventtype=EQ"
     },
     {
       "id": "WF-1031300",
