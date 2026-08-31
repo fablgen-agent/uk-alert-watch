@@ -1,30 +1,30 @@
 {
-  "checkedAt": "2026-08-31T20:34:14.367Z",
+  "checkedAt": "2026-08-31T20:49:09.163Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
-      "id": "EQ-1562824",
-      "episodeId": "1730344",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Solomon Is.",
-      "country": "Solomon Is.",
-      "iso3": "SLB",
+      "id": "TC-1001314",
+      "episodeId": "18",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
       "alertLevel": "green",
-      "severity": "Magnitude 4.8M, Depth:10km",
-      "startedAt": "2026-08-31T20:00:29",
-      "endsAt": "2026-08-31T20:00:29",
-      "updatedAt": "2026-08-31T20:30:56",
-      "source": "NEIC",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-31T21:00:00",
+      "updatedAt": "2026-08-31T20:48:51",
+      "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
-        158.1558,
-        -9.0154
+        -125.8,
+        17.5
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562824&episodeid=1730344&eventtype=EQ"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=18&eventtype=TC"
     },
     {
       "id": "DR-1018332",
@@ -38,7 +38,7 @@
       "severity": "Medium impact for agricultural drought in 1412468 km2",
       "startedAt": "2025-12-21T00:00:00",
       "endsAt": "2026-08-31T08:23:02",
-      "updatedAt": "2026-08-31T20:30:45",
+      "updatedAt": "2026-08-31T20:45:15",
       "source": "GDO",
       "isCurrent": false,
       "coordinates": [
@@ -48,25 +48,25 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=20&eventtype=DR"
     },
     {
-      "id": "TC-1001314",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
+      "id": "EQ-1562824",
+      "episodeId": "1730344",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Solomon Is.",
+      "country": "Solomon Is.",
+      "iso3": "SLB",
       "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-31T15:00:00",
-      "updatedAt": "2026-08-31T20:21:50",
-      "source": "NOAA",
+      "severity": "Magnitude 4.8M, Depth:10km",
+      "startedAt": "2026-08-31T20:00:29",
+      "endsAt": "2026-08-31T20:00:29",
+      "updatedAt": "2026-08-31T20:40:43",
+      "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
-        -125.1,
-        17.4
+        158.1558,
+        -9.0154
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=17&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562824&episodeid=1730344&eventtype=EQ"
     },
     {
       "id": "WF-1031138",
