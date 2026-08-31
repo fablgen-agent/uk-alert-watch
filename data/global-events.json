@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-31T14:34:13.859Z",
+  "checkedAt": "2026-08-31T14:49:19.082Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001314",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-31T09:00:00",
+      "updatedAt": "2026-08-31T14:47:00",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -124.4,
+        17.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
+    },
     {
       "id": "DR-1018332",
       "episodeId": "20",
@@ -17,7 +38,7 @@
       "severity": "Medium impact for agricultural drought in 1412468 km2",
       "startedAt": "2025-12-21T00:00:00",
       "endsAt": "2026-08-31T08:23:02",
-      "updatedAt": "2026-08-31T14:30:38",
+      "updatedAt": "2026-08-31T14:45:16",
       "source": "GDO",
       "isCurrent": false,
       "coordinates": [
@@ -1726,27 +1747,6 @@
         -7.9448
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031379&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "TC-1001314",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-31T09:00:00",
-      "updatedAt": "2026-08-31T10:16:21",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -124.4,
-        17.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
     },
     {
       "id": "EQ-1562755",
