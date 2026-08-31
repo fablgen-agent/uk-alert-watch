@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-08-31T04:19:13.533Z",
+  "checkedAt": "2026-08-31T04:34:14.953Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031138",
+      "episodeId": "12",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 15515 ha",
+      "startedAt": "2026-08-16T00:00:00",
+      "endsAt": "2026-08-30T00:00:00",
+      "updatedAt": "2026-08-31T04:31:15",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        17.2503,
+        -11.2478
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031138&episodeid=12&eventtype=WF"
+    },
+    {
+      "id": "TC-1001312",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ETAU-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-08-30T18:00:00",
+      "updatedAt": "2026-08-31T04:24:26",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        166.8,
+        31.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562722",
+      "episodeId": "1730235",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Philippines",
+      "country": "Philippines",
+      "iso3": "PHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:83.891km",
+      "startedAt": "2026-08-31T04:04:34",
+      "endsAt": "2026-08-31T04:04:34",
+      "updatedAt": "2026-08-31T04:21:08",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        126.1362,
+        9.6408
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562722&episodeid=1730235&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001314",
+      "episodeId": "15",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-31T03:00:00",
+      "updatedAt": "2026-08-31T04:20:27",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -123.8,
+        17.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=15&eventtype=TC"
+    },
     {
       "id": "EQ-1562681",
       "episodeId": "1730231",
@@ -25,27 +109,6 @@
         -36.8873
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562681&episodeid=1730231&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001312",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ETAU-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-30T18:00:00",
-      "updatedAt": "2026-08-31T04:02:19",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        166.8,
-        31.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
     },
     {
       "id": "WF-1031344",
@@ -783,27 +846,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031372&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF-1031195",
-      "episodeId": "18",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6548 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-08-30T00:00:00",
-      "updatedAt": "2026-08-31T03:20:27",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -118.2517,
-        44.8412
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031195&episodeid=18&eventtype=WF"
-    },
-    {
       "id": "WF-1031164",
       "episodeId": "9",
       "eventType": "WF",
@@ -1434,27 +1476,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031354&episodeid=1&eventtype=WF"
     },
     {
-      "id": "TC-1001314",
-      "episodeId": "15",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-31T03:00:00",
-      "updatedAt": "2026-08-31T03:04:29",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -123.8,
-        17.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=15&eventtype=TC"
-    },
-    {
       "id": "WF-1031312",
       "episodeId": "5",
       "eventType": "WF",
@@ -1663,27 +1684,6 @@
         -3.9287
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562693&episodeid=1730203&eventtype=EQ"
-    },
-    {
-      "id": "WF-1031138",
-      "episodeId": "12",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 15515 ha",
-      "startedAt": "2026-08-16T00:00:00",
-      "endsAt": "2026-08-30T00:00:00",
-      "updatedAt": "2026-08-31T00:59:48",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        17.2503,
-        -11.2478
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031138&episodeid=12&eventtype=WF"
     },
     {
       "id": "WF-1031318",
