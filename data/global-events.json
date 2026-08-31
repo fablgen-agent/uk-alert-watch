@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-31T01:34:05.961Z",
+  "checkedAt": "2026-08-31T02:04:24.571Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562693",
+      "episodeId": "1730203",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Papua New Guinea",
+      "country": "Papua New Guinea",
+      "iso3": "PNG",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:52.064km",
+      "startedAt": "2026-08-30T22:07:25",
+      "endsAt": "2026-08-30T22:07:25",
+      "updatedAt": "2026-08-31T01:57:17",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        141.3649,
+        -3.9287
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562693&episodeid=1730203&eventtype=EQ"
+    },
     {
       "id": "TC-1001312",
       "episodeId": "16",
@@ -17,7 +38,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-30T18:00:00",
-      "updatedAt": "2026-08-31T01:26:58",
+      "updatedAt": "2026-08-31T01:56:25",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -571,27 +592,6 @@
         -4.1213
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031368&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031212",
-      "episodeId": "10",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7765 ha",
-      "startedAt": "2026-08-21T00:00:00",
-      "endsAt": "2026-08-30T00:00:00",
-      "updatedAt": "2026-08-30T23:37:09",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        127.3721,
-        -20.214
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031212&episodeid=10&eventtype=WF"
     },
     {
       "id": "WF-1031156",
