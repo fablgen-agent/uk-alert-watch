@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-31T20:49:09.163Z",
+  "checkedAt": "2026-08-31T21:04:19.946Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "DR-1018332",
+      "episodeId": "20",
+      "eventType": "DR",
+      "eventName": "Drought",
+      "title": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ,",
+      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ,",
+      "iso3": "AUT",
+      "alertLevel": "orange",
+      "severity": "Medium impact for agricultural drought in 1412468 km2",
+      "startedAt": "2025-12-21T00:00:00",
+      "endsAt": "2026-08-31T08:23:02",
+      "updatedAt": "2026-08-31T21:00:37",
+      "source": "GDO",
+      "isCurrent": false,
+      "coordinates": [
+        10.941,
+        48.056
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=20&eventtype=DR"
+    },
+    {
+      "id": "TC-1001315",
+      "episodeId": "17",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 194 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-31T21:00:00",
+      "updatedAt": "2026-08-31T20:51:28",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -146.5,
+        12.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=17&eventtype=TC"
+    },
     {
       "id": "TC-1001314",
       "episodeId": "18",
@@ -25,27 +67,6 @@
         17.5
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=18&eventtype=TC"
-    },
-    {
-      "id": "DR-1018332",
-      "episodeId": "20",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ,",
-      "country": "Austria, Bosnia & Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, San Marino, Ukraine, ,",
-      "iso3": "AUT",
-      "alertLevel": "orange",
-      "severity": "Medium impact for agricultural drought in 1412468 km2",
-      "startedAt": "2025-12-21T00:00:00",
-      "endsAt": "2026-08-31T08:23:02",
-      "updatedAt": "2026-08-31T20:45:15",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        10.941,
-        48.056
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=20&eventtype=DR"
     },
     {
       "id": "EQ-1562824",
@@ -1684,27 +1705,6 @@
         -18.5201
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031198&episodeid=16&eventtype=WF"
-    },
-    {
-      "id": "TC-1001315",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 194 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-31T15:00:00",
-      "updatedAt": "2026-08-31T15:47:14",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -145.7,
-        12.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=16&eventtype=TC"
     },
     {
       "id": "WF-1031056",
