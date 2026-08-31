@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-31T00:05:09.205Z",
+  "checkedAt": "2026-08-31T00:19:17.038Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031336",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5246 ha",
+      "startedAt": "2026-08-18T00:00:00",
+      "endsAt": "2026-08-30T00:00:00",
+      "updatedAt": "2026-08-31T00:08:15",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        18.3257,
+        -10.9082
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031336&episodeid=2&eventtype=WF"
+    },
     {
       "id": "WF-1031175",
       "episodeId": "5",
@@ -739,27 +760,6 @@
         61.9346
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031211&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1031225",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Namibia",
-      "country": "Namibia",
-      "iso3": "NAM",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 15511 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-08-30T00:00:00",
-      "updatedAt": "2026-08-30T23:28:07",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.7031,
-        -18.5136
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031225&episodeid=7&eventtype=WF"
     },
     {
       "id": "WF-1031164",
