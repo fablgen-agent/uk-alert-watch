@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-31T04:34:14.953Z",
+  "checkedAt": "2026-08-31T04:49:14.819Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562722",
+      "episodeId": "1730235",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Philippines",
+      "country": "Philippines",
+      "iso3": "PHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:83.891km",
+      "startedAt": "2026-08-31T04:04:34",
+      "endsAt": "2026-08-31T04:04:34",
+      "updatedAt": "2026-08-31T04:44:48",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        126.1362,
+        9.6408
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562722&episodeid=1730235&eventtype=EQ"
+    },
+    {
+      "id": "WF-1031318",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Russian Federation",
+      "country": "Russian Federation",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5414 ha",
+      "startedAt": "2026-08-16T00:00:00",
+      "endsAt": "2026-08-30T00:00:00",
+      "updatedAt": "2026-08-31T04:37:51",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        109.0233,
+        63.5406
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031318&episodeid=3&eventtype=WF"
+    },
     {
       "id": "WF-1031138",
       "episodeId": "12",
@@ -46,27 +88,6 @@
         31.7
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
-    },
-    {
-      "id": "EQ-1562722",
-      "episodeId": "1730235",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Philippines",
-      "country": "Philippines",
-      "iso3": "PHL",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:83.891km",
-      "startedAt": "2026-08-31T04:04:34",
-      "endsAt": "2026-08-31T04:04:34",
-      "updatedAt": "2026-08-31T04:21:08",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        126.1362,
-        9.6408
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562722&episodeid=1730235&eventtype=EQ"
     },
     {
       "id": "TC-1001314",
@@ -1684,27 +1705,6 @@
         -3.9287
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562693&episodeid=1730203&eventtype=EQ"
-    },
-    {
-      "id": "WF-1031318",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5414 ha",
-      "startedAt": "2026-08-16T00:00:00",
-      "endsAt": "2026-08-30T00:00:00",
-      "updatedAt": "2026-08-31T00:57:11",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        109.0233,
-        63.5406
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031318&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1031289",
