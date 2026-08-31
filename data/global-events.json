@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-08-31T04:49:14.819Z",
+  "checkedAt": "2026-08-31T05:04:23.729Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562724",
+      "episodeId": "1730238",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in South Of Fiji Islands",
+      "country": "South Of Fiji Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:508.306km",
+      "startedAt": "2026-08-31T04:38:22",
+      "endsAt": "2026-08-31T04:38:22",
+      "updatedAt": "2026-08-31T04:56:49",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        179.8021,
+        -25.2065
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562724&episodeid=1730238&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001312",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ETAU-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-08-30T18:00:00",
+      "updatedAt": "2026-08-31T04:49:23",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        166.8,
+        31.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
+    },
     {
       "id": "EQ-1562722",
       "episodeId": "1730235",
@@ -67,27 +109,6 @@
         -11.2478
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031138&episodeid=12&eventtype=WF"
-    },
-    {
-      "id": "TC-1001312",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ETAU-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-30T18:00:00",
-      "updatedAt": "2026-08-31T04:24:26",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        166.8,
-        31.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
     },
     {
       "id": "TC-1001314",
@@ -214,27 +235,6 @@
         42.6531
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031300&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1031175",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10647 ha",
-      "startedAt": "2026-08-18T00:00:00",
-      "endsAt": "2026-08-30T00:00:00",
-      "updatedAt": "2026-08-31T03:50:17",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        28.3424,
-        -5.6521
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031175&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1031376",
