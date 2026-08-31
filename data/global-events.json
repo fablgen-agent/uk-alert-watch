@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-31T08:49:21.268Z",
+  "checkedAt": "2026-08-31T09:04:22.194Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104130",
+      "episodeId": "1",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Philippines",
+      "country": "Philippines",
+      "iso3": "PHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-28T01:00:00",
+      "endsAt": "2026-08-30T01:00:00",
+      "updatedAt": "2026-08-31T09:02:54",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        120.7662,
+        14.9152
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104130&episodeid=1&eventtype=FL"
+    },
     {
       "id": "DR-1018332",
       "episodeId": "20",
@@ -17,7 +38,7 @@
       "severity": "Medium impact for agricultural drought in 1412468 km2",
       "startedAt": "2025-12-21T00:00:00",
       "endsAt": "2026-08-31T08:23:02",
-      "updatedAt": "2026-08-31T08:45:16",
+      "updatedAt": "2026-08-31T09:00:47",
       "source": "GDO",
       "isCurrent": false,
       "coordinates": [
@@ -25,6 +46,69 @@
         48.056
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=20&eventtype=DR"
+    },
+    {
+      "id": "TC-1001312",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ETAU-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-08-30T18:00:00",
+      "updatedAt": "2026-08-31T08:53:24",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        166.8,
+        31.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
+    },
+    {
+      "id": "TC-1001315",
+      "episodeId": "15",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-31T09:00:00",
+      "updatedAt": "2026-08-31T08:52:04",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -144.2,
+        13
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=15&eventtype=TC"
+    },
+    {
+      "id": "TC-1001314",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-31T09:00:00",
+      "updatedAt": "2026-08-31T08:49:30",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -124.4,
+        17.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
     },
     {
       "id": "EQ-1562739",
@@ -67,27 +151,6 @@
         11.864
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1027575&episodeid=1&eventtype=DR"
-    },
-    {
-      "id": "TC-1001312",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ETAU-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-30T18:00:00",
-      "updatedAt": "2026-08-31T08:22:20",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        166.8,
-        31.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
     },
     {
       "id": "DR-1027491",
@@ -174,27 +237,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=21&eventtype=DR"
     },
     {
-      "id": "TC-1001315",
-      "episodeId": "14",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-31T03:00:00",
-      "updatedAt": "2026-08-31T08:19:51",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -143.3,
-        13.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=14&eventtype=TC"
-    },
-    {
       "id": "DR-1018431",
       "episodeId": "13",
       "eventType": "DR",
@@ -277,27 +319,6 @@
         -8.585
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1027448&episodeid=7&eventtype=DR"
-    },
-    {
-      "id": "FL-1104130",
-      "episodeId": "1",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Philippines",
-      "country": "Philippines",
-      "iso3": "PHL",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-08-28T01:00:00",
-      "endsAt": "2026-08-30T01:00:00",
-      "updatedAt": "2026-08-31T08:15:36",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        120.7662,
-        14.9152
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104130&episodeid=1&eventtype=FL"
     },
     {
       "id": "FL-1104129",
@@ -1600,27 +1621,6 @@
         -15.9865
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031345&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "TC-1001314",
-      "episodeId": "15",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-31T03:00:00",
-      "updatedAt": "2026-08-31T07:01:04",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -123.8,
-        17.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=15&eventtype=TC"
     },
     {
       "id": "WF-1031352",
