@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-08-31T04:04:18.719Z",
+  "checkedAt": "2026-08-31T04:19:13.533Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562681",
+      "episodeId": "1730231",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in New Zealand",
+      "country": "New Zealand",
+      "iso3": "NZL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:180.094km",
+      "startedAt": "2026-08-30T22:08:03",
+      "endsAt": "2026-08-30T22:08:03",
+      "updatedAt": "2026-08-31T04:17:03",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        177.4474,
+        -36.8873
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562681&episodeid=1730231&eventtype=EQ"
+    },
     {
       "id": "TC-1001312",
       "episodeId": "16",
@@ -214,27 +235,6 @@
         -6.2252
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031307&episodeid=9&eventtype=WF"
-    },
-    {
-      "id": "WF-1031188",
-      "episodeId": "23",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 19624 ha",
-      "startedAt": "2026-08-19T00:00:00",
-      "endsAt": "2026-08-30T00:00:00",
-      "updatedAt": "2026-08-31T03:43:36",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        118.1743,
-        65.9669
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031188&episodeid=23&eventtype=WF"
     },
     {
       "id": "WF-1031174",
