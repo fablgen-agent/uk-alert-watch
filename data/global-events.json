@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-31T10:04:18.666Z",
+  "checkedAt": "2026-08-31T10:19:06.765Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-27T00:00:00",
       "endsAt": "2026-08-30T18:00:00",
-      "updatedAt": "2026-08-31T10:01:51",
+      "updatedAt": "2026-08-31T10:18:58",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,27 @@
         31.7
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001312&episodeid=16&eventtype=TC"
+    },
+    {
+      "id": "TC-1001314",
+      "episodeId": "16",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-08-31T09:00:00",
+      "updatedAt": "2026-08-31T10:16:21",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -124.4,
+        17.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
     },
     {
       "id": "DR-1018332",
@@ -38,7 +59,7 @@
       "severity": "Medium impact for agricultural drought in 1412468 km2",
       "startedAt": "2025-12-21T00:00:00",
       "endsAt": "2026-08-31T08:23:02",
-      "updatedAt": "2026-08-31T10:00:32",
+      "updatedAt": "2026-08-31T10:15:14",
       "source": "GDO",
       "isCurrent": false,
       "coordinates": [
@@ -46,6 +67,48 @@
         48.056
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=20&eventtype=DR"
+    },
+    {
+      "id": "EQ-1562755",
+      "episodeId": "1730275",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russian Federation",
+      "country": "Russian Federation",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:147.811km",
+      "startedAt": "2026-08-31T09:19:57",
+      "endsAt": "2026-08-31T09:19:57",
+      "updatedAt": "2026-08-31T10:12:23",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        148.2193,
+        45.1453
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562755&episodeid=1730275&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1562739",
+      "episodeId": "1730254",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.5M, Depth:10km",
+      "startedAt": "2026-08-31T08:03:28",
+      "endsAt": "2026-08-31T08:03:28",
+      "updatedAt": "2026-08-31T10:10:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.6119,
+        -8.241
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562739&episodeid=1730254&eventtype=EQ"
     },
     {
       "id": "FL-1104130",
@@ -88,48 +151,6 @@
         13
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=15&eventtype=TC"
-    },
-    {
-      "id": "TC-1001314",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-08-31T09:00:00",
-      "updatedAt": "2026-08-31T08:49:30",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -124.4,
-        17.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=16&eventtype=TC"
-    },
-    {
-      "id": "EQ-1562739",
-      "episodeId": "1730254",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.5M, Depth:10km",
-      "startedAt": "2026-08-31T08:03:28",
-      "endsAt": "2026-08-31T08:03:28",
-      "updatedAt": "2026-08-31T08:26:23",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        120.6119,
-        -8.241
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562739&episodeid=1730254&eventtype=EQ"
     },
     {
       "id": "DR-1027575",
@@ -1474,27 +1495,6 @@
         -11.2332
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031377&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031312",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6529 ha",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-08-30T00:00:00",
-      "updatedAt": "2026-08-31T07:03:23",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        132.2443,
-        -12.7371
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031312&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1031353",
