@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-09-01T08:27:51.038Z",
+  "checkedAt": "2026-09-01T08:42:39.671Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562918",
+      "episodeId": "1730450",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.6M, Depth:10km",
+      "startedAt": "2026-09-01T08:22:20",
+      "endsAt": "2026-09-01T08:22:20",
+      "updatedAt": "2026-09-01T08:41:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        128.8054,
+        0.1685
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562918&episodeid=1730450&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001316",
+      "episodeId": "3",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-01T03:00:00",
+      "updatedAt": "2026-09-01T08:39:09",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -91.8,
+        28.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=3&eventtype=TC"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "40",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, China, Northern Mariana Islands",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-09-01T06:00:00",
+      "updatedAt": "2026-09-01T08:36:16",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        114.4,
+        20
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=40&eventtype=TC"
+    },
     {
       "id": "WF-1030870",
       "episodeId": "32",
@@ -445,27 +508,6 @@
         65.9701
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031188&episodeid=28&eventtype=WF"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "3",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-01T03:00:00",
-      "updatedAt": "2026-09-01T08:06:32",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -91.8,
-        28.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=3&eventtype=TC"
     },
     {
       "id": "WF-1031149",
@@ -1411,48 +1453,6 @@
         -17.8257
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031326&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1031385",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5517 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-08-31T00:00:00",
-      "updatedAt": "2026-09-01T07:11:28",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        144.5021,
-        -14.6193
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031385&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1031357",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5046 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-08-31T00:00:00",
-      "updatedAt": "2026-09-01T07:10:32",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        21.4715,
-        -16.0804
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031357&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1031377",
