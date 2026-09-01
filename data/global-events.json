@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-01T10:43:17.497Z",
+  "checkedAt": "2026-09-01T10:54:38.297Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-01T09:00:00",
-      "updatedAt": "2026-09-01T10:38:53",
+      "updatedAt": "2026-09-01T10:52:07",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,69 @@
         29
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
+    },
+    {
+      "id": "FL-1104135",
+      "episodeId": "1",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Costa Rica",
+      "country": "Costa Rica",
+      "iso3": "CRI",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-30T01:00:00",
+      "endsAt": "2026-09-01T01:00:00",
+      "updatedAt": "2026-09-01T10:48:06",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -83.8124,
+        9.3168
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104135&episodeid=1&eventtype=FL"
+    },
+    {
+      "id": "FL-1104105",
+      "episodeId": "4",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Nigeria",
+      "country": "Nigeria",
+      "iso3": "NGA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-13T01:00:00",
+      "endsAt": "2026-08-31T01:00:00",
+      "updatedAt": "2026-09-01T10:47:46",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        7.436,
+        10.5183
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104105&episodeid=4&eventtype=FL"
+    },
+    {
+      "id": "FL-1103888",
+      "episodeId": "79",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-08-31T01:00:00",
+      "updatedAt": "2026-09-01T10:46:48",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -112.1565,
+        37.6741
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=79&eventtype=FL"
     },
     {
       "id": "EQ-1562918",
@@ -1476,48 +1539,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031417&episodeid=3&eventtype=WF"
     },
     {
-      "id": "WF-1031260",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 14979 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-08-31T00:00:00",
-      "updatedAt": "2026-09-01T07:13:42",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.6117,
-        -16.6636
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031260&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1031326",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5556 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-08-31T00:00:00",
-      "updatedAt": "2026-09-01T07:11:56",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        21.5101,
-        -17.8257
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031326&episodeid=4&eventtype=WF"
-    },
-    {
       "id": "WF-1031377",
       "episodeId": "6",
       "eventType": "WF",
@@ -2083,27 +2104,6 @@
         -9.6152
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562708&episodeid=1730219&eventtype=EQ"
-    },
-    {
-      "id": "FL-1103888",
-      "episodeId": "81",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-08-31T01:00:00",
-      "updatedAt": "2026-08-30T10:47:56",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -112.0963,
-        36.098
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=81&eventtype=FL"
     }
   ]
 }
