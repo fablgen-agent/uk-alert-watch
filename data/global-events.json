@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-01T09:52:46.887Z",
+  "checkedAt": "2026-09-01T10:07:53.771Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "40",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, China, Northern Mariana Islands",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-09-01T06:00:00",
+      "updatedAt": "2026-09-01T10:05:19",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        114.4,
+        20
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=40&eventtype=TC"
+    },
+    {
+      "id": "TC-1001316",
+      "episodeId": "4",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-01T09:00:00",
+      "updatedAt": "2026-09-01T09:53:01",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -92.8,
+        29
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
+    },
     {
       "id": "TC-1001318",
       "episodeId": "1",
@@ -25,27 +67,6 @@
         22.5
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=1&eventtype=TC"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "4",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-01T09:00:00",
-      "updatedAt": "2026-09-01T09:37:54",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -92.8,
-        29
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
     },
     {
       "id": "TC-1001317",
@@ -109,27 +130,6 @@
         18
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=20&eventtype=TC"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "40",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, China, Northern Mariana Islands",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-09-01T06:00:00",
-      "updatedAt": "2026-09-01T09:06:50",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        114.4,
-        20
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=40&eventtype=TC"
     },
     {
       "id": "EQ-1562918",
