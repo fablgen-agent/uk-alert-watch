@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-01T09:40:04.492Z",
+  "checkedAt": "2026-09-01T09:52:46.887Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001318",
+      "episodeId": "1",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KROVANH-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-09-01T06:00:00",
+      "endsAt": "2026-09-01T06:00:00",
+      "updatedAt": "2026-09-01T09:51:51",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        131.5,
+        22.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=1&eventtype=TC"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "4",
@@ -25,27 +46,6 @@
         29
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
-    },
-    {
-      "id": "TC-1001318",
-      "episodeId": "1",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KROVANH-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-09-01T06:00:00",
-      "endsAt": "2026-09-01T06:00:00",
-      "updatedAt": "2026-09-01T09:29:52",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        131.5,
-        22.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=1&eventtype=TC"
     },
     {
       "id": "TC-1001317",
