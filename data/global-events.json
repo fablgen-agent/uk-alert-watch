@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-01T01:50:48.951Z",
+  "checkedAt": "2026-09-01T02:06:40.254Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Medium impact for agricultural drought in 1412468 km2",
       "startedAt": "2025-12-21T00:00:00",
       "endsAt": "2026-08-31T08:23:02",
-      "updatedAt": "2026-09-01T01:50:14",
+      "updatedAt": "2026-09-01T02:05:36",
       "source": "GDO",
       "isCurrent": false,
       "coordinates": [
@@ -25,6 +25,27 @@
         48.056
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=20&eventtype=DR"
+    },
+    {
+      "id": "TC-1001316",
+      "episodeId": "2",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone FIVE-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 93 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-08-31T21:00:00",
+      "updatedAt": "2026-09-01T01:51:21",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -91.5,
+        28.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=2&eventtype=TC"
     },
     {
       "id": "EQ-1562855",
@@ -46,27 +67,6 @@
         -20.4066
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562855&episodeid=1730378&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "2",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone FIVE-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 93 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-08-31T21:00:00",
-      "updatedAt": "2026-09-01T01:22:32",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -91.5,
-        28.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=2&eventtype=TC"
     },
     {
       "id": "WF-1030870",
