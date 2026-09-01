@@ -1,31 +1,10 @@
 {
-  "checkedAt": "2026-09-01T05:37:57.264Z",
+  "checkedAt": "2026-09-01T05:49:54.554Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
-    {
-      "id": "EQ-1562888",
-      "episodeId": "1730417",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:35km",
-      "startedAt": "2026-09-01T05:06:33",
-      "endsAt": "2026-09-01T05:06:33",
-      "updatedAt": "2026-09-01T05:29:24",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        131.0442,
-        -4.2388
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562888&episodeid=1730417&eventtype=EQ"
-    },
     {
       "id": "TC-1001316",
       "episodeId": "3",
@@ -38,7 +17,7 @@
       "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-01T03:00:00",
-      "updatedAt": "2026-09-01T05:21:56",
+      "updatedAt": "2026-09-01T05:48:08",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -46,6 +25,27 @@
         28.6
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=3&eventtype=TC"
+    },
+    {
+      "id": "EQ-1562888",
+      "episodeId": "1730417",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:35km",
+      "startedAt": "2026-09-01T05:06:33",
+      "endsAt": "2026-09-01T05:06:33",
+      "updatedAt": "2026-09-01T05:46:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        131.0442,
+        -4.2388
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562888&episodeid=1730417&eventtype=EQ"
     },
     {
       "id": "TC-1001314",
