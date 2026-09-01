@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-01T01:37:14.290Z",
+  "checkedAt": "2026-09-01T01:50:48.951Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Medium impact for agricultural drought in 1412468 km2",
       "startedAt": "2025-12-21T00:00:00",
       "endsAt": "2026-08-31T08:23:02",
-      "updatedAt": "2026-09-01T01:35:15",
+      "updatedAt": "2026-09-01T01:50:14",
       "source": "GDO",
       "isCurrent": false,
       "coordinates": [
@@ -25,6 +25,27 @@
         48.056
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=20&eventtype=DR"
+    },
+    {
+      "id": "EQ-1562855",
+      "episodeId": "1730378",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Fiji",
+      "country": "Fiji",
+      "iso3": "FJI",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:533.035km",
+      "startedAt": "2026-09-01T01:29:10",
+      "endsAt": "2026-09-01T01:29:10",
+      "updatedAt": "2026-09-01T01:47:24",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -177.994,
+        -20.4066
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562855&episodeid=1730378&eventtype=EQ"
     },
     {
       "id": "TC-1001316",
@@ -1432,27 +1453,6 @@
         -9.8642
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031224&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1031284",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 17600 ha",
-      "startedAt": "2026-08-24T00:00:00",
-      "endsAt": "2026-08-31T00:00:00",
-      "updatedAt": "2026-08-31T23:15:11",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        22.4025,
-        -17.6002
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031284&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1031271",
