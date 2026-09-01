@@ -1,31 +1,10 @@
 {
-  "checkedAt": "2026-09-01T09:25:59.726Z",
+  "checkedAt": "2026-09-01T09:40:04.492Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
-    {
-      "id": "TC-1001317",
-      "episodeId": "1",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone MARIE-26",
-      "country": "Mexico",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 148 km/h)",
-      "startedAt": "2026-09-01T09:00:00",
-      "endsAt": "2026-09-01T09:00:00",
-      "updatedAt": "2026-09-01T09:24:36",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -108.9,
-        13.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=1&eventtype=TC"
-    },
     {
       "id": "TC-1001316",
       "episodeId": "4",
@@ -38,7 +17,7 @@
       "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-01T09:00:00",
-      "updatedAt": "2026-09-01T09:21:17",
+      "updatedAt": "2026-09-01T09:37:54",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -46,6 +25,48 @@
         29
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
+    },
+    {
+      "id": "TC-1001318",
+      "episodeId": "1",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KROVANH-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-09-01T06:00:00",
+      "endsAt": "2026-09-01T06:00:00",
+      "updatedAt": "2026-09-01T09:29:52",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        131.5,
+        22.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=1&eventtype=TC"
+    },
+    {
+      "id": "TC-1001317",
+      "episodeId": "1",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone MARIE-26",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 148 km/h)",
+      "startedAt": "2026-09-01T09:00:00",
+      "endsAt": "2026-09-01T09:00:00",
+      "updatedAt": "2026-09-01T09:29:42",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -108.9,
+        13.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=1&eventtype=TC"
     },
     {
       "id": "TC-1001315",
@@ -1474,27 +1495,6 @@
         -16.6636
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031260&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1031340",
-      "episodeId": "11",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 12719 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-08-31T00:00:00",
-      "updatedAt": "2026-09-01T07:13:30",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -121.39,
-        35.9214
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031340&episodeid=11&eventtype=WF"
     },
     {
       "id": "WF-1031326",
