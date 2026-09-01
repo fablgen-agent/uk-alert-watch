@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-01T13:39:34.740Z",
+  "checkedAt": "2026-09-01T13:51:48.144Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562953",
+      "episodeId": "1730490",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Philippines",
+      "country": "Philippines",
+      "iso3": "PHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.2M, Depth:120.779km",
+      "startedAt": "2026-09-01T13:22:30",
+      "endsAt": "2026-09-01T13:22:30",
+      "updatedAt": "2026-09-01T13:46:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        125.672,
+        5.1623
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562953&episodeid=1730490&eventtype=EQ"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "4",
@@ -1369,27 +1390,6 @@
         -1.1374
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031350&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031417",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 11151 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T11:14:12",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -57.3784,
-        -19.1544
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031417&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031270",
