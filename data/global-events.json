@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-01T17:49:27.159Z",
+  "checkedAt": "2026-09-01T18:28:41.804Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562972",
+      "episodeId": "1730533",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:35km",
+      "startedAt": "2026-09-01T13:47:19",
+      "endsAt": "2026-09-01T13:47:19",
+      "updatedAt": "2026-09-01T18:18:13",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.4311,
+        52.2673
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562972&episodeid=1730533&eventtype=EQ"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "5",
@@ -17,7 +38,7 @@
       "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-01T15:00:00",
-      "updatedAt": "2026-09-01T17:37:08",
+      "updatedAt": "2026-09-01T18:08:03",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -361,27 +382,6 @@
         -10.9126
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031331&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1031427",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5541 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T16:12:20",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        104.3047,
-        -1.7434
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031427&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1031264",
