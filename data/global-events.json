@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-01T05:24:31.183Z",
+  "checkedAt": "2026-09-01T05:37:57.264Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1562888",
+      "episodeId": "1730417",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:35km",
+      "startedAt": "2026-09-01T05:06:33",
+      "endsAt": "2026-09-01T05:06:33",
+      "updatedAt": "2026-09-01T05:29:24",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        131.0442,
+        -4.2388
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562888&episodeid=1730417&eventtype=EQ"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "3",
@@ -1747,27 +1768,6 @@
         -11.8615
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031251&episodeid=11&eventtype=WF"
-    },
-    {
-      "id": "WF-1031289",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8100 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-08-31T00:00:00",
-      "updatedAt": "2026-09-01T03:22:27",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        21.4881,
-        -17.0968
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031289&episodeid=6&eventtype=WF"
     },
     {
       "id": "TC-1001315",
