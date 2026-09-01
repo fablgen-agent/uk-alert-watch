@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-01T12:31:02.850Z",
+  "checkedAt": "2026-09-01T12:54:15.302Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001316",
+      "episodeId": "4",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-01T09:00:00",
+      "updatedAt": "2026-09-01T12:52:14",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -92.8,
+        29
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
+    },
     {
       "id": "WF-1031300",
       "episodeId": "14",
@@ -25,27 +46,6 @@
         42.6534
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031300&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "4",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-01T09:00:00",
-      "updatedAt": "2026-09-01T12:22:38",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -92.8,
-        29
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
     },
     {
       "id": "WF-1031209",
