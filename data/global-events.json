@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-01T14:41:09.920Z",
+  "checkedAt": "2026-09-01T14:56:36.871Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001314",
+      "episodeId": "21",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-01T15:00:00",
+      "updatedAt": "2026-09-01T14:53:58",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -129,
+        18.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=21&eventtype=TC"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "4",
@@ -1936,27 +1957,6 @@
         13.1
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=19&eventtype=TC"
-    },
-    {
-      "id": "TC-1001314",
-      "episodeId": "20",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-01T09:00:00",
-      "updatedAt": "2026-09-01T09:14:48",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -127.9,
-        18
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=20&eventtype=TC"
     },
     {
       "id": "EQ-1562914",
