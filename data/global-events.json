@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-01T13:51:48.144Z",
+  "checkedAt": "2026-09-01T14:07:53.139Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104124",
+      "episodeId": "1",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Nepal",
+      "country": "Nepal",
+      "iso3": "NPL",
+      "alertLevel": "red",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-26T01:00:00",
+      "endsAt": "2026-09-01T14:00:00",
+      "updatedAt": "2026-09-01T14:07:20.25",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        85.3649,
+        27.2953
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
+    },
     {
       "id": "EQ-1562953",
       "episodeId": "1730490",
@@ -17,7 +38,7 @@
       "severity": "Magnitude 5.2M, Depth:120.779km",
       "startedAt": "2026-09-01T13:22:30",
       "endsAt": "2026-09-01T13:22:30",
-      "updatedAt": "2026-09-01T13:46:43",
+      "updatedAt": "2026-09-01T14:05:04",
       "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +46,27 @@
         5.1623
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562953&episodeid=1730490&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1562939",
+      "episodeId": "1730491",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Chile",
+      "country": "Chile",
+      "iso3": "CHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:10km",
+      "startedAt": "2026-09-01T12:15:51",
+      "endsAt": "2026-09-01T12:15:51",
+      "updatedAt": "2026-09-01T14:03:52",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -71.9434,
+        -29.4696
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562939&episodeid=1730491&eventtype=EQ"
     },
     {
       "id": "TC-1001316",
@@ -38,7 +80,7 @@
       "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-01T09:00:00",
-      "updatedAt": "2026-09-01T13:38:21",
+      "updatedAt": "2026-09-01T13:52:20",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -1243,48 +1285,6 @@
         -18.5187
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031198&episodeid=19&eventtype=WF"
-    },
-    {
-      "id": "WF-1031386",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5441 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T11:17:43",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -53.3617,
-        -14.4426
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031386&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1031395",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5097 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T11:17:35",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        16.3163,
-        -15.3703
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031395&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1031385",
