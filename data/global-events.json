@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-09-01T12:10:08.500Z",
+  "checkedAt": "2026-09-01T12:31:02.850Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031300",
+      "episodeId": "14",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Montenegro",
+      "country": "Montenegro",
+      "iso3": "MNE",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 10329 ha",
+      "startedAt": "2026-08-17T00:00:00",
+      "endsAt": "2026-09-01T00:00:00",
+      "updatedAt": "2026-09-01T12:22:55",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        18.9087,
+        42.6534
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031300&episodeid=14&eventtype=WF"
+    },
+    {
+      "id": "TC-1001316",
+      "episodeId": "4",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-01T09:00:00",
+      "updatedAt": "2026-09-01T12:22:38",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -92.8,
+        29
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
+    },
+    {
+      "id": "WF-1031209",
+      "episodeId": "13",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 8956 ha",
+      "startedAt": "2026-08-17T00:00:00",
+      "endsAt": "2026-09-01T00:00:00",
+      "updatedAt": "2026-09-01T12:21:56",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        132.0841,
+        -12.7765
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031209&episodeid=13&eventtype=WF"
+    },
+    {
+      "id": "WF-1031259",
+      "episodeId": "13",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Russian Federation",
+      "country": "Russian Federation",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 9375 ha",
+      "startedAt": "2026-08-17T00:00:00",
+      "endsAt": "2026-09-01T00:00:00",
+      "updatedAt": "2026-09-01T12:21:21",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        107.2292,
+        63.7072
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031259&episodeid=13&eventtype=WF"
+    },
     {
       "id": "WF-1031423",
       "episodeId": "4",
@@ -88,27 +172,6 @@
         -11.5247
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031268&episodeid=10&eventtype=WF"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "4",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-01T09:00:00",
-      "updatedAt": "2026-09-01T12:07:55",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -92.8,
-        29
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=4&eventtype=TC"
     },
     {
       "id": "WF-1031190",
@@ -1896,27 +1959,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=20&eventtype=TC"
     },
     {
-      "id": "WF-1031300",
-      "episodeId": "14",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Montenegro",
-      "country": "Montenegro",
-      "iso3": "MNE",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10329 ha",
-      "startedAt": "2026-08-17T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T08:22:16",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        18.9087,
-        42.6534
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031300&episodeid=14&eventtype=WF"
-    },
-    {
       "id": "EQ-1562914",
       "episodeId": "1730445",
       "eventType": "EQ",
@@ -2062,48 +2104,6 @@
         -20.4066
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562855&episodeid=1730378&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562824",
-      "episodeId": "1730344",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Solomon Is.",
-      "country": "Solomon Is.",
-      "iso3": "SLB",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.8M, Depth:10km",
-      "startedAt": "2026-08-31T20:00:29",
-      "endsAt": "2026-08-31T20:00:29",
-      "updatedAt": "2026-08-31T20:40:43",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        158.1558,
-        -9.0154
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562824&episodeid=1730344&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1562817",
-      "episodeId": "1730336",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Nicaragua",
-      "country": "Nicaragua",
-      "iso3": "NIC",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:35km",
-      "startedAt": "2026-08-31T18:56:28",
-      "endsAt": "2026-08-31T18:56:28",
-      "updatedAt": "2026-08-31T19:15:05",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -88.4432,
-        12.244
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562817&episodeid=1730336&eventtype=EQ"
     }
   ]
 }
