@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-02T00:34:39.392Z",
+  "checkedAt": "2026-09-02T00:53:05.808Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001316",
+      "episodeId": "5",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-01T15:00:00",
+      "updatedAt": "2026-09-02T00:52:23",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -93.3,
+        29.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=5&eventtype=TC"
+    },
+    {
+      "id": "EQ-1563055",
+      "episodeId": "1730603",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Mid-Indian Ridge",
+      "country": "Mid-Indian Ridge",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:10km",
+      "startedAt": "2026-09-01T22:42:09",
+      "endsAt": "2026-09-01T22:42:09",
+      "updatedAt": "2026-09-02T00:48:23",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        66.5918,
+        -13.1136
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563055&episodeid=1730603&eventtype=EQ"
+    },
     {
       "id": "EQ-1563052",
       "episodeId": "1730598",
@@ -25,27 +67,6 @@
         -3.2128
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563052&episodeid=1730598&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "5",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-01T15:00:00",
-      "updatedAt": "2026-09-02T00:23:21",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -93.3,
-        29.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=5&eventtype=TC"
     },
     {
       "id": "TC-1001315",
@@ -445,27 +466,6 @@
         -7.8804
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031281&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031359",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Tanzania",
-      "country": "Tanzania",
-      "iso3": "TZA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9383 ha",
-      "startedAt": "2026-08-25T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T23:23:19",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.7563,
-        -7.2319
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031359&episodeid=7&eventtype=WF"
     },
     {
       "id": "WF-1031325",
