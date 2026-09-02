@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-09-02T05:06:47.459Z",
+  "checkedAt": "2026-09-02T05:27:28.183Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104081",
+      "episodeId": "13",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-31T01:00:00",
+      "endsAt": "2026-09-01T01:00:00",
+      "updatedAt": "2026-09-02T05:27:17",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        109.6,
+        19.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104081&episodeid=13&eventtype=FL"
+    },
+    {
+      "id": "EQ-1563094",
+      "episodeId": "1730642",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.1M, Depth:19.7km",
+      "startedAt": "2026-09-02T05:14:00",
+      "endsAt": "2026-09-02T05:14:00",
+      "updatedAt": "2026-09-02T05:26:33",
+      "source": "ALASKA EC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.332,
+        52.173
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563094&episodeid=1730642&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1563091",
+      "episodeId": "1730639",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:19km",
+      "startedAt": "2026-09-02T05:10:27",
+      "endsAt": "2026-09-02T05:10:27",
+      "updatedAt": "2026-09-02T05:23:05",
+      "source": "ALASKA EC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.309,
+        52.15
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563091&episodeid=1730639&eventtype=EQ"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "7",
@@ -17,7 +80,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T04:52:21",
+      "updatedAt": "2026-09-02T05:22:55",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -867,27 +930,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
     },
     {
-      "id": "WF-1031324",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Namibia",
-      "country": "Namibia",
-      "iso3": "NAM",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8920 ha",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-02T03:18:32",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.3236,
-        -19.1971
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031324&episodeid=7&eventtype=WF"
-    },
-    {
       "id": "WF-1031270",
       "episodeId": "12",
       "eventType": "WF",
@@ -907,27 +949,6 @@
         -18.4233
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031270&episodeid=12&eventtype=WF"
-    },
-    {
-      "id": "WF-1031325",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 21587 ha",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-02T03:14:07",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.3554,
-        -17.0341
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031325&episodeid=9&eventtype=WF"
     },
     {
       "id": "TC-1001318",
@@ -2062,27 +2083,6 @@
         -4.2388
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562888&episodeid=1730417&eventtype=EQ"
-    },
-    {
-      "id": "FL-1104081",
-      "episodeId": "12",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in China",
-      "country": "China",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-31T01:00:00",
-      "endsAt": "2026-09-01T01:00:00",
-      "updatedAt": "2026-09-01T05:15:19",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        102,
-        25
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104081&episodeid=12&eventtype=FL"
     },
     {
       "id": "EQ-1562855",
