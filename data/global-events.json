@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-02T01:22:22.758Z",
+  "checkedAt": "2026-09-02T01:40:51.231Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001317",
+      "episodeId": "3",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone MARIE-26",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 167 km/h)",
+      "startedAt": "2026-09-01T09:00:00",
+      "endsAt": "2026-09-01T21:00:00",
+      "updatedAt": "2026-09-02T01:37:35",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -109.5,
+        15.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=3&eventtype=TC"
+    },
+    {
+      "id": "EQ-1563062",
+      "episodeId": "1730611",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Mid-Indian Ridge",
+      "country": "Mid-Indian Ridge",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:10km",
+      "startedAt": "2026-09-01T23:45:23",
+      "endsAt": "2026-09-01T23:45:23",
+      "updatedAt": "2026-09-02T01:33:15",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        66.6386,
+        -13.2147
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563062&episodeid=1730611&eventtype=EQ"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "5",
@@ -17,7 +59,7 @@
       "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-01T15:00:00",
-      "updatedAt": "2026-09-02T01:08:38",
+      "updatedAt": "2026-09-02T01:22:57",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -361,27 +403,6 @@
         -4.4299
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031328&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1031341",
-      "episodeId": "14",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7298 ha",
-      "startedAt": "2026-08-25T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T23:26:38",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -54.0144,
-        -10.7691
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031341&episodeid=14&eventtype=WF"
     },
     {
       "id": "WF-1031313",
@@ -1936,27 +1957,6 @@
         0.1685
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562918&episodeid=1730450&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001317",
-      "episodeId": "1",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone MARIE-26",
-      "country": "Mexico",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 148 km/h)",
-      "startedAt": "2026-09-01T09:00:00",
-      "endsAt": "2026-09-01T09:00:00",
-      "updatedAt": "2026-09-01T09:29:42",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -108.9,
-        13.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=1&eventtype=TC"
     },
     {
       "id": "EQ-1562914",
