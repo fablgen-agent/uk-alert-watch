@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-02T08:40:45.166Z",
+  "checkedAt": "2026-09-02T09:07:50.526Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563109",
+      "episodeId": "1730669",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in New Zealand",
+      "country": "New Zealand",
+      "iso3": "NZL",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.2M, Depth:10km",
+      "startedAt": "2026-09-02T06:57:12",
+      "endsAt": "2026-09-02T06:57:12",
+      "updatedAt": "2026-09-02T09:04:04",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        168.2503,
+        -44.4277
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563109&episodeid=1730669&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "44",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, China, Northern Mariana Islands",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Tropical Depression (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-09-02T06:00:00",
+      "updatedAt": "2026-09-02T09:00:11",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        117.4,
+        22.3
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=44&eventtype=TC"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "7",
@@ -17,7 +59,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T08:38:03",
+      "updatedAt": "2026-09-02T08:54:16",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -403,27 +445,6 @@
         -3.5952
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031147&episodeid=22&eventtype=WF"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "44",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, China, Northern Mariana Islands",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Tropical Depression (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-09-02T06:00:00",
-      "updatedAt": "2026-09-02T08:08:35",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        117.4,
-        22.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=44&eventtype=TC"
     },
     {
       "id": "WF-1031343",
@@ -1054,27 +1075,6 @@
         -10.1249
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031443&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "EQ-1563109",
-      "episodeId": "1730669",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in New Zealand",
-      "country": "New Zealand",
-      "iso3": "NZL",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.2M, Depth:10km",
-      "startedAt": "2026-09-02T06:57:12",
-      "endsAt": "2026-09-02T06:57:12",
-      "updatedAt": "2026-09-02T07:29:32",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        168.2503,
-        -44.4277
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563109&episodeid=1730669&eventtype=EQ"
     },
     {
       "id": "WF-1031326",
