@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-02T21:37:19.817Z",
+  "checkedAt": "2026-09-02T21:49:49.273Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563234",
+      "episodeId": "1730801",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Vanuatu",
+      "country": "Vanuatu",
+      "iso3": "VUT",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.4M, Depth:98.098km",
+      "startedAt": "2026-09-02T21:22:09",
+      "endsAt": "2026-09-02T21:22:09",
+      "updatedAt": "2026-09-02T21:46:06",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        169.319,
+        -20.2919
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563234&episodeid=1730801&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001316",
+      "episodeId": "7",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-02T03:00:00",
+      "updatedAt": "2026-09-02T21:38:43",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -94.6,
+        30.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
+    },
     {
       "id": "EQ-1563227",
       "episodeId": "1730790",
@@ -25,27 +67,6 @@
         -7.1815
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563227&episodeid=1730790&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "7",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T21:22:55",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -94.6,
-        30.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
     },
     {
       "id": "TC-1001317",
@@ -613,27 +634,6 @@
         -15.8637
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031453&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1031412",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6397 ha",
-      "startedAt": "2026-08-29T00:00:00",
-      "endsAt": "2026-09-02T00:00:00",
-      "updatedAt": "2026-09-02T19:08:55",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        130.0597,
-        -18.674
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031412&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1031510",
