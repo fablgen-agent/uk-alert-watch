@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-02T19:49:19.394Z",
+  "checkedAt": "2026-09-02T20:07:43.513Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "46",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, China, Northern Mariana Islands",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-09-02T18:00:00",
+      "updatedAt": "2026-09-02T20:04:38",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        118.4,
+        23.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=46&eventtype=TC"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "7",
@@ -17,7 +38,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T19:39:42",
+      "updatedAt": "2026-09-02T19:58:43",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -1747,27 +1768,6 @@
         14.3909
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563163&episodeid=1730726&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "45",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, China, Northern Mariana Islands",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Tropical Depression (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-09-02T12:00:00",
-      "updatedAt": "2026-09-02T14:00:11",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        117.9,
-        22.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=45&eventtype=TC"
     },
     {
       "id": "EQ-1563165",
