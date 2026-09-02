@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-09-02T03:24:39.621Z",
+  "checkedAt": "2026-09-02T03:37:57.162Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031313",
+      "episodeId": "12",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 17547 ha",
+      "startedAt": "2026-08-25T00:00:00",
+      "endsAt": "2026-09-01T00:00:00",
+      "updatedAt": "2026-09-02T03:34:42",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        142.2671,
+        -11.3292
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031313&episodeid=12&eventtype=WF"
+    },
+    {
+      "id": "WF-1031320",
+      "episodeId": "8",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6956 ha",
+      "startedAt": "2026-08-25T00:00:00",
+      "endsAt": "2026-09-01T00:00:00",
+      "updatedAt": "2026-09-02T03:29:35",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        114.6869,
+        -2.7237
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031320&episodeid=8&eventtype=WF"
+    },
+    {
+      "id": "WF-1031281",
+      "episodeId": "6",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in The Democratic Republic of Congo",
+      "country": "The Democratic Republic of Congo",
+      "iso3": "COD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6376 ha",
+      "startedAt": "2026-08-25T00:00:00",
+      "endsAt": "2026-09-01T00:00:00",
+      "updatedAt": "2026-09-02T03:28:40",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        25.4024,
+        -7.8804
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031281&episodeid=6&eventtype=WF"
+    },
+    {
+      "id": "WF-1031198",
+      "episodeId": "22",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 46751 ha",
+      "startedAt": "2026-08-26T00:00:00",
+      "endsAt": "2026-09-01T00:00:00",
+      "updatedAt": "2026-09-02T03:24:43",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        130.1571,
+        -18.5175
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031198&episodeid=22&eventtype=WF"
+    },
+    {
+      "id": "TC-1001316",
+      "episodeId": "7",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-02T03:00:00",
+      "updatedAt": "2026-09-02T03:24:42",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -94.6,
+        30.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
+    },
     {
       "id": "TC-1001314",
       "episodeId": "23",
@@ -130,27 +235,6 @@
         -17.0341
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031325&episodeid=9&eventtype=WF"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "7",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T03:12:13",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -94.6,
-        30.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
     },
     {
       "id": "TC-1001318",
@@ -1453,90 +1537,6 @@
         -9.8639
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031224&episodeid=10&eventtype=WF"
-    },
-    {
-      "id": "WF-1031313",
-      "episodeId": "12",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 17547 ha",
-      "startedAt": "2026-08-25T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T23:25:42",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        142.2671,
-        -11.3292
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031313&episodeid=12&eventtype=WF"
-    },
-    {
-      "id": "WF-1031320",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6956 ha",
-      "startedAt": "2026-08-25T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T23:24:25",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        114.6869,
-        -2.7237
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031320&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1031281",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6376 ha",
-      "startedAt": "2026-08-25T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T23:23:37",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        25.4024,
-        -7.8804
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031281&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031198",
-      "episodeId": "21",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 46700 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T23:19:56",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        130.1571,
-        -18.5177
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031198&episodeid=21&eventtype=WF"
     },
     {
       "id": "EQ-1563042",
