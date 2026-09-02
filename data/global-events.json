@@ -1,31 +1,10 @@
 {
-  "checkedAt": "2026-09-02T02:01:28.285Z",
+  "checkedAt": "2026-09-02T02:37:36.461Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
-    {
-      "id": "EQ-1563052",
-      "episodeId": "1730598",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.6M, Depth:64.644km",
-      "startedAt": "2026-09-02T00:04:54",
-      "endsAt": "2026-09-02T00:04:54",
-      "updatedAt": "2026-09-02T01:53:16",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        139.3732,
-        -3.2128
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563052&episodeid=1730598&eventtype=EQ"
-    },
     {
       "id": "TC-1001316",
       "episodeId": "5",
@@ -38,7 +17,7 @@
       "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-01T15:00:00",
-      "updatedAt": "2026-09-02T01:53:10",
+      "updatedAt": "2026-09-02T02:26:04",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -46,6 +25,48 @@
         29.4
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=5&eventtype=TC"
+    },
+    {
+      "id": "TC-1001305",
+      "episodeId": "42",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, China, Northern Mariana Islands",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Tropical Depression (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-09-01T18:00:00",
+      "updatedAt": "2026-09-02T02:23:55",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        116.3,
+        21.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=42&eventtype=TC"
+    },
+    {
+      "id": "EQ-1563052",
+      "episodeId": "1730598",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.6M, Depth:64.644km",
+      "startedAt": "2026-09-02T00:04:54",
+      "endsAt": "2026-09-02T00:04:54",
+      "updatedAt": "2026-09-02T02:11:26",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        139.3732,
+        -3.2128
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563052&episodeid=1730598&eventtype=EQ"
     },
     {
       "id": "TC-1001317",
@@ -1768,27 +1789,6 @@
         52.2673
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1562972&episodeid=1730533&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "41",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, China, Northern Mariana Islands",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-09-01T12:00:00",
-      "updatedAt": "2026-09-01T17:05:26",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        115.7,
-        20.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=41&eventtype=TC"
     },
     {
       "id": "WF-1031271",
