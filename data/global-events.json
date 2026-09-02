@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-02T13:07:46.832Z",
+  "checkedAt": "2026-09-02T13:52:37.954Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001305",
+      "episodeId": "45",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SAUDEL-26",
+      "country": "Japan, China, Northern Mariana Islands",
+      "iso3": "CHN",
+      "alertLevel": "orange",
+      "severity": "Tropical Depression (maximum wind speed of 213 km/h)",
+      "startedAt": "2026-08-18T12:00:00",
+      "endsAt": "2026-09-02T12:00:00",
+      "updatedAt": "2026-09-02T13:52:36",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        117.9,
+        22.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=45&eventtype=TC"
+    },
     {
       "id": "EQ-1563165",
       "episodeId": "1730725",
@@ -1789,27 +1810,6 @@
         -44.4277
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563109&episodeid=1730669&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001305",
-      "episodeId": "44",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SAUDEL-26",
-      "country": "Japan, China, Northern Mariana Islands",
-      "iso3": "CHN",
-      "alertLevel": "orange",
-      "severity": "Tropical Depression (maximum wind speed of 213 km/h)",
-      "startedAt": "2026-08-18T12:00:00",
-      "endsAt": "2026-09-02T06:00:00",
-      "updatedAt": "2026-09-02T09:00:11",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        117.4,
-        22.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=44&eventtype=TC"
     },
     {
       "id": "WF-1030896",
