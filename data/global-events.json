@@ -1,10 +1,136 @@
 {
-  "checkedAt": "2026-09-02T05:27:28.183Z",
+  "checkedAt": "2026-09-02T05:41:26.755Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563094",
+      "episodeId": "1730649",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.2M, Depth:35km",
+      "startedAt": "2026-09-02T05:14:00",
+      "endsAt": "2026-09-02T05:14:00",
+      "updatedAt": "2026-09-02T05:40:22",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.295,
+        52.1186
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563094&episodeid=1730649&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1563095",
+      "episodeId": "1730644",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:18.8km",
+      "startedAt": "2026-09-02T05:16:05",
+      "endsAt": "2026-09-02T05:16:05",
+      "updatedAt": "2026-09-02T05:39:03",
+      "source": "ALASKA EC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.316,
+        52.218
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563095&episodeid=1730644&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001316",
+      "episodeId": "7",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-02T03:00:00",
+      "updatedAt": "2026-09-02T05:37:55",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -94.6,
+        30.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "EQ-1563091",
+      "episodeId": "1730639",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:19km",
+      "startedAt": "2026-09-02T05:10:27",
+      "endsAt": "2026-09-02T05:10:27",
+      "updatedAt": "2026-09-02T05:33:07",
+      "source": "ALASKA EC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.309,
+        52.15
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563091&episodeid=1730639&eventtype=EQ"
+    },
+    {
+      "id": "FL-1104122",
+      "episodeId": "13",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Thailand",
+      "country": "Thailand",
+      "iso3": "THA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-18T01:00:00",
+      "endsAt": "2026-09-01T01:00:00",
+      "updatedAt": "2026-09-02T05:28:24",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        101.2177,
+        14.1494
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104122&episodeid=13&eventtype=FL"
+    },
+    {
+      "id": "FL-1104132",
+      "episodeId": "2",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Cambodia",
+      "country": "Cambodia",
+      "iso3": "KHM",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-28T01:00:00",
+      "endsAt": "2026-09-02T01:00:00",
+      "updatedAt": "2026-09-02T05:27:47",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        103.1983,
+        13.09
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104132&episodeid=2&eventtype=FL"
+    },
     {
       "id": "FL-1104081",
       "episodeId": "13",
@@ -25,69 +151,6 @@
         19.2
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104081&episodeid=13&eventtype=FL"
-    },
-    {
-      "id": "EQ-1563094",
-      "episodeId": "1730642",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.1M, Depth:19.7km",
-      "startedAt": "2026-09-02T05:14:00",
-      "endsAt": "2026-09-02T05:14:00",
-      "updatedAt": "2026-09-02T05:26:33",
-      "source": "ALASKA EC",
-      "isCurrent": true,
-      "coordinates": [
-        -169.332,
-        52.173
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563094&episodeid=1730642&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1563091",
-      "episodeId": "1730639",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.8M, Depth:19km",
-      "startedAt": "2026-09-02T05:10:27",
-      "endsAt": "2026-09-02T05:10:27",
-      "updatedAt": "2026-09-02T05:23:05",
-      "source": "ALASKA EC",
-      "isCurrent": true,
-      "coordinates": [
-        -169.309,
-        52.15
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563091&episodeid=1730639&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "7",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T05:22:55",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -94.6,
-        30.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
     },
     {
       "id": "TC-1001314",
@@ -403,27 +466,6 @@
         -17.0977
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031289&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1031321",
-      "episodeId": "16",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 21657 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-02T03:56:04",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        112.1002,
-        65.6031
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031321&episodeid=16&eventtype=WF"
     },
     {
       "id": "WF-1031228",
@@ -823,27 +865,6 @@
         -11.3292
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031313&episodeid=12&eventtype=WF"
-    },
-    {
-      "id": "WF-1031320",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6956 ha",
-      "startedAt": "2026-08-25T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-02T03:29:35",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        114.6869,
-        -2.7237
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031320&episodeid=8&eventtype=WF"
     },
     {
       "id": "WF-1031281",
@@ -1894,27 +1915,6 @@
         65.951
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031188&episodeid=29&eventtype=WF"
-    },
-    {
-      "id": "WF-1031316",
-      "episodeId": "16",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 13217 ha",
-      "startedAt": "2026-08-20T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-01T11:48:45",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        114.6691,
-        64.0205
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031316&episodeid=16&eventtype=WF"
     },
     {
       "id": "EQ-1562932",
