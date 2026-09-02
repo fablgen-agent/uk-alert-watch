@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-02T14:25:34.717Z",
+  "checkedAt": "2026-09-02T14:40:08.990Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563163",
+      "episodeId": "1730726",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Mexico",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.6M, Depth:10km",
+      "startedAt": "2026-09-02T12:28:31",
+      "endsAt": "2026-09-02T12:28:31",
+      "updatedAt": "2026-09-02T14:34:48",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -92.9873,
+        14.3909
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563163&episodeid=1730726&eventtype=EQ"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "7",
@@ -88,27 +109,6 @@
         -34.9815
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563166&episodeid=1730728&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1563163",
-      "episodeId": "1730726",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Mexico",
-      "country": "Mexico",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.6M, Depth:10km",
-      "startedAt": "2026-09-02T12:28:31",
-      "endsAt": "2026-09-02T12:28:31",
-      "updatedAt": "2026-09-02T12:55:23",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -92.9873,
-        14.3909
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563163&episodeid=1730726&eventtype=EQ"
     },
     {
       "id": "WF-1031175",
