@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-02T12:31:40.170Z",
+  "checkedAt": "2026-09-02T12:54:01.806Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563165",
+      "episodeId": "1730725",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.2M, Depth:35km",
+      "startedAt": "2026-09-02T12:32:01",
+      "endsAt": "2026-09-02T12:32:01",
+      "updatedAt": "2026-09-02T12:52:51",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.4988,
+        52.3538
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563165&episodeid=1730725&eventtype=EQ"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "7",
@@ -17,7 +38,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T12:22:30",
+      "updatedAt": "2026-09-02T12:52:45",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -27,25 +48,25 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
     },
     {
-      "id": "WF-1031307",
-      "episodeId": "15",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
+      "id": "EQ-1563163",
+      "episodeId": "1730726",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Mexico",
+      "country": "Mexico",
+      "iso3": "MEX",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6664 ha",
-      "startedAt": "2026-08-18T00:00:00",
-      "endsAt": "2026-09-02T00:00:00",
-      "updatedAt": "2026-09-02T12:15:33",
-      "source": "GWIS",
+      "severity": "Magnitude 5.6M, Depth:10km",
+      "startedAt": "2026-09-02T12:28:31",
+      "endsAt": "2026-09-02T12:28:31",
+      "updatedAt": "2026-09-02T12:51:22",
+      "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
-        -55.4202,
-        -6.224
+        -92.9873,
+        14.3909
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031307&episodeid=15&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563163&episodeid=1730726&eventtype=EQ"
     },
     {
       "id": "WF-1031175",
@@ -445,27 +466,6 @@
         65.5682
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031429&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031310",
-      "episodeId": "23",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 31242 ha",
-      "startedAt": "2026-08-22T00:00:00",
-      "endsAt": "2026-09-02T00:00:00",
-      "updatedAt": "2026-09-02T11:42:02",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        119.2676,
-        66.0995
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031310&episodeid=23&eventtype=WF"
     },
     {
       "id": "WF-1031445",
