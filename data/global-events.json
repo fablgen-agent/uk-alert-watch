@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-02T06:15:04.192Z",
+  "checkedAt": "2026-09-02T06:38:19.755Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T06:07:53",
+      "updatedAt": "2026-09-02T06:37:57",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,27 @@
         30.5
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "EQ-1563103",
+      "episodeId": "1730657",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in New Zealand",
+      "country": "New Zealand",
+      "iso3": "NZL",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.3M, Depth:10km",
+      "startedAt": "2026-09-02T06:13:33",
+      "endsAt": "2026-09-02T06:13:33",
+      "updatedAt": "2026-09-02T06:35:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        168.3029,
+        -44.4431
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563103&episodeid=1730657&eventtype=EQ"
     },
     {
       "id": "EQ-1563091",
@@ -382,27 +403,6 @@
         66.0974
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031310&episodeid=21&eventtype=WF"
-    },
-    {
-      "id": "WF-1031315",
-      "episodeId": "17",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 30345 ha",
-      "startedAt": "2026-08-22T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-02T04:09:12",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        112.5939,
-        65.5312
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031315&episodeid=17&eventtype=WF"
     },
     {
       "id": "WF-1031272",
