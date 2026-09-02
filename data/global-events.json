@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-09-02T08:27:00.422Z",
+  "checkedAt": "2026-09-02T08:40:45.166Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001316",
+      "episodeId": "7",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-02T03:00:00",
+      "updatedAt": "2026-09-02T08:38:03",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -94.6,
+        30.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "WF-1031189",
+      "episodeId": "9",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5608 ha",
+      "startedAt": "2026-08-18T00:00:00",
+      "endsAt": "2026-09-01T00:00:00",
+      "updatedAt": "2026-09-02T08:37:33",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -59.4507,
+        -9.1921
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031189&episodeid=9&eventtype=WF"
+    },
+    {
+      "id": "WF-1031131",
+      "episodeId": "15",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Namibia",
+      "country": "Namibia",
+      "iso3": "NAM",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 10669 ha",
+      "startedAt": "2026-08-18T00:00:00",
+      "endsAt": "2026-09-01T00:00:00",
+      "updatedAt": "2026-09-02T08:33:30",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        20.1403,
+        -18.7809
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031131&episodeid=15&eventtype=WF"
+    },
+    {
+      "id": "WF-1030896",
+      "episodeId": "20",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 26604 ha",
+      "startedAt": "2026-08-18T00:00:00",
+      "endsAt": "2026-09-02T00:00:00",
+      "updatedAt": "2026-09-02T08:29:36",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        22.3939,
+        -17.4845
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030896&episodeid=20&eventtype=WF"
+    },
     {
       "id": "TC-1001318",
       "episodeId": "5",
@@ -193,27 +277,6 @@
         65.9643
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031188&episodeid=31&eventtype=WF"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "7",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T08:14:48",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -94.6,
-        30.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
     },
     {
       "id": "WF-1030993",
@@ -1642,69 +1705,6 @@
         -13.1136
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563055&episodeid=1730603&eventtype=EQ"
-    },
-    {
-      "id": "WF-1031189",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5608 ha",
-      "startedAt": "2026-08-18T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-02T00:44:31",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -59.4507,
-        -9.1921
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031189&episodeid=9&eventtype=WF"
-    },
-    {
-      "id": "WF-1030896",
-      "episodeId": "19",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 26505 ha",
-      "startedAt": "2026-08-18T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-02T00:43:42",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        22.3936,
-        -17.4846
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1030896&episodeid=19&eventtype=WF"
-    },
-    {
-      "id": "WF-1031131",
-      "episodeId": "15",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Namibia",
-      "country": "Namibia",
-      "iso3": "NAM",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10669 ha",
-      "startedAt": "2026-08-18T00:00:00",
-      "endsAt": "2026-09-01T00:00:00",
-      "updatedAt": "2026-09-02T00:43:04",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.1403,
-        -18.7809
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031131&episodeid=15&eventtype=WF"
     },
     {
       "id": "WF-1031154",
