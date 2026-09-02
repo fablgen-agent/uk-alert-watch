@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-09-02T09:07:50.526Z",
+  "checkedAt": "2026-09-02T09:25:53.920Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001316",
+      "episodeId": "7",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-02T03:00:00",
+      "updatedAt": "2026-09-02T09:22:22",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -94.6,
+        30.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "TC-1001317",
+      "episodeId": "5",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone MARIE-26",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 167 km/h)",
+      "startedAt": "2026-09-01T09:00:00",
+      "endsAt": "2026-09-02T09:00:00",
+      "updatedAt": "2026-09-02T09:15:51",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -111,
+        16.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=5&eventtype=TC"
+    },
+    {
+      "id": "TC-1001315",
+      "episodeId": "24",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 250 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-02T09:00:00",
+      "updatedAt": "2026-09-02T09:11:38",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -152.2,
+        13.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=24&eventtype=TC"
+    },
+    {
+      "id": "TC-1001314",
+      "episodeId": "24",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-02T09:00:00",
+      "updatedAt": "2026-09-02T09:08:59",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -131.7,
+        18.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=24&eventtype=TC"
+    },
     {
       "id": "EQ-1563109",
       "episodeId": "1730669",
@@ -46,27 +130,6 @@
         22.3
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=44&eventtype=TC"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "7",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T08:54:16",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -94.6,
-        30.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=7&eventtype=TC"
     },
     {
       "id": "WF-1031189",
@@ -1560,27 +1623,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104081&episodeid=13&eventtype=FL"
     },
     {
-      "id": "TC-1001314",
-      "episodeId": "23",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T04:38:56",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -130.8,
-        18.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=23&eventtype=TC"
-    },
-    {
       "id": "FL-1104124",
       "episodeId": "1",
       "eventType": "FL",
@@ -1600,48 +1642,6 @@
         27.2953
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104124&episodeid=1&eventtype=FL"
-    },
-    {
-      "id": "TC-1001317",
-      "episodeId": "4",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone MARIE-26",
-      "country": "Mexico",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 167 km/h)",
-      "startedAt": "2026-09-01T09:00:00",
-      "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T03:07:15",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -110.3,
-        16.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=4&eventtype=TC"
-    },
-    {
-      "id": "TC-1001315",
-      "episodeId": "23",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-02T03:00:00",
-      "updatedAt": "2026-09-02T02:59:56",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -151.2,
-        13.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=23&eventtype=TC"
     },
     {
       "id": "EQ-1563052",
