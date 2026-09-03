@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-03T18:28:34.021Z",
+  "checkedAt": "2026-09-03T18:55:47.399Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563424",
+      "episodeId": "1731017",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.3M, Depth:9.5km",
+      "startedAt": "2026-09-03T18:45:41",
+      "endsAt": "2026-09-03T18:45:41",
+      "updatedAt": "2026-09-03T18:55:22",
+      "source": "ALASKA EC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.223,
+        52.124
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563424&episodeid=1731017&eventtype=EQ"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "12",
@@ -17,7 +38,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-03T09:00:00",
-      "updatedAt": "2026-09-03T18:24:35",
+      "updatedAt": "2026-09-03T18:53:24",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +46,27 @@
         32.5
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "EQ-1563423",
+      "episodeId": "1731016",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Fiji",
+      "country": "Fiji",
+      "iso3": "FJI",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:619.049km",
+      "startedAt": "2026-09-03T18:31:04",
+      "endsAt": "2026-09-03T18:31:04",
+      "updatedAt": "2026-09-03T18:52:37",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -177.4572,
+        -18.7662
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563423&episodeid=1731016&eventtype=EQ"
     },
     {
       "id": "WF-1031490",
@@ -1558,48 +1600,6 @@
         66.359
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031372&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "WF-1031201",
-      "episodeId": "21",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 15502 ha",
-      "startedAt": "2026-08-24T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-03T12:07:41",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        142.6602,
-        -12.7862
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031201&episodeid=21&eventtype=WF"
-    },
-    {
-      "id": "WF-1031198",
-      "episodeId": "26",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 50728 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-03T11:53:28",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        130.1599,
-        -18.5186
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031198&episodeid=26&eventtype=WF"
     },
     {
       "id": "WF-1031462",
