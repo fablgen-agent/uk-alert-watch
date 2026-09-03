@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-03T14:26:55.919Z",
+  "checkedAt": "2026-09-03T14:40:58.646Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001318",
+      "episodeId": "10",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KROVANH-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-09-01T06:00:00",
+      "endsAt": "2026-09-03T12:00:00",
+      "updatedAt": "2026-09-03T14:28:56",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        128.9,
+        28
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=10&eventtype=TC"
+    },
+    {
+      "id": "EQ-1563382",
+      "episodeId": "1730970",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Vanuatu",
+      "country": "Vanuatu",
+      "iso3": "VUT",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:112.706km",
+      "startedAt": "2026-09-03T13:47:10",
+      "endsAt": "2026-09-03T13:47:10",
+      "updatedAt": "2026-09-03T14:28:52",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        169.3059,
+        -20.1366
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563382&episodeid=1730970&eventtype=EQ"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "12",
@@ -25,27 +67,6 @@
         32.5
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
-    },
-    {
-      "id": "TC-1001318",
-      "episodeId": "10",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KROVANH-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-09-01T06:00:00",
-      "endsAt": "2026-09-03T12:00:00",
-      "updatedAt": "2026-09-03T14:12:34",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        128.9,
-        28
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=10&eventtype=TC"
     },
     {
       "id": "EQ-1563166",
@@ -1684,27 +1705,6 @@
         31
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104136&episodeid=2&eventtype=FL"
-    },
-    {
-      "id": "FL-1104121",
-      "episodeId": "11",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in India",
-      "country": "India",
-      "iso3": "IND",
-      "alertLevel": "orange",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-08-09T01:00:00",
-      "endsAt": "2026-09-02T01:00:00",
-      "updatedAt": "2026-09-03T07:29:27",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        79.5542,
-        29.3506
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104121&episodeid=11&eventtype=FL"
     },
     {
       "id": "EQ-1563304",
