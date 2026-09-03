@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-03T15:28:22.884Z",
+  "checkedAt": "2026-09-03T15:41:51.653Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031325",
+      "episodeId": "13",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 23774 ha",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-03T15:29:39",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        20.3544,
+        -17.03
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031325&episodeid=13&eventtype=WF"
+    },
     {
       "id": "WF-1031387",
       "episodeId": "14",
@@ -2083,27 +2104,6 @@
         -7.1815
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563227&episodeid=1730790&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1563178",
-      "episodeId": "1730761",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Volcano Islands, Japan Region",
-      "country": "Volcano Islands, Japan Region",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:38.413km",
-      "startedAt": "2026-09-02T13:53:02",
-      "endsAt": "2026-09-02T13:53:02",
-      "updatedAt": "2026-09-02T15:59:48",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        144.06,
-        22.8619
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563178&episodeid=1730761&eventtype=EQ"
     }
   ]
 }
