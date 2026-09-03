@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-03T08:54:59.967Z",
+  "checkedAt": "2026-09-03T09:26:19.222Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001314",
+      "episodeId": "28",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-03T09:00:00",
+      "updatedAt": "2026-09-03T09:23:22",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -135.7,
+        19.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=28&eventtype=TC"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "12",
@@ -17,7 +38,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-03T09:00:00",
-      "updatedAt": "2026-09-03T08:54:09",
+      "updatedAt": "2026-09-03T09:09:06",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -27,25 +48,46 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
     },
     {
-      "id": "EQ-1563320",
-      "episodeId": "1730892",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in China",
-      "country": "China",
-      "iso3": "CHN",
+      "id": "FL-1104138",
+      "episodeId": "1",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Lithuania",
+      "country": "Lithuania",
+      "iso3": "LTU",
       "alertLevel": "green",
-      "severity": "Magnitude 5.1M, Depth:10km",
-      "startedAt": "2026-09-03T08:16:36",
-      "endsAt": "2026-09-03T08:16:36",
-      "updatedAt": "2026-09-03T08:34:43",
-      "source": "NEIC",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-09-01T01:00:00",
+      "endsAt": "2026-09-02T01:00:00",
+      "updatedAt": "2026-09-03T09:07:40",
+      "source": "GLOFAS",
       "isCurrent": true,
       "coordinates": [
-        80.33,
-        31.3618
+        22.1367,
+        56.0131
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563320&episodeid=1730892&eventtype=EQ"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104138&episodeid=1&eventtype=FL"
+    },
+    {
+      "id": "FL-1104011",
+      "episodeId": "7",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Myanmar",
+      "country": "Myanmar",
+      "iso3": "MMR",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-04T01:00:00",
+      "endsAt": "2026-09-03T01:00:00",
+      "updatedAt": "2026-09-03T09:04:38",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        95.0002,
+        17.6027
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=7&eventtype=FL"
     },
     {
       "id": "TC-1001305",
@@ -59,7 +101,7 @@
       "severity": "Tropical Storm (maximum wind speed of 213 km/h)",
       "startedAt": "2026-08-18T12:00:00",
       "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-03T08:27:55",
+      "updatedAt": "2026-09-03T09:04:35",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -67,6 +109,27 @@
         23.8
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001305&episodeid=47&eventtype=TC"
+    },
+    {
+      "id": "EQ-1563320",
+      "episodeId": "1730892",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.1M, Depth:10km",
+      "startedAt": "2026-09-03T08:16:36",
+      "endsAt": "2026-09-03T08:16:36",
+      "updatedAt": "2026-09-03T08:56:45",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        80.33,
+        31.3618
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563320&episodeid=1730892&eventtype=EQ"
     },
     {
       "id": "TC-1001318",
@@ -88,48 +151,6 @@
         27
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=9&eventtype=TC"
-    },
-    {
-      "id": "TC-1001314",
-      "episodeId": "27",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-03T03:00:00",
-      "updatedAt": "2026-09-03T08:22:14",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -134.7,
-        19.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=27&eventtype=TC"
-    },
-    {
-      "id": "FL-1104011",
-      "episodeId": "7",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Myanmar",
-      "country": "Myanmar",
-      "iso3": "MMR",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-04T01:00:00",
-      "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-03T08:21:42",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        95.0002,
-        17.6027
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=7&eventtype=FL"
     },
     {
       "id": "WF-1031188",
@@ -888,6 +909,27 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031486&episodeid=2&eventtype=WF"
     },
     {
+      "id": "WF-1031443",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in The Democratic Republic of Congo",
+      "country": "The Democratic Republic of Congo",
+      "iso3": "COD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7663 ha",
+      "startedAt": "2026-08-25T00:00:00",
+      "endsAt": "2026-09-02T00:00:00",
+      "updatedAt": "2026-09-03T07:23:43",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        25.205,
+        -10.1262
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031443&episodeid=4&eventtype=WF"
+    },
+    {
       "id": "WF-1031467",
       "episodeId": "4",
       "eventType": "WF",
@@ -1033,48 +1075,6 @@
         66.3135
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031462&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1031459",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6035 ha",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-09-02T00:00:00",
-      "updatedAt": "2026-09-03T07:13:35",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -65.4279,
-        -9.0278
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031459&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1031460",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5692 ha",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-09-02T00:00:00",
-      "updatedAt": "2026-09-03T07:12:37",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -50.6415,
-        -10.7801
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031460&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1031484",
