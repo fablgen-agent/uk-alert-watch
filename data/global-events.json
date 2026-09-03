@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-03T09:26:19.222Z",
+  "checkedAt": "2026-09-03T09:51:49.773Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001315",
+      "episodeId": "27",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-03T03:00:00",
+      "updatedAt": "2026-09-03T09:28:07",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -155.2,
+        13.3
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=27&eventtype=TC"
+    },
     {
       "id": "TC-1001314",
       "episodeId": "28",
@@ -1642,27 +1663,6 @@
         -17.4745
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563293&episodeid=1730862&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001315",
-      "episodeId": "27",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-03T03:00:00",
-      "updatedAt": "2026-09-03T03:24:02",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -155.2,
-        13.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=27&eventtype=TC"
     },
     {
       "id": "TC-1001317",
