@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-09-04T13:52:18.181Z",
+  "checkedAt": "2026-09-04T14:06:55.648Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563346",
+      "episodeId": "1730923",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.4M, Depth:10km",
+      "startedAt": "2026-09-03T11:39:41",
+      "endsAt": "2026-09-03T11:39:41",
+      "updatedAt": "2026-09-04T14:05:28",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        104.5066,
+        31.8458
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563346&episodeid=1730923&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1563341",
+      "episodeId": "1730917",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 6.3M, Depth:35km",
+      "startedAt": "2026-09-03T11:17:24",
+      "endsAt": "2026-09-03T11:17:24",
+      "updatedAt": "2026-09-04T14:04:19",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.4088,
+        52.2579
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563341&episodeid=1730917&eventtype=EQ"
+    },
+    {
+      "id": "WF-1031250",
+      "episodeId": "23",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 10576 ha",
+      "startedAt": "2026-08-24T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T13:58:50",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        133.4711,
+        -14.316
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031250&episodeid=23&eventtype=WF"
+    },
+    {
+      "id": "WF-1031426",
+      "episodeId": "8",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5330 ha",
+      "startedAt": "2026-08-25T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T13:57:06",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -54.0126,
+        -11.2449
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031426&episodeid=8&eventtype=WF"
+    },
+    {
+      "id": "TC-1001316",
+      "episodeId": "12",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-03T09:00:00",
+      "updatedAt": "2026-09-04T13:55:55",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -96.5,
+        32.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
+    },
     {
       "id": "FL-1103888",
       "episodeId": "79",
@@ -17,7 +122,7 @@
       "severity": "Magnitude 0",
       "startedAt": "2026-05-19T01:00:00",
       "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-04T13:51:40",
+      "updatedAt": "2026-09-04T13:54:41",
       "source": "GLOFAS",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +130,48 @@
         37.6741
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=79&eventtype=FL"
+    },
+    {
+      "id": "FL-1104011",
+      "episodeId": "7",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Myanmar",
+      "country": "Myanmar",
+      "iso3": "MMR",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-04T01:00:00",
+      "endsAt": "2026-09-03T01:00:00",
+      "updatedAt": "2026-09-04T13:54:21",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        95.0002,
+        17.6027
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=7&eventtype=FL"
+    },
+    {
+      "id": "WF-1031397",
+      "episodeId": "12",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6952 ha",
+      "startedAt": "2026-08-25T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T13:53:42",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        142.1952,
+        -12.1353
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031397&episodeid=12&eventtype=WF"
     },
     {
       "id": "WF-1031468",
@@ -130,27 +277,6 @@
         -18.5168
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031198&episodeid=31&eventtype=WF"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-03T09:00:00",
-      "updatedAt": "2026-09-04T13:41:25",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -96.5,
-        32.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
     },
     {
       "id": "EQ-1563573",
@@ -340,27 +466,6 @@
         -7.3244
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031483&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "FL-1104011",
-      "episodeId": "7",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Myanmar",
-      "country": "Myanmar",
-      "iso3": "MMR",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-04T01:00:00",
-      "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-04T13:31:41",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        95.0002,
-        17.6027
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=7&eventtype=FL"
     },
     {
       "id": "WF-1031553",
@@ -1329,69 +1434,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031271&episodeid=20&eventtype=WF"
     },
     {
-      "id": "WF-1031250",
-      "episodeId": "23",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10576 ha",
-      "startedAt": "2026-08-24T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T11:43:56",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        133.4711,
-        -14.316
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031250&episodeid=23&eventtype=WF"
-    },
-    {
-      "id": "WF-1031426",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5330 ha",
-      "startedAt": "2026-08-25T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T11:42:27",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -54.0126,
-        -11.2449
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031426&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1031397",
-      "episodeId": "12",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6952 ha",
-      "startedAt": "2026-08-25T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T11:40:15",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        142.1952,
-        -12.1353
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031397&episodeid=12&eventtype=WF"
-    },
-    {
       "id": "FL-1104140",
       "episodeId": "1",
       "eventType": "FL",
@@ -1833,27 +1875,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563382&episodeid=1730970&eventtype=EQ"
     },
     {
-      "id": "EQ-1563346",
-      "episodeId": "1730923",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in China",
-      "country": "China",
-      "iso3": "CHN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.4M, Depth:10km",
-      "startedAt": "2026-09-03T11:39:41",
-      "endsAt": "2026-09-03T11:39:41",
-      "updatedAt": "2026-09-03T13:46:43",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        104.5066,
-        31.8458
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563346&episodeid=1730923&eventtype=EQ"
-    },
-    {
       "id": "EQ-1563367",
       "episodeId": "1730953",
       "eventType": "EQ",
@@ -1957,27 +1978,6 @@
         17.6542
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563345&episodeid=1730922&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1563341",
-      "episodeId": "1730917",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 6.3M, Depth:35km",
-      "startedAt": "2026-09-03T11:17:24",
-      "endsAt": "2026-09-03T11:17:24",
-      "updatedAt": "2026-09-03T11:44:28",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -169.4088,
-        52.2579
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563341&episodeid=1730917&eventtype=EQ"
     },
     {
       "id": "EQ-1563320",
