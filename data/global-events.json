@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-09-04T14:06:55.648Z",
+  "checkedAt": "2026-09-04T14:24:56.409Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001314",
+      "episodeId": "32",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-04T09:00:00",
+      "updatedAt": "2026-09-04T14:22:17",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -139.3,
+        20.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=32&eventtype=TC"
+    },
+    {
+      "id": "TC-1001316",
+      "episodeId": "12",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-03T09:00:00",
+      "updatedAt": "2026-09-04T14:12:47",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -96.5,
+        32.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "EQ-1563606",
+      "episodeId": "1731221",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in South Of Fiji Islands",
+      "country": "South Of Fiji Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:76.735km",
+      "startedAt": "2026-09-04T13:47:52",
+      "endsAt": "2026-09-04T13:47:52",
+      "updatedAt": "2026-09-04T14:09:41",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -177.0721,
+        -25.8505
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563606&episodeid=1731221&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1563594",
+      "episodeId": "1731207",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Kermadec Islands Region",
+      "country": "Kermadec Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.4M, Depth:10km",
+      "startedAt": "2026-09-04T11:59:58",
+      "endsAt": "2026-09-04T11:59:58",
+      "updatedAt": "2026-09-04T14:09:08",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -176.6452,
+        -28.5616
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563594&episodeid=1731207&eventtype=EQ"
+    },
     {
       "id": "EQ-1563346",
       "episodeId": "1730923",
@@ -88,27 +172,6 @@
         -11.2449
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031426&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-03T09:00:00",
-      "updatedAt": "2026-09-04T13:55:55",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -96.5,
-        32.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
     },
     {
       "id": "FL-1103888",
@@ -615,27 +678,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031588&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF-1031587",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5217 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T13:27:05",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        36.8997,
-        -16.5084
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031587&episodeid=1&eventtype=WF"
-    },
-    {
       "id": "WF-1031458",
       "episodeId": "6",
       "eventType": "WF",
@@ -1033,27 +1075,6 @@
         5.5897
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104105&episodeid=5&eventtype=FL"
-    },
-    {
-      "id": "EQ-1563594",
-      "episodeId": "1731207",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Kermadec Islands Region",
-      "country": "Kermadec Islands Region",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.4M, Depth:10km",
-      "startedAt": "2026-09-04T11:59:58",
-      "endsAt": "2026-09-04T11:59:58",
-      "updatedAt": "2026-09-04T12:31:06",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -176.6452,
-        -28.5616
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563594&episodeid=1731207&eventtype=EQ"
     },
     {
       "id": "WF-1031546",
@@ -1537,27 +1558,6 @@
         19.9
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=13&eventtype=TC"
-    },
-    {
-      "id": "TC-1001314",
-      "episodeId": "31",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-04T03:00:00",
-      "updatedAt": "2026-09-04T09:09:06",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -138.4,
-        20.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=31&eventtype=TC"
     },
     {
       "id": "TC-1001318",
