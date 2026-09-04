@@ -1,30 +1,72 @@
 {
-  "checkedAt": "2026-09-04T12:30:52.447Z",
+  "checkedAt": "2026-09-04T12:54:27.424Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
-      "id": "EQ-1563594",
-      "episodeId": "1731207",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Kermadec Islands Region",
-      "country": "Kermadec Islands Region",
-      "iso3": "",
+      "id": "FL-1103888",
+      "episodeId": "80",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
       "alertLevel": "green",
-      "severity": "Magnitude 5.4M, Depth:10km",
-      "startedAt": "2026-09-04T11:59:58",
-      "endsAt": "2026-09-04T11:59:58",
-      "updatedAt": "2026-09-04T12:25:27",
-      "source": "NEIC",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-09-03T01:00:00",
+      "updatedAt": "2026-09-04T12:52:17",
+      "source": "GLOFAS",
       "isCurrent": true,
       "coordinates": [
-        -176.6452,
-        -28.5616
+        -74.2107,
+        40.664
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563594&episodeid=1731207&eventtype=EQ"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=80&eventtype=FL"
+    },
+    {
+      "id": "FL-1104105",
+      "episodeId": "5",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Nigeria",
+      "country": "Nigeria",
+      "iso3": "NGA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-13T01:00:00",
+      "endsAt": "2026-09-04T01:00:00",
+      "updatedAt": "2026-09-04T12:51:27",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        6.0998,
+        5.5897
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104105&episodeid=5&eventtype=FL"
+    },
+    {
+      "id": "FL-1104011",
+      "episodeId": "7",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Myanmar",
+      "country": "Myanmar",
+      "iso3": "MMR",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-04T01:00:00",
+      "endsAt": "2026-09-03T01:00:00",
+      "updatedAt": "2026-09-04T12:49:50",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        95.0002,
+        17.6027
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=7&eventtype=FL"
     },
     {
       "id": "TC-1001316",
@@ -38,7 +80,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-03T09:00:00",
-      "updatedAt": "2026-09-04T12:25:14",
+      "updatedAt": "2026-09-04T12:40:36",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -48,25 +90,25 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
     },
     {
-      "id": "FL-1103888",
-      "episodeId": "80",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
+      "id": "EQ-1563594",
+      "episodeId": "1731207",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Kermadec Islands Region",
+      "country": "Kermadec Islands Region",
+      "iso3": "",
       "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-04T12:24:14",
-      "source": "GLOFAS",
+      "severity": "Magnitude 5.4M, Depth:10km",
+      "startedAt": "2026-09-04T11:59:58",
+      "endsAt": "2026-09-04T11:59:58",
+      "updatedAt": "2026-09-04T12:31:06",
+      "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
-        -74.2107,
-        40.664
+        -176.6452,
+        -28.5616
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=80&eventtype=FL"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563594&episodeid=1731207&eventtype=EQ"
     },
     {
       "id": "WF-1031546",
@@ -340,27 +382,6 @@
         -18.5168
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031225&episodeid=15&eventtype=WF"
-    },
-    {
-      "id": "FL-1104011",
-      "episodeId": "7",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Myanmar",
-      "country": "Myanmar",
-      "iso3": "MMR",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-04T01:00:00",
-      "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-04T11:52:51",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        95.0002,
-        17.6027
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=7&eventtype=FL"
     },
     {
       "id": "WF-1031201",
@@ -886,27 +907,6 @@
         -16.9957
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031591&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1031584",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5068 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T11:19:11",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        35.7229,
-        -16.7837
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031584&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF-1031484",
