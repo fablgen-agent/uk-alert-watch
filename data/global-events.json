@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-04T08:08:29.548Z",
+  "checkedAt": "2026-09-04T08:27:13.447Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001318",
+      "episodeId": "13",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KROVANH-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-09-01T06:00:00",
+      "endsAt": "2026-09-04T06:00:00",
+      "updatedAt": "2026-09-04T08:27:13",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        127.5,
+        29.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=13&eventtype=TC"
+    },
+    {
+      "id": "TC-1001316",
+      "episodeId": "12",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-03T09:00:00",
+      "updatedAt": "2026-09-04T08:10:48",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -96.5,
+        32.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
+    },
     {
       "id": "WF-1031537",
       "episodeId": "3",
@@ -130,27 +172,6 @@
         -18.5168
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031225&episodeid=15&eventtype=WF"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-03T09:00:00",
-      "updatedAt": "2026-09-04T07:54:21",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -96.5,
-        32.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
     },
     {
       "id": "WF-1031548",
@@ -1768,27 +1789,6 @@
         52.2839
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563397&episodeid=1731001&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001318",
-      "episodeId": "10",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KROVANH-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-09-01T06:00:00",
-      "endsAt": "2026-09-03T12:00:00",
-      "updatedAt": "2026-09-03T14:28:56",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        128.9,
-        28
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=10&eventtype=TC"
     },
     {
       "id": "EQ-1563382",
