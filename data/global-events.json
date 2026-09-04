@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-04T16:38:01.598Z",
+  "checkedAt": "2026-09-04T16:49:24.623Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563636",
+      "episodeId": "1731253",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.1M, Depth:121.712km",
+      "startedAt": "2026-09-04T16:24:41",
+      "endsAt": "2026-09-04T16:24:41",
+      "updatedAt": "2026-09-04T16:45:23",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        99.0453,
+        1.3758
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563636&episodeid=1731253&eventtype=EQ"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "12",
@@ -17,7 +38,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-03T09:00:00",
-      "updatedAt": "2026-09-04T16:26:12",
+      "updatedAt": "2026-09-04T16:41:05",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -865,27 +886,6 @@
         13.3
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=33&eventtype=TC"
-    },
-    {
-      "id": "WF-1031591",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5816 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T15:13:40",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        18.4437,
-        -16.9957
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031591&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1031484",
