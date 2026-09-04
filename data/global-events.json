@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-04T21:23:14.735Z",
+  "checkedAt": "2026-09-04T21:49:03.476Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001315",
+      "episodeId": "35",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 269 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-04T21:00:00",
+      "updatedAt": "2026-09-04T21:40:28",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -160.7,
+        13.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=35&eventtype=TC"
+    },
     {
       "id": "WF-1031334",
       "episodeId": "10",
@@ -1810,27 +1831,6 @@
         -16.9429
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031601&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "TC-1001315",
-      "episodeId": "34",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-04T18:30:00",
-      "updatedAt": "2026-09-04T18:42:24",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -160.4,
-        13.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=34&eventtype=TC"
     },
     {
       "id": "WF-1031201",
