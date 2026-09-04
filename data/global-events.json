@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-04T05:50:26.350Z",
+  "checkedAt": "2026-09-04T06:29:59.217Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001316",
+      "episodeId": "12",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone EDOUARD-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-08-31T15:00:00",
+      "endsAt": "2026-09-03T09:00:00",
+      "updatedAt": "2026-09-04T06:24:50",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -96.5,
+        32.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
+    },
+    {
+      "id": "FL-1103888",
+      "episodeId": "82",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-09-03T01:00:00",
+      "updatedAt": "2026-09-04T06:10:01",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -94.4039,
+        30.305
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=82&eventtype=FL"
+    },
     {
       "id": "WF-1031546",
       "episodeId": "4",
@@ -151,27 +193,6 @@
         -2.4474
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031593&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "TC-1001316",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone EDOUARD-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-08-31T15:00:00",
-      "endsAt": "2026-09-03T09:00:00",
-      "updatedAt": "2026-09-04T05:40:23",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -96.5,
-        32.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
     },
     {
       "id": "WF-1031548",
@@ -508,27 +529,6 @@
         -8.4638
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031575&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031522",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10497 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T05:23:59",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        29.5567,
-        -9.5147
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031522&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1031554",
