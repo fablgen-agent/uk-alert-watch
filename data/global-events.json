@@ -1,10 +1,157 @@
 {
-  "checkedAt": "2026-09-04T20:48:59.442Z",
+  "checkedAt": "2026-09-04T21:07:03.479Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001317",
+      "episodeId": "15",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone MARIE-26",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
+      "startedAt": "2026-09-01T09:00:00",
+      "endsAt": "2026-09-04T21:00:00",
+      "updatedAt": "2026-09-04T21:07:01",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -118.6,
+        20.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=15&eventtype=TC"
+    },
+    {
+      "id": "WF-1031315",
+      "episodeId": "24",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Russian Federation",
+      "country": "Russian Federation",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 35568 ha",
+      "startedAt": "2026-08-22T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T20:59:43",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        112.6216,
+        65.5288
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031315&episodeid=24&eventtype=WF"
+    },
+    {
+      "id": "WF-1031272",
+      "episodeId": "14",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Mozambique",
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 10122 ha",
+      "startedAt": "2026-08-22T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T20:58:57",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        38.3092,
+        -12.2157
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031272&episodeid=14&eventtype=WF"
+    },
+    {
+      "id": "TC-1001314",
+      "episodeId": "34",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-04T21:00:00",
+      "updatedAt": "2026-09-04T20:54:07",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -141.1,
+        20.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=34&eventtype=TC"
+    },
+    {
+      "id": "WF-1031117",
+      "episodeId": "25",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Tanzania",
+      "country": "Tanzania",
+      "iso3": "TZA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 54849 ha",
+      "startedAt": "2026-08-23T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T20:50:56",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        34.1646,
+        -7.5399
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031117&episodeid=25&eventtype=WF"
+    },
+    {
+      "id": "WF-1031225",
+      "episodeId": "16",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Namibia",
+      "country": "Namibia",
+      "iso3": "NAM",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 18619 ha",
+      "startedAt": "2026-08-23T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T20:50:03",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        20.72,
+        -18.5177
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031225&episodeid=16&eventtype=WF"
+    },
+    {
+      "id": "WF-1031100",
+      "episodeId": "20",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Namibia",
+      "country": "Namibia",
+      "iso3": "NAM",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 23250 ha",
+      "startedAt": "2026-08-23T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T20:49:44",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        19.8017,
+        -18.275
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031100&episodeid=20&eventtype=WF"
+    },
     {
       "id": "WF-1031347",
       "episodeId": "15",
@@ -1161,90 +1308,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031449&episodeid=8&eventtype=WF"
     },
     {
-      "id": "WF-1031618",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5161 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T19:15:31",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        38.7263,
-        -16.5264
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031618&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031617",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7453 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T19:15:11",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        33.896,
-        -15.3725
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031617&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031616",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8896 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T19:14:43",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        19.5127,
-        -4.0657
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031616&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031615",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Namibia",
-      "country": "Namibia",
-      "iso3": "NAM",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5639 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T19:14:34",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.3455,
-        -18.5989
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031615&episodeid=1&eventtype=WF"
-    },
-    {
       "id": "WF-1031614",
       "episodeId": "1",
       "eventType": "WF",
@@ -1852,69 +1915,6 @@
         -16.5016
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031373&episodeid=15&eventtype=WF"
-    },
-    {
-      "id": "WF-1031225",
-      "episodeId": "15",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Namibia",
-      "country": "Namibia",
-      "iso3": "NAM",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 18302 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T15:55:38",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.7186,
-        -18.5168
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031225&episodeid=15&eventtype=WF"
-    },
-    {
-      "id": "TC-1001314",
-      "episodeId": "33",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-04T15:00:00",
-      "updatedAt": "2026-09-04T15:38:30",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -140.4,
-        20.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=33&eventtype=TC"
-    },
-    {
-      "id": "TC-1001317",
-      "episodeId": "14",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone MARIE-26",
-      "country": "Mexico",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
-      "startedAt": "2026-09-01T09:00:00",
-      "endsAt": "2026-09-04T15:00:00",
-      "updatedAt": "2026-09-04T15:19:44",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -117.9,
-        20.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=14&eventtype=TC"
     },
     {
       "id": "EQ-1563606",
