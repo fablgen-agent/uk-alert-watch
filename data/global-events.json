@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-04T19:49:07.989Z",
+  "checkedAt": "2026-09-04T20:07:37.023Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031649",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Mozambique",
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6809 ha",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T19:53:56",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        36.6855,
+        -16.9548
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031649&episodeid=1&eventtype=WF"
+    },
     {
       "id": "WF-1031573",
       "episodeId": "2",
@@ -1999,27 +2020,6 @@
         5.5897
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104105&episodeid=5&eventtype=FL"
-    },
-    {
-      "id": "WF-1031546",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Bolivia",
-      "country": "Bolivia",
-      "iso3": "BOL",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5823 ha",
-      "startedAt": "2026-08-22T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T12:07:35",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -65.1653,
-        -12.5755
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031546&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1031600",
