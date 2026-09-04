@@ -1,10 +1,346 @@
 {
-  "checkedAt": "2026-09-04T09:25:34.053Z",
+  "checkedAt": "2026-09-04T09:39:11.967Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1103888",
+      "episodeId": "79",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-09-03T01:00:00",
+      "updatedAt": "2026-09-04T09:38:15",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -112.1565,
+        37.6741
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=79&eventtype=FL"
+    },
+    {
+      "id": "FL-1104011",
+      "episodeId": "7",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Myanmar",
+      "country": "Myanmar",
+      "iso3": "MMR",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-04T01:00:00",
+      "endsAt": "2026-09-03T01:00:00",
+      "updatedAt": "2026-09-04T09:37:51",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        95.0002,
+        17.6027
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=7&eventtype=FL"
+    },
+    {
+      "id": "WF-1031597",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Mozambique",
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6419 ha",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:37:30",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        37.2281,
+        -16.8852
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031597&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1031325",
+      "episodeId": "15",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 27929 ha",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T09:37:20",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        20.3533,
+        -17.0316
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031325&episodeid=15&eventtype=WF"
+    },
+    {
+      "id": "WF-1031573",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in The Democratic Republic of Congo",
+      "country": "The Democratic Republic of Congo",
+      "iso3": "COD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5180 ha",
+      "startedAt": "2026-08-27T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:35:04",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        28.9982,
+        -3.8056
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031573&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1031382",
+      "episodeId": "13",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Namibia",
+      "country": "Namibia",
+      "iso3": "NAM",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 9660 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-04T00:00:00",
+      "updatedAt": "2026-09-04T09:29:27",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        19.6135,
+        -18.4038
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031382&episodeid=13&eventtype=WF"
+    },
+    {
+      "id": "WF-1031590",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 9909 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:29:13",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        31.2687,
+        -11.5935
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031590&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1031591",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5816 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:28:36",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        18.4437,
+        -16.9957
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031591&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1031589",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia, The Democratic Republic of Congo",
+      "country": "Zambia, The Democratic Republic of Congo",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5706 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:28:15",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        29.8575,
+        -12.5286
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031589&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1031588",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5666 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:28:08",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        29.3262,
+        -11.1938
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031588&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1031572",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 17148 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:27:10",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        31.0703,
+        -11.7957
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1031553",
+      "episodeId": "5",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5468 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:26:59",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        136.4334,
+        -11.98
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031553&episodeid=5&eventtype=WF"
+    },
+    {
+      "id": "WF-1031587",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Mozambique",
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5217 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:26:11",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        36.8997,
+        -16.5084
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031587&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1031586",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5208 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:26:03",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        18.9206,
+        -16.6719
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031586&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1031584",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Mozambique",
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5068 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:25:55",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        35.7229,
+        -16.7837
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031584&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1031585",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5019 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T09:25:49",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        30.7072,
+        -12.663
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031585&episodeid=1&eventtype=WF"
+    },
     {
       "id": "WF-1031583",
       "episodeId": "3",
@@ -573,27 +909,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031596&episodeid=1&eventtype=WF"
     },
     {
-      "id": "FL-1104011",
-      "episodeId": "7",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Myanmar",
-      "country": "Myanmar",
-      "iso3": "MMR",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-04T01:00:00",
-      "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-04T09:01:43",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        95.0002,
-        17.6027
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=7&eventtype=FL"
-    },
-    {
       "id": "TC-1001318",
       "episodeId": "13",
       "eventType": "TC",
@@ -970,321 +1285,6 @@
         -56.1536
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563561&episodeid=1731169&eventtype=EQ"
-    },
-    {
-      "id": "WF-1031597",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6419 ha",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:24:14",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        37.2281,
-        -16.8852
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031597&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031325",
-      "episodeId": "15",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 27929 ha",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T07:24:03",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.3533,
-        -17.0316
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031325&episodeid=15&eventtype=WF"
-    },
-    {
-      "id": "WF-1031573",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5180 ha",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:22:23",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        28.9982,
-        -3.8056
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031573&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031382",
-      "episodeId": "13",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Namibia",
-      "country": "Namibia",
-      "iso3": "NAM",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9660 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T07:17:06",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        19.6135,
-        -18.4038
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031382&episodeid=13&eventtype=WF"
-    },
-    {
-      "id": "WF-1031590",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9909 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:16:26",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        31.2687,
-        -11.5935
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031590&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031591",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5816 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:15:47",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        18.4437,
-        -16.9957
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031591&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1031589",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia, The Democratic Republic of Congo",
-      "country": "Zambia, The Democratic Republic of Congo",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5706 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:15:28",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        29.8575,
-        -12.5286
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031589&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031588",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5666 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:15:12",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        29.3262,
-        -11.1938
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031588&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031572",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 17148 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:14:07",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        31.0703,
-        -11.7957
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1031553",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5468 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:13:54",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        136.4334,
-        -11.98
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031553&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1031587",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5217 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:12:48",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        36.8997,
-        -16.5084
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031587&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031586",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5208 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:12:39",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        18.9206,
-        -16.6719
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031586&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031584",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5068 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:12:31",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        35.7229,
-        -16.7837
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031584&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031585",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5019 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-04T07:12:23",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.7072,
-        -12.663
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031585&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "FL-1103888",
-      "episodeId": "80",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-04T07:10:00",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -74.2107,
-        40.664
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=80&eventtype=FL"
     },
     {
       "id": "WF-1031552",
