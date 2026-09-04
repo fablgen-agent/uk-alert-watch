@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-04T10:39:17.751Z",
+  "checkedAt": "2026-09-04T10:51:39.442Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1103888",
+      "episodeId": "79",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-09-03T01:00:00",
+      "updatedAt": "2026-09-04T10:50:27",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -112.1565,
+        37.6741
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=79&eventtype=FL"
+    },
     {
       "id": "FL-1104011",
       "episodeId": "7",
@@ -17,7 +38,7 @@
       "severity": "Magnitude 0",
       "startedAt": "2026-07-04T01:00:00",
       "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-04T10:31:43",
+      "updatedAt": "2026-09-04T10:50:04",
       "source": "GLOFAS",
       "isCurrent": true,
       "coordinates": [
@@ -38,7 +59,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-03T09:00:00",
-      "updatedAt": "2026-09-04T10:24:49",
+      "updatedAt": "2026-09-04T10:40:29",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -46,27 +67,6 @@
         32.5
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
-    },
-    {
-      "id": "FL-1103888",
-      "episodeId": "79",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-04T10:17:40",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -112.1565,
-        37.6741
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=79&eventtype=FL"
     },
     {
       "id": "WF-1031534",
