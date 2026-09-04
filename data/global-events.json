@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-04T06:29:59.217Z",
+  "checkedAt": "2026-09-04T06:47:59.153Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1103888",
+      "episodeId": "80",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-09-03T01:00:00",
+      "updatedAt": "2026-09-04T06:44:32",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -74.2107,
+        40.664
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=80&eventtype=FL"
+    },
+    {
+      "id": "FL-1104011",
+      "episodeId": "7",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Myanmar",
+      "country": "Myanmar",
+      "iso3": "MMR",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-04T01:00:00",
+      "endsAt": "2026-09-03T01:00:00",
+      "updatedAt": "2026-09-04T06:42:28",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        95.0002,
+        17.6027
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=7&eventtype=FL"
+    },
     {
       "id": "TC-1001316",
       "episodeId": "12",
@@ -17,7 +59,7 @@
       "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
       "startedAt": "2026-08-31T15:00:00",
       "endsAt": "2026-09-03T09:00:00",
-      "updatedAt": "2026-09-04T06:24:50",
+      "updatedAt": "2026-09-04T06:41:07",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -25,27 +67,6 @@
         32.5
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001316&episodeid=12&eventtype=TC"
-    },
-    {
-      "id": "FL-1103888",
-      "episodeId": "82",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-04T06:10:01",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -94.4039,
-        30.305
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=82&eventtype=FL"
     },
     {
       "id": "WF-1031546",
@@ -1474,27 +1495,6 @@
         20.1
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=31&eventtype=TC"
-    },
-    {
-      "id": "FL-1104011",
-      "episodeId": "8",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Myanmar",
-      "country": "Myanmar",
-      "iso3": "MMR",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-04T01:00:00",
-      "endsAt": "2026-09-03T01:00:00",
-      "updatedAt": "2026-09-03T23:52:48",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        97.7452,
-        22.9419
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104011&episodeid=8&eventtype=FL"
     },
     {
       "id": "WF-1031545",
