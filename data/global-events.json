@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-04T01:36:14.003Z",
+  "checkedAt": "2026-09-04T01:50:29.484Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031489",
+      "episodeId": "8",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Russian Federation",
+      "country": "Russian Federation",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 16761 ha",
+      "startedAt": "2026-08-23T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-04T01:43:49",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        118.8562,
+        65.7019
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031489&episodeid=8&eventtype=WF"
+    },
     {
       "id": "WF-1031496",
       "episodeId": "3",
@@ -319,6 +340,27 @@
         -11.7957
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1031513",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Mozambique",
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 18282 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-03T00:00:00",
+      "updatedAt": "2026-09-03T23:23:32",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        36.8125,
+        -17.2935
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031513&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031587",
@@ -1224,27 +1266,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031548&episodeid=2&eventtype=WF"
     },
     {
-      "id": "WF-1031489",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Russian Federation",
-      "country": "Russian Federation",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 15318 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-03T21:58:52",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        118.8461,
-        65.6994
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031489&episodeid=7&eventtype=WF"
-    },
-    {
       "id": "EQ-1563463",
       "episodeId": "1731065",
       "eventType": "EQ",
@@ -1327,27 +1348,6 @@
         -8.3207
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563465&episodeid=1731068&eventtype=EQ"
-    },
-    {
-      "id": "WF-1031479",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9495 ha",
-      "startedAt": "2026-08-25T00:00:00",
-      "endsAt": "2026-09-03T00:00:00",
-      "updatedAt": "2026-09-03T21:08:46",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        18.8082,
-        -17.2214
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031479&episodeid=3&eventtype=WF"
     },
     {
       "id": "TC-1001317",
