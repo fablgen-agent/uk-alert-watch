@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-05T18:08:01.043Z",
+  "checkedAt": "2026-09-05T18:25:23.225Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563810",
+      "episodeId": "1731451",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:35km",
+      "startedAt": "2026-09-05T18:00:09",
+      "endsAt": "2026-09-05T18:00:09",
+      "updatedAt": "2026-09-05T18:20:46",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.329,
+        52.2713
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563810&episodeid=1731451&eventtype=EQ"
+    },
     {
       "id": "WF-1031691",
       "episodeId": "1",
@@ -340,27 +361,6 @@
         -15.3399
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031528&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031479",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9891 ha",
-      "startedAt": "2026-08-25T00:00:00",
-      "endsAt": "2026-09-05T00:00:00",
-      "updatedAt": "2026-09-05T17:39:28",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        18.8093,
-        -17.2199
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031479&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1031526",
