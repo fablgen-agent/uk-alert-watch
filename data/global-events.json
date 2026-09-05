@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-05T09:06:55.507Z",
+  "checkedAt": "2026-09-05T09:22:56.540Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001315",
+      "episodeId": "37",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-05T09:00:00",
+      "updatedAt": "2026-09-05T09:14:36",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -161.9,
+        13.3
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=37&eventtype=TC"
+    },
+    {
+      "id": "TC-1001314",
+      "episodeId": "36",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KARINA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-05T09:00:00",
+      "updatedAt": "2026-09-05T09:09:08",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -142.5,
+        21.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=36&eventtype=TC"
+    },
     {
       "id": "TC-1001317",
       "episodeId": "17",
@@ -1768,48 +1810,6 @@
         -12.864
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031391&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "TC-1001315",
-      "episodeId": "36",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 269 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-05T03:00:00",
-      "updatedAt": "2026-09-05T03:12:57",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -161.4,
-        13.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=36&eventtype=TC"
-    },
-    {
-      "id": "TC-1001314",
-      "episodeId": "35",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KARINA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-05T03:00:00",
-      "updatedAt": "2026-09-05T02:44:53",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -141.9,
-        20.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=35&eventtype=TC"
     },
     {
       "id": "EQ-1563712",
