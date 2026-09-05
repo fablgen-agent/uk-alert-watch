@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-09-05T13:06:49.454Z",
+  "checkedAt": "2026-09-05T14:35:14.326Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563786",
+      "episodeId": "1731424",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Papua New Guinea",
+      "country": "Papua New Guinea",
+      "iso3": "PNG",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.5M, Depth:114.364km",
+      "startedAt": "2026-09-05T14:12:07",
+      "endsAt": "2026-09-05T14:12:07",
+      "updatedAt": "2026-09-05T14:33:52",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        153.6766,
+        -4.5469
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563786&episodeid=1731424&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001319",
+      "episodeId": "5",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TWENTYTHREE-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
+      "startedAt": "2026-09-04T12:00:00",
+      "endsAt": "2026-09-05T12:00:00",
+      "updatedAt": "2026-09-05T14:28:54",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        133.8,
+        28.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001319&episodeid=5&eventtype=TC"
+    },
+    {
+      "id": "TC-1001318",
+      "episodeId": "18",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KROVANH-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-09-01T06:00:00",
+      "endsAt": "2026-09-05T12:00:00",
+      "updatedAt": "2026-09-05T14:27:13",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        128.2,
+        25.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=18&eventtype=TC"
+    },
     {
       "id": "WF-1031374",
       "episodeId": "16",
@@ -825,27 +888,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031572&episodeid=6&eventtype=WF"
     },
     {
-      "id": "WF-1031383",
-      "episodeId": "14",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 11491 ha",
-      "startedAt": "2026-08-27T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-05T11:54:36",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -52.5349,
-        -14.4141
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031383&episodeid=14&eventtype=WF"
-    },
-    {
       "id": "WF-1031683",
       "episodeId": "1",
       "eventType": "WF",
@@ -1581,27 +1623,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=17&eventtype=TC"
     },
     {
-      "id": "TC-1001318",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KROVANH-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-09-01T06:00:00",
-      "endsAt": "2026-09-05T06:00:00",
-      "updatedAt": "2026-09-05T08:12:36",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        127.5,
-        26.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=17&eventtype=TC"
-    },
-    {
       "id": "WF-1031222",
       "episodeId": "14",
       "eventType": "WF",
@@ -1642,27 +1663,6 @@
         -15.3836
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031395&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "TC-1001319",
-      "episodeId": "4",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TWENTYTHREE-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 74 km/h)",
-      "startedAt": "2026-09-04T12:00:00",
-      "endsAt": "2026-09-05T06:00:00",
-      "updatedAt": "2026-09-05T07:41:09",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        135.2,
-        27.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001319&episodeid=4&eventtype=TC"
     },
     {
       "id": "WF-1031521",
