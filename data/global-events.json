@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-05T05:22:56.466Z",
+  "checkedAt": "2026-09-05T06:27:47.821Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104141",
+      "episodeId": "1",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Vietnam",
+      "country": "Vietnam",
+      "iso3": "VNM",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-09-03T01:00:00",
+      "endsAt": "2026-09-05T01:00:00",
+      "updatedAt": "2026-09-05T06:09:30",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        107.9996,
+        13.9738
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104141&episodeid=1&eventtype=FL"
+    },
+    {
+      "id": "FL-1104122",
+      "episodeId": "16",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Thailand",
+      "country": "Thailand",
+      "iso3": "THA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-18T01:00:00",
+      "endsAt": "2026-09-05T01:00:00",
+      "updatedAt": "2026-09-05T06:09:08",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        99.7333,
+        18.68
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104122&episodeid=16&eventtype=FL"
+    },
     {
       "id": "EQ-1563734",
       "episodeId": "1731363",
@@ -655,27 +697,6 @@
         -5.3529
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031222&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "WF-1031496",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8198 ha",
-      "startedAt": "2026-08-24T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-05T03:52:39",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        38.1839,
-        -15.4044
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031496&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031470",
@@ -1474,27 +1495,6 @@
         -11.6929
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031389&episodeid=9&eventtype=WF"
-    },
-    {
-      "id": "WF-1031491",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7609 ha",
-      "startedAt": "2026-08-29T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-05T03:22:11",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        31.5495,
-        -9.4408
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031491&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031452",
