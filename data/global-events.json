@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-05T12:53:45.068Z",
+  "checkedAt": "2026-09-05T13:06:49.454Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031374",
+      "episodeId": "16",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6326 ha",
+      "startedAt": "2026-08-21T00:00:00",
+      "endsAt": "2026-09-05T00:00:00",
+      "updatedAt": "2026-09-05T12:56:47",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        114.9461,
+        -2.7036
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031374&episodeid=16&eventtype=WF"
+    },
     {
       "id": "WF-1031310",
       "episodeId": "31",
@@ -1558,27 +1579,6 @@
         21.4
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=17&eventtype=TC"
-    },
-    {
-      "id": "WF-1031374",
-      "episodeId": "16",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6326 ha",
-      "startedAt": "2026-08-21T00:00:00",
-      "endsAt": "2026-09-05T00:00:00",
-      "updatedAt": "2026-09-05T08:22:48",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        114.9461,
-        -2.7036
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031374&episodeid=16&eventtype=WF"
     },
     {
       "id": "TC-1001318",
