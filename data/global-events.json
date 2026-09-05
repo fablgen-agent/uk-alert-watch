@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-05T00:35:16.197Z",
+  "checkedAt": "2026-09-05T00:52:55.931Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563691",
+      "episodeId": "1731324",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:10km",
+      "startedAt": "2026-09-04T23:17:48",
+      "endsAt": "2026-09-04T23:17:48",
+      "updatedAt": "2026-09-05T00:40:03",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.6133,
+        -8.2997
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563691&episodeid=1731324&eventtype=EQ"
+    },
     {
       "id": "WF-1031334",
       "episodeId": "10",
@@ -1537,27 +1558,6 @@
         -16.529
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031481&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031507",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8528 ha",
-      "startedAt": "2026-08-30T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T23:14:34",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        36.4676,
-        -17.0946
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031507&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031449",
