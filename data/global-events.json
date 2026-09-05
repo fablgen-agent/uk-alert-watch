@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-05T04:23:59.751Z",
+  "checkedAt": "2026-09-05T05:22:56.466Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563734",
+      "episodeId": "1731363",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Off Coast Of Central America",
+      "country": "Off Coast Of Central America",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:10km",
+      "startedAt": "2026-09-05T05:00:07",
+      "endsAt": "2026-09-05T05:00:07",
+      "updatedAt": "2026-09-05T05:22:44",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -83.1397,
+        3.5518
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563734&episodeid=1731363&eventtype=EQ"
+    },
     {
       "id": "WF-1031334",
       "episodeId": "10",
@@ -382,27 +403,6 @@
         -2.663
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031228&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1031497",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Uganda",
-      "country": "Uganda",
-      "iso3": "UGA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6366 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-05T03:57:42",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        31.8802,
-        -0.0238
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031497&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031489",
