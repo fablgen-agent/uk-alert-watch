@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-09-05T14:49:07.401Z",
+  "checkedAt": "2026-09-05T15:06:51.340Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031677",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7366 ha",
+      "startedAt": "2026-09-03T00:00:00",
+      "endsAt": "2026-09-05T00:00:00",
+      "updatedAt": "2026-09-05T15:04:48",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        21.6593,
+        -17.0589
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031677&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1031675",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Angola",
+      "country": "Angola",
+      "iso3": "AGO",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7571 ha",
+      "startedAt": "2026-09-04T00:00:00",
+      "endsAt": "2026-09-05T00:00:00",
+      "updatedAt": "2026-09-05T15:02:47",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        21.1522,
+        -17.6491
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031675&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "TC-1001317",
+      "episodeId": "18",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone MARIE-26",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
+      "startedAt": "2026-09-01T09:00:00",
+      "endsAt": "2026-09-05T15:00:00",
+      "updatedAt": "2026-09-05T14:59:13",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -120.4,
+        21.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=18&eventtype=TC"
+    },
     {
       "id": "EQ-1563786",
       "episodeId": "1731424",
@@ -1497,27 +1560,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031679&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF-1031677",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7309 ha",
-      "startedAt": "2026-09-03T00:00:00",
-      "endsAt": "2026-09-05T00:00:00",
-      "updatedAt": "2026-09-05T11:03:06",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        21.6595,
-        -17.059
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031677&episodeid=1&eventtype=WF"
-    },
-    {
       "id": "WF-1031676",
       "episodeId": "2",
       "eventType": "WF",
@@ -1600,27 +1642,6 @@
         21.4
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001314&episodeid=36&eventtype=TC"
-    },
-    {
-      "id": "TC-1001317",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone MARIE-26",
-      "country": "Mexico",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 157 km/h)",
-      "startedAt": "2026-09-01T09:00:00",
-      "endsAt": "2026-09-05T09:00:00",
-      "updatedAt": "2026-09-05T08:59:14",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -119.7,
-        21.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=17&eventtype=TC"
     },
     {
       "id": "WF-1031222",
@@ -1747,27 +1768,6 @@
         -11.6929
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031389&episodeid=9&eventtype=WF"
-    },
-    {
-      "id": "WF-1031675",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6661 ha",
-      "startedAt": "2026-09-04T00:00:00",
-      "endsAt": "2026-09-05T00:00:00",
-      "updatedAt": "2026-09-05T07:01:54",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        21.1558,
-        -17.6448
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031675&episodeid=1&eventtype=WF"
     },
     {
       "id": "FL-1104122",
