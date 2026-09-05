@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-05T01:35:59.844Z",
+  "checkedAt": "2026-09-05T02:07:27.217Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563712",
+      "episodeId": "1731338",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Kermadec Islands, New Zealand",
+      "country": "Kermadec Islands, New Zealand",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:33.579km",
+      "startedAt": "2026-09-05T01:41:01",
+      "endsAt": "2026-09-05T01:41:01",
+      "updatedAt": "2026-09-05T02:06:30",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -177.8256,
+        -30.7935
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563712&episodeid=1731338&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1563697",
+      "episodeId": "1731321",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russia",
+      "country": "Russia",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.5M, Depth:36.429km",
+      "startedAt": "2026-09-04T23:52:30",
+      "endsAt": "2026-09-04T23:52:30",
+      "updatedAt": "2026-09-05T01:59:15",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        149.8346,
+        44.9792
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563697&episodeid=1731321&eventtype=EQ"
+    },
     {
       "id": "TC-1001315",
       "episodeId": "35",
@@ -214,27 +256,6 @@
         -16.5016
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031373&episodeid=15&eventtype=WF"
-    },
-    {
-      "id": "EQ-1563697",
-      "episodeId": "1731321",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Russia",
-      "country": "Russia",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.5M, Depth:36.429km",
-      "startedAt": "2026-09-04T23:52:30",
-      "endsAt": "2026-09-04T23:52:30",
-      "updatedAt": "2026-09-05T00:17:15",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        149.8346,
-        44.9792
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563697&episodeid=1731321&eventtype=EQ"
     },
     {
       "id": "WF-1031315",
@@ -1684,27 +1705,6 @@
         -12.3344
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031441&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031505",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6262 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T23:08:57",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        25.6443,
-        -16.0248
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031505&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031504",
