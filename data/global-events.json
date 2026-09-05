@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-05T00:52:55.931Z",
+  "checkedAt": "2026-09-05T01:06:25.269Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563702",
+      "episodeId": "1731326",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Off East Coast Of Honshu, Japan",
+      "country": "Off East Coast Of Honshu, Japan",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:33.857km",
+      "startedAt": "2026-09-05T00:22:45",
+      "endsAt": "2026-09-05T00:22:45",
+      "updatedAt": "2026-09-05T00:54:44",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        143.5636,
+        40.6426
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563702&episodeid=1731326&eventtype=EQ"
+    },
     {
       "id": "EQ-1563691",
       "episodeId": "1731324",
@@ -1600,27 +1621,6 @@
         -19.2971
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031448&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031506",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 16712 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-04T00:00:00",
-      "updatedAt": "2026-09-04T23:10:53",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        16.1214,
-        -6.9746
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031506&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1031500",
