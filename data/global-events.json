@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-06T12:44:35.487Z",
+  "checkedAt": "2026-09-06T13:23:21.429Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563917",
+      "episodeId": "1731590",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:150.632km",
+      "startedAt": "2026-09-06T11:15:46",
+      "endsAt": "2026-09-06T11:15:46",
+      "updatedAt": "2026-09-06T13:21:26",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        123.9675,
+        -8.3411
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563917&episodeid=1731590&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1563930",
+      "episodeId": "1731589",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Svalbard Region",
+      "country": "Svalbard Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:10km",
+      "startedAt": "2026-09-06T12:50:34",
+      "endsAt": "2026-09-06T12:50:34",
+      "updatedAt": "2026-09-06T13:18:06",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        7.1688,
+        76.1481
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563930&episodeid=1731589&eventtype=EQ"
+    },
     {
       "id": "EQ-1563919",
       "episodeId": "1731585",
@@ -867,27 +909,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031674&episodeid=7&eventtype=WF"
     },
     {
-      "id": "WF-1031686",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5684 ha",
-      "startedAt": "2026-08-30T00:00:00",
-      "endsAt": "2026-09-05T00:00:00",
-      "updatedAt": "2026-09-06T11:21:24",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.3242,
-        -9.1462
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031686&episodeid=3&eventtype=WF"
-    },
-    {
       "id": "WF-1031552",
       "episodeId": "5",
       "eventType": "WF",
@@ -1117,27 +1138,6 @@
         -8.9054
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031681&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1031685",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5007 ha",
-      "startedAt": "2026-09-01T00:00:00",
-      "endsAt": "2026-09-05T00:00:00",
-      "updatedAt": "2026-09-06T11:09:50",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        37.9632,
-        -11.9929
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031685&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1031701",
