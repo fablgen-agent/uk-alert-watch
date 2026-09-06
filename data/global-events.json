@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-06T09:07:25.066Z",
+  "checkedAt": "2026-09-06T09:37:18.985Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1103888",
+      "episodeId": "79",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-09-05T01:00:00",
+      "updatedAt": "2026-09-06T09:29:12",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -112.1565,
+        37.6741
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=79&eventtype=FL"
+    },
     {
       "id": "EQ-1563901",
       "episodeId": "1731551",
@@ -508,27 +529,6 @@
         -3.2134
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031674&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "FL-1103888",
-      "episodeId": "79",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-09-05T01:00:00",
-      "updatedAt": "2026-09-06T07:19:52",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -112.1565,
-        37.6741
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=79&eventtype=FL"
     },
     {
       "id": "WF-1031670",
