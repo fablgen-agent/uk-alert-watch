@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-06T05:06:56.637Z",
+  "checkedAt": "2026-09-06T05:36:23.286Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563887",
+      "episodeId": "1731535",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Kermadec Islands Region",
+      "country": "Kermadec Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:10km",
+      "startedAt": "2026-09-06T04:52:40",
+      "endsAt": "2026-09-06T04:52:40",
+      "updatedAt": "2026-09-06T05:35:06",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -176.8095,
+        -28.5523
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563887&episodeid=1731535&eventtype=EQ"
+    },
     {
       "id": "WF-1031691",
       "episodeId": "2",
@@ -676,27 +697,6 @@
         -10.6362
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031715&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031636",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 14012 ha",
-      "startedAt": "2026-08-29T00:00:00",
-      "endsAt": "2026-09-05T00:00:00",
-      "updatedAt": "2026-09-06T03:44:41",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        31.2446,
-        -10.7971
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031636&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1031686",
