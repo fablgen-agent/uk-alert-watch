@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-06T05:36:23.286Z",
+  "checkedAt": "2026-09-06T05:49:23.253Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563885",
+      "episodeId": "1731536",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Near East Coast Of Honshu, Japan",
+      "country": "Near East Coast Of Honshu, Japan",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:34.398km",
+      "startedAt": "2026-09-06T05:15:45",
+      "endsAt": "2026-09-06T05:15:45",
+      "updatedAt": "2026-09-06T05:47:22",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        142.9698,
+        40.7281
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563885&episodeid=1731536&eventtype=EQ"
+    },
     {
       "id": "EQ-1563887",
       "episodeId": "1731535",
@@ -571,27 +592,6 @@
         -16.1418
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031638&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1031637",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6320 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-05T00:00:00",
-      "updatedAt": "2026-09-06T03:54:25",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        18.8229,
-        -4.7288
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031637&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1031688",
