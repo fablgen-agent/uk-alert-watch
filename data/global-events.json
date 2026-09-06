@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-06T08:25:34.719Z",
+  "checkedAt": "2026-09-06T09:07:25.066Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563901",
+      "episodeId": "1731551",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Minahassa Peninsula, Sulawesi",
+      "country": "Minahassa Peninsula, Sulawesi",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:10km",
+      "startedAt": "2026-09-06T06:41:21",
+      "endsAt": "2026-09-06T06:41:21",
+      "updatedAt": "2026-09-06T09:03:27",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        123.3003,
+        -0.3104
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563901&episodeid=1731551&eventtype=EQ"
+    },
     {
       "id": "WF-1031691",
       "episodeId": "2",
@@ -109,27 +130,6 @@
         -16.8271
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031662&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1031661",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9774 ha",
-      "startedAt": "2026-08-23T00:00:00",
-      "endsAt": "2026-09-05T00:00:00",
-      "updatedAt": "2026-09-06T08:05:44",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        31.6716,
-        -9.925
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031661&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031055",
