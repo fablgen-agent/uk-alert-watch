@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-06T20:24:08.673Z",
+  "checkedAt": "2026-09-06T21:35:10.108Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563989",
+      "episodeId": "1731653",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Fiji Islands Region",
+      "country": "Fiji Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:592.756km",
+      "startedAt": "2026-09-06T21:08:42",
+      "endsAt": "2026-09-06T21:08:42",
+      "updatedAt": "2026-09-06T21:30:34",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -178.3887,
+        -17.8899
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563989&episodeid=1731653&eventtype=EQ"
+    },
     {
       "id": "WF-1031721",
       "episodeId": "6",
@@ -403,27 +424,6 @@
         -15.6521
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031688&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1031584",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 24073 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-06T00:00:00",
-      "updatedAt": "2026-09-06T19:29:02",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        35.6477,
-        -16.7361
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031584&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1031726",
