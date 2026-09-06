@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-06T00:38:52.951Z",
+  "checkedAt": "2026-09-06T02:07:28.901Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563810",
+      "episodeId": "1731451",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:35km",
+      "startedAt": "2026-09-05T18:00:09",
+      "endsAt": "2026-09-05T18:00:09",
+      "updatedAt": "2026-09-06T02:07:06",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -169.329,
+        52.2713
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563810&episodeid=1731451&eventtype=EQ"
+    },
     {
       "id": "WF-1031691",
       "episodeId": "2",
@@ -1768,27 +1789,6 @@
         -19.6049
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031693&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "EQ-1563810",
-      "episodeId": "1731451",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:35km",
-      "startedAt": "2026-09-05T18:00:09",
-      "endsAt": "2026-09-05T18:00:09",
-      "updatedAt": "2026-09-05T18:20:46",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -169.329,
-        52.2713
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563810&episodeid=1731451&eventtype=EQ"
     },
     {
       "id": "WF-1031687",
