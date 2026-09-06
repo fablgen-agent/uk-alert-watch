@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-06T12:28:38.097Z",
+  "checkedAt": "2026-09-06T12:44:35.487Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1563919",
+      "episodeId": "1731585",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Southern East Pacific Rise",
+      "country": "Southern East Pacific Rise",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.2M, Depth:10km",
+      "startedAt": "2026-09-06T10:38:18",
+      "endsAt": "2026-09-06T10:38:18",
+      "updatedAt": "2026-09-06T12:40:12",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -116.0305,
+        -24.5229
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563919&episodeid=1731585&eventtype=EQ"
+    },
     {
       "id": "FL-1103888",
       "episodeId": "79",
@@ -17,7 +38,7 @@
       "severity": "Magnitude 0",
       "startedAt": "2026-05-19T01:00:00",
       "endsAt": "2026-09-05T01:00:00",
-      "updatedAt": "2026-09-06T12:26:57",
+      "updatedAt": "2026-09-06T12:29:40",
       "source": "GLOFAS",
       "isCurrent": true,
       "coordinates": [
@@ -781,27 +802,6 @@
         -18.4441
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031382&episodeid=20&eventtype=WF"
-    },
-    {
-      "id": "EQ-1563919",
-      "episodeId": "1731570",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Southern East Pacific Rise",
-      "country": "Southern East Pacific Rise",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.1M, Depth:10km",
-      "startedAt": "2026-09-06T10:38:34",
-      "endsAt": "2026-09-06T10:38:34",
-      "updatedAt": "2026-09-06T11:27:04",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -115.8427,
-        -22.1041
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1563919&episodeid=1731570&eventtype=EQ"
     },
     {
       "id": "WF-1031726",
