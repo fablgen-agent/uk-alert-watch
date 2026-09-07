@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-07T02:25:40.872Z",
+  "checkedAt": "2026-09-07T02:39:34.153Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564022",
+      "episodeId": "1731696",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Kermadec Islands Region",
+      "country": "Kermadec Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:585.146km",
+      "startedAt": "2026-09-07T02:06:48",
+      "endsAt": "2026-09-07T02:06:48",
+      "updatedAt": "2026-09-07T02:29:46",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        178.5443,
+        -30.9663
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564022&episodeid=1731696&eventtype=EQ"
+    },
     {
       "id": "EQ-1564008",
       "episodeId": "1731688",
@@ -529,27 +550,6 @@
         -15.4197
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031707&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1031627",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6423 ha",
-      "startedAt": "2026-08-30T00:00:00",
-      "endsAt": "2026-09-06T00:00:00",
-      "updatedAt": "2026-09-06T23:28:16",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        16.9961,
-        -4.8316
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031627&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1031678",
