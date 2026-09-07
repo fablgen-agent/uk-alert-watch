@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-07T02:39:34.153Z",
+  "checkedAt": "2026-09-07T02:51:59.242Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564024",
+      "episodeId": "1731698",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Kermadec Islands Region",
+      "country": "Kermadec Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:585.921km",
+      "startedAt": "2026-09-07T02:11:51",
+      "endsAt": "2026-09-07T02:11:51",
+      "updatedAt": "2026-09-07T02:45:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        178.6445,
+        -31.1216
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564024&episodeid=1731698&eventtype=EQ"
+    },
     {
       "id": "EQ-1564022",
       "episodeId": "1731696",
@@ -340,27 +361,6 @@
         -13.3769
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031766&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031623",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 21962 ha",
-      "startedAt": "2026-08-29T00:00:00",
-      "endsAt": "2026-09-06T00:00:00",
-      "updatedAt": "2026-09-06T23:36:22",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        38.1803,
-        -16.2127
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031623&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031726",
