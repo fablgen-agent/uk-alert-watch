@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-07T12:32:32.289Z",
+  "checkedAt": "2026-09-07T14:41:00.975Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001318",
+      "episodeId": "26",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KROVANH-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-09-01T06:00:00",
+      "endsAt": "2026-09-07T12:00:00",
+      "updatedAt": "2026-09-07T14:29:41",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        132.9,
+        28.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=26&eventtype=TC"
+    },
     {
       "id": "WF-1031397",
       "episodeId": "18",
@@ -949,27 +970,6 @@
         -18.2355
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031747&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1031681",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6138 ha",
-      "startedAt": "2026-09-01T00:00:00",
-      "endsAt": "2026-09-06T00:00:00",
-      "updatedAt": "2026-09-07T11:17:56",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        140.879,
-        -8.9054
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031681&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1031550",
