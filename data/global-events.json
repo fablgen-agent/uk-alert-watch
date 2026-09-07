@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-07T03:53:24.387Z",
+  "checkedAt": "2026-09-07T05:07:20.446Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564043",
+      "episodeId": "1731713",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in South Of Fiji Islands",
+      "country": "South Of Fiji Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:512.564km",
+      "startedAt": "2026-09-07T02:29:41",
+      "endsAt": "2026-09-07T02:29:41",
+      "updatedAt": "2026-09-07T05:05:26",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        179.6916,
+        -24.8477
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564043&episodeid=1731713&eventtype=EQ"
+    },
     {
       "id": "WF-1031762",
       "episodeId": "1",
@@ -550,27 +571,6 @@
         -9.5047
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031753&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1031616",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 13028 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-06T00:00:00",
-      "updatedAt": "2026-09-07T03:17:12",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        19.5221,
-        -4.0786
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031616&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1031704",
