@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-08T08:56:19.303Z",
+  "checkedAt": "2026-09-08T09:42:42.004Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -7,7 +7,7 @@
   "events": [
     {
       "id": "TC-1001317",
-      "episodeId": "28",
+      "episodeId": "29",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone MARIE-26",
@@ -16,15 +16,36 @@
       "alertLevel": "green",
       "severity": "Tropical Storm (maximum wind speed of 157 km/h)",
       "startedAt": "2026-09-01T09:00:00",
-      "endsAt": "2026-09-08T03:00:00",
-      "updatedAt": "2026-09-08T08:46:27",
+      "endsAt": "2026-09-08T09:00:00",
+      "updatedAt": "2026-09-08T09:34:42",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
-        -125.9,
-        25.1
+        -126.6,
+        25.5
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=28&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=29&eventtype=TC"
+    },
+    {
+      "id": "TC-1001315",
+      "episodeId": "49",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-08T09:00:00",
+      "updatedAt": "2026-09-08T09:31:14",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -160.8,
+        21.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=49&eventtype=TC"
     },
     {
       "id": "WF-1031720",
@@ -1789,27 +1810,6 @@
         -11.107
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031433&episodeid=11&eventtype=WF"
-    },
-    {
-      "id": "TC-1001315",
-      "episodeId": "48",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-08T03:00:00",
-      "updatedAt": "2026-09-08T03:16:37",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -161.3,
-        20.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=48&eventtype=TC"
     },
     {
       "id": "EQ-1564184",
