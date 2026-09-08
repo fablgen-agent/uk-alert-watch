@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-08T16:54:47.363Z",
+  "checkedAt": "2026-09-08T17:08:15.228Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001317",
+      "episodeId": "30",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone MARIE-26",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 157 km/h)",
+      "startedAt": "2026-09-01T09:00:00",
+      "endsAt": "2026-09-08T15:00:00",
+      "updatedAt": "2026-09-08T17:01:57",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -127.4,
+        25.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=30&eventtype=TC"
+    },
     {
       "id": "EQ-1564287",
       "episodeId": "1731979",
@@ -1558,27 +1579,6 @@
         -15.5375
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031780&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "TC-1001317",
-      "episodeId": "30",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone MARIE-26",
-      "country": "Mexico",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 157 km/h)",
-      "startedAt": "2026-09-01T09:00:00",
-      "endsAt": "2026-09-08T15:00:00",
-      "updatedAt": "2026-09-08T14:48:06",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -127.4,
-        25.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=30&eventtype=TC"
     },
     {
       "id": "TC-1001318",
