@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-08T00:38:06.269Z",
+  "checkedAt": "2026-09-08T01:25:00.185Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564175",
+      "episodeId": "1731852",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Vanuatu",
+      "country": "Vanuatu",
+      "iso3": "VUT",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.1M, Depth:10km",
+      "startedAt": "2026-09-08T00:52:02",
+      "endsAt": "2026-09-08T00:52:02",
+      "updatedAt": "2026-09-08T01:11:31",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        170.1445,
+        -19.8408
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564175&episodeid=1731852&eventtype=EQ"
+    },
     {
       "id": "WF-1031428",
       "episodeId": "18",
@@ -655,27 +676,6 @@
         -9.7289
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031478&episodeid=11&eventtype=WF"
-    },
-    {
-      "id": "WF-1031643",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6137 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-07T00:00:00",
-      "updatedAt": "2026-09-07T23:47:18",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        38.4597,
-        -15.3084
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031643&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031638",
