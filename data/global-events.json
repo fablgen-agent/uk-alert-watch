@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-08T21:06:57.691Z",
+  "checkedAt": "2026-09-08T22:07:49.602Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564322",
+      "episodeId": "1732016",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:17.467km",
+      "startedAt": "2026-09-08T21:42:22",
+      "endsAt": "2026-09-08T21:42:22",
+      "updatedAt": "2026-09-08T22:07:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.658,
+        -8.1535
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564322&episodeid=1732016&eventtype=EQ"
+    },
     {
       "id": "WF-1031720",
       "episodeId": "11",
@@ -739,27 +760,6 @@
         33.1
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=31&eventtype=TC"
-    },
-    {
-      "id": "WF-1031570",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10302 ha",
-      "startedAt": "2026-08-30T00:00:00",
-      "endsAt": "2026-09-08T00:00:00",
-      "updatedAt": "2026-09-08T20:14:33",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        16.1917,
-        -5.4869
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031570&episodeid=8&eventtype=WF"
     },
     {
       "id": "WF-1031481",
