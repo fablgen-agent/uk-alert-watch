@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-08T16:44:10.290Z",
+  "checkedAt": "2026-09-08T16:54:47.363Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564287",
+      "episodeId": "1731979",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Nepal",
+      "country": "Nepal",
+      "iso3": "NPL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-09-08T16:08:34",
+      "endsAt": "2026-09-08T16:08:34",
+      "updatedAt": "2026-09-08T16:48:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        83.9779,
+        29.2727
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564287&episodeid=1731979&eventtype=EQ"
+    },
     {
       "id": "WF-1031821",
       "episodeId": "3",
@@ -25,27 +46,6 @@
         -2.9595
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031821&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "EQ-1564287",
-      "episodeId": "1731979",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Nepal",
-      "country": "Nepal",
-      "iso3": "NPL",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:10km",
-      "startedAt": "2026-09-08T16:08:34",
-      "endsAt": "2026-09-08T16:08:34",
-      "updatedAt": "2026-09-08T16:41:42",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        83.9779,
-        29.2727
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564287&episodeid=1731979&eventtype=EQ"
     },
     {
       "id": "WF-1031271",
