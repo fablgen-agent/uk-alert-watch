@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-09T20:08:01.544Z",
+  "checkedAt": "2026-09-09T21:07:05.083Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001320",
+      "episodeId": "1",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone FOURTEEN-E-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-09-09T21:00:00",
+      "endsAt": "2026-09-09T21:00:00",
+      "updatedAt": "2026-09-09T21:06:55",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -115.2,
+        15.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=1&eventtype=TC"
+    },
+    {
+      "id": "TC-1001315",
+      "episodeId": "55",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone LOWELL-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 259 km/h)",
+      "startedAt": "2026-08-27T21:00:00",
+      "endsAt": "2026-09-09T21:00:00",
+      "updatedAt": "2026-09-09T21:01:55",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -163.7,
+        28.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=55&eventtype=TC"
+    },
     {
       "id": "EQ-1564464",
       "episodeId": "1732170",
@@ -1245,27 +1287,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031827&episodeid=2&eventtype=WF"
     },
     {
-      "id": "WF-1031731",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7638 ha",
-      "startedAt": "2026-09-05T00:00:00",
-      "endsAt": "2026-09-09T00:00:00",
-      "updatedAt": "2026-09-09T19:08:32",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.5022,
-        -17.2436
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031731&episodeid=9&eventtype=WF"
-    },
-    {
       "id": "WF-1031785",
       "episodeId": "6",
       "eventType": "WF",
@@ -2062,27 +2083,6 @@
         33.7487
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=86&eventtype=FL"
-    },
-    {
-      "id": "TC-1001315",
-      "episodeId": "52",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone LOWELL-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 259 km/h)",
-      "startedAt": "2026-08-27T21:00:00",
-      "endsAt": "2026-09-09T03:00:00",
-      "updatedAt": "2026-09-09T03:17:31",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -161.1,
-        26.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001315&episodeid=52&eventtype=TC"
     },
     {
       "id": "EQ-1564346",
