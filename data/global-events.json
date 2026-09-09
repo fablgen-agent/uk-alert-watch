@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-09T16:27:36.245Z",
+  "checkedAt": "2026-09-09T16:55:02.176Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031514",
+      "episodeId": "12",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 154757 ha",
+      "startedAt": "2026-08-26T00:00:00",
+      "endsAt": "2026-09-09T00:00:00",
+      "updatedAt": "2026-09-09T16:44:16",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        31.0824,
+        -11.1298
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031514&episodeid=12&eventtype=WF"
+    },
     {
       "id": "WF-1031459",
       "episodeId": "18",
@@ -1348,27 +1369,6 @@
         -2.7358
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031554&episodeid=10&eventtype=WF"
-    },
-    {
-      "id": "WF-1031514",
-      "episodeId": "12",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 154757 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-09-09T00:00:00",
-      "updatedAt": "2026-09-09T13:06:34",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        31.0824,
-        -11.1298
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031514&episodeid=12&eventtype=WF"
     },
     {
       "id": "EQ-1564410",
