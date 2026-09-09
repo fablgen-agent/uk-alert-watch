@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-09T08:08:34.182Z",
+  "checkedAt": "2026-09-09T08:26:52.519Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "WF-1031764",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6131 ha",
+      "startedAt": "2026-08-26T00:00:00",
+      "endsAt": "2026-09-08T00:00:00",
+      "updatedAt": "2026-09-09T08:18:23",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        29.1384,
+        -10.0276
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031764&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "FL-1104140",
+      "episodeId": "4",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-09-03T01:00:00",
+      "endsAt": "2026-09-10T01:00:00",
+      "updatedAt": "2026-09-09T08:15:04",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        140.5146,
+        35.5995
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104140&episodeid=4&eventtype=FL"
+    },
     {
       "id": "WF-1031459",
       "episodeId": "16",
@@ -67,27 +109,6 @@
         -13.3764
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031767&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "FL-1104140",
-      "episodeId": "2",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Japan",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-09-03T01:00:00",
-      "endsAt": "2026-09-10T01:00:00",
-      "updatedAt": "2026-09-09T07:42:31",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        136.8998,
-        35.1851
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104140&episodeid=2&eventtype=FL"
     },
     {
       "id": "FL-1104053",
@@ -1558,27 +1579,6 @@
         25.8
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001317&episodeid=30&eventtype=TC"
-    },
-    {
-      "id": "WF-1031764",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6131 ha",
-      "startedAt": "2026-08-26T00:00:00",
-      "endsAt": "2026-09-08T00:00:00",
-      "updatedAt": "2026-09-09T03:58:37",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        29.1384,
-        -10.0276
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031764&episodeid=4&eventtype=WF"
     },
     {
       "id": "EQ-1564367",
