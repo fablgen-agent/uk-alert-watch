@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-09T21:07:05.083Z",
+  "checkedAt": "2026-09-09T21:37:34.115Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -17,7 +17,7 @@
       "severity": "Tropical Depression (maximum wind speed of 139 km/h)",
       "startedAt": "2026-09-09T21:00:00",
       "endsAt": "2026-09-09T21:00:00",
-      "updatedAt": "2026-09-09T21:06:55",
+      "updatedAt": "2026-09-09T21:31:50",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +25,27 @@
         15.7
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=1&eventtype=TC"
+    },
+    {
+      "id": "EQ-1564469",
+      "episodeId": "1732177",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Vanuatu",
+      "country": "Vanuatu",
+      "iso3": "VUT",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:104.703km",
+      "startedAt": "2026-09-09T20:21:13",
+      "endsAt": "2026-09-09T20:21:13",
+      "updatedAt": "2026-09-09T21:28:52",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        169.6974,
+        -20.9734
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564469&episodeid=1732177&eventtype=EQ"
     },
     {
       "id": "TC-1001315",
@@ -1033,27 +1054,6 @@
         -18.0565
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031769&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1031728",
-      "episodeId": "17",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 19703 ha",
-      "startedAt": "2026-09-03T00:00:00",
-      "endsAt": "2026-09-09T00:00:00",
-      "updatedAt": "2026-09-09T19:13:17",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        138.1013,
-        -18.1681
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031728&episodeid=17&eventtype=WF"
     },
     {
       "id": "WF-1031857",
