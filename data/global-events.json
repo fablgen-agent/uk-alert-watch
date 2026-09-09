@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-09T00:55:29.251Z",
+  "checkedAt": "2026-09-09T01:52:52.134Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564340",
+      "episodeId": "1732047",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Mariana Islands Region",
+      "country": "Mariana Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-09-08T23:23:42",
+      "endsAt": "2026-09-08T23:23:42",
+      "updatedAt": "2026-09-09T01:52:36",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        148.4279,
+        16.5996
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564340&episodeid=1732047&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001318",
+      "episodeId": "32",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone KROVANH-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
+      "startedAt": "2026-09-01T06:00:00",
+      "endsAt": "2026-09-09T00:00:00",
+      "updatedAt": "2026-09-09T01:49:22",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        134.4,
+        33.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=32&eventtype=TC"
+    },
     {
       "id": "WF-1031577",
       "episodeId": "9",
@@ -930,27 +972,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031677&episodeid=5&eventtype=WF"
     },
     {
-      "id": "WF-1031739",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 15067 ha",
-      "startedAt": "2026-09-03T00:00:00",
-      "endsAt": "2026-09-08T00:00:00",
-      "updatedAt": "2026-09-08T23:11:54",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        16.9937,
-        -16.6974
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031739&episodeid=6&eventtype=WF"
-    },
-    {
       "id": "WF-1031728",
       "episodeId": "13",
       "eventType": "WF",
@@ -1642,27 +1663,6 @@
         -7.9553
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031393&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "TC-1001318",
-      "episodeId": "31",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone KROVANH-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 83 km/h)",
-      "startedAt": "2026-09-01T06:00:00",
-      "endsAt": "2026-09-08T18:00:00",
-      "updatedAt": "2026-09-08T20:17:58",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        133.5,
-        33.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001318&episodeid=31&eventtype=TC"
     },
     {
       "id": "WF-1031774",
