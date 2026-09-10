@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-10T00:54:30.759Z",
+  "checkedAt": "2026-09-10T01:38:10.254Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001320",
+      "episodeId": "1",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone FOURTEEN-E-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-09-09T21:00:00",
+      "endsAt": "2026-09-09T21:00:00",
+      "updatedAt": "2026-09-10T01:36:29",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -115.2,
+        15.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=1&eventtype=TC"
+    },
     {
       "id": "WF-1031689",
       "episodeId": "13",
@@ -1663,27 +1684,6 @@
         -28.6108
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564471&episodeid=1732180&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001320",
-      "episodeId": "1",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone FOURTEEN-E-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-09-09T21:00:00",
-      "endsAt": "2026-09-09T21:00:00",
-      "updatedAt": "2026-09-09T21:31:50",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -115.2,
-        15.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=1&eventtype=TC"
     },
     {
       "id": "EQ-1564469",
