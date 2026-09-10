@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-10T13:52:28.774Z",
+  "checkedAt": "2026-09-10T14:25:52.571Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564592",
+      "episodeId": "1732314",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Mexico",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:10km",
+      "startedAt": "2026-09-10T13:29:03",
+      "endsAt": "2026-09-10T13:29:03",
+      "updatedAt": "2026-09-10T14:16:22",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -92.8815,
+        14.0976
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564592&episodeid=1732314&eventtype=EQ"
+    },
     {
       "id": "EQ-1564589",
       "episodeId": "1732306",
@@ -1033,27 +1054,6 @@
         -17.128
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031788&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1031787",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Bosnia and Herzegovina",
-      "country": "Bosnia and Herzegovina",
-      "iso3": "BIH",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5866 ha",
-      "startedAt": "2026-09-04T00:00:00",
-      "endsAt": "2026-09-09T00:00:00",
-      "updatedAt": "2026-09-10T11:14:07",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        18.4623,
-        43.0621
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031787&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1031824",
