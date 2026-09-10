@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-10T12:32:04.375Z",
+  "checkedAt": "2026-09-10T12:54:56.539Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1103888",
+      "episodeId": "88",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-09-09T01:00:00",
+      "updatedAt": "2026-09-10T12:48:48",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -94.2597,
+        41.5499
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=88&eventtype=FL"
+    },
+    {
+      "id": "FL-1104099",
+      "episodeId": "8",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Mexico",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-17T01:00:00",
+      "endsAt": "2026-09-10T01:00:00",
+      "updatedAt": "2026-09-10T12:48:35",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -101.1924,
+        19.7027
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104099&episodeid=8&eventtype=FL"
+    },
     {
       "id": "EQ-1564577",
       "episodeId": "1732293",
@@ -17,7 +59,7 @@
       "severity": "Magnitude 4.8M, Depth:372.617km",
       "startedAt": "2026-09-10T12:05:53",
       "endsAt": "2026-09-10T12:05:53",
-      "updatedAt": "2026-09-10T12:24:08",
+      "updatedAt": "2026-09-10T12:46:41",
       "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
@@ -25,6 +67,27 @@
         -17.8933
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564577&episodeid=1732293&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001320",
+      "episodeId": "3",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NORBERT-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
+      "startedAt": "2026-09-09T21:00:00",
+      "endsAt": "2026-09-10T09:00:00",
+      "updatedAt": "2026-09-10T12:33:14",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -117.9,
+        16.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=3&eventtype=TC"
     },
     {
       "id": "WF-1031554",
@@ -466,27 +529,6 @@
         -16.9632
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031613&episodeid=10&eventtype=WF"
-    },
-    {
-      "id": "TC-1001320",
-      "episodeId": "3",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NORBERT-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
-      "startedAt": "2026-09-09T21:00:00",
-      "endsAt": "2026-09-10T09:00:00",
-      "updatedAt": "2026-09-10T11:33:29",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -117.9,
-        16.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=3&eventtype=TC"
     },
     {
       "id": "WF-1031825",
@@ -1096,27 +1138,6 @@
         -8.7248
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031864&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1031785",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7251 ha",
-      "startedAt": "2026-09-05T00:00:00",
-      "endsAt": "2026-09-09T00:00:00",
-      "updatedAt": "2026-09-10T11:13:10",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        134.2073,
-        -16.6619
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031785&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1031731",
@@ -1747,27 +1768,6 @@
         49.6651
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104143&episodeid=3&eventtype=FL"
-    },
-    {
-      "id": "FL-1103888",
-      "episodeId": "87",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-09-09T01:00:00",
-      "updatedAt": "2026-09-10T04:39:32",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -159.466,
-        21.8901
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=87&eventtype=FL"
     },
     {
       "id": "EQ-1564471",
