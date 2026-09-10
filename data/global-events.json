@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-10T08:43:44.107Z",
+  "checkedAt": "2026-09-10T08:55:54.898Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564542",
+      "episodeId": "1732257",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Costa Rica",
+      "country": "Costa Rica",
+      "iso3": "CRI",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:10km",
+      "startedAt": "2026-09-10T08:26:53",
+      "endsAt": "2026-09-10T08:26:53",
+      "updatedAt": "2026-09-10T08:45:33",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -84.0624,
+        9.0275
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564542&episodeid=1732257&eventtype=EQ"
+    },
     {
       "id": "TC-1001320",
       "episodeId": "2",
@@ -1117,27 +1138,6 @@
         -15.8894
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031772&episodeid=13&eventtype=WF"
-    },
-    {
-      "id": "WF-1031684",
-      "episodeId": "17",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Bosnia and Herzegovina",
-      "country": "Bosnia and Herzegovina",
-      "iso3": "BIH",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 15950 ha",
-      "startedAt": "2026-09-04T00:00:00",
-      "endsAt": "2026-09-09T00:00:00",
-      "updatedAt": "2026-09-10T07:08:09",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        17.3808,
-        43.7597
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031684&episodeid=17&eventtype=WF"
     },
     {
       "id": "WF-1031736",
