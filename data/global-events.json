@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-10T04:26:22.100Z",
+  "checkedAt": "2026-09-10T04:41:10.405Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104143",
+      "episodeId": "3",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Canada",
+      "country": "Canada",
+      "iso3": "CAN",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-09-02T01:00:00",
+      "endsAt": "2026-09-09T01:00:00",
+      "updatedAt": "2026-09-10T04:39:50",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -103.854,
+        49.6651
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104143&episodeid=3&eventtype=FL"
+    },
+    {
+      "id": "FL-1103888",
+      "episodeId": "87",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-09-09T01:00:00",
+      "updatedAt": "2026-09-10T04:39:32",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -159.466,
+        21.8901
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=87&eventtype=FL"
+    },
     {
       "id": "WF-1031689",
       "episodeId": "13",
@@ -172,27 +214,6 @@
         -13.3759
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031767&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1031636",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 19500 ha",
-      "startedAt": "2026-08-29T00:00:00",
-      "endsAt": "2026-09-09T00:00:00",
-      "updatedAt": "2026-09-10T04:10:49",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        31.2601,
-        -10.8014
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031636&episodeid=8&eventtype=WF"
     },
     {
       "id": "WF-1031759",
@@ -2062,27 +2083,6 @@
         12.9257
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104132&episodeid=5&eventtype=FL"
-    },
-    {
-      "id": "FL-1103888",
-      "episodeId": "86",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-09-09T01:00:00",
-      "updatedAt": "2026-09-09T05:50:27",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -118.1227,
-        33.7487
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=86&eventtype=FL"
     },
     {
       "id": "EQ-1564346",
