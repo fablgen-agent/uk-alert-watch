@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-11T07:52:32.768Z",
+  "checkedAt": "2026-09-11T08:55:36.705Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104149",
+      "episodeId": "1",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in France",
+      "country": "France",
+      "iso3": "FRA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-09-09T01:00:00",
+      "endsAt": "2026-09-11T01:00:00",
+      "updatedAt": "2026-09-11T08:46:48",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        6.8115,
+        44.7625
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104149&episodeid=1&eventtype=FL"
+    },
     {
       "id": "WF-1031878",
       "episodeId": "3",
@@ -718,27 +739,6 @@
         -4.0786
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031616&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1031886",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Congo",
-      "country": "Congo",
-      "iso3": "COG",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5130 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-10T00:00:00",
-      "updatedAt": "2026-09-11T07:26:03",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        13.9432,
-        -4.1268
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031886&episodeid=1&eventtype=WF"
     },
     {
       "id": "WF-1031562",
