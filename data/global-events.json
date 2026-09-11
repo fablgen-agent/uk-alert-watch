@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-11T15:51:55.492Z",
+  "checkedAt": "2026-09-11T16:08:08.859Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564624",
+      "episodeId": "1732524",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:10km",
+      "startedAt": "2026-09-10T16:53:33",
+      "endsAt": "2026-09-10T16:53:33",
+      "updatedAt": "2026-09-11T16:06:06",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        103.0684,
+        27.1525
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564624&episodeid=1732524&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1564742",
+      "episodeId": "1732503",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:43.105km",
+      "startedAt": "2026-09-11T07:31:45",
+      "endsAt": "2026-09-11T07:31:45",
+      "updatedAt": "2026-09-11T16:01:55",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -163.1555,
+        54.034
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564742&episodeid=1732503&eventtype=EQ"
+    },
     {
       "id": "TC-1001320",
       "episodeId": "8",
@@ -46,27 +88,6 @@
         -7.2863
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564759&episodeid=1732490&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1564742",
-      "episodeId": "1732503",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.5M, Depth:43.105km",
-      "startedAt": "2026-09-11T07:31:45",
-      "endsAt": "2026-09-11T07:31:45",
-      "updatedAt": "2026-09-11T14:02:05",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -163.1555,
-        54.034
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564742&episodeid=1732503&eventtype=EQ"
     },
     {
       "id": "FL-1104053",
@@ -466,27 +487,6 @@
         -9.5983
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031840&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1031825",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5653 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-10T00:00:00",
-      "updatedAt": "2026-09-11T11:31:16",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        143.2782,
-        -14.1134
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031825&episodeid=9&eventtype=WF"
     },
     {
       "id": "WF-1031886",
