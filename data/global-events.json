@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-11T12:31:05.685Z",
+  "checkedAt": "2026-09-11T13:07:18.868Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104053",
+      "episodeId": "18",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Italy",
+      "country": "Italy",
+      "iso3": "ITA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-26T01:00:00",
+      "endsAt": "2026-09-12T01:00:00",
+      "updatedAt": "2026-09-11T12:57:11",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        12.7668,
+        41.9802
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=18&eventtype=FL"
+    },
+    {
+      "id": "FL-1104099",
+      "episodeId": "7",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Mexico",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-08-17T01:00:00",
+      "endsAt": "2026-09-10T01:00:00",
+      "updatedAt": "2026-09-11T12:56:35",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -99.1593,
+        19.617
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104099&episodeid=7&eventtype=FL"
+    },
     {
       "id": "EQ-1564759",
       "episodeId": "1732490",
@@ -67,27 +109,6 @@
         -0.158
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031689&episodeid=16&eventtype=WF"
-    },
-    {
-      "id": "FL-1104053",
-      "episodeId": "18",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Italy",
-      "country": "Italy",
-      "iso3": "ITA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-26T01:00:00",
-      "endsAt": "2026-09-12T01:00:00",
-      "updatedAt": "2026-09-11T11:57:10",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        12.7668,
-        41.9802
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=18&eventtype=FL"
     },
     {
       "id": "FL-1104151",
@@ -1978,27 +1999,6 @@
         12.0265
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564589&episodeid=1732306&eventtype=EQ"
-    },
-    {
-      "id": "FL-1104099",
-      "episodeId": "8",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Mexico",
-      "country": "Mexico",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-08-17T01:00:00",
-      "endsAt": "2026-09-10T01:00:00",
-      "updatedAt": "2026-09-10T12:48:35",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -101.1924,
-        19.7027
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104099&episodeid=8&eventtype=FL"
     },
     {
       "id": "EQ-1564577",
