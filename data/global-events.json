@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-11T00:11:14.803Z",
+  "checkedAt": "2026-09-11T02:52:08.926Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564711",
+      "episodeId": "1732438",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Vanuatu",
+      "country": "Vanuatu",
+      "iso3": "VUT",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:18.748km",
+      "startedAt": "2026-09-11T02:28:13",
+      "endsAt": "2026-09-11T02:28:13",
+      "updatedAt": "2026-09-11T02:47:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        169.3953,
+        -18.9259
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564711&episodeid=1732438&eventtype=EQ"
+    },
     {
       "id": "EQ-1564677",
       "episodeId": "1732403",
@@ -949,27 +970,6 @@
         -9.2949
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031832&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1031790",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6951 ha",
-      "startedAt": "2026-09-03T00:00:00",
-      "endsAt": "2026-09-10T00:00:00",
-      "updatedAt": "2026-09-10T23:13:04",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        19.5319,
-        -17.1565
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031790&episodeid=5&eventtype=WF"
     },
     {
       "id": "WF-1031679",
