@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-11T20:51:43.579Z",
+  "checkedAt": "2026-09-11T21:23:03.953Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564744",
+      "episodeId": "1732544",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Galapagos Islands Region",
+      "country": "Galapagos Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:10km",
+      "startedAt": "2026-09-10T14:15:53",
+      "endsAt": "2026-09-10T14:15:53",
+      "updatedAt": "2026-09-11T21:18:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -90.6073,
+        1.7027
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564744&episodeid=1732544&eventtype=EQ"
+    },
     {
       "id": "TC-1001320",
       "episodeId": "9",
@@ -17,7 +38,7 @@
       "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
       "startedAt": "2026-09-09T21:00:00",
       "endsAt": "2026-09-11T21:00:00",
-      "updatedAt": "2026-09-11T20:48:45",
+      "updatedAt": "2026-09-11T21:14:49",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -1096,27 +1117,6 @@
         -4.0487
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031882&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1031828",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7000 ha",
-      "startedAt": "2026-09-05T00:00:00",
-      "endsAt": "2026-09-10T00:00:00",
-      "updatedAt": "2026-09-11T19:07:24",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.9208,
-        -11.41
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031828&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1031731",
