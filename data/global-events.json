@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-11T20:07:39.561Z",
+  "checkedAt": "2026-09-11T20:51:43.579Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001320",
+      "episodeId": "9",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NORBERT-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
+      "startedAt": "2026-09-09T21:00:00",
+      "endsAt": "2026-09-11T21:00:00",
+      "updatedAt": "2026-09-11T20:48:45",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -125.7,
+        16.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=9&eventtype=TC"
+    },
     {
       "id": "WF-1031878",
       "episodeId": "4",
@@ -1600,27 +1621,6 @@
         -19.0444
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031888&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "TC-1001320",
-      "episodeId": "8",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NORBERT-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
-      "startedAt": "2026-09-09T21:00:00",
-      "endsAt": "2026-09-11T15:00:00",
-      "updatedAt": "2026-09-11T18:02:22",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -124.7,
-        16.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=8&eventtype=TC"
     },
     {
       "id": "EQ-1564793",
