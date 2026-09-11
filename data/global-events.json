@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-11T16:40:40.435Z",
+  "checkedAt": "2026-09-11T17:24:02.145Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564793",
+      "episodeId": "1732529",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Colombia",
+      "country": "Colombia",
+      "iso3": "COL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:61.088km",
+      "startedAt": "2026-09-11T16:42:30",
+      "endsAt": "2026-09-11T16:42:30",
+      "updatedAt": "2026-09-11T17:22:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -76.8325,
+        4.4193
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564793&episodeid=1732529&eventtype=EQ"
+    },
     {
       "id": "TC-1001320",
       "episodeId": "8",
@@ -1180,27 +1201,6 @@
         -10.7046
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031736&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1031827",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9973 ha",
-      "startedAt": "2026-09-05T00:00:00",
-      "endsAt": "2026-09-10T00:00:00",
-      "updatedAt": "2026-09-11T11:09:27",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        29.792,
-        -10.4404
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031827&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031847",
