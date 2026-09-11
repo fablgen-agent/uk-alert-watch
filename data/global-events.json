@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-11T08:55:36.705Z",
+  "checkedAt": "2026-09-11T09:08:35.357Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104053",
+      "episodeId": "18",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Italy",
+      "country": "Italy",
+      "iso3": "ITA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-26T01:00:00",
+      "endsAt": "2026-09-11T01:00:00",
+      "updatedAt": "2026-09-11T09:06:00",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        12.7668,
+        41.9802
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=18&eventtype=FL"
+    },
+    {
+      "id": "TC-1001320",
+      "episodeId": "7",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NORBERT-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
+      "startedAt": "2026-09-09T21:00:00",
+      "endsAt": "2026-09-11T09:00:00",
+      "updatedAt": "2026-09-11T09:01:58",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -123.3,
+        16.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=7&eventtype=TC"
+    },
     {
       "id": "FL-1104149",
       "episodeId": "1",
@@ -613,27 +655,6 @@
         -4.8313
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031627&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031877",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9963 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-10T00:00:00",
-      "updatedAt": "2026-09-11T07:28:48",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        28.8787,
-        -10.3028
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031877&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1031848",
@@ -1642,27 +1663,6 @@
         -19.0434
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031888&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "TC-1001320",
-      "episodeId": "6",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NORBERT-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 130 km/h)",
-      "startedAt": "2026-09-09T21:00:00",
-      "endsAt": "2026-09-11T03:00:00",
-      "updatedAt": "2026-09-11T05:44:48",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -121.9,
-        16.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=6&eventtype=TC"
     },
     {
       "id": "EQ-1564711",
