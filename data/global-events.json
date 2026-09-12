@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-12T09:49:36.782Z",
+  "checkedAt": "2026-09-12T10:07:37.105Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104053",
+      "episodeId": "18",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Italy",
+      "country": "Italy",
+      "iso3": "ITA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-26T01:00:00",
+      "endsAt": "2026-09-12T01:00:00",
+      "updatedAt": "2026-09-12T09:56:42",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        12.7668,
+        41.9802
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=18&eventtype=FL"
+    },
+    {
+      "id": "EQ-1564888",
+      "episodeId": "1732638",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Vanuatu",
+      "country": "Vanuatu",
+      "iso3": "VUT",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:16.926km",
+      "startedAt": "2026-09-12T09:35:46",
+      "endsAt": "2026-09-12T09:35:46",
+      "updatedAt": "2026-09-12T09:56:22",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        166.3361,
+        -13.2829
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564888&episodeid=1732638&eventtype=EQ"
+    },
     {
       "id": "FL-1104122",
       "episodeId": "22",
@@ -25,27 +67,6 @@
         16.0282
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104122&episodeid=22&eventtype=FL"
-    },
-    {
-      "id": "FL-1104053",
-      "episodeId": "18",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Italy",
-      "country": "Italy",
-      "iso3": "ITA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-26T01:00:00",
-      "endsAt": "2026-09-12T01:00:00",
-      "updatedAt": "2026-09-12T09:37:50",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        12.7668,
-        41.9802
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=18&eventtype=FL"
     },
     {
       "id": "EQ-1564885",
@@ -1222,27 +1243,6 @@
         29.871
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031883&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1031784",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 13649 ha",
-      "startedAt": "2026-09-05T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-12T07:07:46",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.8243,
-        -11.5193
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031784&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1031731",
