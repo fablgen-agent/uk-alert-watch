@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-12T04:24:39.045Z",
+  "checkedAt": "2026-09-12T05:37:07.837Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564862",
+      "episodeId": "1732609",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:44.24km",
+      "startedAt": "2026-09-12T05:08:24",
+      "endsAt": "2026-09-12T05:08:24",
+      "updatedAt": "2026-09-12T05:27:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        126.5851,
+        1.0665
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564862&episodeid=1732609&eventtype=EQ"
+    },
     {
       "id": "EQ-1564851",
       "episodeId": "1732595",
@@ -487,27 +508,6 @@
         -0.5008
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031838&episodeid=10&eventtype=WF"
-    },
-    {
-      "id": "WF-1031752",
-      "episodeId": "10",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Tanzania",
-      "country": "Tanzania",
-      "iso3": "TZA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 14149 ha",
-      "startedAt": "2026-09-01T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-12T03:22:11",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.8383,
-        -4.3221
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031752&episodeid=10&eventtype=WF"
     },
     {
       "id": "WF-1031839",
