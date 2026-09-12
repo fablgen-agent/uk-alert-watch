@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-12T09:23:52.916Z",
+  "checkedAt": "2026-09-12T09:37:03.323Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564885",
+      "episodeId": "1732634",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Peru",
+      "country": "Peru",
+      "iso3": "PER",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:24.123km",
+      "startedAt": "2026-09-12T08:46:38",
+      "endsAt": "2026-09-12T08:46:38",
+      "updatedAt": "2026-09-12T09:26:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -76.2161,
+        -14.4855
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564885&episodeid=1732634&eventtype=EQ"
+    },
     {
       "id": "TC-1001320",
       "episodeId": "11",
@@ -25,27 +46,6 @@
         17.1
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=11&eventtype=TC"
-    },
-    {
-      "id": "EQ-1564885",
-      "episodeId": "1732634",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Peru",
-      "country": "Peru",
-      "iso3": "PER",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.5M, Depth:24.123km",
-      "startedAt": "2026-09-12T08:46:38",
-      "endsAt": "2026-09-12T08:46:38",
-      "updatedAt": "2026-09-12T09:11:45",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -76.2161,
-        -14.4855
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564885&episodeid=1732634&eventtype=EQ"
     },
     {
       "id": "WF-1031893",
