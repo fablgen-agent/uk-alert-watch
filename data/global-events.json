@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-12T00:53:28.227Z",
+  "checkedAt": "2026-09-12T01:06:32.632Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564825",
+      "episodeId": "1732565",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Peru",
+      "country": "Peru",
+      "iso3": "PER",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:98.772km",
+      "startedAt": "2026-09-12T00:18:59",
+      "endsAt": "2026-09-12T00:18:59",
+      "updatedAt": "2026-09-12T00:59:22",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -73.8803,
+        -15.606
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564825&episodeid=1732565&eventtype=EQ"
+    },
     {
       "id": "TC-1001320",
       "episodeId": "9",
@@ -487,27 +508,6 @@
         -7.0647
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031836&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1031701",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8078 ha",
-      "startedAt": "2026-09-01T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-11T23:22:42",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        105.2675,
-        -2.9305
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031701&episodeid=9&eventtype=WF"
     },
     {
       "id": "WF-1031751",
