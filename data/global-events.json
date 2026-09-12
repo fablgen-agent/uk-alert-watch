@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-12T03:51:02.136Z",
+  "checkedAt": "2026-09-12T04:07:40.583Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564851",
+      "episodeId": "1732595",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:10km",
+      "startedAt": "2026-09-12T03:34:57",
+      "endsAt": "2026-09-12T03:34:57",
+      "updatedAt": "2026-09-12T03:53:49",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        120.6778,
+        -8.2634
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564851&episodeid=1732595&eventtype=EQ"
+    },
     {
       "id": "WF-1031893",
       "episodeId": "3",
@@ -508,27 +529,6 @@
         -7.1662
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031839&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1031751",
-      "episodeId": "15",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9538 ha",
-      "startedAt": "2026-09-01T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-12T03:19:36",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        134.1349,
-        -16.5242
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031751&episodeid=15&eventtype=WF"
     },
     {
       "id": "WF-1031794",
