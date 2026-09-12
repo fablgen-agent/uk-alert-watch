@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-12T18:08:22.419Z",
+  "checkedAt": "2026-09-12T18:38:36.198Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564957",
+      "episodeId": "1732718",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Greece",
+      "country": "Greece",
+      "iso3": "GRC",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:33.956km",
+      "startedAt": "2026-09-12T17:51:45",
+      "endsAt": "2026-09-12T17:51:45",
+      "updatedAt": "2026-09-12T18:36:25",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        20.2555,
+        38.1387
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564957&episodeid=1732718&eventtype=EQ"
+    },
     {
       "id": "TC-1001320",
       "episodeId": "12",
@@ -529,27 +550,6 @@
         -7.4845
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031775&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1031802",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 12480 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-12T15:25:19",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        29.3664,
-        -10.2321
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031802&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1031838",
