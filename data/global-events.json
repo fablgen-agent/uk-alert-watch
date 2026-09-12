@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-12T06:09:24.881Z",
+  "checkedAt": "2026-09-12T06:28:59.951Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104053",
+      "episodeId": "18",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Italy",
+      "country": "Italy",
+      "iso3": "ITA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-07-26T01:00:00",
+      "endsAt": "2026-09-12T01:00:00",
+      "updatedAt": "2026-09-12T06:26:30",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        12.7668,
+        41.9802
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=18&eventtype=FL"
+    },
+    {
+      "id": "FL-1104152",
+      "episodeId": "1",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Slovenia",
+      "country": "Slovenia",
+      "iso3": "SVN",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-09-10T01:00:00",
+      "endsAt": "2026-09-12T01:00:00",
+      "updatedAt": "2026-09-12T06:26:17",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        13.8372,
+        45.5282
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104152&episodeid=1&eventtype=FL"
+    },
     {
       "id": "FL-1104105",
       "episodeId": "8",
@@ -25,27 +67,6 @@
         8.936
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104105&episodeid=8&eventtype=FL"
-    },
-    {
-      "id": "FL-1104053",
-      "episodeId": "18",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Italy",
-      "country": "Italy",
-      "iso3": "ITA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-07-26T01:00:00",
-      "endsAt": "2026-09-12T01:00:00",
-      "updatedAt": "2026-09-12T06:08:00",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        12.7668,
-        41.9802
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104053&episodeid=18&eventtype=FL"
     },
     {
       "id": "EQ-1564862",
@@ -1558,27 +1579,6 @@
         -15.9562
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031772&episodeid=20&eventtype=WF"
-    },
-    {
-      "id": "WF-1031784",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 13649 ha",
-      "startedAt": "2026-09-05T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-12T03:08:54",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.8243,
-        -11.5193
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031784&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1031731",
