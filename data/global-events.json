@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-12T11:49:34.821Z",
+  "checkedAt": "2026-09-12T12:09:09.090Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564903",
+      "episodeId": "1732655",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Colombia",
+      "country": "Colombia",
+      "iso3": "COL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:77.309km",
+      "startedAt": "2026-09-12T11:16:12",
+      "endsAt": "2026-09-12T11:16:12",
+      "updatedAt": "2026-09-12T11:56:22",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -76.809,
+        4.4114
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564903&episodeid=1732655&eventtype=EQ"
+    },
+    {
+      "id": "WF-1031893",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5573 ha",
+      "startedAt": "2026-08-28T00:00:00",
+      "endsAt": "2026-09-11T00:00:00",
+      "updatedAt": "2026-09-12T11:50:20",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -57.6945,
+        -5.9847
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031893&episodeid=3&eventtype=WF"
+    },
     {
       "id": "WF-1031511",
       "episodeId": "19",
@@ -361,27 +403,6 @@
         -18.336
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031765&episodeid=21&eventtype=WF"
-    },
-    {
-      "id": "EQ-1564903",
-      "episodeId": "1732655",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Colombia",
-      "country": "Colombia",
-      "iso3": "COL",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.7M, Depth:77.309km",
-      "startedAt": "2026-09-12T11:16:12",
-      "endsAt": "2026-09-12T11:16:12",
-      "updatedAt": "2026-09-12T11:34:04",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -76.809,
-        4.4114
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564903&episodeid=1732655&eventtype=EQ"
     },
     {
       "id": "WF-1031776",
@@ -1642,27 +1663,6 @@
         -14.4855
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564885&episodeid=1732634&eventtype=EQ"
-    },
-    {
-      "id": "WF-1031893",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5573 ha",
-      "startedAt": "2026-08-28T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-12T07:46:12",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -57.6945,
-        -5.9847
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031893&episodeid=3&eventtype=WF"
     },
     {
       "id": "EQ-1564868",
