@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-12T21:07:22.907Z",
+  "checkedAt": "2026-09-12T21:24:10.029Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001320",
+      "episodeId": "13",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NORBERT-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
+      "startedAt": "2026-09-09T21:00:00",
+      "endsAt": "2026-09-12T21:00:00",
+      "updatedAt": "2026-09-12T21:15:12",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -129.6,
+        17.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=13&eventtype=TC"
+    },
     {
       "id": "EQ-1564974",
       "episodeId": "1732731",
@@ -17,7 +38,7 @@
       "severity": "Magnitude 5.1M, Depth:45.513km",
       "startedAt": "2026-09-12T20:32:58",
       "endsAt": "2026-09-12T20:32:58",
-      "updatedAt": "2026-09-12T20:54:05",
+      "updatedAt": "2026-09-12T21:13:08",
       "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
@@ -25,27 +46,6 @@
         29.3244
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564974&episodeid=1732731&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001320",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NORBERT-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 102 km/h)",
-      "startedAt": "2026-09-09T21:00:00",
-      "endsAt": "2026-09-12T15:00:00",
-      "updatedAt": "2026-09-12T20:16:40",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -128.3,
-        17.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=12&eventtype=TC"
     },
     {
       "id": "EQ-1564957",
