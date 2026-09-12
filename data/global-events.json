@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-09-12T13:06:48.809Z",
+  "checkedAt": "2026-09-12T14:06:45.334Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564759",
+      "episodeId": "1732490",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.9M, Depth:111.763km",
+      "startedAt": "2026-09-11T11:56:23",
+      "endsAt": "2026-09-11T11:56:23",
+      "updatedAt": "2026-09-12T14:01:16",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        128.9383,
+        -7.2863
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564759&episodeid=1732490&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001320",
+      "episodeId": "11",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NORBERT-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 111 km/h)",
+      "startedAt": "2026-09-09T21:00:00",
+      "endsAt": "2026-09-12T09:00:00",
+      "updatedAt": "2026-09-12T13:59:44",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -127.4,
+        17.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=11&eventtype=TC"
+    },
     {
       "id": "EQ-1564809",
       "episodeId": "1732664",
@@ -151,27 +193,6 @@
         -8.9244
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031871&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "TC-1001320",
-      "episodeId": "11",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NORBERT-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 111 km/h)",
-      "startedAt": "2026-09-09T21:00:00",
-      "endsAt": "2026-09-12T09:00:00",
-      "updatedAt": "2026-09-12T11:45:32",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -127.4,
-        17.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001320&episodeid=11&eventtype=TC"
     },
     {
       "id": "WF-1031636",
@@ -1957,27 +1978,6 @@
         54.034
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564742&episodeid=1732503&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1564759",
-      "episodeId": "1732490",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.9M, Depth:111.763km",
-      "startedAt": "2026-09-11T11:56:23",
-      "endsAt": "2026-09-11T11:56:23",
-      "updatedAt": "2026-09-11T14:03:04",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        128.9383,
-        -7.2863
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564759&episodeid=1732490&eventtype=EQ"
     },
     {
       "id": "FL-1104151",
