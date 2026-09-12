@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-12T01:06:32.632Z",
+  "checkedAt": "2026-09-12T01:23:05.047Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564826",
+      "episodeId": "1732566",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in South Sandwich Islands Region",
+      "country": "South Sandwich Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.1M, Depth:10km",
+      "startedAt": "2026-09-12T00:55:08",
+      "endsAt": "2026-09-12T00:55:08",
+      "updatedAt": "2026-09-12T01:18:12",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -24.9274,
+        -59.1348
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564826&episodeid=1732566&eventtype=EQ"
+    },
     {
       "id": "EQ-1564825",
       "episodeId": "1732565",
@@ -256,27 +277,6 @@
         37.2251
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031776&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "WF-1031705",
-      "episodeId": "11",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 17922 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-11T23:29:30",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        16.5608,
-        -13.8196
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031705&episodeid=11&eventtype=WF"
     },
     {
       "id": "EQ-1564809",
