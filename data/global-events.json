@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-12T01:36:24.147Z",
+  "checkedAt": "2026-09-12T01:50:24.277Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564816",
+      "episodeId": "1732569",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Chile",
+      "country": "Chile",
+      "iso3": "CHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-09-11T22:32:23",
+      "endsAt": "2026-09-11T22:32:23",
+      "updatedAt": "2026-09-12T01:42:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -75.8153,
+        -45.7183
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564816&episodeid=1732569&eventtype=EQ"
+    },
     {
       "id": "EQ-1564826",
       "episodeId": "1732566",
@@ -130,27 +151,6 @@
         -30.0265
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031860&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1031726",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10099 ha",
-      "startedAt": "2026-08-29T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-11T23:39:39",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        16.5956,
-        -13.6168
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031726&episodeid=9&eventtype=WF"
     },
     {
       "id": "WF-1031911",
