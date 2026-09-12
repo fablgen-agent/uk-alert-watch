@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-12T02:07:58.594Z",
+  "checkedAt": "2026-09-12T02:25:20.897Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564841",
+      "episodeId": "1732586",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Panama",
+      "country": "Panama",
+      "iso3": "PAN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:10km",
+      "startedAt": "2026-09-12T01:59:50",
+      "endsAt": "2026-09-12T01:59:50",
+      "updatedAt": "2026-09-12T02:24:34",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -82.7898,
+        8.3545
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564841&episodeid=1732586&eventtype=EQ"
+    },
     {
       "id": "TC-1001320",
       "episodeId": "9",
@@ -886,27 +907,6 @@
         -5.965
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031773&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1031728",
-      "episodeId": "24",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 21745 ha",
-      "startedAt": "2026-09-03T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-11T23:12:38",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        138.0957,
-        -18.1757
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031728&episodeid=24&eventtype=WF"
     },
     {
       "id": "WF-1031873",
