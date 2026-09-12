@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-12T20:25:16.196Z",
+  "checkedAt": "2026-09-12T21:07:22.907Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1564974",
+      "episodeId": "1732731",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.1M, Depth:45.513km",
+      "startedAt": "2026-09-12T20:32:58",
+      "endsAt": "2026-09-12T20:32:58",
+      "updatedAt": "2026-09-12T20:54:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        130.3787,
+        29.3244
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1564974&episodeid=1732731&eventtype=EQ"
+    },
     {
       "id": "TC-1001320",
       "episodeId": "12",
@@ -529,27 +550,6 @@
         -2.3592
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031896&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1031775",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Tanzania",
-      "country": "Tanzania",
-      "iso3": "TZA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5955 ha",
-      "startedAt": "2026-08-31T00:00:00",
-      "endsAt": "2026-09-11T00:00:00",
-      "updatedAt": "2026-09-12T15:25:38",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        32.4246,
-        -7.4845
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031775&episodeid=7&eventtype=WF"
     },
     {
       "id": "WF-1031838",
