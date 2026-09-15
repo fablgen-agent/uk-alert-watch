@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-09-15T18:59:03.504Z",
+  "checkedAt": "2026-09-15T22:02:03.998Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1566383",
+      "episodeId": "1734216",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:76.224km",
+      "startedAt": "2026-09-15T16:12:49",
+      "endsAt": "2026-09-15T16:12:49",
+      "updatedAt": "2026-09-15T21:50:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        102.0754,
+        -4.2614
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1566383&episodeid=1734216&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001321",
+      "episodeId": "9",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone FIFTEEN-E-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 56 km/h)",
+      "startedAt": "2026-09-13T21:00:00",
+      "endsAt": "2026-09-15T21:00:00",
+      "updatedAt": "2026-09-15T20:50:57",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -125,
+        15.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=9&eventtype=TC"
+    },
+    {
+      "id": "TC-1001322",
+      "episodeId": "2",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TWENTYFOUR-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 120 km/h)",
+      "startedAt": "2026-09-15T12:00:00",
+      "endsAt": "2026-09-15T18:00:00",
+      "updatedAt": "2026-09-15T20:20:52",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        148.8,
+        14.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=2&eventtype=TC"
+    },
+    {
+      "id": "EQ-1566388",
+      "episodeId": "1734196",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Argentina",
+      "country": "Argentina",
+      "iso3": "ARG",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:185.605km",
+      "startedAt": "2026-09-15T17:41:25",
+      "endsAt": "2026-09-15T17:41:25",
+      "updatedAt": "2026-09-15T19:03:46",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -66.4888,
+        -25.4555
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1566388&episodeid=1734196&eventtype=EQ"
+    },
     {
       "id": "EQ-1566377",
       "episodeId": "1734193",
@@ -25,27 +109,6 @@
         -8.3244
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1566377&episodeid=1734193&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001322",
-      "episodeId": "1",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TWENTYFOUR-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 120 km/h)",
-      "startedAt": "2026-09-15T12:00:00",
-      "endsAt": "2026-09-15T12:00:00",
-      "updatedAt": "2026-09-15T17:05:59",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        148.9,
-        14.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001322&episodeid=1&eventtype=TC"
     },
     {
       "id": "WF-1031804",
@@ -825,27 +888,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031922&episodeid=7&eventtype=WF"
     },
     {
-      "id": "WF-1031879",
-      "episodeId": "10",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Angola",
-      "country": "Angola",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 12589 ha",
-      "startedAt": "2026-09-09T00:00:00",
-      "endsAt": "2026-09-14T00:00:00",
-      "updatedAt": "2026-09-15T15:06:25",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        18.7955,
-        -15.7298
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031879&episodeid=10&eventtype=WF"
-    },
-    {
       "id": "WF-1031978",
       "episodeId": "3",
       "eventType": "WF",
@@ -865,27 +907,6 @@
         -18.388
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031978&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "TC-1001321",
-      "episodeId": "8",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone FIFTEEN-E-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 56 km/h)",
-      "startedAt": "2026-09-13T21:00:00",
-      "endsAt": "2026-09-15T15:00:00",
-      "updatedAt": "2026-09-15T15:06:13",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -123.9,
-        16.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=8&eventtype=TC"
     },
     {
       "id": "WF-1031923",
@@ -928,27 +949,6 @@
         -19.0382
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031888&episodeid=17&eventtype=WF"
-    },
-    {
-      "id": "WF-1031936",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9231 ha",
-      "startedAt": "2026-09-09T00:00:00",
-      "endsAt": "2026-09-14T00:00:00",
-      "updatedAt": "2026-09-15T15:05:29",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -51.3413,
-        -10.5311
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031936&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1031953",
