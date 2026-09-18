@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-18T21:07:14.351Z",
+  "checkedAt": "2026-09-18T23:17:19.152Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1566888",
+      "episodeId": "1734759",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russia",
+      "country": "Russia",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:30.943km",
+      "startedAt": "2026-09-18T19:16:37",
+      "endsAt": "2026-09-18T19:16:37",
+      "updatedAt": "2026-09-18T21:45:07",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        164.062,
+        55.7503
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1566888&episodeid=1734759&eventtype=EQ"
+    },
     {
       "id": "EQ-1566877",
       "episodeId": "1734747",
@@ -1663,27 +1684,6 @@
         -21.4633
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1031992&episodeid=9&eventtype=WF"
-    },
-    {
-      "id": "WF-1032012",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7101 ha",
-      "startedAt": "2026-09-10T00:00:00",
-      "endsAt": "2026-09-18T00:00:00",
-      "updatedAt": "2026-09-18T19:20:15",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        37.2637,
-        -16.3252
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032012&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1031943",
