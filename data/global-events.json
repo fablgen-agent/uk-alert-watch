@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-09-20T16:21:32.550Z",
+  "checkedAt": "2026-09-20T18:56:56.494Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001324",
+      "episodeId": "2",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ODALYS-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-09-20T09:00:00",
+      "endsAt": "2026-09-20T15:00:00",
+      "updatedAt": "2026-09-20T17:35:45",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -125.5,
+        11.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=2&eventtype=TC"
+    },
+    {
+      "id": "TC-1001323",
+      "episodeId": "5",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone FAY-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 111 km/h)",
+      "startedAt": "2026-09-19T15:00:00",
+      "endsAt": "2026-09-20T15:00:00",
+      "updatedAt": "2026-09-20T17:35:06",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -33,
+        34.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=5&eventtype=TC"
+    },
+    {
+      "id": "EQ-1567154",
+      "episodeId": "1735053",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:87.277km",
+      "startedAt": "2026-09-20T13:55:47",
+      "endsAt": "2026-09-20T13:55:47",
+      "updatedAt": "2026-09-20T16:29:08",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -170.3466,
+        52.7501
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1567154&episodeid=1735053&eventtype=EQ"
+    },
     {
       "id": "WF-1032169",
       "episodeId": "6",
@@ -930,27 +993,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032075&episodeid=7&eventtype=WF"
     },
     {
-      "id": "TC-1001324",
-      "episodeId": "2",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ODALYS-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-09-20T09:00:00",
-      "endsAt": "2026-09-20T15:00:00",
-      "updatedAt": "2026-09-20T15:22:22",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -125.5,
-        11.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001324&episodeid=2&eventtype=TC"
-    },
-    {
       "id": "WF-1032058",
       "episodeId": "8",
       "eventType": "WF",
@@ -970,48 +1012,6 @@
         -16.8316
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032058&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "TC-1001323",
-      "episodeId": "5",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone FAY-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 111 km/h)",
-      "startedAt": "2026-09-19T15:00:00",
-      "endsAt": "2026-09-20T15:00:00",
-      "updatedAt": "2026-09-20T15:20:50",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -33,
-        34.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001323&episodeid=5&eventtype=TC"
-    },
-    {
-      "id": "WF-1032081",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 11609 ha",
-      "startedAt": "2026-09-11T00:00:00",
-      "endsAt": "2026-09-20T00:00:00",
-      "updatedAt": "2026-09-20T15:20:34",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        35.925,
-        -17.2958
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032081&episodeid=7&eventtype=WF"
     },
     {
       "id": "WF-1031959",
