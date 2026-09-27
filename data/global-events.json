@@ -1,10 +1,31 @@
 {
-  "checkedAt": "2026-09-26T23:36:56.590Z",
+  "checkedAt": "2026-09-27T01:48:31.481Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1568237",
+      "episodeId": "1736267",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in New Caledonia",
+      "country": "New Caledonia",
+      "iso3": "NCL",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:10km",
+      "startedAt": "2026-09-27T01:18:25",
+      "endsAt": "2026-09-27T01:18:25",
+      "updatedAt": "2026-09-27T01:34:30",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        168.4566,
+        -21.4298
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1568237&episodeid=1736267&eventtype=EQ"
+    },
     {
       "id": "TC-1001328",
       "episodeId": "8",
@@ -17,7 +38,7 @@
       "severity": "Tropical Storm (maximum wind speed of 83 km/h)",
       "startedAt": "2026-09-25T03:00:00",
       "endsAt": "2026-09-26T21:00:00",
-      "updatedAt": "2026-09-26T23:23:40",
+      "updatedAt": "2026-09-27T01:24:05",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
@@ -38,7 +59,7 @@
       "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 176 km/h)",
       "startedAt": "2026-09-23T06:00:00",
       "endsAt": "2026-09-26T18:00:00",
-      "updatedAt": "2026-09-26T23:22:55",
+      "updatedAt": "2026-09-27T00:23:09",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -46,6 +67,27 @@
         24
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001327&episodeid=15&eventtype=TC"
+    },
+    {
+      "id": "TC-1001325",
+      "episodeId": "25",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone POLO-26",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 287 km/h)",
+      "startedAt": "2026-09-21T03:00:00",
+      "endsAt": "2026-09-26T21:00:00",
+      "updatedAt": "2026-09-26T23:53:12",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -112.5,
+        18.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=25&eventtype=TC"
     },
     {
       "id": "WF-1032413",
@@ -88,27 +130,6 @@
         -18.0235
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032402&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1032276",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7340 ha",
-      "startedAt": "2026-09-12T00:00:00",
-      "endsAt": "2026-09-26T00:00:00",
-      "updatedAt": "2026-09-26T23:18:40",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        33.4182,
-        -17.6781
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032276&episodeid=8&eventtype=WF"
     },
     {
       "id": "WF-1032390",
@@ -363,27 +384,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032419&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF-1032272",
-      "episodeId": "17",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Tanzania",
-      "country": "Tanzania",
-      "iso3": "TZA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 14353 ha",
-      "startedAt": "2026-09-15T00:00:00",
-      "endsAt": "2026-09-26T00:00:00",
-      "updatedAt": "2026-09-26T23:11:49",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        34.0962,
-        -7.0599
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032272&episodeid=17&eventtype=WF"
-    },
-    {
       "id": "WF-1032330",
       "episodeId": "10",
       "eventType": "WF",
@@ -405,25 +405,25 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032330&episodeid=10&eventtype=WF"
     },
     {
-      "id": "WF-1032287",
-      "episodeId": "17",
+      "id": "WF-1032264",
+      "episodeId": "16",
       "eventType": "WF",
       "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
+      "title": "Forest fires in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 20343 ha",
+      "severity": "Green impact for forestfire in 6653 ha",
       "startedAt": "2026-09-16T00:00:00",
       "endsAt": "2026-09-26T00:00:00",
-      "updatedAt": "2026-09-26T23:09:52",
+      "updatedAt": "2026-09-26T23:09:39",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        -51.401,
-        -11.3672
+        112.6679,
+        -3.1111
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032287&episodeid=17&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032264&episodeid=16&eventtype=WF"
     },
     {
       "id": "WF-1032328",
@@ -466,27 +466,6 @@
         -4.1475
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032327&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "TC-1001325",
-      "episodeId": "25",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone POLO-26",
-      "country": "Mexico",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 287 km/h)",
-      "startedAt": "2026-09-21T03:00:00",
-      "endsAt": "2026-09-26T21:00:00",
-      "updatedAt": "2026-09-26T23:09:04",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -112.5,
-        18.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001325&episodeid=25&eventtype=TC"
     },
     {
       "id": "WF-1032388",
@@ -573,25 +552,25 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032297&episodeid=18&eventtype=WF"
     },
     {
-      "id": "WF-1032285",
-      "episodeId": "12",
+      "id": "WF-1032262",
+      "episodeId": "18",
       "eventType": "WF",
       "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 24993 ha",
+      "severity": "Green impact for forestfire in 24630 ha",
       "startedAt": "2026-09-18T00:00:00",
       "endsAt": "2026-09-26T00:00:00",
-      "updatedAt": "2026-09-26T23:07:02",
+      "updatedAt": "2026-09-26T23:07:08",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        -50.7351,
-        -12.2323
+        131.7293,
+        -14.0001
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032285&episodeid=12&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032262&episodeid=18&eventtype=WF"
     },
     {
       "id": "WF-1032324",
@@ -1558,6 +1537,27 @@
         -3.4334
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032293&episodeid=23&eventtype=WF"
+    },
+    {
+      "id": "WF-1032239",
+      "episodeId": "10",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Mozambique",
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6257 ha",
+      "startedAt": "2026-09-11T00:00:00",
+      "endsAt": "2026-09-26T00:00:00",
+      "updatedAt": "2026-09-26T19:23:12",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        36.5306,
+        -17.8324
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032239&episodeid=10&eventtype=WF"
     },
     {
       "id": "WF-1032391",
