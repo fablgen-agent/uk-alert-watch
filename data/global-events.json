@@ -1,51 +1,429 @@
 {
-  "checkedAt": "2026-10-03T20:07:10.689Z",
+  "checkedAt": "2026-10-03T23:02:14.738Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
+      "id": "WF-1032536",
+      "episodeId": "7",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5785 ha",
+      "startedAt": "2026-09-28T00:00:00",
+      "endsAt": "2026-10-03T00:00:00",
+      "updatedAt": "2026-10-03T23:02:09",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        105.2748,
+        -3.4669
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032536&episodeid=7&eventtype=WF"
+    },
+    {
+      "id": "WF-1032537",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5153 ha",
+      "startedAt": "2026-09-28T00:00:00",
+      "endsAt": "2026-10-02T00:00:00",
+      "updatedAt": "2026-10-03T23:02:04",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -45.3517,
+        -8.6454
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032537&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1032497",
+      "episodeId": "13",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 33624 ha",
+      "startedAt": "2026-09-28T00:00:00",
+      "endsAt": "2026-10-03T00:00:00",
+      "updatedAt": "2026-10-03T23:01:58",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        134.9614,
+        -17.1062
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032497&episodeid=13&eventtype=WF"
+    },
+    {
+      "id": "WF-1032507",
+      "episodeId": "13",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 13585 ha",
+      "startedAt": "2026-09-28T00:00:00",
+      "endsAt": "2026-10-03T00:00:00",
+      "updatedAt": "2026-10-03T23:01:42",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -55.6047,
+        1.8348
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032507&episodeid=13&eventtype=WF"
+    },
+    {
+      "id": "WF-1032538",
+      "episodeId": "5",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5021 ha",
+      "startedAt": "2026-09-29T00:00:00",
+      "endsAt": "2026-10-03T00:00:00",
+      "updatedAt": "2026-10-03T23:01:31",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        150.1178,
+        -26.3806
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032538&episodeid=5&eventtype=WF"
+    },
+    {
+      "id": "WF-1032544",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7095 ha",
+      "startedAt": "2026-09-29T00:00:00",
+      "endsAt": "2026-10-03T00:00:00",
+      "updatedAt": "2026-10-03T23:01:24",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        123.2465,
+        -17.1801
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032544&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF-1032546",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 8092 ha",
+      "startedAt": "2026-09-29T00:00:00",
+      "endsAt": "2026-10-03T00:00:00",
+      "updatedAt": "2026-10-03T23:01:19",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        134.3074,
+        -15.1835
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032546&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1032540",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5147 ha",
+      "startedAt": "2026-09-30T00:00:00",
+      "endsAt": "2026-10-02T00:00:00",
+      "updatedAt": "2026-10-03T23:01:12",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -44.2588,
+        -11.2557
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032540&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1032517",
+      "episodeId": "7",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 9279 ha",
+      "startedAt": "2026-09-30T00:00:00",
+      "endsAt": "2026-10-03T00:00:00",
+      "updatedAt": "2026-10-03T23:01:06",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -50.7776,
+        -4.2793
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032517&episodeid=7&eventtype=WF"
+    },
+    {
+      "id": "WF-1032553",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5238 ha",
+      "startedAt": "2026-09-30T00:00:00",
+      "endsAt": "2026-10-03T00:00:00",
+      "updatedAt": "2026-10-03T23:00:54",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        134.2367,
+        -15.9367
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032553&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1032552",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in The Democratic Republic of Congo",
+      "country": "The Democratic Republic of Congo",
+      "iso3": "COD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 10102 ha",
+      "startedAt": "2026-10-01T00:00:00",
+      "endsAt": "2026-10-03T00:00:00",
+      "updatedAt": "2026-10-03T23:00:42",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        30.0753,
+        -7.2494
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032552&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1032535",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Kazakhstan",
+      "country": "Kazakhstan",
+      "iso3": "KAZ",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5196 ha",
+      "startedAt": "2026-10-02T00:00:00",
+      "endsAt": "2026-10-02T00:00:00",
+      "updatedAt": "2026-10-03T23:00:34",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        73.6925,
+        50.403
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032535&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "TC-1001321",
+      "episodeId": "53",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone NOLO-26",
+      "country": "United States",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 250 km/h)",
+      "startedAt": "2026-09-13T21:00:00",
+      "endsAt": "2026-10-03T21:00:00",
+      "updatedAt": "2026-10-03T22:00:21",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -173.1,
+        23.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=53&eventtype=TC"
+    },
+    {
       "id": "TC-1001332",
-      "episodeId": "15",
+      "episodeId": "16",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone CHOI-WAN-26",
-      "country": "Guam, Northern Mariana Islands",
-      "iso3": "",
+      "country": "Guam, Northern Mariana Islands, Russian Federation",
+      "iso3": "GUM",
       "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 204 km/h)",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 213 km/h)",
       "startedAt": "2026-09-30T00:00:00",
-      "endsAt": "2026-10-03T12:00:00",
-      "updatedAt": "2026-10-03T19:58:57",
+      "endsAt": "2026-10-03T18:00:00",
+      "updatedAt": "2026-10-03T21:29:15",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
-        146.2,
-        20.3
+        146.7,
+        20.8
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=15&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001332&episodeid=16&eventtype=TC"
+    },
+    {
+      "id": "EQ-1569117",
+      "episodeId": "1737521",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Greece",
+      "country": "Greece",
+      "iso3": "GRC",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:10km",
+      "startedAt": "2026-10-02T15:26:42",
+      "endsAt": "2026-10-02T15:26:42",
+      "updatedAt": "2026-10-03T21:21:36",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        21.8509,
+        38.1524
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569117&episodeid=1737521&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1569127",
+      "episodeId": "1737520",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russian Federation",
+      "country": "Russian Federation",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:99.084km",
+      "startedAt": "2026-10-02T16:02:10",
+      "endsAt": "2026-10-02T16:02:10",
+      "updatedAt": "2026-10-03T21:21:14",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        158.9242,
+        53.0163
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569127&episodeid=1737520&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1569305",
+      "episodeId": "1737519",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Myanmar",
+      "country": "Myanmar",
+      "iso3": "MMR",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:103.866km",
+      "startedAt": "2026-10-02T16:55:33",
+      "endsAt": "2026-10-02T16:55:33",
+      "updatedAt": "2026-10-03T21:19:24",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        94.5469,
+        23.1453
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569305&episodeid=1737519&eventtype=EQ"
     },
     {
       "id": "TC-1001329",
-      "episodeId": "26",
+      "episodeId": "27",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone RACHEL-26",
       "country": "Mexico",
-      "iso3": "",
+      "iso3": "MEX",
       "alertLevel": "green",
       "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h)",
       "startedAt": "2026-09-27T09:00:00",
-      "endsAt": "2026-10-03T15:00:00",
-      "updatedAt": "2026-10-03T19:44:09",
+      "endsAt": "2026-10-03T21:00:00",
+      "updatedAt": "2026-10-03T21:03:12",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
-        -112.1,
-        19.6
+        -112.5,
+        19.8
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=26&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=27&eventtype=TC"
+    },
+    {
+      "id": "EQ-1569312",
+      "episodeId": "1737513",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Mexico",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:10km",
+      "startedAt": "2026-10-03T20:33:45",
+      "endsAt": "2026-10-03T20:33:45",
+      "updatedAt": "2026-10-03T20:50:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -93.3523,
+        14.1052
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569312&episodeid=1737513&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1569310",
+      "episodeId": "1737511",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Off East Coast Of Kamchatka",
+      "country": "Off East Coast Of Kamchatka",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.1M, Depth:10km",
+      "startedAt": "2026-10-03T20:00:44",
+      "endsAt": "2026-10-03T20:00:44",
+      "updatedAt": "2026-10-03T20:24:24",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        159.8296,
+        51.5457
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569310&episodeid=1737511&eventtype=EQ"
     },
     {
       "id": "WF-1032349",
@@ -384,27 +762,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032475&episodeid=13&eventtype=WF"
     },
     {
-      "id": "WF-1032495",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5710 ha",
-      "startedAt": "2026-09-22T00:00:00",
-      "endsAt": "2026-10-02T00:00:00",
-      "updatedAt": "2026-10-03T19:11:05",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -42.0936,
-        -7.3663
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032495&episodeid=6&eventtype=WF"
-    },
-    {
       "id": "WF-1032457",
       "episodeId": "8",
       "eventType": "WF",
@@ -508,27 +865,6 @@
         -7.0989
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032534&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1032494",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5419 ha",
-      "startedAt": "2026-09-23T00:00:00",
-      "endsAt": "2026-10-02T00:00:00",
-      "updatedAt": "2026-10-03T19:09:54",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -44.1584,
-        -8.3396
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032494&episodeid=7&eventtype=WF"
     },
     {
       "id": "WF-1032527",
@@ -846,27 +1182,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032435&episodeid=17&eventtype=WF"
     },
     {
-      "id": "WF-1032511",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6717 ha",
-      "startedAt": "2026-09-26T00:00:00",
-      "endsAt": "2026-10-02T00:00:00",
-      "updatedAt": "2026-10-03T19:04:52",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -45.4354,
-        -8.3693
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032511&episodeid=5&eventtype=WF"
-    },
-    {
       "id": "WF-1032548",
       "episodeId": "1",
       "eventType": "WF",
@@ -928,27 +1243,6 @@
         -9.7998
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032525&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1032500",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6395 ha",
-      "startedAt": "2026-09-27T00:00:00",
-      "endsAt": "2026-10-02T00:00:00",
-      "updatedAt": "2026-10-03T19:03:28",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -44.8045,
-        -11.1915
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032500&episodeid=7&eventtype=WF"
     },
     {
       "id": "WF-1032518",
@@ -1035,27 +1329,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032547&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF-1032509",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7200 ha",
-      "startedAt": "2026-09-27T00:00:00",
-      "endsAt": "2026-10-02T00:00:00",
-      "updatedAt": "2026-10-03T19:02:49",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -45.6149,
-        -6.7111
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032509&episodeid=7&eventtype=WF"
-    },
-    {
       "id": "WF-1032524",
       "episodeId": "4",
       "eventType": "WF",
@@ -1077,48 +1350,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032524&episodeid=4&eventtype=WF"
     },
     {
-      "id": "WF-1032499",
-      "episodeId": "10",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7356 ha",
-      "startedAt": "2026-09-28T00:00:00",
-      "endsAt": "2026-10-02T00:00:00",
-      "updatedAt": "2026-10-03T19:02:34",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -46.1543,
-        -15.204
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032499&episodeid=10&eventtype=WF"
-    },
-    {
-      "id": "WF-1032507",
-      "episodeId": "12",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 12661 ha",
-      "startedAt": "2026-09-28T00:00:00",
-      "endsAt": "2026-10-03T00:00:00",
-      "updatedAt": "2026-10-03T19:02:30",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -55.606,
-        1.8379
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032507&episodeid=12&eventtype=WF"
-    },
-    {
       "id": "WF-1032508",
       "episodeId": "10",
       "eventType": "WF",
@@ -1138,48 +1369,6 @@
         -15.3087
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032508&episodeid=10&eventtype=WF"
-    },
-    {
-      "id": "WF-1032536",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5738 ha",
-      "startedAt": "2026-09-28T00:00:00",
-      "endsAt": "2026-10-03T00:00:00",
-      "updatedAt": "2026-10-03T19:02:20",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        105.2745,
-        -3.4669
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032536&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1032537",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5153 ha",
-      "startedAt": "2026-09-28T00:00:00",
-      "endsAt": "2026-10-02T00:00:00",
-      "updatedAt": "2026-10-03T19:02:16",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -45.3517,
-        -8.6454
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032537&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1032506",
@@ -1224,27 +1413,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032498&episodeid=13&eventtype=WF"
     },
     {
-      "id": "WF-1032497",
-      "episodeId": "12",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 33463 ha",
-      "startedAt": "2026-09-28T00:00:00",
-      "endsAt": "2026-10-03T00:00:00",
-      "updatedAt": "2026-10-03T19:01:51",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        134.9608,
-        -17.1065
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032497&episodeid=12&eventtype=WF"
-    },
-    {
       "id": "WF-1032478",
       "episodeId": "16",
       "eventType": "WF",
@@ -1264,153 +1432,6 @@
         -16.713
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032478&episodeid=16&eventtype=WF"
-    },
-    {
-      "id": "WF-1032546",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7092 ha",
-      "startedAt": "2026-09-29T00:00:00",
-      "endsAt": "2026-10-03T00:00:00",
-      "updatedAt": "2026-10-03T19:01:28",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        134.3139,
-        -15.1843
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032546&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1032544",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6241 ha",
-      "startedAt": "2026-09-29T00:00:00",
-      "endsAt": "2026-10-03T00:00:00",
-      "updatedAt": "2026-10-03T19:01:23",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        123.2505,
-        -17.1842
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032544&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1032538",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5012 ha",
-      "startedAt": "2026-09-29T00:00:00",
-      "endsAt": "2026-10-03T00:00:00",
-      "updatedAt": "2026-10-03T19:01:12",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        150.1179,
-        -26.3807
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032538&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1032540",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5147 ha",
-      "startedAt": "2026-09-30T00:00:00",
-      "endsAt": "2026-10-02T00:00:00",
-      "updatedAt": "2026-10-03T19:01:07",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -44.2588,
-        -11.2557
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032540&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1032517",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9279 ha",
-      "startedAt": "2026-09-30T00:00:00",
-      "endsAt": "2026-10-03T00:00:00",
-      "updatedAt": "2026-10-03T19:01:00",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -50.7776,
-        -4.2793
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032517&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1032552",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in The Democratic Republic of Congo",
-      "country": "The Democratic Republic of Congo",
-      "iso3": "COD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 10102 ha",
-      "startedAt": "2026-10-01T00:00:00",
-      "endsAt": "2026-10-03T00:00:00",
-      "updatedAt": "2026-10-03T19:00:44",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.0753,
-        -7.2494
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032552&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1032535",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Kazakhstan",
-      "country": "Kazakhstan",
-      "iso3": "KAZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5196 ha",
-      "startedAt": "2026-10-02T00:00:00",
-      "endsAt": "2026-10-02T00:00:00",
-      "updatedAt": "2026-10-03T19:00:35",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        73.6925,
-        50.403
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032535&episodeid=1&eventtype=WF"
     },
     {
       "id": "EQ-1569302",
@@ -1474,27 +1495,6 @@
         52.4691
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569186&episodeid=1737482&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001321",
-      "episodeId": "52",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone NOLO-26",
-      "country": "United States",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 250 km/h)",
-      "startedAt": "2026-09-13T21:00:00",
-      "endsAt": "2026-10-03T15:00:00",
-      "updatedAt": "2026-10-03T16:00:14",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -171.2,
-        23.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001321&episodeid=52&eventtype=TC"
     },
     {
       "id": "EQ-1569280",
