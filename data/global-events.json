@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-07T17:52:56.897Z",
+  "checkedAt": "2026-10-07T22:35:00.531Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
@@ -7,7 +7,7 @@
   "events": [
     {
       "id": "TC-1001333",
-      "episodeId": "11",
+      "episodeId": "12",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone KOGUMA-26",
@@ -16,36 +16,162 @@
       "alertLevel": "green",
       "severity": "Tropical Storm (maximum wind speed of 222 km/h)",
       "startedAt": "2026-10-05T00:00:00",
-      "endsAt": "2026-10-07T12:00:00",
-      "updatedAt": "2026-10-07T17:47:55",
+      "endsAt": "2026-10-07T18:00:00",
+      "updatedAt": "2026-10-07T22:31:10",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
-        162.6,
-        15.7
+        161.6,
+        16.1
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=11&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001333&episodeid=12&eventtype=TC"
     },
     {
       "id": "TC-1001329",
-      "episodeId": "42",
+      "episodeId": "43",
       "eventType": "TC",
       "eventName": "Tropical cyclone",
       "title": "Tropical Cyclone RACHEL-26",
       "country": "Mexico",
-      "iso3": "",
+      "iso3": "MEX",
       "alertLevel": "green",
       "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h)",
       "startedAt": "2026-09-27T09:00:00",
-      "endsAt": "2026-10-07T15:00:00",
-      "updatedAt": "2026-10-07T17:46:33",
+      "endsAt": "2026-10-07T21:00:00",
+      "updatedAt": "2026-10-07T22:16:20",
       "source": "NOAA",
       "isCurrent": true,
       "coordinates": [
-        -121.8,
-        20.9
+        -122.3,
+        21.2
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=42&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001329&episodeid=43&eventtype=TC"
+    },
+    {
+      "id": "TC-1001334",
+      "episodeId": "5",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ISAIAS-26",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
+      "startedAt": "2026-10-06T21:00:00",
+      "endsAt": "2026-10-07T21:00:00",
+      "updatedAt": "2026-10-07T21:07:06",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -92.9,
+        22.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=5&eventtype=TC"
+    },
+    {
+      "id": "EQ-1569989",
+      "episodeId": "1738294",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:50.601km",
+      "startedAt": "2026-10-07T19:13:47",
+      "endsAt": "2026-10-07T19:13:47",
+      "updatedAt": "2026-10-07T21:06:27",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        140.5835,
+        35.5597
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569989&episodeid=1738294&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001335",
+      "episodeId": "2",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SIMON-26",
+      "country": "Mexico",
+      "iso3": "MEX",
+      "alertLevel": "red",
+      "severity": "Tropical Storm (maximum wind speed of 185 km/h)",
+      "startedAt": "2026-10-07T15:00:00",
+      "endsAt": "2026-10-07T21:00:00",
+      "updatedAt": "2026-10-07T20:47:47",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -101.6,
+        15.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=2&eventtype=TC"
+    },
+    {
+      "id": "EQ-1569986",
+      "episodeId": "1738278",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Papua New Guinea",
+      "country": "Papua New Guinea",
+      "iso3": "PNG",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:101.453km",
+      "startedAt": "2026-10-07T17:36:13",
+      "endsAt": "2026-10-07T17:36:13",
+      "updatedAt": "2026-10-07T19:07:23",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        143.8558,
+        -4.4473
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569986&episodeid=1738278&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1569981",
+      "episodeId": "1738275",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russia",
+      "country": "Russia",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:10km",
+      "startedAt": "2026-10-07T18:15:04",
+      "endsAt": "2026-10-07T18:15:04",
+      "updatedAt": "2026-10-07T18:55:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        162.5648,
+        54.4775
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569981&episodeid=1738275&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1569982",
+      "episodeId": "1738272",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in South Of Fiji Islands",
+      "country": "South Of Fiji Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:504.432km",
+      "startedAt": "2026-10-07T18:13:13",
+      "endsAt": "2026-10-07T18:13:13",
+      "updatedAt": "2026-10-07T18:35:03",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        179.8762,
+        -24.7869
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569982&episodeid=1738272&eventtype=EQ"
     },
     {
       "id": "EQ-1569971",
@@ -88,27 +214,6 @@
         -21.1132
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569963&episodeid=1738258&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001335",
-      "episodeId": "1",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TWENTY-E-26",
-      "country": "Mexico",
-      "iso3": "",
-      "alertLevel": "orange",
-      "severity": "Tropical Depression (maximum wind speed of 176 km/h)",
-      "startedAt": "2026-10-07T15:00:00",
-      "endsAt": "2026-10-07T15:00:00",
-      "updatedAt": "2026-10-07T15:46:36",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -100.9,
-        14.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=1&eventtype=TC"
     },
     {
       "id": "EQ-1569956",
@@ -1056,27 +1161,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032594&episodeid=4&eventtype=WF"
     },
     {
-      "id": "TC-1001334",
-      "episodeId": "4",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ISAIAS-26",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 176 km/h)",
-      "startedAt": "2026-10-06T21:00:00",
-      "endsAt": "2026-10-07T15:00:00",
-      "updatedAt": "2026-10-07T15:06:47",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -93.6,
-        22.4
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001334&episodeid=4&eventtype=TC"
-    },
-    {
       "id": "WF-1032608",
       "episodeId": "1",
       "eventType": "WF",
@@ -1978,90 +2062,6 @@
         -30.8569
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569765&episodeid=1738049&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1569764",
-      "episodeId": "1738023",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Malaysia",
-      "country": "Malaysia",
-      "iso3": "MYS",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:10km",
-      "startedAt": "2026-10-06T13:11:22",
-      "endsAt": "2026-10-06T13:11:22",
-      "updatedAt": "2026-10-06T13:51:29",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        118.8285,
-        4.8667
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569764&episodeid=1738023&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1569745",
-      "episodeId": "1738000",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Papua New Guinea",
-      "country": "Papua New Guinea",
-      "iso3": "PNG",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:20.643km",
-      "startedAt": "2026-10-06T08:45:26",
-      "endsAt": "2026-10-06T08:45:26",
-      "updatedAt": "2026-10-06T09:25:49",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        152.7519,
-        -4.4773
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569745&episodeid=1738000&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1569736",
-      "episodeId": "1737991",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Bolivia",
-      "country": "Bolivia",
-      "iso3": "BOL",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.5M, Depth:191.741km",
-      "startedAt": "2026-10-06T06:54:10",
-      "endsAt": "2026-10-06T06:54:10",
-      "updatedAt": "2026-10-06T07:36:07",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -67.4214,
-        -20.0088
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569736&episodeid=1737991&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1569732",
-      "episodeId": "1737985",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Chile",
-      "country": "Chile",
-      "iso3": "CHL",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.7M, Depth:122.011km",
-      "startedAt": "2026-10-06T06:16:33",
-      "endsAt": "2026-10-06T06:16:33",
-      "updatedAt": "2026-10-06T06:56:43",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -68.6026,
-        -21.1586
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1569732&episodeid=1737985&eventtype=EQ"
     },
     {
       "id": "FL-1104191",
