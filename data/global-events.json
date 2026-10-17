@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-10-17T13:57:36.320Z",
+  "checkedAt": "2026-10-17T16:54:08.128Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001338",
+      "episodeId": "13",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone CHAMPI-26",
+      "country": "Guam, Northern Mariana Islands",
+      "iso3": "GUM",
+      "alertLevel": "red",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
+      "startedAt": "2026-10-14T12:00:00",
+      "endsAt": "2026-10-17T12:00:00",
+      "updatedAt": "2026-10-17T15:01:17",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        146.1,
+        12.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=13&eventtype=TC"
+    },
+    {
+      "id": "TC-1001337",
+      "episodeId": "17",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TRUDY-26",
+      "country": "México",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h)",
+      "startedAt": "2026-10-13T15:00:00",
+      "endsAt": "2026-10-17T15:00:00",
+      "updatedAt": "2026-10-17T14:54:50",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -103.9,
+        16.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=17&eventtype=TC"
+    },
+    {
+      "id": "EQ-1572185",
+      "episodeId": "1740757",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in México",
+      "country": "México",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.2M, Depth:10km",
+      "startedAt": "2026-10-17T13:59:34",
+      "endsAt": "2026-10-17T13:59:34",
+      "updatedAt": "2026-10-17T14:39:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -92.8552,
+        14.0469
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572185&episodeid=1740757&eventtype=EQ"
+    },
     {
       "id": "TC-1001339",
       "episodeId": "3",
@@ -17,7 +80,7 @@
       "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
       "startedAt": "2026-10-16T06:00:00",
       "endsAt": "2026-10-17T06:00:00",
-      "updatedAt": "2026-10-17T12:22:37",
+      "updatedAt": "2026-10-17T14:10:10",
       "source": "JTWC",
       "isCurrent": true,
       "coordinates": [
@@ -27,25 +90,25 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=3&eventtype=TC"
     },
     {
-      "id": "TC-1001337",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TRUDY-26",
-      "country": "México",
-      "iso3": "MEX",
+      "id": "EQ-1571917",
+      "episodeId": "1740457",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russia",
+      "country": "Russia",
+      "iso3": "RUS",
       "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h)",
-      "startedAt": "2026-10-13T15:00:00",
-      "endsAt": "2026-10-17T09:00:00",
-      "updatedAt": "2026-10-17T11:24:00",
-      "source": "NOAA",
+      "severity": "Magnitude 6.9M, Depth:143.176km",
+      "startedAt": "2026-10-16T03:35:32",
+      "endsAt": "2026-10-16T03:35:32",
+      "updatedAt": "2026-10-17T14:02:05",
+      "source": "NEIC",
       "isCurrent": true,
       "coordinates": [
-        -103.4,
-        16
+        157.2499,
+        52.0066
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=16&eventtype=TC"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1571917&episodeid=1740457&eventtype=EQ"
     },
     {
       "id": "TC-1001335",
@@ -1035,27 +1098,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032840&episodeid=7&eventtype=WF"
     },
     {
-      "id": "WF-1032774",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5610 ha",
-      "startedAt": "2026-10-09T00:00:00",
-      "endsAt": "2026-10-16T00:00:00",
-      "updatedAt": "2026-10-17T11:04:46",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -54.44,
-        -1.6325
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032774&episodeid=7&eventtype=WF"
-    },
-    {
       "id": "WF-1032754",
       "episodeId": "10",
       "eventType": "WF",
@@ -1560,27 +1602,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572143&episodeid=1740709&eventtype=EQ"
     },
     {
-      "id": "TC-1001338",
-      "episodeId": "12",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone CHAMPI-26",
-      "country": "Guam, Northern Mariana Islands",
-      "iso3": "GUM",
-      "alertLevel": "red",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
-      "startedAt": "2026-10-14T12:00:00",
-      "endsAt": "2026-10-17T06:00:00",
-      "updatedAt": "2026-10-17T08:02:57",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        147.3,
-        12.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=12&eventtype=TC"
-    },
-    {
       "id": "EQ-1572139",
       "episodeId": "1740705",
       "eventType": "EQ",
@@ -1894,27 +1915,6 @@
         -18.4686
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572014&episodeid=1740564&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1571917",
-      "episodeId": "1740457",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Russia",
-      "country": "Russia",
-      "iso3": "RUS",
-      "alertLevel": "green",
-      "severity": "Magnitude 6.9M, Depth:143.176km",
-      "startedAt": "2026-10-16T03:35:32",
-      "endsAt": "2026-10-16T03:35:32",
-      "updatedAt": "2026-10-16T14:47:48",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        157.2499,
-        52.0066
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1571917&episodeid=1740457&eventtype=EQ"
     },
     {
       "id": "EQ-1572006",
