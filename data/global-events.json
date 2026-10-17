@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-10-17T16:54:08.128Z",
+  "checkedAt": "2026-10-17T18:59:48.167Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001339",
+      "episodeId": "3",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone WATI-26",
+      "country": "Cook Islands, French Polynesia",
+      "iso3": "PYF",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-10-16T06:00:00",
+      "endsAt": "2026-10-17T06:00:00",
+      "updatedAt": "2026-10-17T18:53:04",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        -163.2,
+        -13.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=3&eventtype=TC"
+    },
+    {
+      "id": "EQ-1572223",
+      "episodeId": "1740793",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Bolivia",
+      "country": "Bolivia",
+      "iso3": "BOL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:189.462km",
+      "startedAt": "2026-10-17T16:52:45",
+      "endsAt": "2026-10-17T16:52:45",
+      "updatedAt": "2026-10-17T18:28:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -67.2144,
+        -21.1752
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572223&episodeid=1740793&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001337",
+      "episodeId": "17",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TRUDY-26",
+      "country": "México",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h)",
+      "startedAt": "2026-10-13T15:00:00",
+      "endsAt": "2026-10-17T15:00:00",
+      "updatedAt": "2026-10-17T17:39:11",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -103.9,
+        16.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=17&eventtype=TC"
+    },
+    {
+      "id": "TC-1001335",
+      "episodeId": "38",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone SIMON-26",
+      "country": "México",
+      "iso3": "MEX",
+      "alertLevel": "orange",
+      "severity": "Tropical Depression (maximum wind speed of 250 km/h)",
+      "startedAt": "2026-10-07T15:00:00",
+      "endsAt": "2026-10-16T21:00:00",
+      "updatedAt": "2026-10-17T17:37:52",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -110.3,
+        21.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=38&eventtype=TC"
+    },
     {
       "id": "TC-1001338",
       "episodeId": "13",
@@ -25,27 +109,6 @@
         12.6
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=13&eventtype=TC"
-    },
-    {
-      "id": "TC-1001337",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TRUDY-26",
-      "country": "México",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h)",
-      "startedAt": "2026-10-13T15:00:00",
-      "endsAt": "2026-10-17T15:00:00",
-      "updatedAt": "2026-10-17T14:54:50",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -103.9,
-        16.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=17&eventtype=TC"
     },
     {
       "id": "EQ-1572185",
@@ -69,27 +132,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572185&episodeid=1740757&eventtype=EQ"
     },
     {
-      "id": "TC-1001339",
-      "episodeId": "3",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone WATI-26",
-      "country": "Cook Islands, French Polynesia",
-      "iso3": "PYF",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-10-16T06:00:00",
-      "endsAt": "2026-10-17T06:00:00",
-      "updatedAt": "2026-10-17T14:10:10",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        -163.2,
-        -13.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=3&eventtype=TC"
-    },
-    {
       "id": "EQ-1571917",
       "episodeId": "1740457",
       "eventType": "EQ",
@@ -109,27 +151,6 @@
         52.0066
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1571917&episodeid=1740457&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001335",
-      "episodeId": "38",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone SIMON-26",
-      "country": "México",
-      "iso3": "MEX",
-      "alertLevel": "orange",
-      "severity": "Tropical Depression (maximum wind speed of 250 km/h)",
-      "startedAt": "2026-10-07T15:00:00",
-      "endsAt": "2026-10-16T21:00:00",
-      "updatedAt": "2026-10-17T11:22:21",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -110.3,
-        21.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=38&eventtype=TC"
     },
     {
       "id": "WF-1032737",
@@ -676,27 +697,6 @@
         -2.9607
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032861&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1032773",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5371 ha",
-      "startedAt": "2026-10-05T00:00:00",
-      "endsAt": "2026-10-16T00:00:00",
-      "updatedAt": "2026-10-17T11:12:37",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        39.3644,
-        -14.6832
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032773&episodeid=6&eventtype=WF"
     },
     {
       "id": "WF-1032733",
