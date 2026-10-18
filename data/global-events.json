@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-10-18T11:31:30.523Z",
+  "checkedAt": "2026-10-18T14:49:04.055Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001339",
+      "episodeId": "5",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone WATI-26",
+      "country": "Cook Islands, French Polynesia",
+      "iso3": "PYF",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 120 km/h)",
+      "startedAt": "2026-10-16T06:00:00",
+      "endsAt": "2026-10-18T06:00:00",
+      "updatedAt": "2026-10-18T14:12:47",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        -162.4,
+        -16.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=5&eventtype=TC"
+    },
+    {
+      "id": "TC-1001338",
+      "episodeId": "17",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone CHAMPI-26",
+      "country": "Guam, Northern Mariana Islands",
+      "iso3": "GUM",
+      "alertLevel": "red",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
+      "startedAt": "2026-10-14T12:00:00",
+      "endsAt": "2026-10-18T12:00:00",
+      "updatedAt": "2026-10-18T14:11:49",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        141.4,
+        13.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=17&eventtype=TC"
+    },
+    {
+      "id": "EQ-1572122",
+      "episodeId": "1740688",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Pakistan",
+      "country": "Pakistan",
+      "iso3": "PAK",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.7M, Depth:10km",
+      "startedAt": "2026-10-17T05:06:57",
+      "endsAt": "2026-10-17T05:06:57",
+      "updatedAt": "2026-10-18T14:01:04",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        66.1708,
+        28.0179
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572122&episodeid=1740688&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1572353",
+      "episodeId": "1740928",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Kermadec Islands, New Zealand",
+      "country": "Kermadec Islands, New Zealand",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:10km",
+      "startedAt": "2026-10-18T12:42:22",
+      "endsAt": "2026-10-18T12:42:22",
+      "updatedAt": "2026-10-18T13:02:25",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -177.3838,
+        -30.1265
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572353&episodeid=1740928&eventtype=EQ"
+    },
     {
       "id": "TC-1001337",
       "episodeId": "20",
@@ -1077,27 +1161,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032799&episodeid=11&eventtype=WF"
     },
     {
-      "id": "WF-1032847",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 13719 ha",
-      "startedAt": "2026-10-10T00:00:00",
-      "endsAt": "2026-10-17T00:00:00",
-      "updatedAt": "2026-10-18T11:06:12",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        34.884,
-        -18.9485
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032847&episodeid=3&eventtype=WF"
-    },
-    {
       "id": "WF-1032853",
       "episodeId": "2",
       "eventType": "WF",
@@ -1791,27 +1854,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032891&episodeid=1&eventtype=WF"
     },
     {
-      "id": "TC-1001339",
-      "episodeId": "5",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone WATI-26",
-      "country": "Cook Islands, French Polynesia",
-      "iso3": "PYF",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 120 km/h)",
-      "startedAt": "2026-10-16T06:00:00",
-      "endsAt": "2026-10-18T06:00:00",
-      "updatedAt": "2026-10-18T09:39:10",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        -162.4,
-        -16.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=5&eventtype=TC"
-    },
-    {
       "id": "EQ-1572327",
       "episodeId": "1740903",
       "eventType": "EQ",
@@ -1831,27 +1873,6 @@
         -8.1449
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572327&episodeid=1740903&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001338",
-      "episodeId": "16",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone CHAMPI-26",
-      "country": "Guam, Northern Mariana Islands",
-      "iso3": "GUM",
-      "alertLevel": "red",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
-      "startedAt": "2026-10-14T12:00:00",
-      "endsAt": "2026-10-18T06:00:00",
-      "updatedAt": "2026-10-18T08:01:08",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        142.3,
-        13.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=16&eventtype=TC"
     },
     {
       "id": "WF-1032825",
@@ -2041,27 +2062,6 @@
         -8.1086
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572139&episodeid=1740705&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1572122",
-      "episodeId": "1740688",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Pakistan",
-      "country": "Pakistan",
-      "iso3": "PAK",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.7M, Depth:10km",
-      "startedAt": "2026-10-17T05:06:57",
-      "endsAt": "2026-10-17T05:06:57",
-      "updatedAt": "2026-10-17T07:12:51",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        66.1708,
-        28.0179
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572122&episodeid=1740688&eventtype=EQ"
     },
     {
       "id": "EQ-1572114",
