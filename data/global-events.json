@@ -1,10 +1,94 @@
 {
-  "checkedAt": "2026-10-18T19:41:54.817Z",
+  "checkedAt": "2026-10-18T21:53:53.186Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001339",
+      "episodeId": "6",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone WATI-26",
+      "country": "Cook Islands, French Polynesia",
+      "iso3": "PYF",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 120 km/h)",
+      "startedAt": "2026-10-16T06:00:00",
+      "endsAt": "2026-10-18T18:00:00",
+      "updatedAt": "2026-10-18T21:39:46",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        -160.2,
+        -18.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=6&eventtype=TC"
+    },
+    {
+      "id": "TC-1001337",
+      "episodeId": "22",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TRUDY-26",
+      "country": "México",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h)",
+      "startedAt": "2026-10-13T15:00:00",
+      "endsAt": "2026-10-18T21:00:00",
+      "updatedAt": "2026-10-18T21:10:25",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -107,
+        19.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=22&eventtype=TC"
+    },
+    {
+      "id": "TC-1001338",
+      "episodeId": "18",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone CHAMPI-26",
+      "country": "Guam, Northern Mariana Islands, Japan",
+      "iso3": "GUM",
+      "alertLevel": "red",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 250 km/h)",
+      "startedAt": "2026-10-14T12:00:00",
+      "endsAt": "2026-10-18T18:00:00",
+      "updatedAt": "2026-10-18T21:01:01",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        140.2,
+        13.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=18&eventtype=TC"
+    },
+    {
+      "id": "EQ-1572408",
+      "episodeId": "1740989",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Tonga",
+      "country": "Tonga",
+      "iso3": "TON",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.2M, Depth:10km",
+      "startedAt": "2026-10-18T19:32:28",
+      "endsAt": "2026-10-18T19:32:28",
+      "updatedAt": "2026-10-18T20:16:06",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -174.2956,
+        -21.541
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572408&episodeid=1740989&eventtype=EQ"
+    },
     {
       "id": "WF-1032797",
       "episodeId": "13",
@@ -256,27 +340,6 @@
         -2.9615
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032861&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1032674",
-      "episodeId": "10",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9837 ha",
-      "startedAt": "2026-10-05T00:00:00",
-      "endsAt": "2026-10-18T00:00:00",
-      "updatedAt": "2026-10-18T19:14:40",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        35.8372,
-        -13.6677
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032674&episodeid=10&eventtype=WF"
     },
     {
       "id": "WF-1032828",
@@ -1917,27 +1980,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572386&episodeid=1740976&eventtype=EQ"
     },
     {
-      "id": "TC-1001339",
-      "episodeId": "5",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone WATI-26",
-      "country": "Cook Islands, French Polynesia",
-      "iso3": "PYF",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 120 km/h)",
-      "startedAt": "2026-10-16T06:00:00",
-      "endsAt": "2026-10-18T06:00:00",
-      "updatedAt": "2026-10-18T18:08:40",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        -162.4,
-        -16.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=5&eventtype=TC"
-    },
-    {
       "id": "EQ-1572388",
       "episodeId": "1740973",
       "eventType": "EQ",
@@ -1957,27 +1999,6 @@
         1.452
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572388&episodeid=1740973&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001337",
-      "episodeId": "21",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TRUDY-26",
-      "country": "México",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h)",
-      "startedAt": "2026-10-13T15:00:00",
-      "endsAt": "2026-10-18T15:00:00",
-      "updatedAt": "2026-10-18T17:38:40",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -106.8,
-        19.1
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=21&eventtype=TC"
     },
     {
       "id": "EQ-1572380",
@@ -2020,27 +2041,6 @@
         -3.0793
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032817&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "TC-1001338",
-      "episodeId": "17",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone CHAMPI-26",
-      "country": "Guam, Northern Mariana Islands",
-      "iso3": "GUM",
-      "alertLevel": "red",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 259 km/h)",
-      "startedAt": "2026-10-14T12:00:00",
-      "endsAt": "2026-10-18T12:00:00",
-      "updatedAt": "2026-10-18T15:01:04",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        141.4,
-        13.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=17&eventtype=TC"
     },
     {
       "id": "EQ-1572353",
