@@ -1,10 +1,241 @@
 {
-  "checkedAt": "2026-10-19T15:53:07.054Z",
+  "checkedAt": "2026-10-19T20:50:54.911Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001337",
+      "episodeId": "26",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TRUDY-26",
+      "country": "México",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 194 km/h)",
+      "startedAt": "2026-10-13T15:00:00",
+      "endsAt": "2026-10-19T21:00:00",
+      "updatedAt": "2026-10-19T20:46:15",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -107.9,
+        19.3
+      ],
+      "officialUrl": "no reportlink found"
+    },
+    {
+      "id": "TC-1001338",
+      "episodeId": "22",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone CHAMPI-26",
+      "country": "Guam, Northern Mariana Islands, Japan",
+      "iso3": "GUM",
+      "alertLevel": "red",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 269 km/h)",
+      "startedAt": "2026-10-14T12:00:00",
+      "endsAt": "2026-10-19T18:00:00",
+      "updatedAt": "2026-10-19T20:13:57",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        136.7,
+        15.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=22&eventtype=TC"
+    },
+    {
+      "id": "EQ-1572622",
+      "episodeId": "1741236",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Vanuatu Islands",
+      "country": "Vanuatu Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.7M, Depth:10km",
+      "startedAt": "2026-10-19T18:55:37",
+      "endsAt": "2026-10-19T18:55:37",
+      "updatedAt": "2026-10-19T19:20:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        165.4974,
+        -14.0266
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572622&episodeid=1741236&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1572618",
+      "episodeId": "1741234",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Vanuatu Islands",
+      "country": "Vanuatu Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.7M, Depth:10km",
+      "startedAt": "2026-10-19T18:52:36",
+      "endsAt": "2026-10-19T18:52:36",
+      "updatedAt": "2026-10-19T19:20:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        165.5508,
+        -14.0371
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572618&episodeid=1741234&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1572616",
+      "episodeId": "1741228",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Tonga",
+      "country": "Tonga",
+      "iso3": "TON",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:156.799km",
+      "startedAt": "2026-10-19T18:27:46",
+      "endsAt": "2026-10-19T18:27:46",
+      "updatedAt": "2026-10-19T19:08:13",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -174.5697,
+        -15.6727
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572616&episodeid=1741228&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1572612",
+      "episodeId": "1741224",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in South Sandwich Islands Region",
+      "country": "South Sandwich Islands Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.1M, Depth:101.462km",
+      "startedAt": "2026-10-19T17:45:50",
+      "endsAt": "2026-10-19T17:45:50",
+      "updatedAt": "2026-10-19T18:26:05",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -27.0851,
+        -56.3542
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572612&episodeid=1741224&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001339",
+      "episodeId": "7",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone WATI-26",
+      "country": "Cook Islands, French Polynesia",
+      "iso3": "PYF",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 120 km/h)",
+      "startedAt": "2026-10-16T06:00:00",
+      "endsAt": "2026-10-19T06:00:00",
+      "updatedAt": "2026-10-19T18:12:08",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        -156.8,
+        -20.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=7&eventtype=TC"
+    },
+    {
+      "id": "EQ-1572598",
+      "episodeId": "1741206",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Rat Islands, Aleutian Islands",
+      "country": "Rat Islands, Aleutian Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:39.2km",
+      "startedAt": "2026-10-19T16:27:44",
+      "endsAt": "2026-10-19T16:27:44",
+      "updatedAt": "2026-10-19T16:51:23",
+      "source": "ALASKA EC",
+      "isCurrent": true,
+      "coordinates": [
+        178.218,
+        51.354
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572598&episodeid=1741206&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1572590",
+      "episodeId": "1741198",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in South Of Fiji Islands",
+      "country": "South Of Fiji Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:536.111km",
+      "startedAt": "2026-10-19T16:13:53",
+      "endsAt": "2026-10-19T16:13:53",
+      "updatedAt": "2026-10-19T16:33:47",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        179.8713,
+        -23.5497
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572590&episodeid=1741198&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1572579",
+      "episodeId": "1741186",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Tajikistan",
+      "country": "Tajikistan",
+      "iso3": "TJK",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-10-19T15:35:36",
+      "endsAt": "2026-10-19T15:35:36",
+      "updatedAt": "2026-10-19T16:15:49",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        73.1842,
+        37.838
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572579&episodeid=1741186&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1572582",
+      "episodeId": "1741189",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Guatemala",
+      "country": "Guatemala",
+      "iso3": "GTM",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:109.709km",
+      "startedAt": "2026-10-19T14:47:45",
+      "endsAt": "2026-10-19T14:47:45",
+      "updatedAt": "2026-10-19T16:05:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -91.373,
+        14.4536
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572582&episodeid=1741189&eventtype=EQ"
+    },
     {
       "id": "EQ-1572569",
       "episodeId": "1741177",
@@ -25,27 +256,6 @@
         64.5774
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572569&episodeid=1741177&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001337",
-      "episodeId": "25",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TRUDY-26",
-      "country": "México",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 194 km/h)",
-      "startedAt": "2026-10-13T15:00:00",
-      "endsAt": "2026-10-19T15:00:00",
-      "updatedAt": "2026-10-19T15:24:05",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -108.5,
-        19.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=25&eventtype=TC"
     },
     {
       "id": "WF-1032819",
@@ -88,27 +298,6 @@
         -8.8955
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032889&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "TC-1001338",
-      "episodeId": "21",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone CHAMPI-26",
-      "country": "Guam, Northern Mariana Islands, Japan",
-      "iso3": "GUM",
-      "alertLevel": "red",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 269 km/h)",
-      "startedAt": "2026-10-14T12:00:00",
-      "endsAt": "2026-10-19T12:00:00",
-      "updatedAt": "2026-10-19T15:01:07",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        137.6,
-        14.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=21&eventtype=TC"
     },
     {
       "id": "WF-1032665",
@@ -1413,27 +1602,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032908&episodeid=3&eventtype=WF"
     },
     {
-      "id": "TC-1001339",
-      "episodeId": "7",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone WATI-26",
-      "country": "Cook Islands, French Polynesia",
-      "iso3": "PYF",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 120 km/h)",
-      "startedAt": "2026-10-16T06:00:00",
-      "endsAt": "2026-10-19T06:00:00",
-      "updatedAt": "2026-10-19T14:23:09",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        -156.8,
-        -20.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=7&eventtype=TC"
-    },
-    {
       "id": "EQ-1572542",
       "episodeId": "1741146",
       "eventType": "EQ",
@@ -1833,48 +2001,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572487&episodeid=1741074&eventtype=EQ"
     },
     {
-      "id": "FL-1104216",
-      "episodeId": "5",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-01T01:00:00",
-      "endsAt": "2026-10-18T01:00:00",
-      "updatedAt": "2026-10-19T06:05:19",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -43.2087,
-        -22.1168
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104216&episodeid=5&eventtype=FL"
-    },
-    {
-      "id": "FL-1104237",
-      "episodeId": "1",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Nicaragua",
-      "country": "Nicaragua",
-      "iso3": "NIC",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-16T01:00:00",
-      "endsAt": "2026-10-18T01:00:00",
-      "updatedAt": "2026-10-19T06:05:04",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -83.3806,
-        14.0282
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104237&episodeid=1&eventtype=FL"
-    },
-    {
       "id": "FL-1104235",
       "episodeId": "2",
       "eventType": "FL",
@@ -1978,132 +2104,6 @@
         -21.541
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572408&episodeid=1740989&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1572386",
-      "episodeId": "1740976",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Panama",
-      "country": "Panama",
-      "iso3": "PAN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.5M, Depth:10km",
-      "startedAt": "2026-10-18T16:12:55",
-      "endsAt": "2026-10-18T16:12:55",
-      "updatedAt": "2026-10-18T18:40:22",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -81.3297,
-        7.7244
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572386&episodeid=1740976&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1572388",
-      "episodeId": "1740973",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Carlsberg Ridge",
-      "country": "Carlsberg Ridge",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:10km",
-      "startedAt": "2026-10-18T14:30:07",
-      "endsAt": "2026-10-18T14:30:07",
-      "updatedAt": "2026-10-18T18:08:23",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        66.9867,
-        1.452
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572388&episodeid=1740973&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1572380",
-      "episodeId": "1740959",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Saint Kitts and Nevis",
-      "country": "Saint Kitts and Nevis",
-      "iso3": "KNA",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.7M, Depth:149.951km",
-      "startedAt": "2026-10-18T15:35:47",
-      "endsAt": "2026-10-18T15:35:47",
-      "updatedAt": "2026-10-18T16:16:04",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -63.0065,
-        17.2531
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572380&episodeid=1740959&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1572353",
-      "episodeId": "1740928",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Kermadec Islands, New Zealand",
-      "country": "Kermadec Islands, New Zealand",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.5M, Depth:10km",
-      "startedAt": "2026-10-18T12:42:22",
-      "endsAt": "2026-10-18T12:42:22",
-      "updatedAt": "2026-10-18T13:02:25",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -177.3838,
-        -30.1265
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572353&episodeid=1740928&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1572327",
-      "episodeId": "1740903",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.2M, Depth:10km",
-      "startedAt": "2026-10-18T08:00:06",
-      "endsAt": "2026-10-18T08:00:06",
-      "updatedAt": "2026-10-18T08:40:24",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        120.2734,
-        -8.1449
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572327&episodeid=1740903&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1572269",
-      "episodeId": "1740843",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Papua New Guinea",
-      "country": "Papua New Guinea",
-      "iso3": "PNG",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.8M, Depth:124.07km",
-      "startedAt": "2026-10-18T00:28:29",
-      "endsAt": "2026-10-18T00:28:29",
-      "updatedAt": "2026-10-18T01:12:44",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        146.0489,
-        -6.5103
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572269&episodeid=1740843&eventtype=EQ"
     }
   ]
 }
