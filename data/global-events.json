@@ -1,10 +1,52 @@
 {
-  "checkedAt": "2026-10-18T23:52:46.802Z",
+  "checkedAt": "2026-10-19T02:59:51.685Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001339",
+      "episodeId": "6",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone WATI-26",
+      "country": "Cook Islands, French Polynesia",
+      "iso3": "PYF",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 120 km/h)",
+      "startedAt": "2026-10-16T06:00:00",
+      "endsAt": "2026-10-18T18:00:00",
+      "updatedAt": "2026-10-19T02:23:42",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        -160.2,
+        -18.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=6&eventtype=TC"
+    },
+    {
+      "id": "TC-1001337",
+      "episodeId": "22",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone TRUDY-26",
+      "country": "México",
+      "iso3": "MEX",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h)",
+      "startedAt": "2026-10-13T15:00:00",
+      "endsAt": "2026-10-18T21:00:00",
+      "updatedAt": "2026-10-18T23:53:29",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -107,
+        19.5
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=22&eventtype=TC"
+    },
     {
       "id": "EQ-1572430",
       "episodeId": "1741017",
@@ -25,27 +67,6 @@
         -5.4567
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572430&episodeid=1741017&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001337",
-      "episodeId": "22",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone TRUDY-26",
-      "country": "México",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 194 km/h)",
-      "startedAt": "2026-10-13T15:00:00",
-      "endsAt": "2026-10-18T21:00:00",
-      "updatedAt": "2026-10-18T23:23:32",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -107,
-        19.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001337&episodeid=22&eventtype=TC"
     },
     {
       "id": "EQ-1572434",
@@ -1831,27 +1852,6 @@
         -5.6455
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1572429&episodeid=1741009&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001339",
-      "episodeId": "6",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone WATI-26",
-      "country": "Cook Islands, French Polynesia",
-      "iso3": "PYF",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 120 km/h)",
-      "startedAt": "2026-10-16T06:00:00",
-      "endsAt": "2026-10-18T18:00:00",
-      "updatedAt": "2026-10-18T21:39:46",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        -160.2,
-        -18.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001339&episodeid=6&eventtype=TC"
     },
     {
       "id": "TC-1001338",
