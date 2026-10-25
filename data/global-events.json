@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-10-25T17:09:21.760Z",
+  "checkedAt": "2026-10-25T19:35:47.580Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001344",
+      "episodeId": "1",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone THREE-C-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 65 km/h)",
+      "startedAt": "2026-10-25T15:00:00",
+      "endsAt": "2026-10-25T15:00:00",
+      "updatedAt": "2026-10-25T19:20:20",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -179.3,
+        14.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001344&episodeid=1&eventtype=TC"
+    },
+    {
+      "id": "EQ-1573818",
+      "episodeId": "1742638",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Afghanistan",
+      "country": "Afghanistan",
+      "iso3": "AFG",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.2M, Depth:110.025km",
+      "startedAt": "2026-10-25T17:44:23",
+      "endsAt": "2026-10-25T17:44:23",
+      "updatedAt": "2026-10-25T18:25:25",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        71.1025,
+        36.274
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1573818&episodeid=1742638&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1573820",
+      "episodeId": "1742640",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Andreanof Islands, Aleutian Is.",
+      "country": "Andreanof Islands, Aleutian Is.",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:152.896km",
+      "startedAt": "2026-10-25T17:49:58",
+      "endsAt": "2026-10-25T17:49:58",
+      "updatedAt": "2026-10-25T18:24:47",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -178.8056,
+        52.1923
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1573820&episodeid=1742640&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001343",
+      "episodeId": "9",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone IN-FA-26",
+      "country": "Marshall Islands",
+      "iso3": "MHL",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
+      "startedAt": "2026-10-25T06:00:00",
+      "endsAt": "2026-10-25T12:00:00",
+      "updatedAt": "2026-10-25T18:05:41",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        164.5,
+        12.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=9&eventtype=TC"
+    },
+    {
+      "id": "EQ-1573816",
+      "episodeId": "1742634",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Peru",
+      "country": "Peru",
+      "iso3": "PER",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:62.095km",
+      "startedAt": "2026-10-25T17:11:49",
+      "endsAt": "2026-10-25T17:11:49",
+      "updatedAt": "2026-10-25T17:52:08",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -73.4741,
+        -16.0993
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1573816&episodeid=1742634&eventtype=EQ"
+    },
     {
       "id": "WF-1032799",
       "episodeId": "25",
@@ -531,27 +636,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033186&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF-1033029",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mozambique",
-      "country": "Mozambique",
-      "iso3": "MOZ",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 20988 ha",
-      "startedAt": "2026-10-18T00:00:00",
-      "endsAt": "2026-10-25T00:00:00",
-      "updatedAt": "2026-10-25T16:27:00",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        37.8328,
-        -12.4071
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033029&episodeid=8&eventtype=WF"
-    },
-    {
       "id": "WF-1033156",
       "episodeId": "3",
       "eventType": "WF",
@@ -676,27 +760,6 @@
         -10.1566
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033187&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033023",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 14142 ha",
-      "startedAt": "2026-10-20T00:00:00",
-      "endsAt": "2026-10-25T00:00:00",
-      "updatedAt": "2026-10-25T16:18:09",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        25.929,
-        -19.8574
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033023&episodeid=7&eventtype=WF"
     },
     {
       "id": "WF-1033003",
@@ -1012,27 +1075,6 @@
         -19.2096
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033168&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1033047",
-      "episodeId": "14",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 32582 ha",
-      "startedAt": "2026-10-21T00:00:00",
-      "endsAt": "2026-10-25T00:00:00",
-      "updatedAt": "2026-10-25T16:11:37",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        123.6221,
-        -18.5544
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033047&episodeid=14&eventtype=WF"
     },
     {
       "id": "WF-1033174",
@@ -1663,48 +1705,6 @@
         30.7
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=45&eventtype=TC"
-    },
-    {
-      "id": "TC-1001344",
-      "episodeId": "1",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone THREE-C-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 65 km/h)",
-      "startedAt": "2026-10-25T15:00:00",
-      "endsAt": "2026-10-25T15:00:00",
-      "updatedAt": "2026-10-25T15:25:31",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -179.3,
-        14.6
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001344&episodeid=1&eventtype=TC"
-    },
-    {
-      "id": "TC-1001343",
-      "episodeId": "9",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone IN-FA-26",
-      "country": "Marshall Islands",
-      "iso3": "MHL",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 231 km/h)",
-      "startedAt": "2026-10-25T06:00:00",
-      "endsAt": "2026-10-25T12:00:00",
-      "updatedAt": "2026-10-25T14:06:56",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        164.5,
-        12.8
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=9&eventtype=TC"
     },
     {
       "id": "EQ-1573773",
