@@ -1,10 +1,199 @@
 {
-  "checkedAt": "2026-10-28T06:17:43.710Z",
+  "checkedAt": "2026-10-28T13:19:37.300Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1574341",
+      "episodeId": "1743241",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Tonga",
+      "country": "Tonga",
+      "iso3": "TON",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-10-28T12:35:23",
+      "endsAt": "2026-10-28T12:35:23",
+      "updatedAt": "2026-10-28T13:15:48",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -173.2355,
+        -16.541
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574341&episodeid=1743241&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1574333",
+      "episodeId": "1743233",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Reykjanes Ridge",
+      "country": "Reykjanes Ridge",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:10km",
+      "startedAt": "2026-10-28T11:56:17",
+      "endsAt": "2026-10-28T11:56:17",
+      "updatedAt": "2026-10-28T12:18:23",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -32.2398,
+        58.3556
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574333&episodeid=1743233&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001345",
+      "episodeId": "10",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone ARNAB-26",
+      "country": "India",
+      "iso3": "IND",
+      "alertLevel": "red",
+      "severity": "Tropical Storm (maximum wind speed of 222 km/h)",
+      "startedAt": "2026-10-26T00:00:00",
+      "endsAt": "2026-10-28T06:00:00",
+      "updatedAt": "2026-10-28T12:02:45",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        81.8,
+        16.4
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC"
+    },
+    {
+      "id": "EQ-1574329",
+      "episodeId": "1743227",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Reykjanes Ridge",
+      "country": "Reykjanes Ridge",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.5M, Depth:10km",
+      "startedAt": "2026-10-28T11:37:49",
+      "endsAt": "2026-10-28T11:37:49",
+      "updatedAt": "2026-10-28T11:58:23",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -32.1508,
+        58.1005
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574329&episodeid=1743227&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1574316",
+      "episodeId": "1743213",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Philippines",
+      "country": "Philippines",
+      "iso3": "PHL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:84.25km",
+      "startedAt": "2026-10-28T09:32:56",
+      "endsAt": "2026-10-28T09:32:56",
+      "updatedAt": "2026-10-28T10:13:03",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        125.3884,
+        5.1505
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574316&episodeid=1743213&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001341",
+      "episodeId": "28",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone VANCE-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
+      "startedAt": "2026-10-21T15:00:00",
+      "endsAt": "2026-10-28T09:00:00",
+      "updatedAt": "2026-10-28T08:51:26",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -108.6,
+        18.6
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=28&eventtype=TC"
+    },
+    {
+      "id": "TC-1001343",
+      "episodeId": "20",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone IN-FA-26",
+      "country": "Marshall Islands",
+      "iso3": "MHL",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 250 km/h)",
+      "startedAt": "2026-10-25T06:00:00",
+      "endsAt": "2026-10-28T06:00:00",
+      "updatedAt": "2026-10-28T08:07:11",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        158.9,
+        15.1
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=20&eventtype=TC"
+    },
+    {
+      "id": "EQ-1574300",
+      "episodeId": "1743196",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Argentina",
+      "country": "Argentina",
+      "iso3": "ARG",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:186.301km",
+      "startedAt": "2026-10-28T07:02:12",
+      "endsAt": "2026-10-28T07:02:12",
+      "updatedAt": "2026-10-28T07:42:24",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -65.5684,
+        -30.9564
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574300&episodeid=1743196&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1574290",
+      "episodeId": "1743186",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russia",
+      "country": "Russia",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:10km",
+      "startedAt": "2026-10-28T06:12:47",
+      "endsAt": "2026-10-28T06:12:47",
+      "updatedAt": "2026-10-28T06:37:22",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        159.5373,
+        51.2258
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574290&episodeid=1743186&eventtype=EQ"
+    },
     {
       "id": "WF-1033251",
       "episodeId": "2",
@@ -67,27 +256,6 @@
         -12.1029
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033150&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "TC-1001345",
-      "episodeId": "11",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone ARNAB-26",
-      "country": "India",
-      "iso3": "IND",
-      "alertLevel": "red",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 222 km/h)",
-      "startedAt": "2026-10-26T00:00:00",
-      "endsAt": "2026-10-28T00:00:00",
-      "updatedAt": "2026-10-28T05:36:39",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        81.6,
-        16.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=11&eventtype=TC"
     },
     {
       "id": "WF-1033151",
@@ -1098,27 +1266,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574251&episodeid=1743139&eventtype=EQ"
     },
     {
-      "id": "TC-1001341",
-      "episodeId": "27",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone VANCE-26",
-      "country": "México",
-      "iso3": "MEX",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 139 km/h)",
-      "startedAt": "2026-10-21T15:00:00",
-      "endsAt": "2026-10-28T03:00:00",
-      "updatedAt": "2026-10-28T02:51:26",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -108.4,
-        17.3
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=27&eventtype=TC"
-    },
-    {
       "id": "EQ-1574268",
       "episodeId": "1743160",
       "eventType": "EQ",
@@ -1180,27 +1327,6 @@
         6.4593
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033209&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "TC-1001343",
-      "episodeId": "19",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone IN-FA-26",
-      "country": "Marshall Islands",
-      "iso3": "MHL",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
-      "startedAt": "2026-10-25T06:00:00",
-      "endsAt": "2026-10-28T00:00:00",
-      "updatedAt": "2026-10-28T02:09:37",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        159.9,
-        14.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=19&eventtype=TC"
     },
     {
       "id": "WF-1033252",
@@ -1726,132 +1852,6 @@
         -23.7469
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574173&episodeid=1743051&eventtype=EQ"
-    },
-    {
-      "id": "WF-1032923",
-      "episodeId": "18",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 16595 ha",
-      "startedAt": "2026-10-12T00:00:00",
-      "endsAt": "2026-10-27T00:00:00",
-      "updatedAt": "2026-10-27T14:50:13",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        135.6808,
-        -14.1034
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032923&episodeid=18&eventtype=WF"
-    },
-    {
-      "id": "WF-1032810",
-      "episodeId": "32",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 24778 ha",
-      "startedAt": "2026-10-12T00:00:00",
-      "endsAt": "2026-10-27T00:00:00",
-      "updatedAt": "2026-10-27T14:48:46",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        135.884,
-        -13.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032810&episodeid=32&eventtype=WF"
-    },
-    {
-      "id": "WF-1033081",
-      "episodeId": "16",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7657 ha",
-      "startedAt": "2026-10-13T00:00:00",
-      "endsAt": "2026-10-27T00:00:00",
-      "updatedAt": "2026-10-27T14:47:46",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -48.8742,
-        -3.3566
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033081&episodeid=16&eventtype=WF"
-    },
-    {
-      "id": "WF-1033083",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zimbabwe, Mozambique, Zambia",
-      "country": "Zimbabwe, Mozambique, Zambia",
-      "iso3": "ZWE",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6999 ha",
-      "startedAt": "2026-10-13T00:00:00",
-      "endsAt": "2026-10-27T00:00:00",
-      "updatedAt": "2026-10-27T14:47:22",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.3381,
-        -15.8538
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033083&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1033084",
-      "episodeId": "14",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Suriname, Brazil",
-      "country": "Suriname, Brazil",
-      "iso3": "SUR",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 16332 ha",
-      "startedAt": "2026-10-13T00:00:00",
-      "endsAt": "2026-10-27T00:00:00",
-      "updatedAt": "2026-10-27T14:44:18",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -55.9406,
-        1.7998
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=14&eventtype=WF"
-    },
-    {
-      "id": "WF-1033035",
-      "episodeId": "11",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia, Zimbabwe",
-      "country": "Zambia, Zimbabwe",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 20832 ha",
-      "startedAt": "2026-10-14T00:00:00",
-      "endsAt": "2026-10-27T00:00:00",
-      "updatedAt": "2026-10-27T14:26:12",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        29.6292,
-        -15.3396
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033035&episodeid=11&eventtype=WF"
     },
     {
       "id": "EQ-1574133",
