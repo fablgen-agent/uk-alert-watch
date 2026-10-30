@@ -1,12 +1,411 @@
 {
-  "checkedAt": "2026-10-30T12:51:22.914Z",
+  "checkedAt": "2026-10-30T18:22:42.914Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
-      "id": "WF-1033289",
+      "id": "EQ-1574761",
+      "episodeId": "1743768",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Japan",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:42.816km",
+      "startedAt": "2026-10-30T13:18:19",
+      "endsAt": "2026-10-30T13:18:19",
+      "updatedAt": "2026-10-30T17:41:16",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        142.4748,
+        40.4803
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574761&episodeid=1743768&eventtype=EQ"
+    },
+    {
+      "id": "WF-1033322",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Malawi",
+      "country": "Malawi",
+      "iso3": "MWI",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 27132 ha",
+      "startedAt": "2026-10-15T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:53:17",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        34.003,
+        -11.7649
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033322&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033034",
+      "episodeId": "12",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Tanzania, Malawi",
+      "country": "Tanzania, Malawi",
+      "iso3": "TZA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 20594 ha",
+      "startedAt": "2026-10-15T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:51:58",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        33.6084,
+        -9.6192
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033034&episodeid=12&eventtype=WF"
+    },
+    {
+      "id": "WF-1033297",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6671 ha",
+      "startedAt": "2026-10-15T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:51:35",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        141.8116,
+        -13.4121
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033297&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF-1033124",
+      "episodeId": "6",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Mozambique",
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7163 ha",
+      "startedAt": "2026-10-15T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:51:16",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        35.3956,
+        -19.0052
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033124&episodeid=6&eventtype=WF"
+    },
+    {
+      "id": "WF-1033296",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Mozambique",
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 11554 ha",
+      "startedAt": "2026-10-15T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:50:57",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        40.4427,
+        -15.3303
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033296&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033321",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Sudan",
+      "country": "Sudan",
+      "iso3": "SDN",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5239 ha",
+      "startedAt": "2026-10-16T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:49:59",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        29.343,
+        10.9323
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033321&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033294",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 12503 ha",
+      "startedAt": "2026-10-16T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:49:43",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -54.2931,
+        -1.4668
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033294&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "WF-1032862",
+      "episodeId": "36",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 25458 ha",
+      "startedAt": "2026-10-16T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:47:27",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        135.2074,
+        -15.8538
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032862&episodeid=36&eventtype=WF"
+    },
+    {
+      "id": "WF-1033254",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7847 ha",
+      "startedAt": "2026-10-16T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:45:44",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        125.4944,
+        -14.8242
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033254&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "WF-1033293",
+      "episodeId": "5",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5390 ha",
+      "startedAt": "2026-10-17T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:43:04",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        136.2259,
+        -13.1012
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033293&episodeid=5&eventtype=WF"
+    },
+    {
+      "id": "WF-1033275",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Pakistan",
+      "country": "Pakistan",
+      "iso3": "PAK",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5679 ha",
+      "startedAt": "2026-10-17T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:42:37",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        70.6467,
+        30.2748
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033275&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "WF-1033292",
+      "episodeId": "5",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan",
+      "country": "South Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 15885 ha",
+      "startedAt": "2026-10-18T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:39:42",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        25.9701,
+        9.5368
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033292&episodeid=5&eventtype=WF"
+    },
+    {
+      "id": "WF-1033186",
+      "episodeId": "7",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6104 ha",
+      "startedAt": "2026-10-18T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:39:12",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        134.2213,
+        -12.4999
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033186&episodeid=7&eventtype=WF"
+    },
+    {
+      "id": "WF-1033268",
+      "episodeId": "5",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan, Sudan",
+      "country": "South Sudan, Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5233 ha",
+      "startedAt": "2026-10-19T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:37:20",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        25.4176,
+        10.5429
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033268&episodeid=5&eventtype=WF"
+    },
+    {
+      "id": "WF-1033340",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Sudan, South Sudan",
+      "country": "Sudan, South Sudan",
+      "iso3": "SDN",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5144 ha",
+      "startedAt": "2026-10-19T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:37:10",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        27.0827,
+        9.8834
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033340&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033319",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Central African Republic, Sudan",
+      "country": "Central African Republic, Sudan",
+      "iso3": "CAF",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7875 ha",
+      "startedAt": "2026-10-19T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:36:39",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        23.4088,
+        9.8705
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033319&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033153",
+      "episodeId": "9",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan",
+      "country": "South Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6109 ha",
+      "startedAt": "2026-10-19T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:36:19",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        29.197,
+        8.9297
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033153&episodeid=9&eventtype=WF"
+    },
+    {
+      "id": "WF-1033111",
+      "episodeId": "13",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan",
+      "country": "South Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 8420 ha",
+      "startedAt": "2026-10-19T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:35:52",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        28.6603,
+        8.9253
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033111&episodeid=13&eventtype=WF"
+    },
+    {
+      "id": "WF-1033251",
       "episodeId": "6",
       "eventType": "WF",
       "eventName": "Wildfire",
@@ -14,17 +413,332 @@
       "country": "Brazil",
       "iso3": "BRA",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6120 ha",
-      "startedAt": "2026-10-22T00:00:00",
+      "severity": "Green impact for forestfire in 5452 ha",
+      "startedAt": "2026-10-20T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:41:11",
+      "updatedAt": "2026-10-30T16:29:49",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        -51.265,
-        3.3711
+        -50.2277,
+        -3.555
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033289&episodeid=6&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033251&episodeid=6&eventtype=WF"
+    },
+    {
+      "id": "WF-1033339",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Tanzania",
+      "country": "Tanzania",
+      "iso3": "TZA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5512 ha",
+      "startedAt": "2026-10-20T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:29:44",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        36.7914,
+        -7.3524
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033339&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033209",
+      "episodeId": "16",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Guyana",
+      "country": "Guyana",
+      "iso3": "GUY",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6831 ha",
+      "startedAt": "2026-10-20T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:29:14",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -57.8774,
+        6.4627
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033209&episodeid=16&eventtype=WF"
+    },
+    {
+      "id": "WF-1033318",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan, Sudan",
+      "country": "South Sudan, Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7770 ha",
+      "startedAt": "2026-10-20T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:28:54",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        29.5234,
+        10.3525
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033318&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033274",
+      "episodeId": "8",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 8436 ha",
+      "startedAt": "2026-10-20T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:28:31",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        135.3276,
+        -14.3423
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033274&episodeid=8&eventtype=WF"
+    },
+    {
+      "id": "WF-1033252",
+      "episodeId": "8",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 8676 ha",
+      "startedAt": "2026-10-20T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:28:17",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -50.2048,
+        -3.2656
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033252&episodeid=8&eventtype=WF"
+    },
+    {
+      "id": "WF-1033285",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Tanzania",
+      "country": "Tanzania",
+      "iso3": "TZA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 10718 ha",
+      "startedAt": "2026-10-20T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:27:57",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        35.6657,
+        -8.9729
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033285&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF-1033174",
+      "episodeId": "19",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 21480 ha",
+      "startedAt": "2026-10-21T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:26:08",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        142.4577,
+        -13.7662
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033174&episodeid=19&eventtype=WF"
+    },
+    {
+      "id": "WF-1033273",
+      "episodeId": "6",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6056 ha",
+      "startedAt": "2026-10-21T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:25:54",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        125.3913,
+        -15.6368
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033273&episodeid=6&eventtype=WF"
+    },
+    {
+      "id": "WF-1033338",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Madagascar",
+      "country": "Madagascar",
+      "iso3": "MDG",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5028 ha",
+      "startedAt": "2026-10-21T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:25:35",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        49.4548,
+        -13.9432
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033338&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033337",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan, Sudan",
+      "country": "South Sudan, Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5520 ha",
+      "startedAt": "2026-10-21T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:24:54",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        26.2108,
+        10.0958
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033337&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033092",
+      "episodeId": "26",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 59795 ha",
+      "startedAt": "2026-10-21T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:24:16",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        125.237,
+        -18.8157
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033092&episodeid=26&eventtype=WF"
+    },
+    {
+      "id": "WF-1033150",
+      "episodeId": "9",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Zambia",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 8426 ha",
+      "startedAt": "2026-10-21T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:23:45",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        31.8895,
+        -12.104
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033150&episodeid=9&eventtype=WF"
+    },
+    {
+      "id": "WF-1033141",
+      "episodeId": "23",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 24034 ha",
+      "startedAt": "2026-10-21T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:23:29",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        129.026,
+        -15.2079
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033141&episodeid=23&eventtype=WF"
+    },
+    {
+      "id": "WF-1033317",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan, Sudan",
+      "country": "South Sudan, Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5111 ha",
+      "startedAt": "2026-10-21T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:23:16",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        28.6308,
+        9.5343
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033317&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033247",
+      "episodeId": "14",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 33152 ha",
+      "startedAt": "2026-10-22T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:22:48",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        143.1086,
+        -16.945
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033247&episodeid=14&eventtype=WF"
     },
     {
       "id": "WF-1033301",
@@ -38,7 +752,7 @@
       "severity": "Green impact for forestfire in 5865 ha",
       "startedAt": "2026-10-22T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:31:58",
+      "updatedAt": "2026-10-30T16:22:29",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
@@ -48,67 +762,46 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033301&episodeid=4&eventtype=WF"
     },
     {
+      "id": "WF-1033140",
+      "episodeId": "18",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 30891 ha",
+      "startedAt": "2026-10-22T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:21:39",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        123.91,
+        -18.7649
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033140&episodeid=18&eventtype=WF"
+    },
+    {
       "id": "WF-1033282",
-      "episodeId": "2",
+      "episodeId": "3",
       "eventType": "WF",
       "eventName": "Wildfire",
       "title": "Forest fires in Zimbabwe",
       "country": "Zimbabwe",
       "iso3": "ZWE",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5305 ha",
+      "severity": "Green impact for forestfire in 5414 ha",
       "startedAt": "2026-10-22T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:24:16",
+      "updatedAt": "2026-10-30T16:21:32",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        30.1545,
-        -16.0713
+        30.1546,
+        -16.0723
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033282&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1033247",
-      "episodeId": "13",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 33019 ha",
-      "startedAt": "2026-10-22T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:23:51",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        143.1083,
-        -16.9448
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033247&episodeid=13&eventtype=WF"
-    },
-    {
-      "id": "WF-1033140",
-      "episodeId": "17",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 30852 ha",
-      "startedAt": "2026-10-22T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:22:08",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        123.9101,
-        -18.7648
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033140&episodeid=17&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033282&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1033206",
@@ -122,7 +815,7 @@
       "severity": "Green impact for forestfire in 8253 ha",
       "startedAt": "2026-10-22T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:21:57",
+      "updatedAt": "2026-10-30T16:19:38",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
@@ -132,172 +825,67 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033206&episodeid=15&eventtype=WF"
     },
     {
-      "id": "WF-1033280",
-      "episodeId": "4",
+      "id": "WF-1033289",
+      "episodeId": "7",
       "eventType": "WF",
       "eventName": "Wildfire",
-      "title": "Forest fires in Mali",
-      "country": "Mali",
-      "iso3": "MLI",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5752 ha",
-      "startedAt": "2026-10-23T00:00:00",
+      "severity": "Green impact for forestfire in 6134 ha",
+      "startedAt": "2026-10-22T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:21:31",
+      "updatedAt": "2026-10-30T16:19:32",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        -10.5059,
-        14.8627
+        -51.2649,
+        3.3713
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033280&episodeid=4&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033289&episodeid=7&eventtype=WF"
     },
     {
-      "id": "WF-1033315",
+      "id": "WF-1033336",
       "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Chad",
-      "country": "Chad",
-      "iso3": "TCD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6120 ha",
-      "startedAt": "2026-10-23T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:21:24",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        20.8396,
-        11.1745
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033315&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033238",
-      "episodeId": "10",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Tanzania, Malawi",
-      "country": "Tanzania, Malawi",
-      "iso3": "TZA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6222 ha",
-      "startedAt": "2026-10-23T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:21:19",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        34.2318,
-        -9.33
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033238&episodeid=10&eventtype=WF"
-    },
-    {
-      "id": "WF-1033279",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6347 ha",
-      "startedAt": "2026-10-23T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:21:16",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        31.5962,
-        -12.6396
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033279&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1033266",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mali",
-      "country": "Mali",
-      "iso3": "MLI",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6893 ha",
-      "startedAt": "2026-10-23T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:21:07",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -10.4866,
-        14.7595
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033266&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1033288",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7322 ha",
-      "startedAt": "2026-10-23T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:20:53",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        22.2002,
-        -23.4632
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033288&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1033316",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Mali",
-      "country": "Mali",
-      "iso3": "MLI",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5439 ha",
-      "startedAt": "2026-10-23T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:20:30",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -7.1901,
-        14.6396
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033316&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033258",
-      "episodeId": "6",
       "eventType": "WF",
       "eventName": "Wildfire",
       "title": "Forest fires in Tanzania",
       "country": "Tanzania",
       "iso3": "TZA",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8859 ha",
+      "severity": "Green impact for forestfire in 7956 ha",
       "startedAt": "2026-10-23T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:20:26",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:17:24",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        37.4547,
-        -8.087
+        37.0356,
+        -8.0466
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033258&episodeid=6&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033336&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033258",
+      "episodeId": "7",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Tanzania",
+      "country": "Tanzania",
+      "iso3": "TZA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 9181 ha",
+      "startedAt": "2026-10-23T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:16:48",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        37.4558,
+        -8.0865
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033258&episodeid=7&eventtype=WF"
     },
     {
       "id": "WF-1033219",
@@ -311,7 +899,7 @@
       "severity": "Green impact for forestfire in 9245 ha",
       "startedAt": "2026-10-23T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:20:05",
+      "updatedAt": "2026-10-30T16:16:43",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
@@ -321,256 +909,88 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033219&episodeid=8&eventtype=WF"
     },
     {
+      "id": "WF-1033280",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Mali",
+      "country": "Mali",
+      "iso3": "MLI",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5752 ha",
+      "startedAt": "2026-10-23T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:16:22",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -10.5059,
+        14.8627
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033280&episodeid=4&eventtype=WF"
+    },
+    {
       "id": "WF-1033218",
-      "episodeId": "17",
+      "episodeId": "18",
       "eventType": "WF",
       "eventName": "Wildfire",
       "title": "Forest fires in Brazil",
       "country": "Brazil",
       "iso3": "BRA",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 19247 ha",
+      "severity": "Green impact for forestfire in 19243 ha",
       "startedAt": "2026-10-23T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:18:47",
+      "updatedAt": "2026-10-30T16:14:10",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        -55.9521,
+        -55.9522,
         1.4344
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033218&episodeid=17&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033218&episodeid=18&eventtype=WF"
     },
     {
-      "id": "WF-1033314",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Zambia",
-      "country": "Zambia",
-      "iso3": "ZMB",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5802 ha",
-      "startedAt": "2026-10-23T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:18:22",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        32.4153,
-        -11.5311
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033314&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033228",
-      "episodeId": "8",
+      "id": "WF-1033288",
+      "episodeId": "4",
       "eventType": "WF",
       "eventName": "Wildfire",
       "title": "Forest fires in Botswana",
       "country": "Botswana",
       "iso3": "BWA",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6475 ha",
-      "startedAt": "2026-10-24T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:17:24",
+      "severity": "Green impact for forestfire in 7322 ha",
+      "startedAt": "2026-10-23T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:13:54",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        22.3088,
-        -23.4429
+        22.2002,
+        -23.4632
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033228&episodeid=8&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033288&episodeid=4&eventtype=WF"
     },
     {
-      "id": "WF-1033291",
+      "id": "WF-1033315",
       "episodeId": "2",
       "eventType": "WF",
       "eventName": "Wildfire",
-      "title": "Forest fires in Nigeria, Cameroon",
-      "country": "Nigeria, Cameroon",
-      "iso3": "NGA",
+      "title": "Forest fires in Chad",
+      "country": "Chad",
+      "iso3": "TCD",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5355 ha",
-      "startedAt": "2026-10-24T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:16:00",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        13.9268,
-        11.5495
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033291&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1033312",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Nigeria",
-      "country": "Nigeria",
-      "iso3": "NGA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6011 ha",
-      "startedAt": "2026-10-24T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:15:01",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        10.5202,
-        9.4293
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033312&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033232",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Burkina Faso",
-      "country": "Burkina Faso",
-      "iso3": "BFA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7443 ha",
-      "startedAt": "2026-10-24T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:14:14",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -0.4974,
-        12.7704
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033232&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1033311",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in South Sudan",
-      "country": "South Sudan",
-      "iso3": "SSD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7418 ha",
-      "startedAt": "2026-10-24T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:13:58",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        30.2476,
-        7.2573
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033311&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033245",
-      "episodeId": "9",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Niger, Burkina Faso",
-      "country": "Niger, Burkina Faso",
-      "iso3": "NER",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 22901 ha",
-      "startedAt": "2026-10-24T00:00:00",
+      "severity": "Green impact for forestfire in 7391 ha",
+      "startedAt": "2026-10-23T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:13:41",
+      "updatedAt": "2026-10-30T16:13:51",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        0.3312,
-        13.7561
+        20.8432,
+        11.1735
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=9&eventtype=WF"
-    },
-    {
-      "id": "WF-1033264",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Burkina Faso",
-      "country": "Burkina Faso",
-      "iso3": "BFA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7356 ha",
-      "startedAt": "2026-10-24T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:13:32",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -0.6035,
-        14.0683
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033264&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1033234",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in South Sudan",
-      "country": "South Sudan",
-      "iso3": "SSD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7297 ha",
-      "startedAt": "2026-10-24T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:13:18",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        25.2437,
-        9.6117
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033234&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1033323",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5577 ha",
-      "startedAt": "2026-10-24T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:13:11",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -51.2797,
-        0.2764
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033323&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1033310",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Tanzania",
-      "country": "Tanzania",
-      "iso3": "TZA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5837 ha",
-      "startedAt": "2026-10-24T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:13:05",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        37.0601,
-        -7.888
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033310&episodeid=2&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033315&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1033263",
@@ -584,7 +1004,7 @@
       "severity": "Green impact for forestfire in 5838 ha",
       "startedAt": "2026-10-24T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:12:58",
+      "updatedAt": "2026-10-30T16:13:33",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
@@ -594,46 +1014,151 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033263&episodeid=5&eventtype=WF"
     },
     {
+      "id": "WF-1033310",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Tanzania",
+      "country": "Tanzania",
+      "iso3": "TZA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6007 ha",
+      "startedAt": "2026-10-24T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:13:18",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        37.0599,
+        -7.8878
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033310&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF-1033234",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan",
+      "country": "South Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7297 ha",
+      "startedAt": "2026-10-24T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:13:01",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        25.2437,
+        9.6117
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033234&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF-1033311",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan",
+      "country": "South Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7683 ha",
+      "startedAt": "2026-10-24T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:12:45",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        30.2453,
+        7.2564
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033311&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033264",
+      "episodeId": "5",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Burkina Faso",
+      "country": "Burkina Faso",
+      "iso3": "BFA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7356 ha",
+      "startedAt": "2026-10-24T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:12:33",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -0.6035,
+        14.0683
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033264&episodeid=5&eventtype=WF"
+    },
+    {
+      "id": "WF-1033323",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Brazil",
+      "country": "Brazil",
+      "iso3": "BRA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5577 ha",
+      "startedAt": "2026-10-24T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:12:17",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -51.2797,
+        0.2764
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033323&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033245",
+      "episodeId": "9",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Niger, Burkina Faso",
+      "country": "Niger, Burkina Faso",
+      "iso3": "NER",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 22901 ha",
+      "startedAt": "2026-10-24T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:12:09",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        0.3312,
+        13.7561
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033245&episodeid=9&eventtype=WF"
+    },
+    {
       "id": "WF-1033313",
-      "episodeId": "1",
+      "episodeId": "2",
       "eventType": "WF",
       "eventName": "Wildfire",
       "title": "Forest fires in Central African Republic, Chad",
       "country": "Central African Republic, Chad",
       "iso3": "CAF",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5217 ha",
+      "severity": "Green impact for forestfire in 5651 ha",
       "startedAt": "2026-10-24T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:12:05",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        22.0229,
-        10.6839
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033313&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033327",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in China",
-      "country": "China",
-      "iso3": "CHN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7453 ha",
-      "startedAt": "2026-10-25T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:09:31",
+      "updatedAt": "2026-10-30T16:12:02",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        123.8946,
-        46.528
+        22.0212,
+        10.6859
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033327&episodeid=2&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033313&episodeid=2&eventtype=WF"
     },
     {
       "id": "WF-1033300",
@@ -647,7 +1172,7 @@
       "severity": "Green impact for forestfire in 10333 ha",
       "startedAt": "2026-10-25T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:08:59",
+      "updatedAt": "2026-10-30T16:11:20",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
@@ -658,27 +1183,6 @@
     },
     {
       "id": "WF-1033330",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5033 ha",
-      "startedAt": "2026-10-25T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:07:52",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        22.4097,
-        -19.2982
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033330&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033309",
       "episodeId": "2",
       "eventType": "WF",
       "eventName": "Wildfire",
@@ -686,17 +1190,521 @@
       "country": "Botswana",
       "iso3": "BWA",
       "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5334 ha",
+      "severity": "Green impact for forestfire in 6306 ha",
       "startedAt": "2026-10-25T00:00:00",
       "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:07:40",
+      "updatedAt": "2026-10-30T16:11:01",
       "source": "GWIS",
       "isCurrent": true,
       "coordinates": [
-        23.697,
-        -24.3316
+        22.4061,
+        -19.31
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033309&episodeid=2&eventtype=WF"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033330&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033335",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Madagascar",
+      "country": "Madagascar",
+      "iso3": "MDG",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5175 ha",
+      "startedAt": "2026-10-25T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:10:49",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        48.9583,
+        -15.2583
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033335&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033309",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5696 ha",
+      "startedAt": "2026-10-25T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:10:35",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        23.7008,
+        -24.3342
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033309&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF-1033327",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7453 ha",
+      "startedAt": "2026-10-25T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:10:09",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        123.8946,
+        46.528
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033327&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033329",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6280 ha",
+      "startedAt": "2026-10-26T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:09:43",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        123.7527,
+        46.4186
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033329&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033334",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan, Sudan",
+      "country": "South Sudan, Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6838 ha",
+      "startedAt": "2026-10-26T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:09:30",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        26.2002,
+        9.6263
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033334&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033299",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6509 ha",
+      "startedAt": "2026-10-26T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:09:19",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        22.135,
+        -20.3503
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033299&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "WF-1033333",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Sudan, Sudan",
+      "country": "South Sudan, Sudan",
+      "iso3": "SSD",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 10851 ha",
+      "startedAt": "2026-10-26T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:09:15",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        29.0713,
+        9.7809
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033333&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033326",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in South Africa",
+      "country": "South Africa",
+      "iso3": "ZAF",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6439 ha",
+      "startedAt": "2026-10-26T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:09:11",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        31.1122,
+        -22.9714
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033326&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033287",
+      "episodeId": "8",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 40164 ha",
+      "startedAt": "2026-10-27T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:09:05",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        24.027,
+        -21.3694
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033287&episodeid=8&eventtype=WF"
+    },
+    {
+      "id": "WF-1033272",
+      "episodeId": "8",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 11300 ha",
+      "startedAt": "2026-10-27T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:08:59",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        21.409,
+        -23.045
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033272&episodeid=8&eventtype=WF"
+    },
+    {
+      "id": "WF-1033325",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7970 ha",
+      "startedAt": "2026-10-27T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:08:54",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        24.087,
+        -18.948
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033325&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF-1033305",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6478 ha",
+      "startedAt": "2026-10-27T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:08:45",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        23.3997,
+        -24.342
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033305&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "WF-1033328",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7235 ha",
+      "startedAt": "2026-10-27T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:08:29",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        123.8305,
+        46.7175
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033328&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033307",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana, South Africa",
+      "country": "Botswana, South Africa",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 9689 ha",
+      "startedAt": "2026-10-27T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:08:16",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        24.6775,
+        -25.5153
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033307&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033332",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6541 ha",
+      "startedAt": "2026-10-27T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:07:52",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        26.2297,
+        -20.5149
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033332&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033306",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 8928 ha",
+      "startedAt": "2026-10-27T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:07:34",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        23.536,
+        -21.2015
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033306&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "WF-1033276",
+      "episodeId": "7",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 19366 ha",
+      "startedAt": "2026-10-27T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:07:07",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        24.0387,
+        -21.0804
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033276&episodeid=7&eventtype=WF"
+    },
+    {
+      "id": "WF-1033286",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Nigeria",
+      "country": "Nigeria",
+      "iso3": "NGA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 8701 ha",
+      "startedAt": "2026-10-28T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:06:30",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        13.6713,
+        13.0749
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033286&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "WF-1033303",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Nigeria",
+      "country": "Nigeria",
+      "iso3": "NGA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6033 ha",
+      "startedAt": "2026-10-28T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:05:46",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        13.8771,
+        12.4814
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033303&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033331",
+      "episodeId": "1",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Sudan, South Sudan",
+      "country": "Sudan, South Sudan",
+      "iso3": "SDN",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5204 ha",
+      "startedAt": "2026-10-28T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:04:17",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        29.648,
+        10.438
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033331&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033302",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6803 ha",
+      "startedAt": "2026-10-28T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:02:50",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        23.8532,
+        -21.1779
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033302&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033271",
+      "episodeId": "8",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 23105 ha",
+      "startedAt": "2026-10-28T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:01:14",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        23.3385,
+        -21.1511
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033271&episodeid=8&eventtype=WF"
+    },
+    {
+      "id": "WF-1033324",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5655 ha",
+      "startedAt": "2026-10-29T00:00:00",
+      "endsAt": "2026-10-30T00:00:00",
+      "updatedAt": "2026-10-30T16:00:37",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        23.2356,
+        -21.2334
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033324&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "TC-1001343",
+      "episodeId": "29",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone IN-FA-26",
+      "country": "Japan, Marshall Islands",
+      "iso3": "MHL",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
+      "startedAt": "2026-10-25T06:00:00",
+      "endsAt": "2026-10-30T12:00:00",
+      "updatedAt": "2026-10-30T13:52:05",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        144.5,
+        19.7
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=29&eventtype=TC"
     },
     {
       "id": "WF-1033308",
@@ -718,384 +1726,6 @@
         9.7951
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033308&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1033278",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Nigeria",
-      "country": "Nigeria",
-      "iso3": "NGA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5020 ha",
-      "startedAt": "2026-10-26T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:05:16",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        10.6183,
-        9.4408
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033278&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1033326",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in South Africa",
-      "country": "South Africa",
-      "iso3": "ZAF",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5627 ha",
-      "startedAt": "2026-10-26T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:04:32",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        31.1168,
-        -22.9688
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033326&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033299",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6206 ha",
-      "startedAt": "2026-10-26T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:04:29",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        22.1327,
-        -20.3516
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033299&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1033329",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in China",
-      "country": "China",
-      "iso3": "CHN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6280 ha",
-      "startedAt": "2026-10-26T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:04:06",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        123.7527,
-        46.4186
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033329&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033287",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 37448 ha",
-      "startedAt": "2026-10-27T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:03:55",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        24.0247,
-        -21.3656
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033287&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1033305",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6136 ha",
-      "startedAt": "2026-10-27T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:03:49",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        23.403,
-        -24.3393
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033305&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1033307",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana, South Africa",
-      "country": "Botswana, South Africa",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9405 ha",
-      "startedAt": "2026-10-27T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:03:46",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        24.6766,
-        -25.5139
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033307&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033304",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Nigeria",
-      "country": "Nigeria",
-      "iso3": "NGA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5248 ha",
-      "startedAt": "2026-10-27T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T12:03:40",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        13.9182,
-        11.7516
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033304&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1033276",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 18696 ha",
-      "startedAt": "2026-10-27T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:03:36",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        24.0365,
-        -21.0783
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033276&episodeid=6&eventtype=WF"
-    },
-    {
-      "id": "WF-1033272",
-      "episodeId": "8",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 11300 ha",
-      "startedAt": "2026-10-27T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:03:31",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        21.409,
-        -23.045
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033272&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1033306",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7972 ha",
-      "startedAt": "2026-10-27T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:03:27",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        23.5351,
-        -21.1961
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033306&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1033328",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in China",
-      "country": "China",
-      "iso3": "CHN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7235 ha",
-      "startedAt": "2026-10-27T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:03:20",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        123.8305,
-        46.7175
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033328&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033325",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5360 ha",
-      "startedAt": "2026-10-27T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:02:34",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        24.0775,
-        -18.9367
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033325&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1033303",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Nigeria",
-      "country": "Nigeria",
-      "iso3": "NGA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6033 ha",
-      "startedAt": "2026-10-28T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:02:29",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        13.8771,
-        12.4814
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033303&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1033271",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 22982 ha",
-      "startedAt": "2026-10-28T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:02:25",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        23.3378,
-        -21.1505
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033271&episodeid=7&eventtype=WF"
-    },
-    {
-      "id": "WF-1033286",
-      "episodeId": "4",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Nigeria",
-      "country": "Nigeria",
-      "iso3": "NGA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8701 ha",
-      "startedAt": "2026-10-28T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:01:48",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        13.6713,
-        13.0749
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033286&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "WF-1033302",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6803 ha",
-      "startedAt": "2026-10-28T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:01:22",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        23.8532,
-        -21.1779
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033302&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1033324",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5416 ha",
-      "startedAt": "2026-10-29T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T12:00:31",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        23.2349,
-        -21.2327
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033324&episodeid=2&eventtype=WF"
     },
     {
       "id": "EQ-1574741",
@@ -1140,90 +1770,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574738&episodeid=1743700&eventtype=EQ"
     },
     {
-      "id": "WF-1033268",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in South Sudan, Sudan",
-      "country": "South Sudan, Sudan",
-      "iso3": "SSD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5233 ha",
-      "startedAt": "2026-10-19T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T10:53:51",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        25.4176,
-        10.5429
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033268&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1033111",
-      "episodeId": "12",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in South Sudan",
-      "country": "South Sudan",
-      "iso3": "SSD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 8075 ha",
-      "startedAt": "2026-10-19T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T10:48:59",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        28.6604,
-        8.9232
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033111&episodeid=12&eventtype=WF"
-    },
-    {
-      "id": "WF-1033209",
-      "episodeId": "15",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Guyana",
-      "country": "Guyana",
-      "iso3": "GUY",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6827 ha",
-      "startedAt": "2026-10-20T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T10:46:10",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -57.8774,
-        6.4627
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033209&episodeid=15&eventtype=WF"
-    },
-    {
-      "id": "WF-1033274",
-      "episodeId": "7",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7267 ha",
-      "startedAt": "2026-10-20T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T10:43:17",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        135.3367,
-        -14.3406
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033274&episodeid=7&eventtype=WF"
-    },
-    {
       "id": "EQ-1574736",
       "episodeId": "1743693",
       "eventType": "EQ",
@@ -1243,69 +1789,6 @@
         -62.4457
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574736&episodeid=1743693&eventtype=EQ"
-    },
-    {
-      "id": "FL-1104254",
-      "episodeId": "3",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Türkiye",
-      "country": "Türkiye",
-      "iso3": "TUR",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-26T01:00:00",
-      "endsAt": "2026-10-29T01:00:00",
-      "updatedAt": "2026-10-30T10:20:37",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        29.3039,
-        36.3366
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104254&episodeid=3&eventtype=FL"
-    },
-    {
-      "id": "WF-1033174",
-      "episodeId": "17",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 20189 ha",
-      "startedAt": "2026-10-21T00:00:00",
-      "endsAt": "2026-10-30T00:00:00",
-      "updatedAt": "2026-10-30T09:53:48",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        142.4596,
-        -13.7659
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033174&episodeid=17&eventtype=WF"
-    },
-    {
-      "id": "FL-1104263",
-      "episodeId": "1",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Syria",
-      "country": "Syria",
-      "iso3": "SYR",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-27T01:00:00",
-      "endsAt": "2026-10-29T01:00:00",
-      "updatedAt": "2026-10-30T09:34:20",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        39.0146,
-        35.9628
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104263&episodeid=1&eventtype=FL"
     },
     {
       "id": "FL-1104253",
@@ -1392,48 +1875,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001341&episodeid=35&eventtype=TC"
     },
     {
-      "id": "WF-1033277",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Burkina Faso",
-      "country": "Burkina Faso",
-      "iso3": "BFA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6683 ha",
-      "startedAt": "2026-10-26T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-30T08:13:45",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -0.5404,
-        14.4008
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033277&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "TC-1001343",
-      "episodeId": "28",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone IN-FA-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 241 km/h)",
-      "startedAt": "2026-10-25T06:00:00",
-      "endsAt": "2026-10-30T06:00:00",
-      "updatedAt": "2026-10-30T08:07:34",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        146.2,
-        18.7
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001343&episodeid=28&eventtype=TC"
-    },
-    {
       "id": "EQ-1574691",
       "episodeId": "1743647",
       "eventType": "EQ",
@@ -1495,27 +1936,6 @@
         -5.8137
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574681&episodeid=1743633&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574439",
-      "episodeId": "1743360",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Vanuatu",
-      "country": "Vanuatu",
-      "iso3": "VUT",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.4M, Depth:10km",
-      "startedAt": "2026-10-29T00:08:20",
-      "endsAt": "2026-10-29T00:08:20",
-      "updatedAt": "2026-10-30T02:05:25",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        168.0994,
-        -15.1213
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574439&episodeid=1743360&eventtype=EQ"
     },
     {
       "id": "EQ-1574640",
@@ -1602,69 +2022,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574619&episodeid=1743574&eventtype=EQ"
     },
     {
-      "id": "WF-1032858",
-      "episodeId": "31",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 14081 ha",
-      "startedAt": "2026-10-14T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-29T21:21:40",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        143.0491,
-        -13.701
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032858&episodeid=31&eventtype=WF"
-    },
-    {
-      "id": "WF-1033216",
-      "episodeId": "5",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Papua New Guinea",
-      "country": "Papua New Guinea",
-      "iso3": "PNG",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5736 ha",
-      "startedAt": "2026-10-14T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-29T21:19:48",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        142.2857,
-        -8.7256
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033216&episodeid=5&eventtype=WF"
-    },
-    {
-      "id": "WF-1032971",
-      "episodeId": "15",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Madagascar",
-      "country": "Madagascar",
-      "iso3": "MDG",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 9605 ha",
-      "startedAt": "2026-10-14T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-29T21:12:44",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        45.2339,
-        -16.0305
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1032971&episodeid=15&eventtype=WF"
-    },
-    {
       "id": "EQ-1574617",
       "episodeId": "1743565",
       "eventType": "EQ",
@@ -1747,363 +2104,6 @@
         7.5923
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574558&episodeid=1743501&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574544",
-      "episodeId": "1743490",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:10km",
-      "startedAt": "2026-10-29T11:38:24",
-      "endsAt": "2026-10-29T11:38:24",
-      "updatedAt": "2026-10-29T12:47:48",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        130.0224,
-        -7.5288
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574544&episodeid=1743490&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574535",
-      "episodeId": "1743474",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Vanuatu",
-      "country": "Vanuatu",
-      "iso3": "VUT",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:10km",
-      "startedAt": "2026-10-29T10:33:22",
-      "endsAt": "2026-10-29T10:33:22",
-      "updatedAt": "2026-10-29T11:03:04",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        167.6261,
-        -18.4979
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574535&episodeid=1743474&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574517",
-      "episodeId": "1743451",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Southeast Of Easter Island",
-      "country": "Southeast Of Easter Island",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 6.4M, Depth:10km",
-      "startedAt": "2026-10-29T07:49:50",
-      "endsAt": "2026-10-29T07:49:50",
-      "updatedAt": "2026-10-29T09:55:09",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -98.0489,
-        -36.4058
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574517&episodeid=1743451&eventtype=EQ"
-    },
-    {
-      "id": "FL-1104216",
-      "episodeId": "8",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-01T01:00:00",
-      "endsAt": "2026-10-29T01:00:00",
-      "updatedAt": "2026-10-29T09:52:08",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -39.4112,
-        -15.2604
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104216&episodeid=8&eventtype=FL"
-    },
-    {
-      "id": "FL-1104261",
-      "episodeId": "1",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Israel",
-      "country": "Israel",
-      "iso3": "ISR",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-27T01:00:00",
-      "endsAt": "2026-10-29T01:00:00",
-      "updatedAt": "2026-10-29T09:48:19",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        34.7925,
-        31.2457
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104261&episodeid=1&eventtype=FL"
-    },
-    {
-      "id": "FL-1104260",
-      "episodeId": "1",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Romania",
-      "country": "Romania",
-      "iso3": "ROU",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-27T01:00:00",
-      "endsAt": "2026-10-29T01:00:00",
-      "updatedAt": "2026-10-29T09:46:13",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        28.2922,
-        44.2679
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104260&episodeid=1&eventtype=FL"
-    },
-    {
-      "id": "EQ-1574512",
-      "episodeId": "1743447",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Philippines",
-      "country": "Philippines",
-      "iso3": "PHL",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.4M, Depth:10km",
-      "startedAt": "2026-10-29T07:31:30",
-      "endsAt": "2026-10-29T07:31:30",
-      "updatedAt": "2026-10-29T09:36:06",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        127.4269,
-        8.4677
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574512&episodeid=1743447&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574523",
-      "episodeId": "1743461",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Andaman Islands, India Region",
-      "country": "Andaman Islands, India Region",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.1M, Depth:10km",
-      "startedAt": "2026-10-29T08:49:42",
-      "endsAt": "2026-10-29T08:49:42",
-      "updatedAt": "2026-10-29T09:09:42",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        91.6593,
-        13.3785
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574523&episodeid=1743461&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574516",
-      "episodeId": "1743453",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Portugal",
-      "country": "Portugal",
-      "iso3": "PRT",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.6M, Depth:10km",
-      "startedAt": "2026-10-29T07:54:06",
-      "endsAt": "2026-10-29T07:54:06",
-      "updatedAt": "2026-10-29T08:34:22",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -26.2963,
-        37.9065
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574516&episodeid=1743453&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574489",
-      "episodeId": "1743454",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in South Sandwich Islands Region",
-      "country": "South Sandwich Islands Region",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.4M, Depth:8.561km",
-      "startedAt": "2026-10-29T05:06:48",
-      "endsAt": "2026-10-29T05:06:48",
-      "updatedAt": "2026-10-29T08:28:28",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -27.9532,
-        -60.2079
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574489&episodeid=1743454&eventtype=EQ"
-    },
-    {
-      "id": "WF-1033290",
-      "episodeId": "1",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in China",
-      "country": "China",
-      "iso3": "CHN",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5306 ha",
-      "startedAt": "2026-10-25T00:00:00",
-      "endsAt": "2026-10-29T00:00:00",
-      "updatedAt": "2026-10-29T08:06:14",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        122.8406,
-        42.1763
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033290&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "EQ-1574464",
-      "episodeId": "1743391",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Philippines",
-      "country": "Philippines",
-      "iso3": "PHL",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.4M, Depth:10km",
-      "startedAt": "2026-10-29T03:17:54",
-      "endsAt": "2026-10-29T03:17:54",
-      "updatedAt": "2026-10-29T05:26:46",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        127.4427,
-        8.3695
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574464&episodeid=1743391&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574466",
-      "episodeId": "1743403",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Philippines",
-      "country": "Philippines",
-      "iso3": "PHL",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.8M, Depth:10km",
-      "startedAt": "2026-10-29T03:19:05",
-      "endsAt": "2026-10-29T03:19:05",
-      "updatedAt": "2026-10-29T05:25:03",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        127.4204,
-        8.3638
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574466&episodeid=1743403&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574467",
-      "episodeId": "1743396",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Papua New Guinea",
-      "country": "Papua New Guinea",
-      "iso3": "PNG",
-      "alertLevel": "green",
-      "severity": "Magnitude 5.7M, Depth:10km",
-      "startedAt": "2026-10-29T03:26:42",
-      "endsAt": "2026-10-29T03:26:42",
-      "updatedAt": "2026-10-29T03:49:23",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        141.9018,
-        -5.6991
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574467&episodeid=1743396&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574461",
-      "episodeId": "1743385",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Guam",
-      "country": "Guam",
-      "iso3": "GUM",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.8M, Depth:70.237km",
-      "startedAt": "2026-10-29T02:18:21",
-      "endsAt": "2026-10-29T02:18:21",
-      "updatedAt": "2026-10-29T02:58:23",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        144.5819,
-        12.9476
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574461&episodeid=1743385&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574446",
-      "episodeId": "1743367",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Vanuatu",
-      "country": "Vanuatu",
-      "iso3": "VUT",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:10km",
-      "startedAt": "2026-10-29T00:57:36",
-      "endsAt": "2026-10-29T00:57:36",
-      "updatedAt": "2026-10-29T01:37:42",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        168.1637,
-        -15.0234
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574446&episodeid=1743367&eventtype=EQ"
-    },
-    {
-      "id": "EQ-1574449",
-      "episodeId": "1743372",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Western Indian-Antarctic Ridge",
-      "country": "Western Indian-Antarctic Ridge",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.8M, Depth:10km",
-      "startedAt": "2026-10-29T01:07:04",
-      "endsAt": "2026-10-29T01:07:04",
-      "updatedAt": "2026-10-29T01:26:42",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        139.4087,
-        -50.2688
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1574449&episodeid=1743372&eventtype=EQ"
     }
   ]
 }
