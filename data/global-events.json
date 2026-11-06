@@ -1,10 +1,115 @@
 {
-  "checkedAt": "2026-11-06T12:40:35.038Z",
+  "checkedAt": "2026-11-06T19:41:23.747Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "EQ-1575947",
+      "episodeId": "1745053",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Greece",
+      "country": "Greece",
+      "iso3": "GRC",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:40.657km",
+      "startedAt": "2026-11-06T15:26:58",
+      "endsAt": "2026-11-06T15:26:58",
+      "updatedAt": "2026-11-06T18:01:03",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        26.4987,
+        34.3043
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1575947&episodeid=1745053&eventtype=EQ"
+    },
+    {
+      "id": "TC-1001347",
+      "episodeId": "2",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone THIRTYONE-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Tropical Depression (maximum wind speed of 185 km/h)",
+      "startedAt": "2026-11-06T06:00:00",
+      "endsAt": "2026-11-06T12:00:00",
+      "updatedAt": "2026-11-06T17:50:08",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        147.5,
+        17.9
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=2&eventtype=TC"
+    },
+    {
+      "id": "FL-1104220",
+      "episodeId": "17",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Italy",
+      "country": "Italy",
+      "iso3": "ITA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-10-07T01:00:00",
+      "endsAt": "2026-11-07T01:00:00",
+      "updatedAt": "2026-11-06T15:23:26",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        15.3776,
+        41.6898
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=17&eventtype=FL"
+    },
+    {
+      "id": "FL-1103888",
+      "episodeId": "119",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in United States",
+      "country": "United States",
+      "iso3": "USA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-05-19T01:00:00",
+      "endsAt": "2026-11-06T01:00:00",
+      "updatedAt": "2026-11-06T15:22:53",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        -108.1902,
+        36.9283
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=119&eventtype=FL"
+    },
+    {
+      "id": "EQ-1575911",
+      "episodeId": "1745007",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Off East Coast Of Honshu, Japan",
+      "country": "Off East Coast Of Honshu, Japan",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 6.1M, Depth:29km",
+      "startedAt": "2026-11-06T10:39:24",
+      "endsAt": "2026-11-06T10:39:24",
+      "updatedAt": "2026-11-06T12:45:03",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        142.1175,
+        34.9677
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1575911&episodeid=1745007&eventtype=EQ"
+    },
     {
       "id": "WF-1033289",
       "episodeId": "24",
@@ -130,27 +235,6 @@
         0.0371
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033501&episodeid=4&eventtype=WF"
-    },
-    {
-      "id": "EQ-1575911",
-      "episodeId": "1745007",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Off East Coast Of Honshu, Japan",
-      "country": "Off East Coast Of Honshu, Japan",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 6.1M, Depth:29km",
-      "startedAt": "2026-11-06T10:39:24",
-      "endsAt": "2026-11-06T10:39:24",
-      "updatedAt": "2026-11-06T12:27:44",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        142.1175,
-        34.9677
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1575911&episodeid=1745007&eventtype=EQ"
     },
     {
       "id": "WF-1033411",
@@ -447,48 +531,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033408&episodeid=10&eventtype=WF"
     },
     {
-      "id": "FL-1103888",
-      "episodeId": "123",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-05-19T01:00:00",
-      "endsAt": "2026-11-06T01:00:00",
-      "updatedAt": "2026-11-06T12:13:01",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        -84.3713,
-        34.9862
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1103888&episodeid=123&eventtype=FL"
-    },
-    {
-      "id": "FL-1104220",
-      "episodeId": "17",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Italy",
-      "country": "Italy",
-      "iso3": "ITA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-07T01:00:00",
-      "endsAt": "2026-11-07T01:00:00",
-      "updatedAt": "2026-11-06T12:12:42",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        15.3776,
-        41.6898
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=17&eventtype=FL"
-    },
-    {
       "id": "WF-1033394",
       "episodeId": "19",
       "eventType": "WF",
@@ -739,27 +781,6 @@
         8.8716
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033432&episodeid=8&eventtype=WF"
-    },
-    {
-      "id": "WF-1033453",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Australia",
-      "country": "Australia",
-      "iso3": "AUS",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6539 ha",
-      "startedAt": "2026-10-31T00:00:00",
-      "endsAt": "2026-11-05T00:00:00",
-      "updatedAt": "2026-11-06T12:06:06",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        136.611,
-        -17.5368
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033453&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1033529",
@@ -1642,27 +1663,6 @@
         -4.1552
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104259&episodeid=5&eventtype=FL"
-    },
-    {
-      "id": "TC-1001347",
-      "episodeId": "1",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone THIRTYONE-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Tropical Depression (maximum wind speed of 185 km/h)",
-      "startedAt": "2026-11-06T06:00:00",
-      "endsAt": "2026-11-06T06:00:00",
-      "updatedAt": "2026-11-06T11:05:08",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        149,
-        18
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=1&eventtype=TC"
     },
     {
       "id": "EQ-1575896",
