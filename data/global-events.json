@@ -1,13 +1,118 @@
 {
-  "checkedAt": "2026-11-11T23:16:20.298Z",
+  "checkedAt": "2026-11-12T03:59:26.819Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
     {
+      "id": "TC-1001347",
+      "episodeId": "22",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone CEMPAKA-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 176 km/h)",
+      "startedAt": "2026-11-06T06:00:00",
+      "endsAt": "2026-11-11T12:00:00",
+      "updatedAt": "2026-11-12T03:22:55",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        154.1,
+        30.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=22&eventtype=TC"
+    },
+    {
+      "id": "TC-1001348",
+      "episodeId": "22",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone PENA-26",
+      "country": "Unknown",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
+      "startedAt": "2026-11-06T21:00:00",
+      "endsAt": "2026-11-12T03:00:00",
+      "updatedAt": "2026-11-12T02:52:12",
+      "source": "NOAA",
+      "isCurrent": true,
+      "coordinates": [
+        -170.6,
+        9.8
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=22&eventtype=TC"
+    },
+    {
+      "id": "EQ-1576886",
+      "episodeId": "1746094",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Russia",
+      "country": "Russia",
+      "iso3": "RUS",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.8M, Depth:74.47km",
+      "startedAt": "2026-11-12T01:18:44",
+      "endsAt": "2026-11-12T01:18:44",
+      "updatedAt": "2026-11-12T01:59:03",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        156.6137,
+        50.4399
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1576886&episodeid=1746094&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1576872",
+      "episodeId": "1746092",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Ascension Island Region",
+      "country": "Ascension Island Region",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-11-11T22:03:42",
+      "endsAt": "2026-11-11T22:03:42",
+      "updatedAt": "2026-11-12T01:27:12",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -13.3536,
+        -7.9928
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1576872&episodeid=1746092&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1576877",
+      "episodeId": "1746083",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Nepal",
+      "country": "Nepal",
+      "iso3": "NPL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:10km",
+      "startedAt": "2026-11-11T23:00:22",
+      "endsAt": "2026-11-11T23:00:22",
+      "updatedAt": "2026-11-11T23:40:40",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        87.8857,
+        27.8692
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1576877&episodeid=1746083&eventtype=EQ"
+    },
+    {
       "id": "FL-1104253",
-      "episodeId": "5",
+      "episodeId": "6",
       "eventType": "FL",
       "eventName": "Flood",
       "title": "Flood in Indonesia",
@@ -17,14 +122,14 @@
       "severity": "Magnitude 0",
       "startedAt": "2026-10-24T01:00:00",
       "endsAt": "2026-11-11T01:00:00",
-      "updatedAt": "2026-11-11T23:14:14",
+      "updatedAt": "2026-11-11T23:17:20",
       "source": "GLOFAS",
       "isCurrent": true,
       "coordinates": [
-        99.3812,
-        2.1924
+        97.0253,
+        4.3685
       ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=5&eventtype=FL"
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=6&eventtype=FL"
     },
     {
       "id": "FL-1104220",
@@ -48,48 +153,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL"
     },
     {
-      "id": "EQ-1576872",
-      "episodeId": "1746075",
-      "eventType": "EQ",
-      "eventName": "Earthquake",
-      "title": "Earthquake in Ascension Island Region",
-      "country": "Ascension Island Region",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Magnitude 4.9M, Depth:10km",
-      "startedAt": "2026-11-11T22:03:42",
-      "endsAt": "2026-11-11T22:03:42",
-      "updatedAt": "2026-11-11T22:44:14",
-      "source": "NEIC",
-      "isCurrent": true,
-      "coordinates": [
-        -13.4059,
-        -7.957
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1576872&episodeid=1746075&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001347",
-      "episodeId": "22",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone CEMPAKA-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 176 km/h)",
-      "startedAt": "2026-11-06T06:00:00",
-      "endsAt": "2026-11-11T12:00:00",
-      "updatedAt": "2026-11-11T22:35:04",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        154.1,
-        30.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=22&eventtype=TC"
-    },
-    {
       "id": "EQ-1576861",
       "episodeId": "1746071",
       "eventType": "EQ",
@@ -109,27 +172,6 @@
         -19.6783
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1576861&episodeid=1746071&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001348",
-      "episodeId": "21",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone PENA-26",
-      "country": "Unknown",
-      "iso3": "",
-      "alertLevel": "green",
-      "severity": "Tropical Storm (maximum wind speed of 93 km/h)",
-      "startedAt": "2026-11-06T21:00:00",
-      "endsAt": "2026-11-11T21:00:00",
-      "updatedAt": "2026-11-11T20:51:23",
-      "source": "NOAA",
-      "isCurrent": true,
-      "coordinates": [
-        -169.4,
-        9.9
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=21&eventtype=TC"
     },
     {
       "id": "WF-1033768",
@@ -1140,27 +1182,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033705&episodeid=4&eventtype=WF"
     },
     {
-      "id": "WF-1033674",
-      "episodeId": "6",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in South Sudan",
-      "country": "South Sudan",
-      "iso3": "SSD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 12538 ha",
-      "startedAt": "2026-11-08T00:00:00",
-      "endsAt": "2026-11-11T00:00:00",
-      "updatedAt": "2026-11-11T20:05:48",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        25.1501,
-        8.9061
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033674&episodeid=6&eventtype=WF"
-    },
-    {
       "id": "WF-1033680",
       "episodeId": "6",
       "eventType": "WF",
@@ -1222,27 +1243,6 @@
         -18.6274
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033725&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033675",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in South Sudan",
-      "country": "South Sudan",
-      "iso3": "SSD",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7588 ha",
-      "startedAt": "2026-11-08T00:00:00",
-      "endsAt": "2026-11-11T00:00:00",
-      "updatedAt": "2026-11-11T20:04:40",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        28.8215,
-        8.8619
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033675&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1033704",
