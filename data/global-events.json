@@ -1,10 +1,157 @@
 {
-  "checkedAt": "2026-11-13T01:18:52.786Z",
+  "checkedAt": "2026-11-13T08:25:58.899Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "FL-1104253",
+      "episodeId": "22",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-10-24T01:00:00",
+      "endsAt": "2026-11-11T01:00:00",
+      "updatedAt": "2026-11-13T07:48:50",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        97.0253,
+        4.3685
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=22&eventtype=FL"
+    },
+    {
+      "id": "FL-1104220",
+      "episodeId": "7",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Italy",
+      "country": "Italy",
+      "iso3": "ITA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-10-07T01:00:00",
+      "endsAt": "2026-11-13T01:00:00",
+      "updatedAt": "2026-11-13T07:37:27",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        11.1389,
+        43.4587
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL"
+    },
+    {
+      "id": "DR-1027737",
+      "episodeId": "1",
+      "eventType": "DR",
+      "eventName": "Drought",
+      "title": "Drought in New Zealand",
+      "country": "New Zealand",
+      "iso3": "NZL",
+      "alertLevel": "green",
+      "severity": "Minor impact for agricultural drought in 46791 km2",
+      "startedAt": "2026-07-21T00:00:00",
+      "endsAt": "2026-11-11T00:00:00",
+      "updatedAt": "2026-11-13T05:57:45",
+      "source": "GDO",
+      "isCurrent": true,
+      "coordinates": [
+        175.178,
+        -37.471
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1027737&episodeid=1&eventtype=DR"
+    },
+    {
+      "id": "EQ-1577107",
+      "episodeId": "1746335",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.7M, Depth:9.626km",
+      "startedAt": "2026-11-13T04:49:33",
+      "endsAt": "2026-11-13T04:49:33",
+      "updatedAt": "2026-11-13T05:29:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        116.7507,
+        -8.262
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577107&episodeid=1746335&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1577093",
+      "episodeId": "1746332",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Fiji",
+      "country": "Fiji",
+      "iso3": "FJI",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.5M, Depth:527.134km",
+      "startedAt": "2026-11-13T02:26:23",
+      "endsAt": "2026-11-13T02:26:23",
+      "updatedAt": "2026-11-13T05:04:07",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -178.0523,
+        -17.9443
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577093&episodeid=1746332&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1577095",
+      "episodeId": "1746321",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Mariana Islands",
+      "country": "Mariana Islands",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:219.572km",
+      "startedAt": "2026-11-13T02:55:03",
+      "endsAt": "2026-11-13T02:55:03",
+      "updatedAt": "2026-11-13T03:35:25",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        145.6025,
+        18.8925
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577095&episodeid=1746321&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1577075",
+      "episodeId": "1746300",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Democratic Republic of the Congo",
+      "country": "Democratic Republic of the Congo",
+      "iso3": "COD",
+      "alertLevel": "green",
+      "severity": "Magnitude 5M, Depth:10km",
+      "startedAt": "2026-11-13T01:12:46",
+      "endsAt": "2026-11-13T01:12:46",
+      "updatedAt": "2026-11-13T01:53:08",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        22.68,
+        -6.9392
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577075&episodeid=1746300&eventtype=EQ"
+    },
     {
       "id": "TC-1001347",
       "episodeId": "22",
@@ -69,27 +216,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577060&episodeid=1746280&eventtype=EQ"
     },
     {
-      "id": "FL-1104253",
-      "episodeId": "22",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-24T01:00:00",
-      "endsAt": "2026-11-11T01:00:00",
-      "updatedAt": "2026-11-12T23:17:56",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        97.0253,
-        4.3685
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=22&eventtype=FL"
-    },
-    {
       "id": "EQ-1577058",
       "episodeId": "1746288",
       "eventType": "EQ",
@@ -109,27 +235,6 @@
         64.6502
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577058&episodeid=1746288&eventtype=EQ"
-    },
-    {
-      "id": "FL-1104220",
-      "episodeId": "7",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Italy",
-      "country": "Italy",
-      "iso3": "ITA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-07T01:00:00",
-      "endsAt": "2026-11-13T01:00:00",
-      "updatedAt": "2026-11-12T23:07:21",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        11.1389,
-        43.4587
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL"
     },
     {
       "id": "EQ-1577065",
@@ -279,27 +384,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1576797&episodeid=1746171&eventtype=EQ"
     },
     {
-      "id": "DR-1023877",
-      "episodeId": "14",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
-      "country": "Aruba, , Brazil, Colombia, Costa Rica, , French Guiana, Guyana, Panama, Suriname, Venezuela",
-      "iso3": "ABW",
-      "alertLevel": "orange",
-      "severity": "Medium impact for agricultural drought in 1735191 km2",
-      "startedAt": "2022-09-21T00:00:00",
-      "endsAt": "2026-11-12T08:28:56",
-      "updatedAt": "2026-11-12T09:01:26",
-      "source": "GDO",
-      "isCurrent": true,
-      "coordinates": [
-        -66.675,
-        7.108
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1023877&episodeid=14&eventtype=DR"
-    },
-    {
       "id": "EQ-1576945",
       "episodeId": "1746156",
       "eventType": "EQ",
@@ -319,258 +403,6 @@
         44.4539
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1576945&episodeid=1746156&eventtype=EQ"
-    },
-    {
-      "id": "DR-1018546",
-      "episodeId": "20",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in United States",
-      "country": "United States",
-      "iso3": "USA",
-      "alertLevel": "green",
-      "severity": "Minor impact for agricultural drought in 212854 km2",
-      "startedAt": "2025-08-21T00:00:00",
-      "endsAt": "2026-11-12T08:29:48",
-      "updatedAt": "2026-11-12T08:29:48",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        -95.989,
-        34.965
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018546&episodeid=20&eventtype=DR"
-    },
-    {
-      "id": "DR-1027737",
-      "episodeId": "1",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in New Zealand",
-      "country": "New Zealand",
-      "iso3": "NZL",
-      "alertLevel": "green",
-      "severity": "Minor impact for agricultural drought in 46791 km2",
-      "startedAt": "2026-07-21T00:00:00",
-      "endsAt": "2026-11-12T08:29:41",
-      "updatedAt": "2026-11-12T08:29:41",
-      "source": "GDO",
-      "isCurrent": true,
-      "coordinates": [
-        175.178,
-        -37.471
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1027737&episodeid=1&eventtype=DR"
-    },
-    {
-      "id": "DR-1027575",
-      "episodeId": "8",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in India",
-      "country": "India",
-      "iso3": "IND",
-      "alertLevel": "green",
-      "severity": "Minor impact for agricultural drought in 411829 km2",
-      "startedAt": "2026-06-21T00:00:00",
-      "endsAt": "2026-11-12T08:29:34",
-      "updatedAt": "2026-11-12T08:29:34",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        77.655,
-        14.969
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1027575&episodeid=8&eventtype=DR"
-    },
-    {
-      "id": "DR-1027491",
-      "episodeId": "12",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in China, Kazakhstan, Mongolia, Russia",
-      "country": "China, Kazakhstan, Mongolia, Russia",
-      "iso3": "CHN",
-      "alertLevel": "green",
-      "severity": "Minor impact for agricultural drought in 328031 km2",
-      "startedAt": "2026-06-21T00:00:00",
-      "endsAt": "2026-11-12T08:29:30",
-      "updatedAt": "2026-11-12T08:29:30",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        82.921,
-        44.406
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1027491&episodeid=12&eventtype=DR"
-    },
-    {
-      "id": "DR-1027450",
-      "episodeId": "13",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-      "country": "Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
-      "iso3": "BDI",
-      "alertLevel": "orange",
-      "severity": "Medium impact for agricultural drought in 1451032 km2",
-      "startedAt": "2026-05-21T00:00:00",
-      "endsAt": "2026-11-12T08:29:24",
-      "updatedAt": "2026-11-12T08:29:24",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        31.76,
-        9.405
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=13&eventtype=DR"
-    },
-    {
-      "id": "DR-1027462",
-      "episodeId": "2",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Bangladesh, Bhutan, China, India, Laos, Myanmar, Nepal, Vietnam",
-      "country": "Bangladesh, Bhutan, China, India, Laos, Myanmar, Nepal, Vietnam",
-      "iso3": "BGD",
-      "alertLevel": "green",
-      "severity": "Minor impact for agricultural drought in 634227 km2",
-      "startedAt": "2026-05-21T00:00:00",
-      "endsAt": "2026-11-12T08:29:18",
-      "updatedAt": "2026-11-12T08:29:18",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        96.501,
-        25.658
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1027462&episodeid=2&eventtype=DR"
-    },
-    {
-      "id": "DR-1027449",
-      "episodeId": "14",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",
-      "country": "Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",
-      "iso3": "BLZ",
-      "alertLevel": "orange",
-      "severity": "Medium impact for agricultural drought in 977982 km2",
-      "startedAt": "2026-04-21T00:00:00",
-      "endsAt": "2026-11-12T08:29:09",
-      "updatedAt": "2026-11-12T08:29:09",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        -95.396,
-        18.563
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1027449&episodeid=14&eventtype=DR"
-    },
-    {
-      "id": "DR-1015915",
-      "episodeId": "6",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Brazil",
-      "country": "Brazil",
-      "iso3": "BRA",
-      "alertLevel": "green",
-      "severity": "Minor impact for agricultural drought in 116747 km2",
-      "startedAt": "2022-09-21T00:00:00",
-      "endsAt": "2026-11-12T08:29:00",
-      "updatedAt": "2026-11-12T08:29:00",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        -38.648,
-        -11.391
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1015915&episodeid=6&eventtype=DR"
-    },
-    {
-      "id": "DR-1018545",
-      "episodeId": "20",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines",
-      "country": "Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines",
-      "iso3": "BRN",
-      "alertLevel": "green",
-      "severity": "Minor impact for agricultural drought in 1594763 km2",
-      "startedAt": "2026-03-21T00:00:00",
-      "endsAt": "2026-11-12T08:28:44",
-      "updatedAt": "2026-11-12T08:28:44",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        104.5,
-        13.5
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=20&eventtype=DR"
-    },
-    {
-      "id": "DR-1018344",
-      "episodeId": "28",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Angola, Democratic Republic of Congo, Republic of Congo, Cameroon, Gabon, Equatorial Guinea",
-      "country": "Angola, Democratic Republic of Congo, Republic of Congo, Cameroon, Gabon, Equatorial Guinea",
-      "iso3": "AGO",
-      "alertLevel": "green",
-      "severity": "Minor impact for agricultural drought in 342294 km2",
-      "startedAt": "2025-12-21T00:00:00",
-      "endsAt": "2026-11-12T08:28:38",
-      "updatedAt": "2026-11-12T08:28:38",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        11.503,
-        -0.406
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=28&eventtype=DR"
-    },
-    {
-      "id": "DR-1018431",
-      "episodeId": "20",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Madagascar",
-      "country": "Madagascar",
-      "iso3": "MDG",
-      "alertLevel": "green",
-      "severity": "Minor impact for agricultural drought in 70447 km2",
-      "startedAt": "2025-11-21T00:00:00",
-      "endsAt": "2026-11-12T08:28:30",
-      "updatedAt": "2026-11-12T08:28:34",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        48.831,
-        -16.622
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018431&episodeid=20&eventtype=DR"
-    },
-    {
-      "id": "DR-1018332",
-      "episodeId": "27",
-      "eventType": "DR",
-      "eventName": "Drought",
-      "title": "Drought in Andorra, Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Moldova, Montenegro, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, Ukraine,",
-      "country": "Andorra, Albania, Austria, Bosnia & Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Moldova, Montenegro, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, Ukraine,",
-      "iso3": "AND",
-      "alertLevel": "orange",
-      "severity": "Medium impact for agricultural drought in 2099822 km2",
-      "startedAt": "2025-12-21T00:00:00",
-      "endsAt": "2026-11-12T08:28:10",
-      "updatedAt": "2026-11-12T08:28:13",
-      "source": "GDO",
-      "isCurrent": false,
-      "coordinates": [
-        12.587,
-        48.012
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=27&eventtype=DR"
     },
     {
       "id": "FL-1104280",
@@ -1203,6 +1035,27 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=1&eventtype=WF"
     },
     {
+      "id": "WF-1033712",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Burkina Faso, Mali",
+      "country": "Burkina Faso, Mali",
+      "iso3": "BFA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5370 ha",
+      "startedAt": "2026-11-06T00:00:00",
+      "endsAt": "2026-11-11T00:00:00",
+      "updatedAt": "2026-11-11T20:12:41",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -2.1358,
+        14.1093
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=3&eventtype=WF"
+    },
+    {
       "id": "WF-1033726",
       "episodeId": "3",
       "eventType": "WF",
@@ -1222,6 +1075,27 @@
         8.588
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033726&episodeid=3&eventtype=WF"
+    },
+    {
+      "id": "WF-1033713",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Central African Republic",
+      "country": "Central African Republic",
+      "iso3": "CAF",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6650 ha",
+      "startedAt": "2026-11-06T00:00:00",
+      "endsAt": "2026-11-11T00:00:00",
+      "updatedAt": "2026-11-11T20:12:28",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        22.7263,
+        9.8793
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033713&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1033735",
@@ -1308,6 +1182,48 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033755&episodeid=1&eventtype=WF"
     },
     {
+      "id": "WF-1033708",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7134 ha",
+      "startedAt": "2026-11-07T00:00:00",
+      "endsAt": "2026-11-11T00:00:00",
+      "updatedAt": "2026-11-11T20:08:36",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        22.2223,
+        -24.5896
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033708&episodeid=2&eventtype=WF"
+    },
+    {
+      "id": "WF-1033707",
+      "episodeId": "2",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Central African Republic",
+      "country": "Central African Republic",
+      "iso3": "CAF",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6862 ha",
+      "startedAt": "2026-11-07T00:00:00",
+      "endsAt": "2026-11-11T00:00:00",
+      "updatedAt": "2026-11-11T20:08:20",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        22.9254,
+        9.3535
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033707&episodeid=2&eventtype=WF"
+    },
+    {
       "id": "WF-1033754",
       "episodeId": "1",
       "eventType": "WF",
@@ -1348,6 +1264,27 @@
         -19.7183
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033732&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033709",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Tanzania",
+      "country": "Tanzania",
+      "iso3": "TZA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 5322 ha",
+      "startedAt": "2026-11-07T00:00:00",
+      "endsAt": "2026-11-11T00:00:00",
+      "updatedAt": "2026-11-11T20:06:51",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        36.0486,
+        -7.9458
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033709&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1033753",
@@ -1413,6 +1350,48 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033751&episodeid=1&eventtype=WF"
     },
     {
+      "id": "WF-1033705",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Botswana",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7041 ha",
+      "startedAt": "2026-11-08T00:00:00",
+      "endsAt": "2026-11-11T00:00:00",
+      "updatedAt": "2026-11-11T20:05:53",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        21.9256,
+        -24.6647
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033705&episodeid=4&eventtype=WF"
+    },
+    {
+      "id": "WF-1033703",
+      "episodeId": "3",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Burkina Faso",
+      "country": "Burkina Faso",
+      "iso3": "BFA",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 7487 ha",
+      "startedAt": "2026-11-08T00:00:00",
+      "endsAt": "2026-11-11T00:00:00",
+      "updatedAt": "2026-11-11T20:04:51",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        -2.6782,
+        13.3762
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033703&episodeid=3&eventtype=WF"
+    },
+    {
       "id": "WF-1033725",
       "episodeId": "1",
       "eventType": "WF",
@@ -1432,6 +1411,27 @@
         -18.6274
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033725&episodeid=1&eventtype=WF"
+    },
+    {
+      "id": "WF-1033704",
+      "episodeId": "4",
+      "eventType": "WF",
+      "eventName": "Wildfire",
+      "title": "Forest fires in Australia",
+      "country": "Australia",
+      "iso3": "AUS",
+      "alertLevel": "green",
+      "severity": "Green impact for forestfire in 6005 ha",
+      "startedAt": "2026-11-08T00:00:00",
+      "endsAt": "2026-11-11T00:00:00",
+      "updatedAt": "2026-11-11T20:04:25",
+      "source": "GWIS",
+      "isCurrent": true,
+      "coordinates": [
+        125.89,
+        -15.8113
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033704&episodeid=4&eventtype=WF"
     },
     {
       "id": "WF-1033731",
