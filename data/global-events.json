@@ -1,10 +1,178 @@
 {
-  "checkedAt": "2026-11-12T20:17:22.522Z",
+  "checkedAt": "2026-11-13T01:18:52.786Z",
   "sourceStatus": "ok",
   "sourceName": "Global Disaster Alert and Coordination System, GDACS",
   "sourceUrl": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/events4app",
   "coverage": "Worldwide sudden-onset disaster events tracked by GDACS; not a complete national emergency-alert feed",
   "events": [
+    {
+      "id": "TC-1001347",
+      "episodeId": "22",
+      "eventType": "TC",
+      "eventName": "Tropical cyclone",
+      "title": "Tropical Cyclone CEMPAKA-26",
+      "country": "Japan",
+      "iso3": "JPN",
+      "alertLevel": "green",
+      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 176 km/h)",
+      "startedAt": "2026-11-06T06:00:00",
+      "endsAt": "2026-11-11T12:00:00",
+      "updatedAt": "2026-11-13T00:50:32",
+      "source": "JTWC",
+      "isCurrent": true,
+      "coordinates": [
+        154.1,
+        30.2
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=22&eventtype=TC"
+    },
+    {
+      "id": "EQ-1577071",
+      "episodeId": "1746295",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Greece",
+      "country": "Greece",
+      "iso3": "GRC",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.1M, Depth:43.358km",
+      "startedAt": "2026-11-13T00:05:04",
+      "endsAt": "2026-11-13T00:05:04",
+      "updatedAt": "2026-11-13T00:45:20",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        24.8798,
+        34.6967
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577071&episodeid=1746295&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1577060",
+      "episodeId": "1746280",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Papua New Guinea",
+      "country": "Papua New Guinea",
+      "iso3": "PNG",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.8M, Depth:10km",
+      "startedAt": "2026-11-12T22:04:06",
+      "endsAt": "2026-11-12T22:04:06",
+      "updatedAt": "2026-11-13T00:11:35",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        149.8877,
+        -1.5882
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577060&episodeid=1746280&eventtype=EQ"
+    },
+    {
+      "id": "FL-1104253",
+      "episodeId": "22",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Indonesia",
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-10-24T01:00:00",
+      "endsAt": "2026-11-11T01:00:00",
+      "updatedAt": "2026-11-12T23:17:56",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        97.0253,
+        4.3685
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=22&eventtype=FL"
+    },
+    {
+      "id": "EQ-1577058",
+      "episodeId": "1746288",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Iceland",
+      "country": "Iceland",
+      "iso3": "ISL",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.6M, Depth:10km",
+      "startedAt": "2026-11-12T21:53:42",
+      "endsAt": "2026-11-12T21:53:42",
+      "updatedAt": "2026-11-12T23:07:43",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        -17.6047,
+        64.6502
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577058&episodeid=1746288&eventtype=EQ"
+    },
+    {
+      "id": "FL-1104220",
+      "episodeId": "7",
+      "eventType": "FL",
+      "eventName": "Flood",
+      "title": "Flood in Italy",
+      "country": "Italy",
+      "iso3": "ITA",
+      "alertLevel": "green",
+      "severity": "Magnitude 0",
+      "startedAt": "2026-10-07T01:00:00",
+      "endsAt": "2026-11-13T01:00:00",
+      "updatedAt": "2026-11-12T23:07:21",
+      "source": "GLOFAS",
+      "isCurrent": true,
+      "coordinates": [
+        11.1389,
+        43.4587
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL"
+    },
+    {
+      "id": "EQ-1577065",
+      "episodeId": "1746287",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in Western Indian-Antarctic Ridge",
+      "country": "Western Indian-Antarctic Ridge",
+      "iso3": "",
+      "alertLevel": "green",
+      "severity": "Magnitude 5.1M, Depth:10km",
+      "startedAt": "2026-11-12T21:09:14",
+      "endsAt": "2026-11-12T21:09:14",
+      "updatedAt": "2026-11-12T23:03:23",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        139.5909,
+        -51.4273
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577065&episodeid=1746287&eventtype=EQ"
+    },
+    {
+      "id": "EQ-1577047",
+      "episodeId": "1746266",
+      "eventType": "EQ",
+      "eventName": "Earthquake",
+      "title": "Earthquake in China",
+      "country": "China",
+      "iso3": "CHN",
+      "alertLevel": "green",
+      "severity": "Magnitude 4.9M, Depth:10km",
+      "startedAt": "2026-11-12T20:03:14",
+      "endsAt": "2026-11-12T20:03:14",
+      "updatedAt": "2026-11-12T20:51:42",
+      "source": "NEIC",
+      "isCurrent": true,
+      "coordinates": [
+        104.1911,
+        27.2239
+      ],
+      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1577047&episodeid=1746266&eventtype=EQ"
+    },
     {
       "id": "EQ-1576996",
       "episodeId": "1746256",
@@ -67,48 +235,6 @@
         9.8
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001348&episodeid=24&eventtype=TC"
-    },
-    {
-      "id": "FL-1104253",
-      "episodeId": "22",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Indonesia",
-      "country": "Indonesia",
-      "iso3": "IDN",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-24T01:00:00",
-      "endsAt": "2026-11-11T01:00:00",
-      "updatedAt": "2026-11-12T12:24:21",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        97.0253,
-        4.3685
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104253&episodeid=22&eventtype=FL"
-    },
-    {
-      "id": "FL-1104220",
-      "episodeId": "7",
-      "eventType": "FL",
-      "eventName": "Flood",
-      "title": "Flood in Italy",
-      "country": "Italy",
-      "iso3": "ITA",
-      "alertLevel": "green",
-      "severity": "Magnitude 0",
-      "startedAt": "2026-10-07T01:00:00",
-      "endsAt": "2026-11-13T01:00:00",
-      "updatedAt": "2026-11-12T12:14:36",
-      "source": "GLOFAS",
-      "isCurrent": true,
-      "coordinates": [
-        11.1389,
-        43.4587
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1104220&episodeid=7&eventtype=FL"
     },
     {
       "id": "FL-1104276",
@@ -508,27 +634,6 @@
         40.3593
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1576917&episodeid=1746127&eventtype=EQ"
-    },
-    {
-      "id": "TC-1001347",
-      "episodeId": "22",
-      "eventType": "TC",
-      "eventName": "Tropical cyclone",
-      "title": "Tropical Cyclone CEMPAKA-26",
-      "country": "Japan",
-      "iso3": "JPN",
-      "alertLevel": "green",
-      "severity": "Hurricane/Typhoon > 74 mph (maximum wind speed of 176 km/h)",
-      "startedAt": "2026-11-06T06:00:00",
-      "endsAt": "2026-11-11T12:00:00",
-      "updatedAt": "2026-11-12T03:22:55",
-      "source": "JTWC",
-      "isCurrent": true,
-      "coordinates": [
-        154.1,
-        30.2
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1001347&episodeid=22&eventtype=TC"
     },
     {
       "id": "EQ-1576886",
@@ -1098,27 +1203,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033756&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF-1033712",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Burkina Faso, Mali",
-      "country": "Burkina Faso, Mali",
-      "iso3": "BFA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5370 ha",
-      "startedAt": "2026-11-06T00:00:00",
-      "endsAt": "2026-11-11T00:00:00",
-      "updatedAt": "2026-11-11T20:12:41",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        -2.1358,
-        14.1093
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033712&episodeid=3&eventtype=WF"
-    },
-    {
       "id": "WF-1033726",
       "episodeId": "3",
       "eventType": "WF",
@@ -1138,27 +1222,6 @@
         8.588
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033726&episodeid=3&eventtype=WF"
-    },
-    {
-      "id": "WF-1033713",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Central African Republic",
-      "country": "Central African Republic",
-      "iso3": "CAF",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6650 ha",
-      "startedAt": "2026-11-06T00:00:00",
-      "endsAt": "2026-11-11T00:00:00",
-      "updatedAt": "2026-11-11T20:12:28",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        22.7263,
-        9.8793
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033713&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1033735",
@@ -1245,48 +1308,6 @@
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033755&episodeid=1&eventtype=WF"
     },
     {
-      "id": "WF-1033708",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Botswana",
-      "country": "Botswana",
-      "iso3": "BWA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 7134 ha",
-      "startedAt": "2026-11-07T00:00:00",
-      "endsAt": "2026-11-11T00:00:00",
-      "updatedAt": "2026-11-11T20:08:36",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        22.2223,
-        -24.5896
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033708&episodeid=2&eventtype=WF"
-    },
-    {
-      "id": "WF-1033707",
-      "episodeId": "2",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Central African Republic",
-      "country": "Central African Republic",
-      "iso3": "CAF",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 6862 ha",
-      "startedAt": "2026-11-07T00:00:00",
-      "endsAt": "2026-11-11T00:00:00",
-      "updatedAt": "2026-11-11T20:08:20",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        22.9254,
-        9.3535
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033707&episodeid=2&eventtype=WF"
-    },
-    {
       "id": "WF-1033754",
       "episodeId": "1",
       "eventType": "WF",
@@ -1327,27 +1348,6 @@
         -19.7183
       ],
       "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033732&episodeid=1&eventtype=WF"
-    },
-    {
-      "id": "WF-1033709",
-      "episodeId": "3",
-      "eventType": "WF",
-      "eventName": "Wildfire",
-      "title": "Forest fires in Tanzania",
-      "country": "Tanzania",
-      "iso3": "TZA",
-      "alertLevel": "green",
-      "severity": "Green impact for forestfire in 5322 ha",
-      "startedAt": "2026-11-07T00:00:00",
-      "endsAt": "2026-11-11T00:00:00",
-      "updatedAt": "2026-11-11T20:06:51",
-      "source": "GWIS",
-      "isCurrent": true,
-      "coordinates": [
-        36.0486,
-        -7.9458
-      ],
-      "officialUrl": "https://www.gdacs.org/report.aspx?eventid=1033709&episodeid=3&eventtype=WF"
     },
     {
       "id": "WF-1033753",
